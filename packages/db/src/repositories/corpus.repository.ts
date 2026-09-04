@@ -48,10 +48,7 @@ export async function upsertCorpus(corpus: CanonicalCorpus): Promise<{
       for (const chunk of corpus.chunks) {
         await tx.lawChunk.upsert({
           where: {
-            documentId_articleNumber: {
-              documentId: document.id,
-              articleNumber: chunk.article_number,
-            },
+            id: chunk.id,
           },
 
           create: {
@@ -77,11 +74,6 @@ export async function upsertCorpus(corpus: CanonicalCorpus): Promise<{
           },
 
           update: {
-            // The canonical chunk ID may change when the corpus is re-canonicalized.
-            // Match the existing row by its stable legal identity (document + article)
-            // and migrate the primary key to the current canonical chunk ID. The DB
-            // schema uses ON UPDATE CASCADE for chunk foreign keys, so existing
-            // RagCitation references remain valid.
             id: chunk.id,
             documentId: document.id,
 
@@ -116,6 +108,7 @@ export async function upsertCorpus(corpus: CanonicalCorpus): Promise<{
     },
   );
 }
+
 
 function parseHierarchy(value: Prisma.JsonValue | null): LawHierarchyNode[] {
   if (value === null) {

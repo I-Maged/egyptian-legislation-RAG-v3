@@ -23,12 +23,12 @@ const RUN_REAL_BENCHMARK =
 
 const CORPUS_PATH = resolve(
   process.cwd(),
-  "data/canonical/personal-affairs-law-25-1929.json",
+  "data/canonical/personal-affairs/personal-law-25-1920.json",
 );
 
 const EMBEDDING_ARTIFACT_PATH = resolve(
   process.cwd(),
-  "data/embeddings/personal-affairs-law-25-1929.json",
+  "data/embeddings/reindex-v3.3.0/personal-affairs/personal-law-25-1920.json",
 );
 
 async function readJsonFile<T>(path: string): Promise<T> {

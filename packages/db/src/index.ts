@@ -1,4 +1,6 @@
-export { getChunksByIds } from "./repositories/corpus.repository";
+export {
+  getChunksByIds,
+} from "./repositories/corpus.repository";
 
 export { prisma } from "./client";
 

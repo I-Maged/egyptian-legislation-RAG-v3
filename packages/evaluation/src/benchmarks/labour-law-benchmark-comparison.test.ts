@@ -22,12 +22,12 @@ const RUN_REAL_BENCHMARK = process.env.RUN_LABOUR_LAW_BENCHMARK === "1";
 
 const CORPUS_PATH = resolve(
   process.cwd(),
-  "data/canonical/labour-law-148-2019.json",
+  "data/canonical/labour-law-14-2025.json",
 );
 
 const EMBEDDING_ARTIFACT_PATH = resolve(
   process.cwd(),
-  "data/embeddings/labour-law-148-2019.json",
+  "data/embeddings/reindex-v3.3.0/labour-law-14-2025.json",
 );
 
 async function readJsonFile<T>(path: string): Promise<T> {

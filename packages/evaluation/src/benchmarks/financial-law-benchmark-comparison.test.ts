@@ -22,12 +22,12 @@ const RUN_REAL_BENCHMARK = process.env.RUN_FINANCIAL_LAW_BENCHMARK === "1";
 
 const CORPUS_PATH = resolve(
   process.cwd(),
-  "data/canonical/financial-law-18-2019.json",
+  "data/canonical/financial-law-6-2022.json",
 );
 
 const EMBEDDING_ARTIFACT_PATH = resolve(
   process.cwd(),
-  "data/embeddings/financial-law-18-2019.json",
+  "data/embeddings/reindex-v3.3.0/financial-law-6-2022.json",
 );
 
 async function readJsonFile<T>(path: string): Promise<T> {

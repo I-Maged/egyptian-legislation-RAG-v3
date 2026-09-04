@@ -114,12 +114,37 @@ export async function replaceEmbeddingIndex(
     }
   }
 
+  const databaseChunkIds = [...chunkIds];
+
   await prisma.$transaction(
     async (tx) => {
+      // Verify every target FK before deleting the current index. If this
+      // fails, the transaction aborts and the existing embedding index stays
+      // intact.
+      const rows = await tx.$queryRaw<Array<{ id: string }>>(
+        Prisma.sql`
+          SELECT "id"
+          FROM "law_chunks"
+          WHERE "id" IN (${Prisma.join([...databaseChunkIds])})
+        `,
+      );
+
+      const existingIds = new Set(rows.map((row) => row.id));
+      const missingIds = [...databaseChunkIds].filter(
+        (id) => !existingIds.has(id),
+      );
+
+      if (missingIds.length > 0) {
+        throw new Error(
+          `Cannot rebuild embedding index: ${missingIds.length} target chunks do not exist in the database: ${missingIds.join(", ")}`,
+        );
+      }
+
       await tx.$executeRaw(Prisma.sql`DELETE FROM "law_chunk_embeddings"`);
 
       for (const artifact of artifacts) {
         for (const record of artifact.records) {
+          const databaseChunkId = record.chunk_id;
           const vector = `[${record.embedding.join(",")}]`;
 
           await tx.$executeRaw(
@@ -127,7 +152,7 @@ export async function replaceEmbeddingIndex(
               INSERT INTO "law_chunk_embeddings"
                 ("chunk_id", "model", "dimensions", "embedding")
               VALUES
-                (${record.chunk_id}, ${record.model}, ${record.dimensions}, ${vector}::vector)
+                (${databaseChunkId}, ${record.model}, ${record.dimensions}, ${vector}::vector)
             `,
           );
         }
