@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "id": "lawdoc_6500117cae50e72a",
+    "law_name": "personal_affairs",
+    "law_number": "3269",
+    "year": "1985",
+    "jurisdiction": "EG",
+    "language": "ar",
+    "source_file": "personal_affair_law.pdf",
+    "metadata": {
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0"
+    }
+  },
+  "chunks": [
+    {
+      "id": "lawchunk_1f49820fc9282b58",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "1",
+      "article_title": null,
+      "source_order": 373,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 1 :\nعلي الموثق المختص بتوثيق اشهاد الطلاق ان يثبت فيه بيانا واضحا عن محل اقامة المطلقة ويكون اثبات هذا البيان بارشادها في حالة حضورها توثيق افشهاد وبارشاد المطلق في حالة عدم حضورها .\nويجب علي الموثق المختص في جميع الاحوال اثبات محل اقامة المطلق في اشهاد الطلاق .",
+      "text_for_embedding": "مادة 1 :\nعلي الموثق المختص بتوثيق اشهاد الطلاق ان يثبت فيه بيانا واضحا عن محل اقامة المطلقة ويكون اثبات هذا البيان بارشادها في حالة حضورها توثيق افشهاد وبارشاد المطلق في حالة عدم حضورها .\nويجب علي الموثق المختص في جميع الاحوال اثبات محل اقامة المطلق في اشهاد الطلاق .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 56,
+        "page_end": 56
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_286a0d0eb336cd77",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "2",
+      "article_title": null,
+      "source_order": 374,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 2 :\nيجب علي الموثق خلال سبعة ايام من تاريخ توثيق اشهاد الطلاق اعلان المطلقة لشخصها علي يد محضر بوقوع اطلاق وذلك في حالة عدم حضورها توثيق اشهاده .",
+      "text_for_embedding": "مادة 2 :\nيجب علي الموثق خلال سبعة ايام من تاريخ توثيق اشهاد الطلاق اعلان المطلقة لشخصها علي يد محضر بوقوع اطلاق وذلك في حالة عدم حضورها توثيق اشهاده .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 56,
+        "page_end": 56
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_36062f8f0f86a926",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "3",
+      "article_title": null,
+      "source_order": 375,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 3 :\nيجب ان يتضمن الاعلان المشار اليه في المادة السابقة البيانات الاتية :\n1- تاريخ وقوع الطلاق .\n2- اسم الموثق الدونثق اشهاد الطلاق ومقرعمله .\n3- رقم اشهاد الطلاق ز\n4- بيان الطلاق الذي تتضمنه الاشهاد .\n5- اخطار المطلقة باستلام نسخة اشهاد الطلاق الخاصة بها من الموثق المختص خلال خمسة عشر يوما من تاريخ الاعلان .",
+      "text_for_embedding": "مادة 3 :\nيجب ان يتضمن الاعلان المشار اليه في المادة السابقة البيانات الاتية :\n1- تاريخ وقوع الطلاق .\n2- اسم الموثق الدونثق اشهاد الطلاق ومقرعمله .\n3- رقم اشهاد الطلاق ز\n4- بيان الطلاق الذي تتضمنه الاشهاد .\n5- اخطار المطلقة باستلام نسخة اشهاد الطلاق الخاصة بها من الموثق المختص خلال خمسة عشر يوما من تاريخ الاعلان .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 56,
+        "page_end": 56
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_d03214e1227d343d",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "4",
+      "article_title": null,
+      "source_order": 376,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات والمدنية والتجارية علي الاعلان بوقوع الطلاق .",
+      "text_for_embedding": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات والمدنية والتجارية علي الاعلان بوقوع الطلاق .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 56,
+        "page_end": 56
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fda6bf29bbd08da3",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "5",
+      "article_title": null,
+      "source_order": 377,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينيب عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة نسخة الاشهاد الخاصة.",
+      "text_for_embedding": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينيب عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة نسخة الاشهاد الخاصة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 56,
+        "page_end": 56
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_9657bc5cd129e061",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "4",
+      "article_title": null,
+      "source_order": 378,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات المدنية والتجارية علي الاعلان بوقوع الطلاق",
+      "text_for_embedding": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات المدنية والتجارية علي الاعلان بوقوع الطلاق",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_13d70054d5a6a8b3",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "5",
+      "article_title": null,
+      "source_order": 379,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينبه عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد ، فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة هنا يجب علي الموثق تسليم هذه النسخة الي المحكمة المختصة لاتباع هذا بمقتضي ثلاثين يوما من تاريخ التوثيق بمقتضي ايصال يفيد ذلك وعلي المحكمة في هذه الحالة ارسالها الي المطلقة كتابة بمكتب تسليم وصول ان كانت تقيم في مصر او بواسطة وزارة الخارجية ان كانت تقيم في الخارج .",
+      "text_for_embedding": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينبه عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد ، فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة هنا يجب علي الموثق تسليم هذه النسخة الي المحكمة المختصة لاتباع هذا بمقتضي ثلاثين يوما من تاريخ التوثيق بمقتضي ايصال يفيد ذلك وعلي المحكمة في هذه الحالة ارسالها الي المطلقة كتابة بمكتب تسليم وصول ان كانت تقيم في مصر او بواسطة وزارة الخارجية ان كانت تقيم في الخارج .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ea9c41a0052b72c4",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "6",
+      "article_title": null,
+      "source_order": 380,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 6:\nعلي الموظف المختص بالمحكمة فيد نسخة اشهادات الطلاق التي يتسلم اليه فور استلامها في سجل خاص يبين فيه رقم الاشهاد وتاريخ واسم الموثق واسم المطلقة ومحل اقامته كل منهما وبين الزواج بالطلاق الوارد بالاشهاد وتاريخ استلامه نسخة الاشهاد بالمطلقة وعملية ارسالها الي المطلقة في اليوم التالي وفقا لاحكام المادة السابقة مع اثبات تاريخ ورقم الارسال في السجل المشار اليه ، والتاشير فيه بعد ذلك بما تم نو تسليم النسخة الي المطلقة .",
+      "text_for_embedding": "مادة 6:\nعلي الموظف المختص بالمحكمة فيد نسخة اشهادات الطلاق التي يتسلم اليه فور استلامها في سجل خاص يبين فيه رقم الاشهاد وتاريخ واسم الموثق واسم المطلقة ومحل اقامته كل منهما وبين الزواج بالطلاق الوارد بالاشهاد وتاريخ استلامه نسخة الاشهاد بالمطلقة وعملية ارسالها الي المطلقة في اليوم التالي وفقا لاحكام المادة السابقة مع اثبات تاريخ ورقم الارسال في السجل المشار اليه ، والتاشير فيه بعد ذلك بما تم نو تسليم النسخة الي المطلقة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_bdce446df650d627",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "7",
+      "article_title": null,
+      "source_order": 381,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 7 :\nاذا اعيدت نسخة الاشهاد الخاصة بالمطلقة الي المحكمة بعد ارسالها اليها لتعذر تسليمها ، فعلي الموظف المختص بالمحكمة حفظها في ملف خاص والتاشير بذلك في السجل المشار اليه في المادة السابقة .",
+      "text_for_embedding": "مادة 7 :\nاذا اعيدت نسخة الاشهاد الخاصة بالمطلقة الي المحكمة بعد ارسالها اليها لتعذر تسليمها ، فعلي الموظف المختص بالمحكمة حفظها في ملف خاص والتاشير بذلك في السجل المشار اليه في المادة السابقة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_5e696cad4090995f",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "8",
+      "article_title": null,
+      "source_order": 382,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 8 :\nعلي الموثق المختص بتوثيق وثيقة الزواج ان يثبت في الوثيقة بيانا واضحا عن حالة الزوج الاجتماعية فاذا كان متزوجا فيجب ان يتضمن هذا البيان اسم الزوجة او الزوجات اللاتي في عصمة الزوج ومحال اقامتهن هذا البيان من واقع اقرار الزوج .",
+      "text_for_embedding": "مادة 8 :\nعلي الموثق المختص بتوثيق وثيقة الزواج ان يثبت في الوثيقة بيانا واضحا عن حالة الزوج الاجتماعية فاذا كان متزوجا فيجب ان يتضمن هذا البيان اسم الزوجة او الزوجات اللاتي في عصمة الزوج ومحال اقامتهن هذا البيان من واقع اقرار الزوج .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_b041e430c59c75e0",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "9",
+      "article_title": null,
+      "source_order": 383,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 9 :\nعلي الموثق اخطار الزوج او الزوجات اللاتي في عصمة الزوج بالزواج الجديد خلال سبعة ايام من تاريخ توثيق الزواج وذلك كتابة مسجل مقرون بعلم الوصول ان كانت الزوجة تقيم في مصر او بالطريق الذي رسمه قانون المرافعات المدنية والتجارية ان كانت تقيم في الخارج .",
+      "text_for_embedding": "مادة 9 :\nعلي الموثق اخطار الزوج او الزوجات اللاتي في عصمة الزوج بالزواج الجديد خلال سبعة ايام من تاريخ توثيق الزواج وذلك كتابة مسجل مقرون بعلم الوصول ان كانت الزوجة تقيم في مصر او بالطريق الذي رسمه قانون المرافعات المدنية والتجارية ان كانت تقيم في الخارج .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_b766f43837e28c4d",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "10",
+      "article_title": null,
+      "source_order": 384,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 10 :\nيلغي قرار وزي العدل رقم 244 لسنة 1979 كما يلغي كل نص يخالف احكام هذا القرار .",
+      "text_for_embedding": "مادة 10 :\nيلغي قرار وزي العدل رقم 244 لسنة 1979 كما يلغي كل نص يخالف احكام هذا القرار .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_655f893e85dc9f7f",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "article_number": "11",
+      "article_title": null,
+      "source_order": 385,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 11 :\nينشر هذا القرار في الوقايع المصرية .\nصدر في 1 / 7 / 1985\n- 12\nوزير العدل\nالمستشار / احمد ممدوح عطية\nوزارة العدل\nقرار وزير العدل رقم 1086 لسنة 2000\n-13 بالمعاونين الملحقين للعمل بنيابات\nالاحوال الشخصية ومنحهم صفة الضبطية القضايية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000\nقرر",
+      "text_for_embedding": "مادة 11 :\nينشر هذا القرار في الوقايع المصرية .\nصدر في 1 / 7 / 1985\n- 12\nوزير العدل\nالمستشار / احمد ممدوح عطية\nوزارة العدل\nقرار وزير العدل رقم 1086 لسنة 2000\n-13 بالمعاونين الملحقين للعمل بنيابات\nالاحوال الشخصية ومنحهم صفة الضبطية القضايية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000\nقرر",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 57,
+        "page_end": 57
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    }
+  ]
+}

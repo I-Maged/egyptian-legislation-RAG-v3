@@ -1,0 +1,1375 @@
+{
+  "metadata": {
+    "parserVersion": "3.3.0",
+    "inputFile": "personal_affair_law_qwen_output.json",
+    "pdfFile": "personal-src.pdf",
+    "generatedAt": "2026-09-03T10:34:13.040Z",
+    "recordCountOriginal": 390,
+    "recordCountRecovery": 50,
+    "recordCountMerged": 440,
+    "pdfRecoveryArticleCount": 0,
+    "instrumentId": "inheritance-law-77-1943",
+    "mode": "qwen+pdf"
+  },
+  "metadataResolved": {
+    "lawName": "inheritance",
+    "lawNumber": "77",
+    "year": "1943"
+  },
+  "instruments": [
+    {
+      "id": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "kind": "law",
+      "title": "القانون رقم 77 لسنة 1943 بشأن المواريث",
+      "startPage": 8,
+      "endPage": 15,
+      "startMarkerOrdinal": 4,
+      "startAfter": {
+        "page": 8,
+        "articleNumber": "25"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الباب الرابع",
+      "text": "مادة 1\nيعمل في المسايل والمنازعات المتعلقة بالمواريت والاحكام المرافقة لهذا القانون .",
+      "textForEmbedding": "مادة 1\nيعمل في المسايل والمنازعات المتعلقة بالمواريت والاحكام المرافقة لهذا القانون .",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "pages": [
+        8
+      ],
+      "sourceOrder": 46,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:42:8:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الباب الرابع",
+      "text": "مادة 2\nعلي وزير العدل تنفيذ هذا القانون ويعمل به بعد شهر من تاريخ نشره بالجريدة الرسمية .\nاحكام المواريث\nالباب الاول احكام عامة",
+      "textForEmbedding": "مادة 2\nعلي وزير العدل تنفيذ هذا القانون ويعمل به بعد شهر من تاريخ نشره بالجريدة الرسمية .\nاحكام المواريث\nالباب الاول احكام عامة",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "pages": [
+        8
+      ],
+      "sourceOrder": 47,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:43:8:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الباب الاول أحكام عامة",
+      "text": "مادة 1\nيستحق الارث بموت المورث او باعتباره ميتا بحكم القضي .",
+      "textForEmbedding": "مادة 1\nيستحق الارث بموت المورث او باعتباره ميتا بحكم القضي .",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "pages": [
+        8
+      ],
+      "sourceOrder": 48,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:44:8:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الباب الاول أحكام عامة",
+      "text": "مادة 2\nيجب تستحقنا الارث تحقق حياة الوراث واقوقت موت المورث او وقت الحكم باعتباره ميتا .\nويكون الحكم مستحقا للارث للارث اذا توافر فيه ما نص عليه في المادة 43",
+      "textForEmbedding": "مادة 2\nيجب تستحقنا الارث تحقق حياة الوراث واقوقت موت المورث او وقت الحكم باعتباره ميتا .\nويكون الحكم مستحقا للارث للارث اذا توافر فيه ما نص عليه في المادة 43",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "pages": [
+        8
+      ],
+      "sourceOrder": 49,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:45:8:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "3",
+      "articleNumberNormalized": 3,
+      "articleSuffix": null,
+      "chapter": "الباب الاول أحكام عامة",
+      "text": "مادة 3\nاذا مات اثنان ولم يعلم ايهما مات اولا فاولا فيما استحقاف لاحدهما في تركة الاخر سواء اكان موتهما في حادث واحد او لا",
+      "textForEmbedding": "مادة 3\nاذا مات اثنان ولم يعلم ايهما مات اولا فاولا فيما استحقاف لاحدهما في تركة الاخر سواء اكان موتهما في حادث واحد او لا",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "pages": [
+        8
+      ],
+      "sourceOrder": 50,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:46:8:3"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "4",
+      "articleNumberNormalized": 4,
+      "articleSuffix": null,
+      "chapter": "الباب الاول أحكام عامة",
+      "text": "مادة 4\nيودي من التركة يحسب الترتيب الاتي :\nاولا ما يكفي لتجهيز الميت وما تلزمه نفقة من الموت الي الدفن .\nثانيا ديون الميت .\nثالثا ما اوصي به في الحد الذي تنفذ فيه الوصية . ويوزع ما بقي بعد ذلك علي الورثة ، فاذا لم يوجد ورثة قضي من\nالتركة بالترتيب الاتي :\nاولا استحقاق من اقر له الميت بنسب علي غيره .\nثانيا ما اوصي به فيما عد علي الحد الذي تنفذ فيه الوصية فاذا لم يوجد من هولاء التتزكة او ما بقي منها الي\nالخزانة العامة .",
+      "textForEmbedding": "مادة 4\nيودي من التركة يحسب الترتيب الاتي :\nاولا ما يكفي لتجهيز الميت وما تلزمه نفقة من الموت الي الدفن .\nثانيا ديون الميت .\nثالثا ما اوصي به في الحد الذي تنفذ فيه الوصية . ويوزع ما بقي بعد ذلك علي الورثة ، فاذا لم يوجد ورثة قضي من\nالتركة بالترتيب الاتي :\nاولا استحقاق من اقر له الميت بنسب علي غيره .\nثانيا ما اوصي به فيما عد علي الحد الذي تنفذ فيه الوصية فاذا لم يوجد من هولاء التتزكة او ما بقي منها الي\nالخزانة العامة .",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 51,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:47:9:4"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "5",
+      "articleNumberNormalized": 5,
+      "articleSuffix": null,
+      "chapter": "الباب الاول أحكام عامة",
+      "text": "مادة 5\nمن موانع الارث قتل المورث عمدا سواء اكان القاتل فاعلا اصليا ام كان شريكا ام كان شاهد زور ادت شهادته الي الحكم\nبالاعدام وتنفذا اذا كان القتل بلا حق ولا عد وكان القاتل عاقلا بالغا من العمر 15 سنة وتعمد من الاعذار تجاوز\nحق الدفاع الشرعي .",
+      "textForEmbedding": "مادة 5\nمن موانع الارث قتل المورث عمدا سواء اكان القاتل فاعلا اصليا ام كان شريكا ام كان شاهد زور ادت شهادته الي الحكم\nبالاعدام وتنفذا اذا كان القتل بلا حق ولا عد وكان القاتل عاقلا بالغا من العمر 15 سنة وتعمد من الاعذار تجاوز\nحق الدفاع الشرعي .",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 52,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:48:9:5"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "6",
+      "articleNumberNormalized": 6,
+      "articleSuffix": null,
+      "chapter": "الباب الاول أحكام عامة",
+      "text": "مادة 6\nلا توريث بين مسلم وغير مسلم .\nويتوارث غير المسلمين بعضهم من بعض واختلاف الدارين لا يمنع من الارث بين المسلمين ولا يمنع بين غير\nالمسلمين الا اذا كانت شريعة الدار الاجنبية تمنع من توريث الاجنبي عنها .\nالباب الثاني\nفي اسباب الارث والنوعاءة",
+      "textForEmbedding": "مادة 6\nلا توريث بين مسلم وغير مسلم .\nويتوارث غير المسلمين بعضهم من بعض واختلاف الدارين لا يمنع من الارث بين المسلمين ولا يمنع بين غير\nالمسلمين الا اذا كانت شريعة الدار الاجنبية تمنع من توريث الاجنبي عنها .\nالباب الثاني\nفي اسباب الارث والنوعاءة",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 53,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:49:9:6"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "7",
+      "articleNumberNormalized": 7,
+      "articleSuffix": null,
+      "chapter": "الباب الثاني",
+      "text": "مادة 7\nاسباب الارث : الزوجية والقرابة والعصبية السببية ، ويكون الارث بالزوجية بطريقة الفرض ويكون الارث بالقرابة\nبطريق الفرض او التصعصيب او بهما معا ، او بالرحم مع مراعاة قواعد الحجب والرد .\nفاذا كان للوارث جهتا ارث ورث بهما معا مع مراعاة احكام\nالقسم الاول – في الارث بالفرض",
+      "textForEmbedding": "مادة 7\nاسباب الارث : الزوجية والقرابة والعصبية السببية ، ويكون الارث بالزوجية بطريقة الفرض ويكون الارث بالقرابة\nبطريق الفرض او التصعصيب او بهما معا ، او بالرحم مع مراعاة قواعد الحجب والرد .\nفاذا كان للوارث جهتا ارث ورث بهما معا مع مراعاة احكام\nالقسم الاول – في الارث بالفرض",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 54,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:50:9:7"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "8",
+      "articleNumberNormalized": 8,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 8 الفرض سهم مقرر للورث في التركة ، ويبدا في التوريث باصحاب الفروض وهم :\nالاب ، الزوجة ، البنات ، الابن وان نزل ، الاخوات لاب او ام ، الاخوات الاب ، الام ، الجدة الصحيحة وان علت .",
+      "textForEmbedding": "مادة 8 الفرض سهم مقرر للورث في التركة ، ويبدا في التوريث باصحاب الفروض وهم :\nالاب ، الزوجة ، البنات ، الابن وان نزل ، الاخوات لاب او ام ، الاخوات الاب ، الام ، الجدة الصحيحة وان علت .",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 55,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:51:9:8"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "9",
+      "articleNumberNormalized": 9,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 9\nمع مراعاة حكم المادة 21 للاب فرض السدس اذا وجد للميت ولد او ابن وان نزل والجد الصحيح هو الذي لا يدخل\nفي النسبة الي الميت انثي ، وله فرض السدس علي الوجه المبين في الفقرة السابقة .",
+      "textForEmbedding": "مادة 9\nمع مراعاة حكم المادة 21 للاب فرض السدس اذا وجد للميت ولد او ابن وان نزل والجد الصحيح هو الذي لا يدخل\nفي النسبة الي الميت انثي ، وله فرض السدس علي الوجه المبين في الفقرة السابقة .",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 56,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:52:9:9"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "10",
+      "articleNumberNormalized": 10,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 10\nلاولاد الام فرض السدس للواحد والثلث للاثنتين فاكثر ذكورهم واناثهم في القسمة سواء .\nوفي الحالة الثانية اذا استغرقت الفروض التركة يشارك اولاد الابن الاخ الشقيق او الاخوة الاشقاء بالانفراد او مع اخت شقيقة او لكثر ، ويقسم الثلث بينهم جميعا علي الوجة المتقدم .",
+      "textForEmbedding": "مادة 10\nلاولاد الام فرض السدس للواحد والثلث للاثنتين فاكثر ذكورهم واناثهم في القسمة سواء .\nوفي الحالة الثانية اذا استغرقت الفروض التركة يشارك اولاد الابن الاخ الشقيق او الاخوة الاشقاء بالانفراد او مع اخت شقيقة او لكثر ، ويقسم الثلث بينهم جميعا علي الوجة المتقدم .",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "pages": [
+        9
+      ],
+      "sourceOrder": 57,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:53:9:10"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "11",
+      "articleNumberNormalized": 11,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 11\nللزوج فرض النصف عند عدم الولد وولد الابن وان نزل والربع مع الولد او ولد الابن وان نزل .\nوللزوجة ولو كانت مطلقة رجعا اذا مات الزوج وهي في العدة او الزوجات فرض الربع عند عدم الولد والولد الابن وان نزل ، والمن مع الولد ولد الابن نزل . وتعتبر المطلقة باتنا في مرض الموت في الحكم الزوجة اذا لم ترض بالطلاق ومات المطلق في ذلك المرض وهي في عدة ..",
+      "textForEmbedding": "مادة 11\nللزوج فرض النصف عند عدم الولد وولد الابن وان نزل والربع مع الولد او ولد الابن وان نزل .\nوللزوجة ولو كانت مطلقة رجعا اذا مات الزوج وهي في العدة او الزوجات فرض الربع عند عدم الولد والولد الابن وان نزل ، والمن مع الولد ولد الابن نزل . وتعتبر المطلقة باتنا في مرض الموت في الحكم الزوجة اذا لم ترض بالطلاق ومات المطلق في ذلك المرض وهي في عدة ..",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 58,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:54:10:11"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "12",
+      "articleNumberNormalized": 12,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 12\nمع مراعاة حكم المادة 19 :\nا- للواحدة من البنات فرض النصف وللاثنتين وثلاثتين فاكثر الثلثان .\nب- ولبنات الابن الفرض المتقدم ذكره عند عدم وجود بنت او بنت ابن اعلي منهن درجة ، ولهن واحدة او اكثر – السدس مع البنت او بنت الابن الاعلي درجة .",
+      "textForEmbedding": "مادة 12\nمع مراعاة حكم المادة 19 :\nا- للواحدة من البنات فرض النصف وللاثنتين وثلاثتين فاكثر الثلثان .\nب- ولبنات الابن الفرض المتقدم ذكره عند عدم وجود بنت او بنت ابن اعلي منهن درجة ، ولهن واحدة او اكثر – السدس مع البنت او بنت الابن الاعلي درجة .",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 59,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:55:10:12"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "13",
+      "articleNumberNormalized": 13,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 13\nمع مراعاة حكم المادتين 19 ، 20 :\nا – للواحدة من الاخوات الشقيقات فرض النصف وللاثنتين وثلاثتين فاكثر الثلثان .\nب- وللاخوات الاب الفرض المتقدم ذكره عند عدم وجود اخت شقيقة ، ولهن واحدة او اكثر السدس مع الاخت الشقيقة .",
+      "textForEmbedding": "مادة 13\nمع مراعاة حكم المادتين 19 ، 20 :\nا – للواحدة من الاخوات الشقيقات فرض النصف وللاثنتين وثلاثتين فاكثر الثلثان .\nب- وللاخوات الاب الفرض المتقدم ذكره عند عدم وجود اخت شقيقة ، ولهن واحدة او اكثر السدس مع الاخت الشقيقة .",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 60,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:56:10:13"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "14",
+      "articleNumberNormalized": 14,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 14\nلفرض السدس مع الولد او ولد الابن وان نزل او مع اثنين او اكثر من الاخوة والاخوات ولها الثلث في غير هذه الاحوال غير انها اذا اجتمعت مع احد الزوجين والاب فقط كان لها الثلث ما بقي بعد فرض الزوج .\nوبحدها الصحيحة هي احد الابوين او احد الابنين وان علت ولجده او الجدات السدس ، ويقسم بينهم علي السواء لا فرق بين ذات قرابة وذات قرابتين .",
+      "textForEmbedding": "مادة 14\nلفرض السدس مع الولد او ولد الابن وان نزل او مع اثنين او اكثر من الاخوة والاخوات ولها الثلث في غير هذه الاحوال غير انها اذا اجتمعت مع احد الزوجين والاب فقط كان لها الثلث ما بقي بعد فرض الزوج .\nوبحدها الصحيحة هي احد الابوين او احد الابنين وان علت ولجده او الجدات السدس ، ويقسم بينهم علي السواء لا فرق بين ذات قرابة وذات قرابتين .",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 61,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:57:10:14"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "15",
+      "articleNumberNormalized": 15,
+      "articleSuffix": null,
+      "chapter": "القسم الاول – في الارث بالفرض",
+      "text": "مادة 15 اذا زادت انصباء اصحاب الفروض علي التركة قسمت بينهم بنسبة انصبايهم في الارث .\nالقسم الثاني – في الارث بالتعصيب",
+      "textForEmbedding": "مادة 15 اذا زادت انصباء اصحاب الفروض علي التركة قسمت بينهم بنسبة انصبايهم في الارث .\nالقسم الثاني – في الارث بالتعصيب",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 62,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:58:10:15"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "16",
+      "articleNumberNormalized": 16,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 16\nاذا لم يوجد احد من ذوي الفروض او وجد لم تستغرق الفروض التركة كانت التركة او ما بقي منها بعد الفروض للعصبة من النسب والعصبية من النسب ثلاثة انواع :\n1- عصبة بالنفس .\n2- عصبة بالغير .\n3- عصبة مع الغير .",
+      "textForEmbedding": "مادة 16\nاذا لم يوجد احد من ذوي الفروض او وجد لم تستغرق الفروض التركة كانت التركة او ما بقي منها بعد الفروض للعصبة من النسب والعصبية من النسب ثلاثة انواع :\n1- عصبة بالنفس .\n2- عصبة بالغير .\n3- عصبة مع الغير .",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 63,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:59:10:16"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "17",
+      "articleNumberNormalized": 17,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 17\nللعصباء بالنفس جهات اربع مقدم بعضها علي بعض في الارث علي الترتيب الاتي :\n1- البنوة : وتشمل الابناء وابناء الابناء انزل .\n2- الابوة : وتشمل الاب والجد الصحيح وان علا .\n3- الاخوة : وتشمل الاخوة الابوين والاخوة لاب وابناء الاخ والابوين وابناء الاخ لان وان نزل كل منهما .\n4- العمومة : وتشمل اعمام الميت وعماته واعمام ابيه وعماته وان علا سواء كانوا لابوين ام الاب وابناء من تكرروا وابناء ابنايهم وان نزلوا .",
+      "textForEmbedding": "مادة 17\nللعصباء بالنفس جهات اربع مقدم بعضها علي بعض في الارث علي الترتيب الاتي :\n1- البنوة : وتشمل الابناء وابناء الابناء انزل .\n2- الابوة : وتشمل الاب والجد الصحيح وان علا .\n3- الاخوة : وتشمل الاخوة الابوين والاخوة لاب وابناء الاخ والابوين وابناء الاخ لان وان نزل كل منهما .\n4- العمومة : وتشمل اعمام الميت وعماته واعمام ابيه وعماته وان علا سواء كانوا لابوين ام الاب وابناء من تكرروا وابناء ابنايهم وان نزلوا .",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "pages": [
+        10
+      ],
+      "sourceOrder": 64,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:60:10:17"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "18",
+      "articleNumberNormalized": 18,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 18\nاذا اتحدت العصبة بالنفس فالجاهل كان المستحق لارث لغيرهم درجة للميت .\nفاذا اتحدوا في الجهة والدرجة كان التقديم بالتقدم ، فمن كان ذات قرابتين للميت قدم علي من كان ذا قرابة واحدة .\nفاذا اتحدوا في الجهة والدرجة والقوة كان الارث بينهم علي السواء .",
+      "textForEmbedding": "مادة 18\nاذا اتحدت العصبة بالنفس فالجاهل كان المستحق لارث لغيرهم درجة للميت .\nفاذا اتحدوا في الجهة والدرجة كان التقديم بالتقدم ، فمن كان ذات قرابتين للميت قدم علي من كان ذا قرابة واحدة .\nفاذا اتحدوا في الجهة والدرجة والقوة كان الارث بينهم علي السواء .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 65,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:61:11:18"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "19",
+      "articleNumberNormalized": 19,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 19\nالعصبة بالغير هن :\n1- البنات مع الابناء .\n2- بنات الاب وان نزل مع ابناء الاب وان نزل اذا تذاكموا في درجتين مطلقا او كانوا منهن اذا لم ترث بغير ذلك .\n3- الاخوات لابوين مع الاخوة الابوين والاخوات لاب مع الاخوة لاب .\n4- ويكون الارث بينهم في هذه الاحوال للذكر مثل حظ الانتين .",
+      "textForEmbedding": "مادة 19\nالعصبة بالغير هن :\n1- البنات مع الابناء .\n2- بنات الاب وان نزل مع ابناء الاب وان نزل اذا تذاكموا في درجتين مطلقا او كانوا منهن اذا لم ترث بغير ذلك .\n3- الاخوات لابوين مع الاخوة الابوين والاخوات لاب مع الاخوة لاب .\n4- ويكون الارث بينهم في هذه الاحوال للذكر مثل حظ الانتين .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 66,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:62:11:19"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "20",
+      "articleNumberNormalized": 20,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 20\nالعصبة مع الغير هن :\nالاخوات لابوين او لاب من البنات او بنات الاب وان نزل ويكون لهن الباقي من التركة بعد الفروض . وفي هذه الحالة يعتبرون بالنسبة للباقي العصبيات كالاخوة لابوين او لاب وتاخذ احكامهم في التقديم بالجهة والدرجة ولاقوة .",
+      "textForEmbedding": "مادة 20\nالعصبة مع الغير هن :\nالاخوات لابوين او لاب من البنات او بنات الاب وان نزل ويكون لهن الباقي من التركة بعد الفروض . وفي هذه الحالة يعتبرون بالنسبة للباقي العصبيات كالاخوة لابوين او لاب وتاخذ احكامهم في التقديم بالجهة والدرجة ولاقوة .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 67,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:63:11:20"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "21",
+      "articleNumberNormalized": 21,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 21\nاذا اجتمع الاب او الجد مع البنت او البنت وان نزل استحق النسل استحق السدس فرضا والباقي بطريق التعصيب .",
+      "textForEmbedding": "مادة 21\nاذا اجتمع الاب او الجد مع البنت او البنت وان نزل استحق النسل استحق السدس فرضا والباقي بطريق التعصيب .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 68,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:64:11:21"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "22",
+      "articleNumberNormalized": 22,
+      "articleSuffix": null,
+      "chapter": "القسم الثاني – في الارث بالتعصيب",
+      "text": "مادة 22\nاذا اجتمع الجد مع الاخوة والاخوات لابوين او لاب كانت له حالتان :\nالاولي : ان يقاسمهم كاخ ان كانوا ذكورا فقط او ذكورا وانثيا وانثيا تصيب مع الفرع الوارث من الاثاث .\nالثانية : ان ياخذ الباقي بعد حصر اصحاب الفروض بطرق التعصيب اذا كان مع اخوات لم يعصبن بالتكور او مع الفرع الوارث من الاثاث .\nعلي انه اذا كانت المقاسمة او الارث بالتعصيب علي الوجه المتقدم تحرم الجد من الارث او تنقصه عن السدس واعتبر صاحب فرض السدس ولا يعتبر في المقاسمة من كان محجوبا من الاخوة او الاخوات لاب .\nالباب الثالث\nفي الحجب",
+      "textForEmbedding": "مادة 22\nاذا اجتمع الجد مع الاخوة والاخوات لابوين او لاب كانت له حالتان :\nالاولي : ان يقاسمهم كاخ ان كانوا ذكورا فقط او ذكورا وانثيا وانثيا تصيب مع الفرع الوارث من الاثاث .\nالثانية : ان ياخذ الباقي بعد حصر اصحاب الفروض بطرق التعصيب اذا كان مع اخوات لم يعصبن بالتكور او مع الفرع الوارث من الاثاث .\nعلي انه اذا كانت المقاسمة او الارث بالتعصيب علي الوجه المتقدم تحرم الجد من الارث او تنقصه عن السدس واعتبر صاحب فرض السدس ولا يعتبر في المقاسمة من كان محجوبا من الاخوة او الاخوات لاب .\nالباب الثالث\nفي الحجب",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 69,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:65:11:22"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "23",
+      "articleNumberNormalized": 23,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 23\nالحجب هو ان يكون لشخص اهلية الارث ولكنه لا يرث بسبب وجود وارث واخر المحجوب يحجب غيره .",
+      "textForEmbedding": "مادة 23\nالحجب هو ان يكون لشخص اهلية الارث ولكنه لا يرث بسبب وجود وارث واخر المحجوب يحجب غيره .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 70,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:66:11:23"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "24",
+      "articleNumberNormalized": 24,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 24\nالمحروم من الارث لمانع من موانعه لا يحجب احدا من الورثة .",
+      "textForEmbedding": "مادة 24\nالمحروم من الارث لمانع من موانعه لا يحجب احدا من الورثة .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 71,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:67:11:24"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "25",
+      "articleNumberNormalized": 25,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 25\nتحجب الام الجدة الصحيحة مطلقا وتحجب الجدة القريبة الجدة البعيدة ويحجب الاب الجدة لاب . كما يحجب الجد الصحيح الجدة اذا كانت اصله له .",
+      "textForEmbedding": "مادة 25\nتحجب الام الجدة الصحيحة مطلقا وتحجب الجدة القريبة الجدة البعيدة ويحجب الاب الجدة لاب . كما يحجب الجد الصحيح الجدة اذا كانت اصله له .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 72,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:68:11:25"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "26",
+      "articleNumberNormalized": 26,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 26\nيحجب اولاد الام كل من الاب والاب والجد والصحيح ان علا وعلا والولد ولد الابن وان نزل .",
+      "textForEmbedding": "مادة 26\nيحجب اولاد الام كل من الاب والاب والجد والصحيح ان علا وعلا والولد ولد الابن وان نزل .",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "pages": [
+        11
+      ],
+      "sourceOrder": 73,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:69:11:26"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "27",
+      "articleNumberNormalized": 27,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 27\nيحجب كل من الابن وابن الابن وابن الابن وان نزل بنت الابن التي تكون انزل منه درجة ويحجبها ايضا بنتان او بنتا بنتان او بنتا بنتا ان علا منها درجة ما لم يكن معها من يعصبها طبقا لحكم المادة 19",
+      "textForEmbedding": "مادة 27\nيحجب كل من الابن وابن الابن وابن الابن وان نزل بنت الابن التي تكون انزل منه درجة ويحجبها ايضا بنتان او بنتا بنتان او بنتا بنتا ان علا منها درجة ما لم يكن معها من يعصبها طبقا لحكم المادة 19",
+      "pageStart": 12,
+      "pageEnd": 12,
+      "pages": [
+        12
+      ],
+      "sourceOrder": 74,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:70:12:27"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "28",
+      "articleNumberNormalized": 28,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 28\nتحجب الاخت الاب كل من الاب والاب وابن الابن وابن الابن وان نزل ونزل والاب .",
+      "textForEmbedding": "مادة 28\nتحجب الاخت الاب كل من الاب والاب وابن الابن وابن الابن وان نزل ونزل والاب .",
+      "pageStart": 12,
+      "pageEnd": 12,
+      "pages": [
+        12
+      ],
+      "sourceOrder": 75,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:71:12:28"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "29",
+      "articleNumberNormalized": 29,
+      "articleSuffix": null,
+      "chapter": "الباب الثالث",
+      "text": "مادة 29\nتحجب الاخت الاب كل من الاب والاب وابن الابن وابن الابن وان نزل كما يحجبها الاخ كما يحجبها الابوين والابوين والاخت لابوين اذا كانت عصبة مع غيرها طبقا لحكم المادة 20\nوالاختان لابوين اذا لم يوجد اخ لاب .\nالباب الرابع في الرد",
+      "textForEmbedding": "مادة 29\nتحجب الاخت الاب كل من الاب والاب وابن الابن وابن الابن وان نزل كما يحجبها الاخ كما يحجبها الابوين والابوين والاخت لابوين اذا كانت عصبة مع غيرها طبقا لحكم المادة 20\nوالاختان لابوين اذا لم يوجد اخ لاب .\nالباب الرابع في الرد",
+      "pageStart": 12,
+      "pageEnd": 12,
+      "pages": [
+        12
+      ],
+      "sourceOrder": 76,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:72:12:29"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "30",
+      "articleNumberNormalized": 30,
+      "articleSuffix": null,
+      "chapter": "الباب الرابع في الرد",
+      "text": "مادة 30\nاذا لم تستغرق الفروض التركة ولم توجد عصبة من النسب رد الباقي علي غير الزوجين من اصحاب الفروض بنسبة فروضهم . ويرد باقي التركة الي احد الزوجين اذا لم يوجد عصبة من النسب او احد اصحاب الفروض النسبية او احد ذوي نخي الارحام\nالباب الخامس : في ذوي الارحام",
+      "textForEmbedding": "مادة 30\nاذا لم تستغرق الفروض التركة ولم توجد عصبة من النسب رد الباقي علي غير الزوجين من اصحاب الفروض بنسبة فروضهم . ويرد باقي التركة الي احد الزوجين اذا لم يوجد عصبة من النسب او احد اصحاب الفروض النسبية او احد ذوي نخي الارحام\nالباب الخامس : في ذوي الارحام",
+      "pageStart": 12,
+      "pageEnd": 12,
+      "pages": [
+        12
+      ],
+      "sourceOrder": 77,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:73:12:30"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "31",
+      "articleNumberNormalized": 31,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 31\nاذا لم يوجد احد من العصبة بالنسب ولا من ذوي الفروض النسبية كانت التركة او الباقي منها لذوي الارحام .م.\nوذوو الارحام اربعة اصناف يقدم بعضهم بعضا في الارث علي الترتيب الاتي :\nالصنف الاول : اولاد البنات وان نزلوا ، واولاد بنات الابن وان نزلوا .\nالصنف الثاني : الجد غير الصحيح وان علا ، والجدة غير الصحيحة وان علت .\nالصنف الثالث : ابناء الاخوة لاولادهم وان نزلوا ، واولاد الاخوات لابوين او لاحدهما وان نزلوا ، وبنات الاخوة لابوين او لاحدهما واولادهم واولادهم وان نزلوا ، وبنات ابناء الاخوة لابوين او لاب وان نزلوا ، واولادهم وان نزلوا .\nالصنف الرابع :\nيشمل بست طوايف يقدم بعضها علي بعض في الارث علي الترتيب الاتي :\nالاولي : اعمام الميت لمن وعماته وخالاته وخالاته لابوين او لاحدهما .\nالثانية : اولاد من ذكروا في الفقرة السابقة وان نزلوا وبنات اعمام الميت لابوين او لاب وبنات ابنايهم وان نزلوا واولاد من ذكروا وان نزلوا .\nالثالثة : اسام ابي الميت لمن وهماتة وخالاته لابوين او الحدهما او احدهما واعمام الميت وعماتهم واخوالهم واخوالتهم لابوين او لاحدهما .\nالرابعة : اولاد من ذكروا في الفقرة السابقة وان نزلوا ، وبنات اعمام اب الميت لابوين او اب وبنات ابنايه وان نزلوا ، واولاد من ذكروا وان نزلوا .\nالخامسة : اعمام اب اب الميت لام ، واعمام اب ام الميت وعماتهم واخوالتهم واهوالهم وخالاتهم لابوين او لاحدهما . اعمام ام ام الميت ابية عماتهم واخوالهم وخالاتهم لابوين او لاحدهما .\nالسادسة : اولاد من ذكروا في الفقرة السابقة وان نزلوا . زينبات اب اب الميت لابوين او الاب وبنات البنايهم وان نزلوا\nواولاد من ذكرن وان نزلوا وهكذا .",
+      "textForEmbedding": "مادة 31\nاذا لم يوجد احد من العصبة بالنسب ولا من ذوي الفروض النسبية كانت التركة او الباقي منها لذوي الارحام .م.\nوذوو الارحام اربعة اصناف يقدم بعضهم بعضا في الارث علي الترتيب الاتي :\nالصنف الاول : اولاد البنات وان نزلوا ، واولاد بنات الابن وان نزلوا .\nالصنف الثاني : الجد غير الصحيح وان علا ، والجدة غير الصحيحة وان علت .\nالصنف الثالث : ابناء الاخوة لاولادهم وان نزلوا ، واولاد الاخوات لابوين او لاحدهما وان نزلوا ، وبنات الاخوة لابوين او لاحدهما واولادهم واولادهم وان نزلوا ، وبنات ابناء الاخوة لابوين او لاب وان نزلوا ، واولادهم وان نزلوا .\nالصنف الرابع :\nيشمل بست طوايف يقدم بعضها علي بعض في الارث علي الترتيب الاتي :\nالاولي : اعمام الميت لمن وعماته وخالاته وخالاته لابوين او لاحدهما .\nالثانية : اولاد من ذكروا في الفقرة السابقة وان نزلوا وبنات اعمام الميت لابوين او لاب وبنات ابنايهم وان نزلوا واولاد من ذكروا وان نزلوا .\nالثالثة : اسام ابي الميت لمن وهماتة وخالاته لابوين او الحدهما او احدهما واعمام الميت وعماتهم واخوالهم واخوالتهم لابوين او لاحدهما .\nالرابعة : اولاد من ذكروا في الفقرة السابقة وان نزلوا ، وبنات اعمام اب الميت لابوين او اب وبنات ابنايه وان نزلوا ، واولاد من ذكروا وان نزلوا .\nالخامسة : اعمام اب اب الميت لام ، واعمام اب ام الميت وعماتهم واخوالتهم واهوالهم وخالاتهم لابوين او لاحدهما . اعمام ام ام الميت ابية عماتهم واخوالهم وخالاتهم لابوين او لاحدهما .\nالسادسة : اولاد من ذكروا في الفقرة السابقة وان نزلوا . زينبات اب اب الميت لابوين او الاب وبنات البنايهم وان نزلوا\nواولاد من ذكرن وان نزلوا وهكذا .",
+      "pageStart": 12,
+      "pageEnd": 12,
+      "pages": [
+        12
+      ],
+      "sourceOrder": 78,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:74:12:31"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "32",
+      "articleNumberNormalized": 32,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 32\nالصنف الاول من ذوي الارحام اولهم بالميراث من اقربهم الي الميت درجة . فان ايتووا في الدرجة قول صاحب الفرض\nاولي من اول ذوي الرحم .\nوان استووا في الدرجة ولم يكن فيهم ولد صاحب فرض او كانوا كلهم يولون لصاحب فرض اشتركوا في الارث .",
+      "textForEmbedding": "مادة 32\nالصنف الاول من ذوي الارحام اولهم بالميراث من اقربهم الي الميت درجة . فان ايتووا في الدرجة قول صاحب الفرض\nاولي من اول ذوي الرحم .\nوان استووا في الدرجة ولم يكن فيهم ولد صاحب فرض او كانوا كلهم يولون لصاحب فرض اشتركوا في الارث .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 79,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:75:13:32"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "33",
+      "articleNumberNormalized": 33,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 33\nالصنف الثاني من ذوي الارحام اولهم بالميراث من اقربهم الي الميت درجة من في الدرجة قدم من كان يلي\nصاحب فرض وان استووا في الدرجة ولكن يلس فيهم من يلي صاحب فرض او كانوا كلهم يولون لصاحب فرض ان\nتحددوا في حيز القرابة اشتركوا في الارث وان اختلفوا في الحيز فالثالثتان لقريبة الاب والثالث لقرابة الام .",
+      "textForEmbedding": "مادة 33\nالصنف الثاني من ذوي الارحام اولهم بالميراث من اقربهم الي الميت درجة من في الدرجة قدم من كان يلي\nصاحب فرض وان استووا في الدرجة ولكن يلس فيهم من يلي صاحب فرض او كانوا كلهم يولون لصاحب فرض ان\nتحددوا في حيز القرابة اشتركوا في الارث وان اختلفوا في الحيز فالثالثتان لقريبة الاب والثالث لقرابة الام .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 80,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:76:13:33"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "34",
+      "articleNumberNormalized": 34,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 34\nالصنف الثالث من ذوي الارحام او انهم بالميراث اقربهم الي الميت درجة ، فان استووا في الدرجة وكان فيهم ولد\nصصيب فهو اولي من ذوي الرحم ، والاقول القوارب قرابة للميت .\nفمن كان اصله الابوين فهو اولي ممن كان اصله لاب ، ومن كان اصله لاب فهو اولي ممن كان اصله لام ، فان\nاتحدوا في الدرجة وفوقه القرابة اشتركوا في الارث .",
+      "textForEmbedding": "مادة 34\nالصنف الثالث من ذوي الارحام او انهم بالميراث اقربهم الي الميت درجة ، فان استووا في الدرجة وكان فيهم ولد\nصصيب فهو اولي من ذوي الرحم ، والاقول القوارب قرابة للميت .\nفمن كان اصله الابوين فهو اولي ممن كان اصله لاب ، ومن كان اصله لاب فهو اولي ممن كان اصله لام ، فان\nاتحدوا في الدرجة وفوقه القرابة اشتركوا في الارث .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 81,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:77:13:34"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "35",
+      "articleNumberNormalized": 35,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 35\nفي الطايفة الاولي من طوايف الصنف الرابع السبية المبينة بالمادة 31 . واذا انفرد فريق الاب وهم اعمام الميت لام وعماته .\nاو فريق الام وهم اخواله وخالاته قد اماموا القرابة بين كان الوالدين فهوا اولي ممن كان الاب الابو ومن كان الاب فهوا اولي\nممكن كان الام ، وان تساووا في القرابة واشتركوا في الارث .\nوعند اجتماع الفريقين يكون الثلثان لقرابة الاب والثلث لقرابة الام ويقسم نصيب كل فريق علي النحو المتقدم .\nوتطبق احكام التقريرات السابقتين علي الطايفتين الثالثة والخامسة .",
+      "textForEmbedding": "مادة 35\nفي الطايفة الاولي من طوايف الصنف الرابع السبية المبينة بالمادة 31 . واذا انفرد فريق الاب وهم اعمام الميت لام وعماته .\nاو فريق الام وهم اخواله وخالاته قد اماموا القرابة بين كان الوالدين فهوا اولي ممن كان الاب الابو ومن كان الاب فهوا اولي\nممكن كان الام ، وان تساووا في القرابة واشتركوا في الارث .\nوعند اجتماع الفريقين يكون الثلثان لقرابة الاب والثلث لقرابة الام ويقسم نصيب كل فريق علي النحو المتقدم .\nوتطبق احكام التقريرات السابقتين علي الطايفتين الثالثة والخامسة .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 82,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:78:13:35"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "36",
+      "articleNumberNormalized": 36,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 36\nفي الطايفة الثانية يقدم الاقرب منهم درجة ، علي الابعد ولو من غير حيز وان عند الاستواء اتحاد الحيز يقدم الاقوي\nفي القرابة ان كانوا اولاد اصل او اولاد ذوي رحم .\nفان كانوا مختلفين قدم وقد العاصب علي ولد ذوي الرحم وعند اختلاف الحيز يكون الثلثان لقرابة الاب والثلث لقرابة\nالام وما اصحاب كل فريق يقسم علبة بالطريقة المتقدمة .\nويطبق احكام التقريرات السابقتين علي الطايفتين الرابعة والسادسة .",
+      "textForEmbedding": "مادة 36\nفي الطايفة الثانية يقدم الاقرب منهم درجة ، علي الابعد ولو من غير حيز وان عند الاستواء اتحاد الحيز يقدم الاقوي\nفي القرابة ان كانوا اولاد اصل او اولاد ذوي رحم .\nفان كانوا مختلفين قدم وقد العاصب علي ولد ذوي الرحم وعند اختلاف الحيز يكون الثلثان لقرابة الاب والثلث لقرابة\nالام وما اصحاب كل فريق يقسم علبة بالطريقة المتقدمة .\nويطبق احكام التقريرات السابقتين علي الطايفتين الرابعة والسادسة .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 83,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:79:13:36"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "37",
+      "articleNumberNormalized": 37,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 37\nلا اعتبار تعدت جهات القرابة في وراث من ذوي الارحام الا عند اختلاف الحيز .",
+      "textForEmbedding": "مادة 37\nلا اعتبار تعدت جهات القرابة في وراث من ذوي الارحام الا عند اختلاف الحيز .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 84,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:80:13:37"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "38",
+      "articleNumberNormalized": 38,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس : في ذوي الارحام",
+      "text": "مادة 38\nفي ارث ذوي الارحام يكون للذكر مثل حظ الانتقتين .\nالباب السادس\nفي الارث بالعصوبية السبية",
+      "textForEmbedding": "مادة 38\nفي ارث ذوي الارحام يكون للذكر مثل حظ الانتقتين .\nالباب السادس\nفي الارث بالعصوبية السبية",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 85,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:81:13:38"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "39",
+      "articleNumberNormalized": 39,
+      "articleSuffix": null,
+      "chapter": "الباب السادس",
+      "text": "مادة 39\nالعصاب السببي يشمل :\n1- مولي العتاقة ومن اعتقه او اعتق من اعتقه\n2- عصبة المعتق او عصبية من اعتقه او اعتق من اعتقه .\n3- من له الولاء علي مورثة امة غير حرة الاصل بواسطة ابية سواء كان بطريق الجر او بغيره . او بواسطة جدة بدون جر .",
+      "textForEmbedding": "مادة 39\nالعصاب السببي يشمل :\n1- مولي العتاقة ومن اعتقه او اعتق من اعتقه\n2- عصبة المعتق او عصبية من اعتقه او اعتق من اعتقه .\n3- من له الولاء علي مورثة امة غير حرة الاصل بواسطة ابية سواء كان بطريق الجر او بغيره . او بواسطة جدة بدون جر .",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "pages": [
+        13
+      ],
+      "sourceOrder": 86,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:82:13:39"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "40",
+      "articleNumberNormalized": 40,
+      "articleSuffix": null,
+      "chapter": "الباب السادس",
+      "text": "مادة 40\nيرث المولي ذكرا او انثي من معتقه علي اي وجه كان العتق وعند عدمه يقوم مقامة عصبية بالنفس علي ترتيبهم المبين بالمادة 17 علي ان لا ينقص نصيب الجد عن السدس ، وعند عدمه منتقل الارث الي معتق المولي ذكرا كان او انثي ثم عصبية بالنفس وهكذا .\nوكذلك يرث علي الترتيب السابق من انه الولاء علي ان الملتني قم من له الولاء علي جدة وهكذا .\nالباب السابع : في استحقاق التركة بغير ارث في المقر له بالنسب",
+      "textForEmbedding": "مادة 40\nيرث المولي ذكرا او انثي من معتقه علي اي وجه كان العتق وعند عدمه يقوم مقامة عصبية بالنفس علي ترتيبهم المبين بالمادة 17 علي ان لا ينقص نصيب الجد عن السدس ، وعند عدمه منتقل الارث الي معتق المولي ذكرا كان او انثي ثم عصبية بالنفس وهكذا .\nوكذلك يرث علي الترتيب السابق من انه الولاء علي ان الملتني قم من له الولاء علي جدة وهكذا .\nالباب السابع : في استحقاق التركة بغير ارث في المقر له بالنسب",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 87,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:83:14:40"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "41",
+      "articleNumberNormalized": 41,
+      "articleSuffix": null,
+      "chapter": "الباب السابع : في استحقاق التركة بغير ارث في المقر له بالنسب",
+      "text": "مادة 41\nاذا اقر الميت بالنسب علي غيره استحق المقر له التركة اذا كان مجهول النسب ولم يثبت نسبة من الغير ولم يرجع المقر عن اقراره .\nويشترط في هذه الحالة ان يكون المقر له حيا وقت موت المقر او وقت حكم المقر باعتباره ميتا ، ولا يقوم به مانع من مواقع الارث .\nالباب الثامن : في احكام متنوعة\nالباب الاول - في الحمل",
+      "textForEmbedding": "مادة 41\nاذا اقر الميت بالنسب علي غيره استحق المقر له التركة اذا كان مجهول النسب ولم يثبت نسبة من الغير ولم يرجع المقر عن اقراره .\nويشترط في هذه الحالة ان يكون المقر له حيا وقت موت المقر او وقت حكم المقر باعتباره ميتا ، ولا يقوم به مانع من مواقع الارث .\nالباب الثامن : في احكام متنوعة\nالباب الاول - في الحمل",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 88,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:84:14:41"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "42",
+      "articleNumberNormalized": 42,
+      "articleSuffix": null,
+      "chapter": "الباب الاول - في الحمل",
+      "text": "مادة 42\nيوقف الحمل من تركة المتوفي او فر النصيبين علي تقدير انه ذكر او انثي .",
+      "textForEmbedding": "مادة 42\nيوقف الحمل من تركة المتوفي او فر النصيبين علي تقدير انه ذكر او انثي .",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 89,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:85:14:42"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "43",
+      "articleNumberNormalized": 43,
+      "articleSuffix": null,
+      "chapter": "الباب الاول - في الحمل",
+      "text": "مادة 43\nاذا تولي الارث عن زوجتة او عن معتدلة فلا يرثه حملها الا اذا ولد حيا لخمسة وستين وثلاثماية يوم علي الاكثر من تاريخ وفاة او فرقة ، او الفرقة .\nولا يرث الحمل غير ابيه في الحالتين الابتتين :\nالاولي ان يولد حيا لخمسة وستين وثلاثماية يوم علي الاكثر من تاريخ وفاة المورث او الفرقة ان كانت امة معتدة عدة موت او فرقة ، ومات المورث اثناء العدة .\nالثانية ان يولد حيا لسبع ماية يوم علي الاكثر من تاريخ وفاة المورث ان كان من زوجتة قايمة وقت الوفاة",
+      "textForEmbedding": "مادة 43\nاذا تولي الارث عن زوجتة او عن معتدلة فلا يرثه حملها الا اذا ولد حيا لخمسة وستين وثلاثماية يوم علي الاكثر من تاريخ وفاة او فرقة ، او الفرقة .\nولا يرث الحمل غير ابيه في الحالتين الابتتين :\nالاولي ان يولد حيا لخمسة وستين وثلاثماية يوم علي الاكثر من تاريخ وفاة المورث او الفرقة ان كانت امة معتدة عدة موت او فرقة ، ومات المورث اثناء العدة .\nالثانية ان يولد حيا لسبع ماية يوم علي الاكثر من تاريخ وفاة المورث ان كان من زوجتة قايمة وقت الوفاة",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 90,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:86:14:43"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "44",
+      "articleNumberNormalized": 44,
+      "articleSuffix": null,
+      "chapter": "الباب الاول - في الحمل",
+      "text": "مادة 44\nاذا نقص الموقوف للحمل عما يستحقة يرجع بالباقي الي من دخلت الزيادة في نصيبة من الورثة واذا زاد الموقوف للحمل هنا يستحقة رد الزايد علي من يستحقة من الورثة .\nالقسم الثاني - في المفقود",
+      "textForEmbedding": "مادة 44\nاذا نقص الموقوف للحمل عما يستحقة يرجع بالباقي الي من دخلت الزيادة في نصيبة من الورثة واذا زاد الموقوف للحمل هنا يستحقة رد الزايد علي من يستحقة من الورثة .\nالقسم الثاني - في المفقود",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 91,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:87:14:44"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "45",
+      "articleNumberNormalized": 45,
+      "articleSuffix": null,
+      "chapter": "القسم الثانى - في المفقود",
+      "text": "مادة 45\nيوقف للمفقود من تركة مورتة نصيبة فيها فان ظهر حيا فاخذ انه وان حكم بموته رد نصيبة الي من يستحقة من الورثة وقت موت مورتة لان ظهر حيا بعد الحكم بموتة اخذ ما بقي من نصيبة بايدي الورثة .\nالقسم الثالث - في الخنثي",
+      "textForEmbedding": "مادة 45\nيوقف للمفقود من تركة مورتة نصيبة فيها فان ظهر حيا فاخذ انه وان حكم بموته رد نصيبة الي من يستحقة من الورثة وقت موت مورتة لان ظهر حيا بعد الحكم بموتة اخذ ما بقي من نصيبة بايدي الورثة .\nالقسم الثالث - في الخنثي",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 92,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:88:14:45"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "46",
+      "articleNumberNormalized": 46,
+      "articleSuffix": null,
+      "chapter": "القسم الثالث - في الخنثى",
+      "text": "مادة 46\nللخنثي المشكل وهو الذي يعرف انك هو ام انثي انقل النصيبين وما بقي من التركة يعطي لباقي الورثة .\nالقسم الرابع – في ولد الزنا وولد اللعان",
+      "textForEmbedding": "مادة 46\nللخنثي المشكل وهو الذي يعرف انك هو ام انثي انقل النصيبين وما بقي من التركة يعطي لباقي الورثة .\nالقسم الرابع – في ولد الزنا وولد اللعان",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "pages": [
+        14
+      ],
+      "sourceOrder": 93,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:89:14:46"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "47",
+      "articleNumberNormalized": 47,
+      "articleSuffix": null,
+      "chapter": "القسم الرابع – في ولد الزنا وولد اللعان",
+      "text": "مادة 47\nمع مراعاة المدة المبينة بالفقرة الاخيرة من المادة 43 يرث ولد الزنا وولد اللعان من الام وقرابتها وترثهما الام وقرابتها\nالقسم الخامس – في التخارج",
+      "textForEmbedding": "مادة 47\nمع مراعاة المدة المبينة بالفقرة الاخيرة من المادة 43 يرث ولد الزنا وولد اللعان من الام وقرابتها وترثهما الام وقرابتها\nالقسم الخامس – في التخارج",
+      "pageStart": 15,
+      "pageEnd": 15,
+      "pages": [
+        15
+      ],
+      "sourceOrder": 94,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:90:15:47"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-law-77-1943",
+      "lawName": "inheritance",
+      "lawNumber": "77",
+      "year": "1943",
+      "articleNumber": "48",
+      "articleNumberNormalized": 48,
+      "articleSuffix": null,
+      "chapter": "القسم الخامس – في التخارج",
+      "text": "مادة 48\nالتخارج هو ان يتصالح الورثة علي اخراج بعضهم من الميراث علي شيء معلوم .\nفاذا تخارج احد الورثة مع اخر منهم استحق نصيبه وحل محلة في الشركة . واذا تخارج احد الورثة مع باقيهم فان كان المدفوع له من التركة قسم نصيبه بينهم بنسبة انصباتهم فيها ، وان كان المدفوع من مالهم من مالهم ولم ينس في عقد التخارج علي طريقة قسمة نصيب الخارج قسم عليهلم بالسوية بينهم .\nالقانون رقم 35 لسنة 1944\nبيان القانون الواجب التطبيق في\nمسايل المواريث والوصايا",
+      "textForEmbedding": "مادة 48\nالتخارج هو ان يتصالح الورثة علي اخراج بعضهم من الميراث علي شيء معلوم .\nفاذا تخارج احد الورثة مع اخر منهم استحق نصيبه وحل محلة في الشركة . واذا تخارج احد الورثة مع باقيهم فان كان المدفوع له من التركة قسم نصيبه بينهم بنسبة انصباتهم فيها ، وان كان المدفوع من مالهم من مالهم ولم ينس في عقد التخارج علي طريقة قسمة نصيب الخارج قسم عليهلم بالسوية بينهم .\nالقانون رقم 35 لسنة 1944\nبيان القانون الواجب التطبيق في\nمسايل المواريث والوصايا",
+      "pageStart": 15,
+      "pageEnd": 15,
+      "pages": [
+        15
+      ],
+      "sourceOrder": 95,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:91:15:48"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    }
+  ],
+  "coverage": {
+    "pdfPageCount": 66,
+    "articleAnchorCount": 410,
+    "qwenRecordCount": 390,
+    "pdfOnlyArticleCount": 0,
+    "pdfRecoveredArticleCount": 0,
+    "missingArticleNumbers": [],
+    "suspiciousArticleCount": 45
+  },
+  "validation": {
+    "issues": [
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "inheritance-law-77-1943|1 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "1",
+        "instrumentId": "inheritance-law-77-1943"
+      },
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "inheritance-law-77-1943|2 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "2",
+        "instrumentId": "inheritance-law-77-1943"
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 45,
+      "infos": 12,
+      "articleCount": 426,
+      "qwenRecordCount": 390,
+      "recoveryRecordCount": 50,
+      "suspiciousMergeCount": 0,
+      "missingArticleNumberCount": 0
+    }
+  }
+}

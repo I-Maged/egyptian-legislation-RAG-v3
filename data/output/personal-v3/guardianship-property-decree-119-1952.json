@@ -1,0 +1,2666 @@
+{
+  "metadata": {
+    "parserVersion": "3.3.0",
+    "inputFile": "personal_affair_law_qwen_output.json",
+    "pdfFile": "personal-src.pdf",
+    "generatedAt": "2026-09-03T10:34:13.040Z",
+    "recordCountOriginal": 390,
+    "recordCountRecovery": 50,
+    "recordCountMerged": 440,
+    "pdfRecoveryArticleCount": 0,
+    "instrumentId": "guardianship-property-decree-119-1952",
+    "mode": "qwen+pdf"
+  },
+  "metadataResolved": {
+    "lawName": "guardianship",
+    "lawNumber": "119",
+    "year": "1952"
+  },
+  "instruments": [
+    {
+      "id": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "kind": "decree_law",
+      "title": "مرسوم بقانون رقم 119 لسنة 1952 بأحكام الولاية على المال",
+      "startPage": 29,
+      "endPage": 40,
+      "startMarkerOrdinal": 5,
+      "startAfter": {
+        "page": 29,
+        "articleNumber": "13"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 1\nيعمل في مسايل الولاية علي المال بنصوص المرفقة لهذا القانون فيما عد احكام المادة 16 بالنسبة للاموال التي الات للقاصر قبل العمل بهذا القانون .",
+      "textForEmbedding": "مادة 1\nيعمل في مسايل الولاية علي المال بنصوص المرفقة لهذا القانون فيما عد احكام المادة 16 بالنسبة للاموال التي الات للقاصر قبل العمل بهذا القانون .",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 197,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:186:30:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 2\nيلغي الكتاب الاول من قانون المحاكم الحسبيه الصادر بالقانون رقم 99 لسنه 1947و كذلك يلغي كل ما كان مخالفا للاحكام المفرره في النصوص المرافقه لهذا القانون.",
+      "textForEmbedding": "مادة 2\nيلغي الكتاب الاول من قانون المحاكم الحسبيه الصادر بالقانون رقم 99 لسنه 1947و كذلك يلغي كل ما كان مخالفا للاحكام المفرره في النصوص المرافقه لهذا القانون.",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 198,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:187:30:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "3",
+      "articleNumberNormalized": 3,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة3\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريده الرسميه,\nالباب الاول\nفي القصر\nالفصل الاول في الولايه",
+      "textForEmbedding": "مادة3\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريده الرسميه,\nالباب الاول\nفي القصر\nالفصل الاول في الولايه",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 199,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:188:30:3"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة1\nللاب ثم للجد لم يكن الاب قد اختيار وصيا للولايه علي مال القاصر و عليه القيام بها ولاجوز له ان يتنحي عنها الا باذن المحكمه.",
+      "textForEmbedding": "مادة1\nللاب ثم للجد لم يكن الاب قد اختيار وصيا للولايه علي مال القاصر و عليه القيام بها ولاجوز له ان يتنحي عنها الا باذن المحكمه.",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 200,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:189:30:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة2\nلا يجوز للولي مباشره مباشره حق من حقوق الولايه الا اذا توافرت له الاهليه اللازمه لمباشره هذا الحق فيما يتعلق بماله هو.",
+      "textForEmbedding": "مادة2\nلا يجوز للولي مباشره مباشره حق من حقوق الولايه الا اذا توافرت له الاهليه اللازمه لمباشره هذا الحق فيما يتعلق بماله هو.",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 201,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:190:30:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "3",
+      "articleNumberNormalized": 3,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة 3\nلا يدخل في الولايه ما يوول للقاصر من مال بطريقه التبرع اذا اشترط المتبرع ذلك,",
+      "textForEmbedding": "مادة 3\nلا يدخل في الولايه ما يوول للقاصر من مال بطريقه التبرع اذا اشترط المتبرع ذلك,",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 202,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:191:30:3"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "4",
+      "articleNumberNormalized": 4,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة4\nيقوم الولي علي رعايه اموال القاصر وله اداريتها وولايه التصرف فيها مع مراعاه الاحكام المقرره في هذا القانون .",
+      "textForEmbedding": "مادة4\nيقوم الولي علي رعايه اموال القاصر وله اداريتها وولايه التصرف فيها مع مراعاه الاحكام المقرره في هذا القانون .",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 203,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:192:30:4"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "5",
+      "articleNumberNormalized": 5,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة5\nلا يجوز للولي التبرع بمال القاصر الا لاداء واجب انساني اوعايلي وباذن المحكمه.",
+      "textForEmbedding": "مادة5\nلا يجوز للولي التبرع بمال القاصر الا لاداء واجب انساني اوعايلي وباذن المحكمه.",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 204,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:193:30:5"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "6",
+      "articleNumberNormalized": 6,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة6\nلا يجوز للولي ان يتصرف في عقار القاصر نفسه او لزوجه او لاقاريه او لاقاربيه الي درجه الرابعه الا باذن المحكمه ولا يجوز له ان يبرهن عقار القاصر لادين علي نفسه .",
+      "textForEmbedding": "مادة6\nلا يجوز للولي ان يتصرف في عقار القاصر نفسه او لزوجه او لاقاريه او لاقاربيه الي درجه الرابعه الا باذن المحكمه ولا يجوز له ان يبرهن عقار القاصر لادين علي نفسه .",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 205,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:194:30:6"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "7",
+      "articleNumberNormalized": 7,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة7\nلا يجوز للاب ان يتصرف في العقار اوالمحل التجاري او الاوراق الماليه اذا زادت قيمتها علي 300 جنيه الا باذن المحكمه .\nولا يجوز للمحكمه ان ترفض الاذن الا اذا كان التصرف من شانه جعل اموال القاصر في خطر او كان فيه غبن يزيد علي خمس القيمه ,\nماده 8\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمه وتحت اشرافها.\nماده9\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمه.\nماده10\nلا يجوز للولي بغير اذن المحكمه تاجير عقار القاصر لمدة تمدد الي ما بعد سن الرشد بسنه .\nمادة : 11\nلا يجوز للولي ان يستمر في تجارة التت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن .\nمادة : 12\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة .\nمادة : 13\nلا شري القود المقصود عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتعويض بديم تدويم عن هذا المال .",
+      "textForEmbedding": "مادة7\nلا يجوز للاب ان يتصرف في العقار اوالمحل التجاري او الاوراق الماليه اذا زادت قيمتها علي 300 جنيه الا باذن المحكمه .\nولا يجوز للمحكمه ان ترفض الاذن الا اذا كان التصرف من شانه جعل اموال القاصر في خطر او كان فيه غبن يزيد علي خمس القيمه ,\nماده 8\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمه وتحت اشرافها.\nماده9\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمه.\nماده10\nلا يجوز للولي بغير اذن المحكمه تاجير عقار القاصر لمدة تمدد الي ما بعد سن الرشد بسنه .\nمادة : 11\nلا يجوز للولي ان يستمر في تجارة التت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن .\nمادة : 12\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة .\nمادة : 13\nلا شري القود المقصود عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتعويض بديم تدويم عن هذا المال .",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "pages": [
+        30
+      ],
+      "sourceOrder": 206,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:195:30:7"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "8",
+      "articleNumberNormalized": 8,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 8:\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمة وتحت اشرافها.",
+      "textForEmbedding": "مادة 8:\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمة وتحت اشرافها.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 207,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-8:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "9",
+      "articleNumberNormalized": 9,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 9:\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمة.",
+      "textForEmbedding": "مادة 9:\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمة.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 208,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-9:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "10",
+      "articleNumberNormalized": 10,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 10:\nلا يجوز للولي بغير اذن المحكمة تاجير عقار القاصر لمدة تمتد الي ما بعد سن الرشد بسنة.",
+      "textForEmbedding": "مادة 10:\nلا يجوز للولي بغير اذن المحكمة تاجير عقار القاصر لمدة تمتد الي ما بعد سن الرشد بسنة.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 209,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-10:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "11",
+      "articleNumberNormalized": 11,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 11:\nلا يجوز للولي ان يستمر في تجارة الت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن.",
+      "textForEmbedding": "مادة 11:\nلا يجوز للولي ان يستمر في تجارة الت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 210,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-11:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "12",
+      "articleNumberNormalized": 12,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 12:\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة.",
+      "textForEmbedding": "مادة 12:\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 211,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-12:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "13",
+      "articleNumberNormalized": 13,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 13:\nلا تسري القيود المنصوص عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتقديم حساب عن هذا المال.",
+      "textForEmbedding": "مادة 13:\nلا تسري القيود المنصوص عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتقديم حساب عن هذا المال.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 212,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-13:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "14",
+      "articleNumberNormalized": 14,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة14: للاب ان يتعاقد مع نفسه باسم القاصر سواء اكان ذلك لحساب شخص اخر الا اذا نص القانون علي غير ذلك\nمادة : 15\nلا يجوز لغير البالغ غير ان المحكمة التصرفي مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.\nمادة : 16\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة كلم كتاب المحكمة التي يقع بذاتنيتها موطنه في مدني شهرين من بدء الولاية او من ايولة هذا المال الي الصغير .\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاجير في تقديمها تعريضا مال القاصر للخطر",
+      "textForEmbedding": "مادة14: للاب ان يتعاقد مع نفسه باسم القاصر سواء اكان ذلك لحساب شخص اخر الا اذا نص القانون علي غير ذلك\nمادة : 15\nلا يجوز لغير البالغ غير ان المحكمة التصرفي مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.\nمادة : 16\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة كلم كتاب المحكمة التي يقع بذاتنيتها موطنه في مدني شهرين من بدء الولاية او من ايولة هذا المال الي الصغير .\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاجير في تقديمها تعريضا مال القاصر للخطر",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 213,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:196:31:14"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "15",
+      "articleNumberNormalized": 15,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 15:\nلا يجوز للجد بغير اذن المحكمة التصرف في مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.",
+      "textForEmbedding": "مادة 15:\nلا يجوز للجد بغير اذن المحكمة التصرف في مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 214,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-15:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "16",
+      "articleNumberNormalized": 16,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 16:\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة قلم كتاب المحكمة التي يقع بدايرتها موطنه في مدي شهرين من بدء الولاية او من ايلولة هذا المال الي الصغير.\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاخير في تقديمها تعريضا لمال القاصر للخطر.",
+      "textForEmbedding": "مادة 16:\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة قلم كتاب المحكمة التي يقع بدايرتها موطنه في مدي شهرين من بدء الولاية او من ايلولة هذا المال الي الصغير.\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاخير في تقديمها تعريضا لمال القاصر للخطر.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 215,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-16:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "17",
+      "articleNumberNormalized": 17,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة17:\nالولي ان ينفق علي نفسه من مال الصغير اذا كانت نفقته نفقته واجبة عليه وله كذلك ان ينفق منه علي من يجب عليه الصغير نفقته\nمادة : 18\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه .\nمادة : 19\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر .\nمادة : 20\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي الي اي سبب اخر فالمحكمة ان تسلب ولایته او تحد منها\nمادة : 21\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جنايية او بالحبس مدة تزيد علي سنة .",
+      "textForEmbedding": "مادة17:\nالولي ان ينفق علي نفسه من مال الصغير اذا كانت نفقته نفقته واجبة عليه وله كذلك ان ينفق منه علي من يجب عليه الصغير نفقته\nمادة : 18\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه .\nمادة : 19\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر .\nمادة : 20\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي الي اي سبب اخر فالمحكمة ان تسلب ولایته او تحد منها\nمادة : 21\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جنايية او بالحبس مدة تزيد علي سنة .",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 216,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:197:31:17"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "18",
+      "articleNumberNormalized": 18,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 18:\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه.",
+      "textForEmbedding": "مادة 18:\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 217,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-18:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "19",
+      "articleNumberNormalized": 19,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 19:\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر.",
+      "textForEmbedding": "مادة 19:\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 218,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-19:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "20",
+      "articleNumberNormalized": 20,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 20:\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي او لاي سبب اخر فللمحكمة ان تسلب ولايته او تحد منها.",
+      "textForEmbedding": "مادة 20:\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي او لاي سبب اخر فللمحكمة ان تسلب ولايته او تحد منها.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 219,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-20:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "21",
+      "articleNumberNormalized": 21,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 21:\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جناية او بالحبس مدة تزيد علي سنة.",
+      "textForEmbedding": "مادة 21:\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جناية او بالحبس مدة تزيد علي سنة.",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 220,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-21:page-31"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "22",
+      "articleNumberNormalized": 22,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة22:\nيترتب علي الحكم بسلب الولاية علي النفس الصغير او وقفها سقوطها او وقفها بالنسبة الي المال .",
+      "textForEmbedding": "مادة22:\nيترتب علي الحكم بسلب الولاية علي النفس الصغير او وقفها سقوطها او وقفها بالنسبة الي المال .",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "pages": [
+        31
+      ],
+      "sourceOrder": 221,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:198:31:22"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "23",
+      "articleNumberNormalized": 23,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة 23 :\nاذا سلبت الولاية او حد منها او وقفت فلا تعود الي المحكمة بعد التسببث بعد زوال الاسباب التي دعت الي سلبها\nتو حد منها او وقفها .\nومع ذلك لا يقبل طلب استرداد الولاية الذي سبق رفضه الا بعد انقضاء سنتين من تاريخ الحكم النهايي بالرفض .",
+      "textForEmbedding": "مادة 23 :\nاذا سلبت الولاية او حد منها او وقفت فلا تعود الي المحكمة بعد التسببث بعد زوال الاسباب التي دعت الي سلبها\nتو حد منها او وقفها .\nومع ذلك لا يقبل طلب استرداد الولاية الذي سبق رفضه الا بعد انقضاء سنتين من تاريخ الحكم النهايي بالرفض .",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "pages": [
+        32
+      ],
+      "sourceOrder": 222,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:199:32:23"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "24",
+      "articleNumberNormalized": 24,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة 24 :\nلا يسال الاب علي خطيه الجسيم اما الجد فيسال مسوولية الوصي .",
+      "textForEmbedding": "مادة 24 :\nلا يسال الاب علي خطيه الجسيم اما الجد فيسال مسوولية الوصي .",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "pages": [
+        32
+      ],
+      "sourceOrder": 223,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:200:32:24"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "25",
+      "articleNumberNormalized": 25,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة 25 :\nعلي الولي او ورثته رد اموال القاصر اليه عند بلوغه ويسال هو او ورثته عن قيمة ما تصرف فيه باعتبار القيمة وقت\nالتصرف ولا يحاسب الاب علي ما تصرف فيه من ربع مال القاصر ومع ذلك يحاسب عن ربع المال الذي وهب للقاصر\nلغرض معين كالتعليم او القبر بحقره او مهنه .",
+      "textForEmbedding": "مادة 25 :\nعلي الولي او ورثته رد اموال القاصر اليه عند بلوغه ويسال هو او ورثته عن قيمة ما تصرف فيه باعتبار القيمة وقت\nالتصرف ولا يحاسب الاب علي ما تصرف فيه من ربع مال القاصر ومع ذلك يحاسب عن ربع المال الذي وهب للقاصر\nلغرض معين كالتعليم او القبر بحقره او مهنه .",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "pages": [
+        32
+      ],
+      "sourceOrder": 224,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:201:32:25"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "26",
+      "articleNumberNormalized": 26,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الولايه",
+      "text": "مادة 26 :\nسري علي الاجحكام المقررة بهذا القانون شان الحساب .\nالفصل الثاني في الوصية\nاولا في تعين الاوصياء .",
+      "textForEmbedding": "مادة 26 :\nسري علي الاجحكام المقررة بهذا القانون شان الحساب .\nالفصل الثاني في الوصية\nاولا في تعين الاوصياء .",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "pages": [
+        32
+      ],
+      "sourceOrder": 225,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:202:32:26"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "27",
+      "articleNumberNormalized": 27,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 27 :\n1- يجب ان يكون الوصي عدلا كفوا ذي اهلييه كامله ولا يجوز بجوز يكون خاصه ان يعين وصيا .\nالمحكوم عليه في جريمة من الجرايم المخلة بالاداب او باماسه بالشرف او النزاهة ومع ذلك اذا انضت الي تنفيذ العقوبه\nمدة تزيد علي خمس سنوات جاز عند الضرورة التنازر عن هذا الشرط .\n3- من حكم عليه بجريمة كانت تقتضي قانونيا سلب ولايته علي نفس القاصر لو انه كان في ولايته .\n4- من كان مشهورا بسببه السير من او لم يكن له وسيلة مشروعة للتعايش.\n5- المحكوم افلاسيه الي ان يحكم برد اعتبارہ .\n6- من سبق ان سلبت ولايته او علز او الوصيه علي قاصر اخر .\n7- من قرر الاب قبل وفاته وحرامه من التعين متي بينا الي اسباب قوية تري المحكمه بعد تحقيقها\nانها تبرر بذلك ويثبت الحرمان الحرمان بورقة رسميه او عرفية مسيقا علي امضاء الاب فيها او مكتوبه بخطه او\nموقعة بامضايه.\n8- من كان بينه وبهو او احد اصوله او فروعه او زوجته وبين القاصر نزاع قضايي او من كان بينه وبينه وبين القاصر او\nعايلته عداوه اذا كان يخشي من كله علي مصلحة القاصر .",
+      "textForEmbedding": "مادة 27 :\n1- يجب ان يكون الوصي عدلا كفوا ذي اهلييه كامله ولا يجوز بجوز يكون خاصه ان يعين وصيا .\nالمحكوم عليه في جريمة من الجرايم المخلة بالاداب او باماسه بالشرف او النزاهة ومع ذلك اذا انضت الي تنفيذ العقوبه\nمدة تزيد علي خمس سنوات جاز عند الضرورة التنازر عن هذا الشرط .\n3- من حكم عليه بجريمة كانت تقتضي قانونيا سلب ولايته علي نفس القاصر لو انه كان في ولايته .\n4- من كان مشهورا بسببه السير من او لم يكن له وسيلة مشروعة للتعايش.\n5- المحكوم افلاسيه الي ان يحكم برد اعتبارہ .\n6- من سبق ان سلبت ولايته او علز او الوصيه علي قاصر اخر .\n7- من قرر الاب قبل وفاته وحرامه من التعين متي بينا الي اسباب قوية تري المحكمه بعد تحقيقها\nانها تبرر بذلك ويثبت الحرمان الحرمان بورقة رسميه او عرفية مسيقا علي امضاء الاب فيها او مكتوبه بخطه او\nموقعة بامضايه.\n8- من كان بينه وبهو او احد اصوله او فروعه او زوجته وبين القاصر نزاع قضايي او من كان بينه وبينه وبين القاصر او\nعايلته عداوه اذا كان يخشي من كله علي مصلحة القاصر .",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "pages": [
+        32
+      ],
+      "sourceOrder": 226,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:203:32:27"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "28",
+      "articleNumberNormalized": 28,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 28:\nيجوز للاب ان يكون وصيا مختارا لولده القاصر او للحمل المستكن ويجوز ذلك للمتبرع في الحالة المنصوص عليها في المادة 3.\nويشترط ان يثبت الاختيار بورقة رسمية او عرفية مصدق علي توقيع الاب او المتبرع فيها او المكتوبة بخطه وموقعة بامضايه.\n\nويجوز للاب والمتبرع بطريق الوصية في اي وقت ان يعدلا عن اختيارهما وتعرض الوصاية علي المحكمة لتثبيتها.",
+      "textForEmbedding": "مادة 28:\nيجوز للاب ان يكون وصيا مختارا لولده القاصر او للحمل المستكن ويجوز ذلك للمتبرع في الحالة المنصوص عليها في المادة 3.\nويشترط ان يثبت الاختيار بورقة رسمية او عرفية مصدق علي توقيع الاب او المتبرع فيها او المكتوبة بخطه وموقعة بامضايه.\n\nويجوز للاب والمتبرع بطريق الوصية في اي وقت ان يعدلا عن اختيارهما وتعرض الوصاية علي المحكمة لتثبيتها.",
+      "pageStart": 32,
+      "pageEnd": 33,
+      "pages": [
+        32,
+        33
+      ],
+      "sourceOrder": 227,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-28:page-32",
+        "personal:pdf-vision:119-1952:article-28:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 2,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "29",
+      "articleNumberNormalized": 29,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 29:\nاذا لم يكن للقاصر او للحمل المستكن وصي مختار تعين المحكمة وصيا ويبقي الحمل المستكن وصيا علي المولود ما لم تعين المحكمة غيره.",
+      "textForEmbedding": "مادة 29:\nاذا لم يكن للقاصر او للحمل المستكن وصي مختار تعين المحكمة وصيا ويبقي الحمل المستكن وصيا علي المولود ما لم تعين المحكمة غيره.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 229,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-29:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "30",
+      "articleNumberNormalized": 30,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 30:\nيجوز عند الضرورة تعيين اكثر من وصي واحد وفي هذه الحالة لا يجوز لاحدهم الانفراد الا اذا كانت المحكمة قد بينت اختصاصا لكل منهم في قرار تعيينه او في قرار لاحق، ومع ذلك لكل من الاوصياء اتخاذ الاجراءات الضرورية او المستعجلة او المتمخضة لنفع القاصر.\nوعند الاختلاف بين الاوصياء يرفع الامر الي المحكمة لتامر بما يتبع.",
+      "textForEmbedding": "مادة 30:\nيجوز عند الضرورة تعيين اكثر من وصي واحد وفي هذه الحالة لا يجوز لاحدهم الانفراد الا اذا كانت المحكمة قد بينت اختصاصا لكل منهم في قرار تعيينه او في قرار لاحق، ومع ذلك لكل من الاوصياء اتخاذ الاجراءات الضرورية او المستعجلة او المتمخضة لنفع القاصر.\nوعند الاختلاف بين الاوصياء يرفع الامر الي المحكمة لتامر بما يتبع.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 230,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-30:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "31",
+      "articleNumberNormalized": 31,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 31:\nا - اذا تعرضت مصلحة القاصر مع مصلحة الولي او مصلحة قاصر اخر مشمول بولايته.\nب - اذا تعارضت مصلحة القاصر مع مصلحة الولي او زوجته او احد اصوله او فروعه مع من يملكه الوصي.\nج - ابرام عقد من عقود المعارضة او تعديله او فسخه او ابطاله او الغاوه بين القاصر وبين الوصي او احد من المذكورين في البند.\nد - اذا ال الي القاصر مال بطريق التبرع وشرط المتبرع الا يتولي الولي ادارة المال.\nه - اذا استلزمت الظروف دراية خاصة لاداء بعض الاعمال.\nو - اذا كان الولي غير اهل لمباشرة حق من حقوق الولاية.",
+      "textForEmbedding": "مادة 31:\nا - اذا تعرضت مصلحة القاصر مع مصلحة الولي او مصلحة قاصر اخر مشمول بولايته.\nب - اذا تعارضت مصلحة القاصر مع مصلحة الولي او زوجته او احد اصوله او فروعه مع من يملكه الوصي.\nج - ابرام عقد من عقود المعارضة او تعديله او فسخه او ابطاله او الغاوه بين القاصر وبين الوصي او احد من المذكورين في البند.\nد - اذا ال الي القاصر مال بطريق التبرع وشرط المتبرع الا يتولي الولي ادارة المال.\nه - اذا استلزمت الظروف دراية خاصة لاداء بعض الاعمال.\nو - اذا كان الولي غير اهل لمباشرة حق من حقوق الولاية.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 231,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-31:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "32",
+      "articleNumberNormalized": 32,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 32:\nتقيم المحكمة وصيا موقتا اذا حكم بوقف الولاية ولم يكن القاصر ولي اخر وكذلك اذا وقف الوصي او حالت ظروف موقتة دون ادايه لواجباته.",
+      "textForEmbedding": "مادة 32:\nتقيم المحكمة وصيا موقتا اذا حكم بوقف الولاية ولم يكن القاصر ولي اخر وكذلك اذا وقف الوصي او حالت ظروف موقتة دون ادايه لواجباته.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 232,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-32:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "33",
+      "articleNumberNormalized": 33,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 33:\nيجوز للمحكمة ان تقيم وصي خصومة ولو لم يكن للقاصر مال.",
+      "textForEmbedding": "مادة 33:\nيجوز للمحكمة ان تقيم وصي خصومة ولو لم يكن للقاصر مال.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 233,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-33:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "34",
+      "articleNumberNormalized": 34,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 34:\nتسري علي الوصي الخاص والوصي الموقت ووصي الخصومة احكام الوصاية الواردة في هذا القانون مع مراعاة ما تقتضيه طبيعة مهمة كل منهم.",
+      "textForEmbedding": "مادة 34:\nتسري علي الوصي الخاص والوصي الموقت ووصي الخصومة احكام الوصاية الواردة في هذا القانون مع مراعاة ما تقتضيه طبيعة مهمة كل منهم.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 234,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-34:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "35",
+      "articleNumberNormalized": 35,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 35:\nتنتهي مهمة الوصي الخاص والوصي الموقت بانتهاء العمل الذي اقيم لمباشرته او المدة التي اقتضت بها تعيينه.",
+      "textForEmbedding": "مادة 35:\nتنتهي مهمة الوصي الخاص والوصي الموقت بانتهاء العمل الذي اقيم لمباشرته او المدة التي اقتضت بها تعيينه.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 235,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-35:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "36",
+      "articleNumberNormalized": 36,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 36:\nيتسلم الوصي اموال القاصر ويقوم علي رعايتها وعليه ان يبذل في ذلك من العناية ما يطلب من الوكيل الماجور وفقا لاحكام القانون المدني.",
+      "textForEmbedding": "مادة 36:\nيتسلم الوصي اموال القاصر ويقوم علي رعايتها وعليه ان يبذل في ذلك من العناية ما يطلب من الوكيل الماجور وفقا لاحكام القانون المدني.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 236,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-36:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "37",
+      "articleNumberNormalized": 37,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 37:\nللمحكمة ان تلزم الوصي بتقديم تامينات بالقيمة التي تراها وتكون مصروفات تقديم هذه التامينات علي حساب القاصر.",
+      "textForEmbedding": "مادة 37:\nللمحكمة ان تلزم الوصي بتقديم تامينات بالقيمة التي تراها وتكون مصروفات تقديم هذه التامينات علي حساب القاصر.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 237,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-37:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "38",
+      "articleNumberNormalized": 38,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 38:\nلا يجوز للوصي التبرع بمال القاصر الا لاداء واجب انساني او عايلي او باذن من المحكمة.",
+      "textForEmbedding": "مادة 38:\nلا يجوز للوصي التبرع بمال القاصر الا لاداء واجب انساني او عايلي او باذن من المحكمة.",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "pages": [
+        33
+      ],
+      "sourceOrder": 238,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-38:page-33"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "39",
+      "articleNumberNormalized": 39,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 39:\nلا يجوز للوصي مباشرة التصرفات الاتية الا باذن من المحكمة:\nاولا: جميع التصرفات التي من شانها انشاء حق من الحقوق العينية العقارية الاصلية او التبعية او نقله او تغييره او زواله، وكذلك جميع التصرفات المقررة لحق من الحقوق المذكورة.\nثانيا: التصرف في المنقولات او الحقوق الشخصية او الاوراق المالية فيما عدا ما يدخل في اعمال الادارة.\nثالثا: الصلح والتحكيم الا فيما قل عن ماية جنيه مما يتصل باعمال الادارة.\nرابعا: حوالة الحقوق والديون وقبول الحوالة.\nخامسا: استثمار الاموال وتصفيتها.\nسادسا: اقتراض المال واقراضه.\nسابعا: ايجار عقار القاصر لمدة اكثر من ثلاث سنوات في الاراضي الزراعية ولمدة اكثر من سنة في المباني.\nثامنا: ايجار عقار القاصر لمدة تمتد الي ما بعد بلوغه سن الرشد لاكثر من سنة.\nتاسعا: قبول التبرعات المقترنة بشرط او رفضها.\nعاشرا: الانفاق من مال القاصر علي من تجب عليه نفقتهم الا اذا كانت النفقة مقضيا بها بحكم واجب النفاذ.\nحادي عشر: الوفاء الاختياري بالالتزامات التي تكون علي التركة او علي القاصر.\nثاني عشر: رفع الدعاوي الا ما يكون في تاخير رفعه ضرر بالقاصر او ضياع حق له.\nثالث عشر: التنازل عن الحقوق والدعاوي وقبول الاحكام القابلة للطعون العادية والتنازل عن هذه الطعون بعد رفعها ورفع الطعون غير العادية في الاحكام.\nرابع عشر: التنازل عن التامينات واضعافها.\nخامس عشر: ايجار الوصي اموال القاصر لنفسه او لزوجه او لاحد اقاربهما الي الدرجة الرابعة او لمن يكون الوصي نايبا عنه.\nسادس عشر: ما يصرف في تزويج القاصر.\nسابع عشر: تعليم القاصر اذا احتاج للنفقة والانفاق اللازم لمباشرة القاصر مهنة معينة.",
+      "textForEmbedding": "مادة 39:\nلا يجوز للوصي مباشرة التصرفات الاتية الا باذن من المحكمة:\nاولا: جميع التصرفات التي من شانها انشاء حق من الحقوق العينية العقارية الاصلية او التبعية او نقله او تغييره او زواله، وكذلك جميع التصرفات المقررة لحق من الحقوق المذكورة.\nثانيا: التصرف في المنقولات او الحقوق الشخصية او الاوراق المالية فيما عدا ما يدخل في اعمال الادارة.\nثالثا: الصلح والتحكيم الا فيما قل عن ماية جنيه مما يتصل باعمال الادارة.\nرابعا: حوالة الحقوق والديون وقبول الحوالة.\nخامسا: استثمار الاموال وتصفيتها.\nسادسا: اقتراض المال واقراضه.\nسابعا: ايجار عقار القاصر لمدة اكثر من ثلاث سنوات في الاراضي الزراعية ولمدة اكثر من سنة في المباني.\nثامنا: ايجار عقار القاصر لمدة تمتد الي ما بعد بلوغه سن الرشد لاكثر من سنة.\nتاسعا: قبول التبرعات المقترنة بشرط او رفضها.\nعاشرا: الانفاق من مال القاصر علي من تجب عليه نفقتهم الا اذا كانت النفقة مقضيا بها بحكم واجب النفاذ.\nحادي عشر: الوفاء الاختياري بالالتزامات التي تكون علي التركة او علي القاصر.\nثاني عشر: رفع الدعاوي الا ما يكون في تاخير رفعه ضرر بالقاصر او ضياع حق له.\nثالث عشر: التنازل عن الحقوق والدعاوي وقبول الاحكام القابلة للطعون العادية والتنازل عن هذه الطعون بعد رفعها ورفع الطعون غير العادية في الاحكام.\nرابع عشر: التنازل عن التامينات واضعافها.\nخامس عشر: ايجار الوصي اموال القاصر لنفسه او لزوجه او لاحد اقاربهما الي الدرجة الرابعة او لمن يكون الوصي نايبا عنه.\nسادس عشر: ما يصرف في تزويج القاصر.\nسابع عشر: تعليم القاصر اذا احتاج للنفقة والانفاق اللازم لمباشرة القاصر مهنة معينة.",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "pages": [
+        34
+      ],
+      "sourceOrder": 239,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:119-1952:article-39:page-34"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "40",
+      "articleNumberNormalized": 40,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 40 :\nعلي الوصي ان يستاذن المحكمة في قسمة مال القاصر بالتراضي اذا كانت له مصلحة في ذلك فاذا اذنت المحكمة عينت الاسس التي تجري عليها القسمة والاجراءات الواجبة الاتباع ويعرض علي الوصي علي المحكمة عقد القسمة للتثبيت من عدالتها والمحكمة في جميع الاحوال ان تقرر اتخاذ اجراءات القسمة القضايية\nوفي حالة القسمة القضايية تصدق المحكمة الابتدايية علي التي يتبعها محكمة القسمة علي قسمة الاموال الي الحصص\nولهذه المحكمة عند الاقتضاء ان تدعوا الخصوم لسماع اقوالهم في جلسة تحديد لذلك\nواذا رفضت التصديق تعين عليها ان تقسم الاموال الي حصص علي الاسس التي تراها صالحة باعث بعدة دعوي الخصوم .\nويكون مقطع التصديق حتي تصدره المحكمة بوصفها محكمة استينافية بتاكيدون بخصوص الحصص .",
+      "textForEmbedding": "مادة 40 :\nعلي الوصي ان يستاذن المحكمة في قسمة مال القاصر بالتراضي اذا كانت له مصلحة في ذلك فاذا اذنت المحكمة عينت الاسس التي تجري عليها القسمة والاجراءات الواجبة الاتباع ويعرض علي الوصي علي المحكمة عقد القسمة للتثبيت من عدالتها والمحكمة في جميع الاحوال ان تقرر اتخاذ اجراءات القسمة القضايية\nوفي حالة القسمة القضايية تصدق المحكمة الابتدايية علي التي يتبعها محكمة القسمة علي قسمة الاموال الي الحصص\nولهذه المحكمة عند الاقتضاء ان تدعوا الخصوم لسماع اقوالهم في جلسة تحديد لذلك\nواذا رفضت التصديق تعين عليها ان تقسم الاموال الي حصص علي الاسس التي تراها صالحة باعث بعدة دعوي الخصوم .\nويكون مقطع التصديق حتي تصدره المحكمة بوصفها محكمة استينافية بتاكيدون بخصوص الحصص .",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "pages": [
+        34
+      ],
+      "sourceOrder": 240,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:205:34:40"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "41",
+      "articleNumberNormalized": 41,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 41 :\nاذا رعت دعوي علي القاصر او المحجور عليه او الغايب من وارث اخر جاز للمحكمة بناء علي طلب من ينوب عنه او بناء علي طلب النيابة العامة ان توقف القسمة مدة لا تجاوز خمس سنوات اذا ثبت لها ان في التعجيل بها ضررا جسيما .",
+      "textForEmbedding": "مادة 41 :\nاذا رعت دعوي علي القاصر او المحجور عليه او الغايب من وارث اخر جاز للمحكمة بناء علي طلب من ينوب عنه او بناء علي طلب النيابة العامة ان توقف القسمة مدة لا تجاوز خمس سنوات اذا ثبت لها ان في التعجيل بها ضررا جسيما .",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "pages": [
+        34
+      ],
+      "sourceOrder": 241,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:206:34:41"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "42",
+      "articleNumberNormalized": 42,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 42 :\nيجب علي الوصي ان يعرض علي المحكمة بغير تاخر ما يرفع علي القاصر من عدي عادي وما يتخذ قبله من اجراء التنفيذ وبان يتبع في شانها ما تامر به المحكمة .",
+      "textForEmbedding": "مادة 42 :\nيجب علي الوصي ان يعرض علي المحكمة بغير تاخر ما يرفع علي القاصر من عدي عادي وما يتخذ قبله من اجراء التنفيذ وبان يتبع في شانها ما تامر به المحكمة .",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "pages": [
+        34
+      ],
+      "sourceOrder": 242,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:207:34:42"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "43",
+      "articleNumberNormalized": 43,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 43 :\nعلي الوصي ان يودع باسم القاصر احدي خزاين المحكمة او احد المصارف حسبما تصير به المحكمة كل ما يحصله من\nنقد بعد استبعاد النفقة المقررة والمبلغ الذي تقدره المحكمة اجماليا لحساب مصروفات الادارة وذلك خلال خمسة عشر يوما\nمن تاريخ تسلمه .\nولا يجوز ان يسحب شييا من المال المودع الا باذن من المحكمة .",
+      "textForEmbedding": "مادة 43 :\nعلي الوصي ان يودع باسم القاصر احدي خزاين المحكمة او احد المصارف حسبما تصير به المحكمة كل ما يحصله من\nنقد بعد استبعاد النفقة المقررة والمبلغ الذي تقدره المحكمة اجماليا لحساب مصروفات الادارة وذلك خلال خمسة عشر يوما\nمن تاريخ تسلمه .\nولا يجوز ان يسحب شييا من المال المودع الا باذن من المحكمة .",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "pages": [
+        34
+      ],
+      "sourceOrder": 243,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:208:34:43"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "44",
+      "articleNumberNormalized": 44,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 44\nعلي الوصي ان يودع باسم القاصر المصرف الذي تصير به المحكمة ما تري لزوما لاداعة من اوراق مالية ومجوهرات\nومصوغات وغيرها ، وذلك خلال خمسة عشر يوما من تاريخ تسلمها .\nوليس له ان يسحب منها شييا بغير اذا المحكمة .",
+      "textForEmbedding": "مادة 44\nعلي الوصي ان يودع باسم القاصر المصرف الذي تصير به المحكمة ما تري لزوما لاداعة من اوراق مالية ومجوهرات\nومصوغات وغيرها ، وذلك خلال خمسة عشر يوما من تاريخ تسلمها .\nوليس له ان يسحب منها شييا بغير اذا المحكمة .",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 244,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:209:35:44"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "45",
+      "articleNumberNormalized": 45,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 45 :\nعلي الوصي ان يقدم حسابا مويدا بمستندات عن ادارته قبل اول يناير من كل سنة .\nويعين الوصي عند تقديم الحساب السنوي اذا كانت اموال القاصر لا تزيد علي خمسماية جنيه ما لم ترا المحكمة غير\nذاك .\nوفي جميع الاحوال يجب علي الوصي ان يستبدل به غيره ان يقدم حسابا خلال ثلاثون يوما من تاريخ انتهاء وصيته",
+      "textForEmbedding": "مادة 45 :\nعلي الوصي ان يقدم حسابا مويدا بمستندات عن ادارته قبل اول يناير من كل سنة .\nويعين الوصي عند تقديم الحساب السنوي اذا كانت اموال القاصر لا تزيد علي خمسماية جنيه ما لم ترا المحكمة غير\nذاك .\nوفي جميع الاحوال يجب علي الوصي ان يستبدل به غيره ان يقدم حسابا خلال ثلاثون يوما من تاريخ انتهاء وصيته",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 245,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:210:35:45"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "46",
+      "articleNumberNormalized": 46,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 46 :\nتكون الوصية بغير اجر الا اذا رات المحكمة بناء علي طلب الوصي ان تعين له اجرا او تمنحه مكافاة عن عمل معين .",
+      "textForEmbedding": "مادة 46 :\nتكون الوصية بغير اجر الا اذا رات المحكمة بناء علي طلب الوصي ان تعين له اجرا او تمنحه مكافاة عن عمل معين .",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 246,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:211:35:46"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "47",
+      "articleNumberNormalized": 47,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 47 :\nثالثا - في انتهاء الوصية\nتنتهي مهمة الوصي :-\n1- ببلوغ القاصر احدي وعشرين سنة الا اذا تقرر استمرار الوصية علية\n2- بعودة الولاية للولي .\n3- بعزله او قبول استقالته .\n4- بفقد اهليته او ثبوت غيبته او موتة او موت القاصر .",
+      "textForEmbedding": "مادة 47 :\nثالثا - في انتهاء الوصية\nتنتهي مهمة الوصي :-\n1- ببلوغ القاصر احدي وعشرين سنة الا اذا تقرر استمرار الوصية علية\n2- بعودة الولاية للولي .\n3- بعزله او قبول استقالته .\n4- بفقد اهليته او ثبوت غيبته او موتة او موت القاصر .",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 247,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:212:35:47"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "48",
+      "articleNumberNormalized": 48,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 48 :\nاذا توفرت اسباب جديد تدو النظر في عزل الوصي او في قيام عارض من العوارض التي تزيل اهلية المحكمة احكمة بوقفة.",
+      "textForEmbedding": "مادة 48 :\nاذا توفرت اسباب جديد تدو النظر في عزل الوصي او في قيام عارض من العوارض التي تزيل اهلية المحكمة احكمة بوقفة.",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 248,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:213:35:48"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "49",
+      "articleNumberNormalized": 49,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 49\nيحكم بعزل الوصي في الحالات الاتية .\n1- اذا قام به سبب من اسباب عدم الصلاحية للوصية وفقالمادة 27 ولو كان هذا السبب قام فتا سبب تعيينه .\n2- اذا اساء الادارة او اهمال فيها اساء الادارة او اهمال فيها او اصبح فيها او اصبح في بقايه خطر علي مصلحة القاصر .",
+      "textForEmbedding": "مادة 49\nيحكم بعزل الوصي في الحالات الاتية .\n1- اذا قام به سبب من اسباب عدم الصلاحية للوصية وفقالمادة 27 ولو كان هذا السبب قام فتا سبب تعيينه .\n2- اذا اساء الادارة او اهمال فيها اساء الادارة او اهمال فيها او اصبح فيها او اصبح في بقايه خطر علي مصلحة القاصر .",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 249,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:214:35:49"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "50",
+      "articleNumberNormalized": 50,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 50 :\nعلي الوصي خلال الثلاثين يوما التالية لانتهاء الوصاية ان تسلم الاموال التي في عهدته بمحضر الي القاصرمن بلغ م\nالرشد او الي ورثته او الي الولي او الوصي او الوصي الموقت علي حسب الحول الكتاب في الميعاد\nالمذكور صورة من الحساب ومحضر تسليم الاموال .",
+      "textForEmbedding": "مادة 50 :\nعلي الوصي خلال الثلاثين يوما التالية لانتهاء الوصاية ان تسلم الاموال التي في عهدته بمحضر الي القاصرمن بلغ م\nالرشد او الي ورثته او الي الولي او الوصي او الوصي الموقت علي حسب الحول الكتاب في الميعاد\nالمذكور صورة من الحساب ومحضر تسليم الاموال .",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 250,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:215:35:50"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "51",
+      "articleNumberNormalized": 51,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 51 :\nاذا مات الوصي او حجر عليه او عتب غايبا التزم ورثته او من ينوب عنه علي حسب الاحوال شمول اموال القاصر وتقدم الحاسب",
+      "textForEmbedding": "مادة 51 :\nاذا مات الوصي او حجر عليه او عتب غايبا التزم ورثته او من ينوب عنه علي حسب الاحوال شمول اموال القاصر وتقدم الحاسب",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "pages": [
+        35
+      ],
+      "sourceOrder": 251,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:216:35:51"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "52",
+      "articleNumberNormalized": 52,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 52 :\nيكون قابلا للابطال كل تعهد او مخالصة تصدر لمصلحة الوصي ممن كان في وصايته وبلغ من الرشد اذا صدرت المخالصة او التعهد خلال سنة من تاريخ تقديم الحساب المشار اليه في المادة 45 .",
+      "textForEmbedding": "مادة 52 :\nيكون قابلا للابطال كل تعهد او مخالصة تصدر لمصلحة الوصي ممن كان في وصايته وبلغ من الرشد اذا صدرت المخالصة او التعهد خلال سنة من تاريخ تقديم الحساب المشار اليه في المادة 45 .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 252,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:217:36:52"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "53",
+      "articleNumberNormalized": 53,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 53 :\n1- كل دعوي للقاصر علي وصية او للمحجور عليه علي قيمة تكون متعلقة بامر الوصاية او القوامة تسقط بمضي خمس سنوات من تاريخ بلوغ القاصر بن الرشد او رفع الحجر او موت القاصر او المحجور عليه .\n2- ومع ذلك فان انتهت الوصية او القوامة بالعزل او بالاستقالة او موت فلا تبدا مدة التقادم المذكورة الا من تاريخ تقديم الحساب الخاص بالوصاية او القوامة .",
+      "textForEmbedding": "مادة 53 :\n1- كل دعوي للقاصر علي وصية او للمحجور عليه علي قيمة تكون متعلقة بامر الوصاية او القوامة تسقط بمضي خمس سنوات من تاريخ بلوغ القاصر بن الرشد او رفع الحجر او موت القاصر او المحجور عليه .\n2- ومع ذلك فان انتهت الوصية او القوامة بالعزل او بالاستقالة او موت فلا تبدا مدة التقادم المذكورة الا من تاريخ تقديم الحساب الخاص بالوصاية او القوامة .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 253,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:218:36:53"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "54",
+      "articleNumberNormalized": 54,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 54 :\nيولي الان بان القاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها وتكون بذلك يشهد لدي الموثق وله ان يسبب هذا الاذن او يجمدن بشهاده اخر مع مرااة حكم المادة 1027 من قانون المرافعات .",
+      "textForEmbedding": "مادة 54 :\nيولي الان بان القاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها وتكون بذلك يشهد لدي الموثق وله ان يسبب هذا الاذن او يجمدن بشهاده اخر مع مرااة حكم المادة 1027 من قانون المرافعات .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 254,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:219:36:54"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "55",
+      "articleNumberNormalized": 55,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 55 :\nيجوز للمحكمة بعد سماع اقوال الوصي ان تاذن للقاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها واذا رفضت المحكمة الاذن فلا يجوز تجديد طلبه قبل مضي سنة من تاريخ صدور القرار النهايي بالرفض .",
+      "textForEmbedding": "مادة 55 :\nيجوز للمحكمة بعد سماع اقوال الوصي ان تاذن للقاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها واذا رفضت المحكمة الاذن فلا يجوز تجديد طلبه قبل مضي سنة من تاريخ صدور القرار النهايي بالرفض .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 255,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:220:36:55"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "56",
+      "articleNumberNormalized": 56,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 56 :\nللقاصر الموذن له ان يباشر اعمال الادارة وله ان يثبت ووفي الديون المتولية علي هذه الاموال ولكن لا يجوز له ان يوجر الارض الزراعية والاملاك لمدة تزيد علي سنة ولا ان يثبت ديون خاص من المحكمة او من الوصي فيما يملكه من ذلك .\nولا يجوز للقاصر ان يتصرف في صفيه دخله الا بالقدر اللازم لسد نفاقته ومن نفقتهم قانون .",
+      "textForEmbedding": "مادة 56 :\nللقاصر الموذن له ان يباشر اعمال الادارة وله ان يثبت ووفي الديون المتولية علي هذه الاموال ولكن لا يجوز له ان يوجر الارض الزراعية والاملاك لمدة تزيد علي سنة ولا ان يثبت ديون خاص من المحكمة او من الوصي فيما يملكه من ذلك .\nولا يجوز للقاصر ان يتصرف في صفيه دخله الا بالقدر اللازم لسد نفاقته ومن نفقتهم قانون .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 256,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:221:36:56"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "57",
+      "articleNumberNormalized": 57,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 57 :\nلا يجوز للقاصر سواء كان مشمولا بالولاية او بالوصاية ان يتجر الا اذا بلغ الثامنة عشرة وعذنت المحكمة في ذلك مطلقا مفيدا او مفيدا .",
+      "textForEmbedding": "مادة 57 :\nلا يجوز للقاصر سواء كان مشمولا بالولاية او بالوصاية ان يتجر الا اذا بلغ الثامنة عشرة وعذنت المحكمة في ذلك مطلقا مفيدا او مفيدا .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 257,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:222:36:57"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "58",
+      "articleNumberNormalized": 58,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 58 :\nعلي الماذون له في الادارة يقدم حسابا سنويا يودع نظر الفي يوخذ راي الوصي وللمحكمة ان تامر ביاداف المتوفر ي من دخله خزان الحكومة او احد المصارف ولا يجوز له سحب شيء منه الا باذن منها .",
+      "textForEmbedding": "مادة 58 :\nعلي الماذون له في الادارة يقدم حسابا سنويا يودع نظر الفي يوخذ راي الوصي وللمحكمة ان تامر ביاداف المتوفر ي من دخله خزان الحكومة او احد المصارف ولا يجوز له سحب شيء منه الا باذن منها .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 258,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:223:36:58"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "59",
+      "articleNumberNormalized": 59,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 59 :\nاذا قصر الماذون له في الادارة فيتقيد ما قضت به المحكمة السابقة او اساس التصرف في ادارته او كتب اسباب يخشي منها من بقاء الاموال في يده جاز للمحكمة من تلقاء نفسها او بناء علي طلب النيابة العامة او احد ذوي الشان ان تحد من الاذن او تسلب القاصر اباء بعد سماع اقواله .",
+      "textForEmbedding": "مادة 59 :\nاذا قصر الماذون له في الادارة فيتقيد ما قضت به المحكمة السابقة او اساس التصرف في ادارته او كتب اسباب يخشي منها من بقاء الاموال في يده جاز للمحكمة من تلقاء نفسها او بناء علي طلب النيابة العامة او احد ذوي الشان ان تحد من الاذن او تسلب القاصر اباء بعد سماع اقواله .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 259,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:224:36:59"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "60",
+      "articleNumberNormalized": 60,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 60 :\nاذا اذنت المحكمة فيجوز القاصر الذي له نال ذلك نال ذلك له في التصرف في المهر والنفقة مالم تامر المحكمة بغير ذلك عند الاذن او في قرار لا حق .",
+      "textForEmbedding": "مادة 60 :\nاذا اذنت المحكمة فيجوز القاصر الذي له نال ذلك نال ذلك له في التصرف في المهر والنفقة مالم تامر المحكمة بغير ذلك عند الاذن او في قرار لا حق .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 260,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:225:36:60"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "61",
+      "articleNumberNormalized": 61,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 61 :\nللقاصر اهلية التصرف فيما يسلم له او يوضع تحت تصرفه عادة من مال لاغراض نفقته ويصبح التزامه المتعلق بهذه الاغراض يحدود هذا المال فقط .",
+      "textForEmbedding": "مادة 61 :\nللقاصر اهلية التصرف فيما يسلم له او يوضع تحت تصرفه عادة من مال لاغراض نفقته ويصبح التزامه المتعلق بهذه الاغراض يحدود هذا المال فقط .",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "pages": [
+        36
+      ],
+      "sourceOrder": 261,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:226:36:61"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "62",
+      "articleNumberNormalized": 62,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 62 :\nللقاصر ان يبرم عقد العمل الفردي وفقا لاحكام القانون وللمحكمة بناء علي طلب الوصي او ذي الشان انهاء هذا العقد رعاية لمصلحة القاصر او مستقبلة او المصلحة اخري ظاهرة .",
+      "textForEmbedding": "مادة 62 :\nللقاصر ان يبرم عقد العمل الفردي وفقا لاحكام القانون وللمحكمة بناء علي طلب الوصي او ذي الشان انهاء هذا العقد رعاية لمصلحة القاصر او مستقبلة او المصلحة اخري ظاهرة .",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 262,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:227:37:62"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "63",
+      "articleNumberNormalized": 63,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 63 :\nيكون القاصر الذي بلغ السادسة عشر اهلا للتصرف فيما يكسبه من عملة من اجر او غيره ولا يجوز ان يتعدي اثر التزام القاصر حضور المال الذي يكسبه من مهنته او صناعته .\nومع ذلك فللمحكمة اذا اقتضت المصلحة ان تقيد حق القاصر الفاتصرف في كال المذكور وعنديذ تجري احكام الولاية والوصاية .",
+      "textForEmbedding": "مادة 63 :\nيكون القاصر الذي بلغ السادسة عشر اهلا للتصرف فيما يكسبه من عملة من اجر او غيره ولا يجوز ان يتعدي اثر التزام القاصر حضور المال الذي يكسبه من مهنته او صناعته .\nومع ذلك فللمحكمة اذا اقتضت المصلحة ان تقيد حق القاصر الفاتصرف في كال المذكور وعنديذ تجري احكام الولاية والوصاية .",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 263,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:228:37:63"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "64",
+      "articleNumberNormalized": 64,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني في الوصية",
+      "text": "مادة 64 :\nيعتبر القاصر الماذون من قبل وليه او المحكمة او نص القانون كامل الاهلية فيما اذن له فيه وفي التقاضي فيه .\nالباب الثاني\nفي الحجر والمساعدة القضايية والغيبية\nالفصل الاول في الحجر",
+      "textForEmbedding": "مادة 64 :\nيعتبر القاصر الماذون من قبل وليه او المحكمة او نص القانون كامل الاهلية فيما اذن له فيه وفي التقاضي فيه .\nالباب الثاني\nفي الحجر والمساعدة القضايية والغيبية\nالفصل الاول في الحجر",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 264,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:229:37:64"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "65",
+      "articleNumberNormalized": 65,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الحجر",
+      "text": "مادة 65 :\nيحكم بالحجر علي البالغ بالجنون او بالعتة او للسفه او للغفلة ولا يرفع الحجرالا بحكم وتقييم المحكمة علي من يحجر عليه فيما لادارة امواله وفقا للاحكام المقررة في هذا القانون .",
+      "textForEmbedding": "مادة 65 :\nيحكم بالحجر علي البالغ بالجنون او بالعتة او للسفه او للغفلة ولا يرفع الحجرالا بحكم وتقييم المحكمة علي من يحجر عليه فيما لادارة امواله وفقا للاحكام المقررة في هذا القانون .",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 265,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:230:37:65"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "66",
+      "articleNumberNormalized": 66,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الحجر",
+      "text": "مادة 66 :\nالنفقات اللازمة للعناية بالمحجوزعليه مقدمة مقدمة علي ما عداها ز",
+      "textForEmbedding": "مادة 66 :\nالنفقات اللازمة للعناية بالمحجوزعليه مقدمة مقدمة علي ما عداها ز",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 266,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:231:37:66"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "67",
+      "articleNumberNormalized": 67,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الحجر",
+      "text": "مادة 67 :\nيجوز للمحجوز عليه للسفه او للغفلة باذن من المحكمة ان يتم استهلاك امواله كلها او بعضها لادرتها وفي هذه الحالة تسري عليه الاحكام التي تسري فيشان القاصر الماذون .",
+      "textForEmbedding": "مادة 67 :\nيجوز للمحجوز عليه للسفه او للغفلة باذن من المحكمة ان يتم استهلاك امواله كلها او بعضها لادرتها وفي هذه الحالة تسري عليه الاحكام التي تسري فيشان القاصر الماذون .",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 267,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:232:37:67"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "68",
+      "articleNumberNormalized": 68,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الحجر",
+      "text": "مادة 68 :\nتكون القوامة للابن البالغ ثم للاب ثم للجد ثم لمن تختار المحكمة .",
+      "textForEmbedding": "مادة 68 :\nتكون القوامة للابن البالغ ثم للاب ثم للجد ثم لمن تختار المحكمة .",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 268,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:233:37:68"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "69",
+      "articleNumberNormalized": 69,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول في الحجر",
+      "text": "مادة 69 :\nيشترط في القيم ما يشترط في الوصي وفقا للمادة 27 ومع ذلك لا يحول قيام احد السببين المنصوص عليهما في البندين 1 ، 4 من المادة المذكورة دون تعيين الابن او الاب او الجد اذا رات المحكمة مصلحة في ذلك .\nالفصل الثاني\nفي المساعدة القضايية",
+      "textForEmbedding": "مادة 69 :\nيشترط في القيم ما يشترط في الوصي وفقا للمادة 27 ومع ذلك لا يحول قيام احد السببين المنصوص عليهما في البندين 1 ، 4 من المادة المذكورة دون تعيين الابن او الاب او الجد اذا رات المحكمة مصلحة في ذلك .\nالفصل الثاني\nفي المساعدة القضايية",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 269,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:234:37:69"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "70",
+      "articleNumberNormalized": 70,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني",
+      "text": "مادة 70 :\nاذا كان لشخص اصم ابكم او بكم او اعمي اصم ابكم اكثر من ذلك التعبير عن ارادته جاز للمحكمة ان تعين له مساعدا قضاييا يعاونه في التصرفات النصوص عليها في المادة 39 :\nويجوز لها ذلك ايضا اذا كان يخشي من انفراد الشخص بمباشرة التصرف في ماله بسبب عجز جسماني شديد .",
+      "textForEmbedding": "مادة 70 :\nاذا كان لشخص اصم ابكم او بكم او اعمي اصم ابكم اكثر من ذلك التعبير عن ارادته جاز للمحكمة ان تعين له مساعدا قضاييا يعاونه في التصرفات النصوص عليها في المادة 39 :\nويجوز لها ذلك ايضا اذا كان يخشي من انفراد الشخص بمباشرة التصرف في ماله بسبب عجز جسماني شديد .",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "pages": [
+        37
+      ],
+      "sourceOrder": 270,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:235:37:70"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "71",
+      "articleNumberNormalized": 71,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني",
+      "text": "مادة 71 :\nيشترك المساعد القضايي في التصرفات المشار اليها في المادة السابقة واذا امتنع عن الاشتراك في تصرف جاز رفع الامر للمحكمة فان رات ان الامتناع في غير محله عينت من خبر محله عينت شخصا اخر للمساعدة في ابرامه او ابرامه وفقا للتوجيهات التي تبينها في قرارها .\nواذا كان عدم قيام الشخص الذي تقررت مساعدته قضاييا بتصرف معين يعرض امواله للخطر جاز المساعدة ورفع الامر الي المحكمة ولها ان تامر بعد تحقق بانفراد المساعد باجراء هذا التصرف .",
+      "textForEmbedding": "مادة 71 :\nيشترك المساعد القضايي في التصرفات المشار اليها في المادة السابقة واذا امتنع عن الاشتراك في تصرف جاز رفع الامر للمحكمة فان رات ان الامتناع في غير محله عينت من خبر محله عينت شخصا اخر للمساعدة في ابرامه او ابرامه وفقا للتوجيهات التي تبينها في قرارها .\nواذا كان عدم قيام الشخص الذي تقررت مساعدته قضاييا بتصرف معين يعرض امواله للخطر جاز المساعدة ورفع الامر الي المحكمة ولها ان تامر بعد تحقق بانفراد المساعد باجراء هذا التصرف .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 271,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:236:38:71"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "72",
+      "articleNumberNormalized": 72,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني",
+      "text": "مادة 72 :\nيسري علي المساعد القضايي حكم المادة 50 من هذا القانون .",
+      "textForEmbedding": "مادة 72 :\nيسري علي المساعد القضايي حكم المادة 50 من هذا القانون .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 272,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:237:38:72"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "73",
+      "articleNumberNormalized": 73,
+      "articleSuffix": null,
+      "chapter": "الفصل الثاني",
+      "text": "مادة 73 :\nيعتبر المساعد القضايي في حكم النايب في تطبيق احكام المواد 108 , 382 , 479 من القانون المدني\nالفصل الثالث . في الغيبه .",
+      "textForEmbedding": "مادة 73 :\nيعتبر المساعد القضايي في حكم النايب في تطبيق احكام المواد 108 , 382 , 479 من القانون المدني\nالفصل الثالث . في الغيبه .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 273,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:238:38:73"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "74",
+      "articleNumberNormalized": 74,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الغيبه .",
+      "text": "مادة 74 :\nتقيم المحكمة وكيلا عن الغايب كامل الاهلية في الاحوال الاتية :\nمتي كان قد انقضت مدة سنة او اكثر علي غيابه وترتب علي ذلك تعطيل مصالحة.\nاولا : اذا كان مفقودا لا تعرف حياته او مماته .\nثانيا : اذا لم يكن له محل اقامه ولا موطن معلوم موطن معلوم او كان له محل اقامة او موطن معلوم خارج المملكة المصرية . واستحال عليه ان يتولي شيونه بنفسه او ان يشرف علي من بينبه في ادارتها .",
+      "textForEmbedding": "مادة 74 :\nتقيم المحكمة وكيلا عن الغايب كامل الاهلية في الاحوال الاتية :\nمتي كان قد انقضت مدة سنة او اكثر علي غيابه وترتب علي ذلك تعطيل مصالحة.\nاولا : اذا كان مفقودا لا تعرف حياته او مماته .\nثانيا : اذا لم يكن له محل اقامه ولا موطن معلوم موطن معلوم او كان له محل اقامة او موطن معلوم خارج المملكة المصرية . واستحال عليه ان يتولي شيونه بنفسه او ان يشرف علي من بينبه في ادارتها .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 274,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:239:38:74"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "75",
+      "articleNumberNormalized": 75,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الغيبه .",
+      "text": "مادة 75 :\nاذا رات الغايب وكيلا عاما حكم المحكمة بتعيينه متي توافرات فيه الشروط الواجب توافرها في الوصي ولا عينت غيره .",
+      "textForEmbedding": "مادة 75 :\nاذا رات الغايب وكيلا عاما حكم المحكمة بتعيينه متي توافرات فيه الشروط الواجب توافرها في الوصي ولا عينت غيره .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 275,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:240:38:75"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "76",
+      "articleNumberNormalized": 76,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الغيبه .",
+      "text": "مادة 76 :\nتنتهي الغيبة بزوال سببها او بموت الغايب او بالحكم من جهة الاحوال الشخصية المختصة باعتباره ميتا .\nالباب الثالث . احكام عامة\nالفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "textForEmbedding": "مادة 76 :\nتنتهي الغيبة بزوال سببها او بموت الغايب او بالحكم من جهة الاحوال الشخصية المختصة باعتباره ميتا .\nالباب الثالث . احكام عامة\nالفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 276,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:241:38:76"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "77",
+      "articleNumberNormalized": 77,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "text": "مادة 77 :\nتحسب المدد المنصوص عليها في هذا القانون بالتقويم الميلادي .",
+      "textForEmbedding": "مادة 77 :\nتحسب المدد المنصوص عليها في هذا القانون بالتقويم الميلادي .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 277,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:242:38:77"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "78",
+      "articleNumberNormalized": 78,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "text": "مادة 78 :\nيسري علي القوامة والوكالة علي الغايبين الاحكام المقررة في شان الوصايه علي القصر ويسري علي القوامة والوكلاء عن الغايبين الاحكام المقررة في شان الاوصياء .",
+      "textForEmbedding": "مادة 78 :\nيسري علي القوامة والوكالة علي الغايبين الاحكام المقررة في شان الوصايه علي القصر ويسري علي القوامة والوكلاء عن الغايبين الاحكام المقررة في شان الاوصياء .",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 278,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:243:38:78"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "79",
+      "articleNumberNormalized": 79,
+      "articleSuffix": null,
+      "chapter": "الفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "text": "مادة 79 :\nيسري في شان قسمة مال الغايب والمحجور عليه ما يسري في شان قسمة القاصر من احكام .\nالفصل الثاني . في المشرف",
+      "textForEmbedding": "مادة 79 :\nيسري في شان قسمة مال الغايب والمحجور عليه ما يسري في شان قسمة القاصر من احكام .\nالفصل الثاني . في المشرف",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "pages": [
+        38
+      ],
+      "sourceOrder": 279,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:244:38:79"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "80",
+      "articleNumberNormalized": 80,
+      "articleSuffix": null,
+      "chapter": "الفصل الثانى . في المشرف",
+      "text": "مادة 80 :\nيجوز تعيين مشرف مع الموصي مع الموصي ولو كان مختارا كذلك مع القيم الوكيل عن الغايب .",
+      "textForEmbedding": "مادة 80 :\nيجوز تعيين مشرف مع الموصي مع الموصي ولو كان مختارا كذلك مع القيم الوكيل عن الغايب .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 280,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:245:39:80"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "81",
+      "articleNumberNormalized": 81,
+      "articleSuffix": null,
+      "chapter": "الفصل الثانى . في المشرف",
+      "text": "مادة 81 :\nيراقب المشرف النايب عن عديم الاهلية او الوكيل عن الغايب في ادارته وعليه ابلاغ المحكمة او النيابة كل امر تقتضي المصلحة رفعه بهما .\nوعلي النايب او الوكيل اجابة المشرفين الي كل ما يطلبه من ايضاح عن ادارة الاموال وتمكينه من فحص الاوراق والمستندات الخاصة بهذه الاموال .\nويجب علي المشرف اذا كلا مكان النايب او الوكيل ام بطلب الي المحكمة اقامة النايب او وكيل جديد والي ان يباشر هذا عمله يقوم المشرف من تلقاء نفسه بالاعمال التي يكون من تاجيلها ضرر .",
+      "textForEmbedding": "مادة 81 :\nيراقب المشرف النايب عن عديم الاهلية او الوكيل عن الغايب في ادارته وعليه ابلاغ المحكمة او النيابة كل امر تقتضي المصلحة رفعه بهما .\nوعلي النايب او الوكيل اجابة المشرفين الي كل ما يطلبه من ايضاح عن ادارة الاموال وتمكينه من فحص الاوراق والمستندات الخاصة بهذه الاموال .\nويجب علي المشرف اذا كلا مكان النايب او الوكيل ام بطلب الي المحكمة اقامة النايب او وكيل جديد والي ان يباشر هذا عمله يقوم المشرف من تلقاء نفسه بالاعمال التي يكون من تاجيلها ضرر .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 281,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:246:39:81"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "82",
+      "articleNumberNormalized": 82,
+      "articleSuffix": null,
+      "chapter": "الفصل الثانى . في المشرف",
+      "text": "مادة 82 :\nيسري علي المشرف فيما يستعمل بتعيينه وعزله وقبول استقالته واجره عن اعماله ومسيوليتة عن تقصيره ما يسري من احكام علي النايب او الوكيل علي حسب الاحوال .",
+      "textForEmbedding": "مادة 82 :\nيسري علي المشرف فيما يستعمل بتعيينه وعزله وقبول استقالته واجره عن اعماله ومسيوليتة عن تقصيره ما يسري من احكام علي النايب او الوكيل علي حسب الاحوال .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 282,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:247:39:82"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "83",
+      "articleNumberNormalized": 83,
+      "articleSuffix": null,
+      "chapter": "الفصل الثانى . في المشرف",
+      "text": "مادة 83 :\nتقرر المحكمة انتهاء الاشراف اذا رات زوال داعيه .\nالفصل الثالث . في الجزاءات",
+      "textForEmbedding": "مادة 83 :\nتقرر المحكمة انتهاء الاشراف اذا رات زوال داعيه .\nالفصل الثالث . في الجزاءات",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 283,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:248:39:83"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "84",
+      "articleNumberNormalized": 84,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الجزاءات",
+      "text": "مادة 84 :\nاذا قصر الوصي في الواجبات المفروضة عليه بمقتضي هذا القانون او وقف تنفيذ القرارات التي تصدرها المحكمة جاز لها ان تحكم عليه بغرامة لا تزيد علي ماية جنية جنيهه وجزاوه من اجره كله او بعضه وببعضه وباحده هذه الجزاءات .\nويجوز للمحكمة ان تمنح القاصر هذه الغرامة او جزءه منها . ويجوز اعفاء الوصي من الجزاء المالي كله او بعضه اذا نفذ الامر الذي ترتب عليه الحكم او قدم اعتذارا تقبلا المحكمة .",
+      "textForEmbedding": "مادة 84 :\nاذا قصر الوصي في الواجبات المفروضة عليه بمقتضي هذا القانون او وقف تنفيذ القرارات التي تصدرها المحكمة جاز لها ان تحكم عليه بغرامة لا تزيد علي ماية جنية جنيهه وجزاوه من اجره كله او بعضه وببعضه وباحده هذه الجزاءات .\nويجوز للمحكمة ان تمنح القاصر هذه الغرامة او جزءه منها . ويجوز اعفاء الوصي من الجزاء المالي كله او بعضه اذا نفذ الامر الذي ترتب عليه الحكم او قدم اعتذارا تقبلا المحكمة .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 284,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:249:39:84"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "85",
+      "articleNumberNormalized": 85,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الجزاءات",
+      "text": "مادة 85 :\nاذا نفذ علي ممتلكات النايب المحكوم عليه بالغرامة ثم صدر حكم باقالته منها فلا حق له الا في استرداد ماحصل من التنفيذ . اما اذا رسا المزاد علي قيم الكتاب الفلا يكون للمحكوم عليه الا استرداد العين بعد دفع مصروفات التنفيذ ما لم يكن هناك مانع فاذا وجد فلا يكون له استرداد العين الذي رسا به المزاد علي قيم الكتاب بعد خصم كامل المصرفات .",
+      "textForEmbedding": "مادة 85 :\nاذا نفذ علي ممتلكات النايب المحكوم عليه بالغرامة ثم صدر حكم باقالته منها فلا حق له الا في استرداد ماحصل من التنفيذ . اما اذا رسا المزاد علي قيم الكتاب الفلا يكون للمحكوم عليه الا استرداد العين بعد دفع مصروفات التنفيذ ما لم يكن هناك مانع فاذا وجد فلا يكون له استرداد العين الذي رسا به المزاد علي قيم الكتاب بعد خصم كامل المصرفات .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 285,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:250:39:85"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "86",
+      "articleNumberNormalized": 86,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الجزاءات",
+      "text": "مادة 86 :\nاذا اخل النايب بواجب من الواجبات المفروضه عليه بمقتضي هذا القانون كان مسيولا عما يلحق القاصر من ضرر بسبب ذلك وعلي كل حال بسال مسيوليته الوكيل باجر .",
+      "textForEmbedding": "مادة 86 :\nاذا اخل النايب بواجب من الواجبات المفروضه عليه بمقتضي هذا القانون كان مسيولا عما يلحق القاصر من ضرر بسبب ذلك وعلي كل حال بسال مسيوليته الوكيل باجر .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 286,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:251:39:86"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "87",
+      "articleNumberNormalized": 87,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الجزاءات",
+      "text": "مادة 87 :\nسري احكام المواد السابقة علي القيم والمساعد القضايي والوكيل عن الغايب والوصي الخاص والوصي الموقت .",
+      "textForEmbedding": "مادة 87 :\nسري احكام المواد السابقة علي القيم والمساعد القضايي والوكيل عن الغايب والوصي الخاص والوصي الموقت .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 287,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:252:39:87"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-property-decree-119-1952",
+      "lawName": "guardianship",
+      "lawNumber": "119",
+      "year": "1952",
+      "articleNumber": "88",
+      "articleNumberNormalized": 88,
+      "articleSuffix": null,
+      "chapter": "الفصل الثالث . في الجزاءات",
+      "text": "مادة 88 :\nيعاقب بالحبس مدة لا تتجاوز سنه وبغرامة لا تزيد علي ماية جنيه او باحدي هاتين العقوبتين كل وصي او قيم او وكيل انتهت نيابته اذا كان بقصد الاساءة قد امتنع عن تسليم اموال القاصر او المحجوز عليه او الغايب او اوراقه لمن حل محله من الوصية او القوامة او الوكالة وذلك ما لم ينص القانون علي عقوبة اشد .\nقانون رقم 1 لسنة 2000 م\nباصدار قانون تنظيم بعض اوضاع واجراءات\nالتقاضي في مسايل الاحوال الشخصية\nباسم الشعب\nرييس الجمهورية\nقرار مجلس الشعب القانون الاتي نصه ، وقد اصدرناه :\nالمادة الاولي :\nشرع احكام القانون المرفق علي اجراءات التقاضي في مسايل الاحوال الشخصية والوقف ويطبق فيما لم يرد بشانه نص خاص فيما يخفي احكام قانون المرافعات المدنية والتجاريه واحكام قانون الاباثات في المواد المدنيه والتجاريه واحكام القانون المدني في شان ادارة وتصفية التركات .\nويختص قاضي الاموال الوقتية بالمحكمة الابتداييه دون غيره باصدار امر علي عريضة في مسايل الاحوال الشخصية الاتيه :\n1- التظلم من الامتناع المرفق عن توثيق عقد الزواج اوعدم اعطاء شهادة مشتهي مشتته للامتناع سواء للمصريين او الاجانب\n2- مد ميعاد جرد التركة بقدر ما يلزم لتمام جرد واذا كان القانون الواجب التطبيق حد ميعادا له\n3- اتخاذ ما يراه لازما من الاجراءات التخطيطيه او الوقتيه علي التركات التي لا يوجد فيها عديم اهليه او ناقصها او غايب\n4- غالاندين للنيابة العامة في نقل النقود والاوراق المالية والمستندات والصنوغات وغيرها مما يخص عليه عليه من اموال عديمي الاهليه او ناقصيها والغيبين الي خزانة احد المصارف او مكان امين .\n5- المنازعات حول السفر الي الخارج بعد سماع لقول نوع الشان .\nالمادة الثانيه\nعلي المحاكم ان تحيل بدون رسوم ومن تلقاء نفسها ما يوجد لديها من دعاوي اصبحت بمقتضي احكام القانون المرفق من اختصاص محاكم اخري وذلك بالحالة التي يكون عليها ، فلي حالة غياب احد الخصوم يقوم الفل الكتاب باعلانه بامير الاحاله مع تكليفه بالحضور في الميعاد امام المحكمة التي احيلت اليها الدعوي .\nولا تسري احكام الفقرة السابقة علي الدعاوي المحكوم فيها او الدعاوي الموجلة للنطق بالحكم فيها فتبقي خاضعة للنصوص السارية قبل العمل بهذا القانون .",
+      "textForEmbedding": "مادة 88 :\nيعاقب بالحبس مدة لا تتجاوز سنه وبغرامة لا تزيد علي ماية جنيه او باحدي هاتين العقوبتين كل وصي او قيم او وكيل انتهت نيابته اذا كان بقصد الاساءة قد امتنع عن تسليم اموال القاصر او المحجوز عليه او الغايب او اوراقه لمن حل محله من الوصية او القوامة او الوكالة وذلك ما لم ينص القانون علي عقوبة اشد .\nقانون رقم 1 لسنة 2000 م\nباصدار قانون تنظيم بعض اوضاع واجراءات\nالتقاضي في مسايل الاحوال الشخصية\nباسم الشعب\nرييس الجمهورية\nقرار مجلس الشعب القانون الاتي نصه ، وقد اصدرناه :\nالمادة الاولي :\nشرع احكام القانون المرفق علي اجراءات التقاضي في مسايل الاحوال الشخصية والوقف ويطبق فيما لم يرد بشانه نص خاص فيما يخفي احكام قانون المرافعات المدنية والتجاريه واحكام قانون الاباثات في المواد المدنيه والتجاريه واحكام القانون المدني في شان ادارة وتصفية التركات .\nويختص قاضي الاموال الوقتية بالمحكمة الابتداييه دون غيره باصدار امر علي عريضة في مسايل الاحوال الشخصية الاتيه :\n1- التظلم من الامتناع المرفق عن توثيق عقد الزواج اوعدم اعطاء شهادة مشتهي مشتته للامتناع سواء للمصريين او الاجانب\n2- مد ميعاد جرد التركة بقدر ما يلزم لتمام جرد واذا كان القانون الواجب التطبيق حد ميعادا له\n3- اتخاذ ما يراه لازما من الاجراءات التخطيطيه او الوقتيه علي التركات التي لا يوجد فيها عديم اهليه او ناقصها او غايب\n4- غالاندين للنيابة العامة في نقل النقود والاوراق المالية والمستندات والصنوغات وغيرها مما يخص عليه عليه من اموال عديمي الاهليه او ناقصيها والغيبين الي خزانة احد المصارف او مكان امين .\n5- المنازعات حول السفر الي الخارج بعد سماع لقول نوع الشان .\nالمادة الثانيه\nعلي المحاكم ان تحيل بدون رسوم ومن تلقاء نفسها ما يوجد لديها من دعاوي اصبحت بمقتضي احكام القانون المرفق من اختصاص محاكم اخري وذلك بالحالة التي يكون عليها ، فلي حالة غياب احد الخصوم يقوم الفل الكتاب باعلانه بامير الاحاله مع تكليفه بالحضور في الميعاد امام المحكمة التي احيلت اليها الدعوي .\nولا تسري احكام الفقرة السابقة علي الدعاوي المحكوم فيها او الدعاوي الموجلة للنطق بالحكم فيها فتبقي خاضعة للنصوص السارية قبل العمل بهذا القانون .",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "pages": [
+        39
+      ],
+      "sourceOrder": 288,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:253:39:88"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    }
+  ],
+  "coverage": {
+    "pdfPageCount": 66,
+    "articleAnchorCount": 410,
+    "qwenRecordCount": 390,
+    "pdfOnlyArticleCount": 0,
+    "pdfRecoveredArticleCount": 0,
+    "missingArticleNumbers": [],
+    "suspiciousArticleCount": 45
+  },
+  "validation": {
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "8",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "9",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "10",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "11",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "12",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "13",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "15",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "16",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "18",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "19",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "20",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "21",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "28",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "29",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "30",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "31",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "32",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "33",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "34",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "35",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "36",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "37",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "38",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "39",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "guardianship-property-decree-119-1952|1 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "1",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "guardianship-property-decree-119-1952|2 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "2",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      },
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "guardianship-property-decree-119-1952|3 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "3",
+        "instrumentId": "guardianship-property-decree-119-1952"
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 45,
+      "infos": 12,
+      "articleCount": 426,
+      "qwenRecordCount": 390,
+      "recoveryRecordCount": 50,
+      "suspiciousMergeCount": 0,
+      "missingArticleNumberCount": 0
+    }
+  }
+}

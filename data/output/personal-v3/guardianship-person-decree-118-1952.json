@@ -1,0 +1,464 @@
+{
+  "metadata": {
+    "parserVersion": "3.3.0",
+    "inputFile": "personal_affair_law_qwen_output.json",
+    "pdfFile": "personal-src.pdf",
+    "generatedAt": "2026-09-03T10:34:13.040Z",
+    "recordCountOriginal": 390,
+    "recordCountRecovery": 50,
+    "recordCountMerged": 440,
+    "pdfRecoveryArticleCount": 0,
+    "instrumentId": "guardianship-person-decree-118-1952",
+    "mode": "qwen+pdf"
+  },
+  "metadataResolved": {
+    "lawName": "guardianship",
+    "lawNumber": "118",
+    "year": "1952"
+  },
+  "instruments": [
+    {
+      "id": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "kind": "decree_law",
+      "title": "مرسوم بقانون رقم 118 لسنة 1952 بتقرير حالات لسلب الولاية على النفس",
+      "startPage": 27,
+      "endPage": 29,
+      "startMarkerOrdinal": 5,
+      "startAfter": {
+        "page": 27,
+        "articleNumber": "82"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 1 :\nفيما علا الاحوال الاخري التي ينص عليها قانون الاحوال الشخصية لسلب الولاية او الحد منها او وقفها تتبع الاحكام الاتية :",
+      "textForEmbedding": "مادة 1 :\nفيما علا الاحوال الاخري التي ينص عليها قانون الاحوال الشخصية لسلب الولاية او الحد منها او وقفها تتبع الاحكام الاتية :",
+      "pageStart": 27,
+      "pageEnd": 27,
+      "pages": [
+        27
+      ],
+      "sourceOrder": 183,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:179:27:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 2:\nتسلب الولاية ويسقط كل ما ترتب عليها من حقوق عن .\n1- من حكم عليه في جريمة الاغتصاب او هتك العرض او جريمة منع نص عليها القانون رقم 68 لسنة 1951 بشان مكافحة الدعارة اذا وقعت الجريمة علي احد من تشملهم الولاية .\n2- من حكم عليه لجناية وقعت علي نفس احد من تشملهم لولاية او حكم عليه لجناية وقعت من احد هولاء .\n3- من حكم عليه اكثر من مرة لجريمة مما نص عليها القانون رقم 68 لسنة 1951 بشان مكافحة الدعارة\nويترتب علي سلب الولاية بالنسبة الي صغيره سلبها الي كل من تشملهم ولاته ولولاية الاخرين فيما عدا الحالتين المشار اليهما في البند رقم 2 اذا كان هولاء الصغار من فروح المحكوم بسلب ولايته وذلك ما لم تامر المحكمة بسلبها بالنسبة اليهم ايضا .",
+      "textForEmbedding": "مادة 2:\nتسلب الولاية ويسقط كل ما ترتب عليها من حقوق عن .\n1- من حكم عليه في جريمة الاغتصاب او هتك العرض او جريمة منع نص عليها القانون رقم 68 لسنة 1951 بشان مكافحة الدعارة اذا وقعت الجريمة علي احد من تشملهم الولاية .\n2- من حكم عليه لجناية وقعت علي نفس احد من تشملهم لولاية او حكم عليه لجناية وقعت من احد هولاء .\n3- من حكم عليه اكثر من مرة لجريمة مما نص عليها القانون رقم 68 لسنة 1951 بشان مكافحة الدعارة\nويترتب علي سلب الولاية بالنسبة الي صغيره سلبها الي كل من تشملهم ولاته ولولاية الاخرين فيما عدا الحالتين المشار اليهما في البند رقم 2 اذا كان هولاء الصغار من فروح المحكوم بسلب ولايته وذلك ما لم تامر المحكمة بسلبها بالنسبة اليهم ايضا .",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "pages": [
+        28
+      ],
+      "sourceOrder": 184,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:180:28:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "3",
+      "articleNumberNormalized": 3,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 3:\nيجوز ان تثلب او توقف كل او بعض حقوق الولاية بالنسبة الي كل او بعض من تشملهم الولاية الاحوال الاتية :\n1- اذا حكم علي الولي بالاشغال الشاقة الموبدة او الموقتة .\n2- اذا حكم علي الولي لجريمة اغتصاب او هتك عرض او لجريمة مما نص عليه القانون رقم 68 لسنة 1951 بشان مكافحة الدعارة .\n3- اذا حكم علي الولي اكثر من مرة لجريمة تعرض الاطفال للخطر او الحبس بغير حق او الاعتداء جسيم ممتي وقعت الجريمة علي احد من شمله الولاية .\n4- اذا حكم بايداع احد المشمولين بالولاية للداري دور الاصلاح وفقا وللمادة 67 من قانون العقوبات او طبقا للنصوص قانون الاحداث المتندبين .\n5- اذا عرض الولي للخطلة بشكل احد من تشملهم الولاية او سلامته او اخلاقه او تلايتية بسبب سوء المعاملة او سوء الفدوة نتيجة الانتشار بفساد السيرة او الامان علي الشراء او المخدرات او بسبب عدم العناية او التوجيه ولا يشترط في هذه الحالة ان يصدر ضد الولي حكم بسبب تلك الافعال .",
+      "textForEmbedding": "مادة 3:\nيجوز ان تثلب او توقف كل او بعض حقوق الولاية بالنسبة الي كل او بعض من تشملهم الولاية الاحوال الاتية :\n1- اذا حكم علي الولي بالاشغال الشاقة الموبدة او الموقتة .\n2- اذا حكم علي الولي لجريمة اغتصاب او هتك عرض او لجريمة مما نص عليه القانون رقم 68 لسنة 1951 بشان مكافحة الدعارة .\n3- اذا حكم علي الولي اكثر من مرة لجريمة تعرض الاطفال للخطر او الحبس بغير حق او الاعتداء جسيم ممتي وقعت الجريمة علي احد من شمله الولاية .\n4- اذا حكم بايداع احد المشمولين بالولاية للداري دور الاصلاح وفقا وللمادة 67 من قانون العقوبات او طبقا للنصوص قانون الاحداث المتندبين .\n5- اذا عرض الولي للخطلة بشكل احد من تشملهم الولاية او سلامته او اخلاقه او تلايتية بسبب سوء المعاملة او سوء الفدوة نتيجة الانتشار بفساد السيرة او الامان علي الشراء او المخدرات او بسبب عدم العناية او التوجيه ولا يشترط في هذه الحالة ان يصدر ضد الولي حكم بسبب تلك الافعال .",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "pages": [
+        28
+      ],
+      "sourceOrder": 185,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:181:28:3"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "4",
+      "articleNumberNormalized": 4,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 4:\nيحكم بسلب الولاية كل الاسانيب التي اقضبت سلبها سابقاية لقانون الولاية او عقابها سيهبا .",
+      "textForEmbedding": "مادة 4:\nيحكم بسلب الولاية كل الاسانيب التي اقضبت سلبها سابقاية لقانون الولاية او عقابها سيهبا .",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "pages": [
+        28
+      ],
+      "sourceOrder": 186,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:182:28:4"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "5",
+      "articleNumberNormalized": 5,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 5:\nاذا قضت المحكمة بسلب الولاية اوقفها عهدت بالصغير الي من يلي المحكوم عليه فيها قانونا فان امتنع او لم تتوافر فيه اسباب الصلاحية لذلك جاز للمحكمة ان تعهد بالصغير الي اي شخص اخر ولو لم يكن معروفا بحسن السمعة والسمعة للصلاحية للقيام علي التربية او ان تعهد به لاحد المعاهد او الموسسات الاجتماعية المعتمدة لهذا الغرض وفي هذه الحالة يجوز للمحكمة ان تفوض من عهدت اليه بالصغير بمباشرة كل او بعض حقوق الولاية .\nواذا قضت المحكمة بالحد من الولاية فوضت مباشرة الحقوق التي حرمت الولي منها الي احد الاقارب او الي اي شخص موتمن او الي معهد او موسسة مما ذكر علي حسب الاحوال .",
+      "textForEmbedding": "مادة 5:\nاذا قضت المحكمة بسلب الولاية اوقفها عهدت بالصغير الي من يلي المحكوم عليه فيها قانونا فان امتنع او لم تتوافر فيه اسباب الصلاحية لذلك جاز للمحكمة ان تعهد بالصغير الي اي شخص اخر ولو لم يكن معروفا بحسن السمعة والسمعة للصلاحية للقيام علي التربية او ان تعهد به لاحد المعاهد او الموسسات الاجتماعية المعتمدة لهذا الغرض وفي هذه الحالة يجوز للمحكمة ان تفوض من عهدت اليه بالصغير بمباشرة كل او بعض حقوق الولاية .\nواذا قضت المحكمة بالحد من الولاية فوضت مباشرة الحقوق التي حرمت الولي منها الي احد الاقارب او الي اي شخص موتمن او الي معهد او موسسة مما ذكر علي حسب الاحوال .",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "pages": [
+        28
+      ],
+      "sourceOrder": 187,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:183:28:5"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "6",
+      "articleNumberNormalized": 6,
+      "articleSuffix": null,
+      "chapter": "الفصل السابع في تراحم الوصايا .",
+      "text": "مادة 6:\nتقدر المحكمة نفقة للصغير علي من تلزمه النفقة .",
+      "textForEmbedding": "مادة 6:\nتقدر المحكمة نفقة للصغير علي من تلزمه النفقة .",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "pages": [
+        28
+      ],
+      "sourceOrder": 188,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:184:28:6"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "7",
+      "articleNumberNormalized": 7,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 7:\n\nاذا وقعت الجريمة علي صغير او منه مما يوجب او يجيز سلب الولاية جاز لسلطة التحقيق او الحكم ان تعهد بالصغير الي شخص موتمن يتعهد بملاحظته والمحافظة عليه او الي معهد خيري معترف به من وزارة الشيون الاجتماعية حتي يفصل في الجريمة او في شان الولاية.",
+      "textForEmbedding": "مادة 7:\n\nاذا وقعت الجريمة علي صغير او منه مما يوجب او يجيز سلب الولاية جاز لسلطة التحقيق او الحكم ان تعهد بالصغير الي شخص موتمن يتعهد بملاحظته والمحافظة عليه او الي معهد خيري معترف به من وزارة الشيون الاجتماعية حتي يفصل في الجريمة او في شان الولاية.",
+      "pageStart": 28,
+      "pageEnd": 29,
+      "pages": [
+        28,
+        29
+      ],
+      "sourceOrder": 189,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-7:page-28",
+        "personal:pdf-vision:118-1952:article-7:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 2,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "8",
+      "articleNumberNormalized": 8,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 8:\nيجوز للمحكمة الجنايية حين تقضي بالعقوبة علي الولي في الحالات المنصوص عليها في المادة الثانية وفي البنود الاربعة الاولي من المادة الثالثة ان تحكم ايضا بسلب الولاية او الحد منها، اما ما يترتب علي ذلك من تدابير واثار فتحكم فيه المحكمة المختصة بناء علي طلب النيابة او ذي الشان وفقا لاحكام هذا القانون ولقانون المرافعات المدنية والتجارية.",
+      "textForEmbedding": "مادة 8:\nيجوز للمحكمة الجنايية حين تقضي بالعقوبة علي الولي في الحالات المنصوص عليها في المادة الثانية وفي البنود الاربعة الاولي من المادة الثالثة ان تحكم ايضا بسلب الولاية او الحد منها، اما ما يترتب علي ذلك من تدابير واثار فتحكم فيه المحكمة المختصة بناء علي طلب النيابة او ذي الشان وفقا لاحكام هذا القانون ولقانون المرافعات المدنية والتجارية.",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "pages": [
+        29
+      ],
+      "sourceOrder": 191,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-8:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "9",
+      "articleNumberNormalized": 9,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 9:\nفي الاحوال المنصوص عليها في البندين 4، 5 من المادة 3 يجوز للمحكمة بدلا من الحكم بسلب الولاية او وقفها ان تعهد الي وزارة الشيون الاجتماعية بالاشراف علي تربية الصغير او تعليمه اذا رات في ذلك مصلحة له، وللوزارة المذكورة ان تفوض في ذلك احد المعاهد او الموسسات الاجتماعية المعدة لهذا الغرض.\nواذا لم تتحقق الفايدة من هذا الاشراف لسبب يرجع الي الولي جاز رفع الامر للمحكمة للنظر في سلب ولايته او وقفها.",
+      "textForEmbedding": "مادة 9:\nفي الاحوال المنصوص عليها في البندين 4، 5 من المادة 3 يجوز للمحكمة بدلا من الحكم بسلب الولاية او وقفها ان تعهد الي وزارة الشيون الاجتماعية بالاشراف علي تربية الصغير او تعليمه اذا رات في ذلك مصلحة له، وللوزارة المذكورة ان تفوض في ذلك احد المعاهد او الموسسات الاجتماعية المعدة لهذا الغرض.\nواذا لم تتحقق الفايدة من هذا الاشراف لسبب يرجع الي الولي جاز رفع الامر للمحكمة للنظر في سلب ولايته او وقفها.",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "pages": [
+        29
+      ],
+      "sourceOrder": 192,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-9:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "10",
+      "articleNumberNormalized": 10,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 10:\nيترتب علي سلب الولاية علي النفس سقوطها عن المال ولا يجوز ان يقام الولي الذي حكم بسلب ولايته وصيا او مشرفا او قيما كما لا يجوز ان يختار وصيا.",
+      "textForEmbedding": "مادة 10:\nيترتب علي سلب الولاية علي النفس سقوطها عن المال ولا يجوز ان يقام الولي الذي حكم بسلب ولايته وصيا او مشرفا او قيما كما لا يجوز ان يختار وصيا.",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "pages": [
+        29
+      ],
+      "sourceOrder": 193,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-10:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "11",
+      "articleNumberNormalized": 11,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 11:\nيجوز للاولياء الذين سلبت ولايتهم وفقا للبندين اثنين او ثلاثة من المادة الثانية او سلبت ولايتهم او بعض حقوقهم فيها وفقا للبند واحد او اثنين او الثلاثة من المادة الثالثة ان يطلبوا استرداد الحقوق التي سلبت منهم اذا رد اعتبارهم.\nويجوز لهم ذلك ايضا في الاحوال المنصوص عليها في البندين 4، 5 من المادة الثانية اذا انقضت ثلاث سنوات من تاريخ صدور الحكم بسلب الولاية.",
+      "textForEmbedding": "مادة 11:\nيجوز للاولياء الذين سلبت ولايتهم وفقا للبندين اثنين او ثلاثة من المادة الثانية او سلبت ولايتهم او بعض حقوقهم فيها وفقا للبند واحد او اثنين او الثلاثة من المادة الثالثة ان يطلبوا استرداد الحقوق التي سلبت منهم اذا رد اعتبارهم.\nويجوز لهم ذلك ايضا في الاحوال المنصوص عليها في البندين 4، 5 من المادة الثانية اذا انقضت ثلاث سنوات من تاريخ صدور الحكم بسلب الولاية.",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "pages": [
+        29
+      ],
+      "sourceOrder": 194,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-11:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "12",
+      "articleNumberNormalized": 12,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 12:\nيقصد بالولي في تطبيق هذا القانون الاب والجد والام والوصي وكل شخص ضم اليه الصغير بقرار او حكم من جهة اختصاصه.",
+      "textForEmbedding": "مادة 12:\nيقصد بالولي في تطبيق هذا القانون الاب والجد والام والوصي وكل شخص ضم اليه الصغير بقرار او حكم من جهة اختصاصه.",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "pages": [
+        29
+      ],
+      "sourceOrder": 195,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-12:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    },
+    {
+      "instrumentId": "guardianship-person-decree-118-1952",
+      "lawName": "guardianship",
+      "lawNumber": "118",
+      "year": "1952",
+      "articleNumber": "13",
+      "articleNumberNormalized": 13,
+      "articleSuffix": null,
+      "chapter": null,
+      "text": "مادة 13:\nعلي وزيري العدل والشيون الاجتماعية تنفيذ هذا القانون كلا منهما فيما يخصه ويعمل به من تاريخ نشره في الجريدة الرسمية.",
+      "textForEmbedding": "مادة 13:\nعلي وزيري العدل والشيون الاجتماعية تنفيذ هذا القانون كلا منهما فيما يخصه ويعمل به من تاريخ نشره في الجريدة الرسمية.",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "pages": [
+        29
+      ],
+      "sourceOrder": 196,
+      "source": "vision_ocr_recovery",
+      "sourceRecordIds": [
+        "personal:pdf-vision:118-1952:article-13:page-29"
+      ],
+      "qwenRecordCount": 0,
+      "recoveryRecordCount": 1,
+      "needsReview": true,
+      "reviewReasons": [
+        "Article includes explicit recovery OCR input; verify OCR fidelity before indexing."
+      ]
+    }
+  ],
+  "coverage": {
+    "pdfPageCount": 66,
+    "articleAnchorCount": 410,
+    "qwenRecordCount": 390,
+    "pdfOnlyArticleCount": 0,
+    "pdfRecoveredArticleCount": 0,
+    "missingArticleNumbers": [],
+    "suspiciousArticleCount": 45
+  },
+  "validation": {
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "7",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "8",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "9",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "10",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "11",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "12",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      },
+      {
+        "severity": "warning",
+        "code": "SUSPICIOUS_ARTICLE",
+        "message": "Article includes explicit recovery OCR input; verify OCR fidelity before indexing.",
+        "articleNumber": "13",
+        "instrumentId": "guardianship-person-decree-118-1952"
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 45,
+      "infos": 12,
+      "articleCount": 426,
+      "qwenRecordCount": 390,
+      "recoveryRecordCount": 50,
+      "suspiciousMergeCount": 0,
+      "missingArticleNumberCount": 0
+    }
+  }
+}

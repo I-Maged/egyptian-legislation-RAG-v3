@@ -1,0 +1,19 @@
+{
+  "name": "@egyptian-law/rag",
+  "version": "1.0.0",
+  "description": "@egyptian-law/rag",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@egyptian-law/core": "*",
+    "@egyptian-law/db": "*",
+    "@egyptian-law/generation": "*",
+    "@egyptian-law/ingestion": "*"
+  }
+}

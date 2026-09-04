@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "id": "lawdoc_7dec8242be0a45d0",
+    "law_name": "personal_affairs",
+    "law_number": "1087",
+    "year": "2000",
+    "jurisdiction": "EG",
+    "language": "ar",
+    "source_file": "personal_affair_law.pdf",
+    "metadata": {
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0"
+    }
+  },
+  "chunks": [
+    {
+      "id": "lawchunk_b7d301e46af4bb55",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "1",
+      "article_title": null,
+      "source_order": 388,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 1 :\nتنقذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او رويته او سكناه تطبيقا لاحكام المادتين 67 ، 69 من القانون\nرقم 1 لسنة 2000 مراعاة القواعد والاجراءات المبينة في المواد التالية .",
+      "text_for_embedding": "مادة 1 :\nتنقذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او رويته او سكناه تطبيقا لاحكام المادتين 67 ، 69 من القانون\nرقم 1 لسنة 2000 مراعاة القواعد والاجراءات المبينة في المواد التالية .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 58,
+        "page_end": 58
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_6dd00f717237c1ee",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "2",
+      "article_title": null,
+      "source_order": 389,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 2 :\nيجري تنفيذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او سكناه بمعرفة المحضر المختص وبحضور احد\nالاخصاييين الاجتماعيين الملحقين بالمحكمة ، فان حدثت مقاومة او امتناع وعدم استجابة للنصح والارشاد - يرفع الامر\nلقاضي التنفيذ ليامر بالتنفيذ والاستعانة بجبهة الادارة بالقوة الجبرية ان لزم الامر ، ويحرر الاخصايي الاجتماعي مذكرة\nتتضمن ملاحظاته ترفق باوراق التنفيذ .",
+      "text_for_embedding": "مادة 2 :\nيجري تنفيذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او سكناه بمعرفة المحضر المختص وبحضور احد\nالاخصاييين الاجتماعيين الملحقين بالمحكمة ، فان حدثت مقاومة او امتناع وعدم استجابة للنصح والارشاد - يرفع الامر\nلقاضي التنفيذ ليامر بالتنفيذ والاستعانة بجبهة الادارة بالقوة الجبرية ان لزم الامر ، ويحرر الاخصايي الاجتماعي مذكرة\nتتضمن ملاحظاته ترفق باوراق التنفيذ .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e825b0d9f8f0ab6b",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "3",
+      "article_title": null,
+      "source_order": 390,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 3 :\nيراعي في جميع الاحوال ان تتم اجراءات التنفيذ ودخول المنازل وفقا لما يامر به قاضي التنفيذ ، ويجوز اعادة تنفيذ بداية السند التنفيذي كلما قضي الاحكام الذي دل علي ذلك في المادة 66 من القانون رقم 1 لسنة 2000 .",
+      "text_for_embedding": "مادة 3 :\nيراعي في جميع الاحوال ان تتم اجراءات التنفيذ ودخول المنازل وفقا لما يامر به قاضي التنفيذ ، ويجوز اعادة تنفيذ بداية السند التنفيذي كلما قضي الاحكام الذي دل علي ذلك في المادة 66 من القانون رقم 1 لسنة 2000 .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_0dcac6b754771a61",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "4",
+      "article_title": null,
+      "source_order": 391,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 4 :\nفي حالة عدم اتفاق الحاضنين او من بيده الصغير والصادر لصاله الحكم علي المكان الذي يتم فيه روية الصغير ، ويكون\nللمحكمة ان تتني من الاماكن التالية مكانا للروية وفقا للحالة المعروضة عليها وبما يتناسب - قدر الاماكن - وظروف\nاطراف الخصومة ، مع مراعاة ان يتوفر في المكان ما يشبع الطمانينة في نفس الصغير ولا يكفي اطراف الخصومة مشفة لا\nتحتمل :\n1- احد النوادي الرياضية والاجتماعية .\n2- احد مراكز رعاية الشباب .\n3- احد دور رعاية الامومة والطفولة التي يتوفر فيها حدايق .\n4- احدي الحدايق العامة .",
+      "text_for_embedding": "مادة 4 :\nفي حالة عدم اتفاق الحاضنين او من بيده الصغير والصادر لصاله الحكم علي المكان الذي يتم فيه روية الصغير ، ويكون\nللمحكمة ان تتني من الاماكن التالية مكانا للروية وفقا للحالة المعروضة عليها وبما يتناسب - قدر الاماكن - وظروف\nاطراف الخصومة ، مع مراعاة ان يتوفر في المكان ما يشبع الطمانينة في نفس الصغير ولا يكفي اطراف الخصومة مشفة لا\nتحتمل :\n1- احد النوادي الرياضية والاجتماعية .\n2- احد مراكز رعاية الشباب .\n3- احد دور رعاية الامومة والطفولة التي يتوفر فيها حدايق .\n4- احدي الحدايق العامة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fcbe157f34187376",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "5",
+      "article_title": null,
+      "source_order": 392,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 5 :\nيجب ان لا تقل مدة الروية عن ثلاث ساعات اسبوعيا فيما بين الساعة التاسة صباحا والساعة السابعة مساء . ويراعي قدر\nالامكان ان يكون ذلك خلال العطلات الرسمية وبما لا يتعارض ومواعيد انتظام الصغير في دور التعليم .",
+      "text_for_embedding": "مادة 5 :\nيجب ان لا تقل مدة الروية عن ثلاث ساعات اسبوعيا فيما بين الساعة التاسة صباحا والساعة السابعة مساء . ويراعي قدر\nالامكان ان يكون ذلك خلال العطلات الرسمية وبما لا يتعارض ومواعيد انتظام الصغير في دور التعليم .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_29c1bf68a75ef307",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "6",
+      "article_title": null,
+      "source_order": 393,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 6 :\nينفذ حكم الصادر بروية الصغير في المكان والزمان المبين بالحكم .",
+      "text_for_embedding": "مادة 6 :\nينفذ حكم الصادر بروية الصغير في المكان والزمان المبين بالحكم .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e72f1fc221060912",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "7",
+      "article_title": null,
+      "source_order": 394,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 7 :\nلاي طرف من اطراف السند التنفيذي ان يستعين بالاخصايي الاجتماعي المنتدب للعمل بدايرة المحكمة التي اصدرت حكم\nالروية لاثبات تخلف الطرف الاخر عن التنفيذ في المواعيد والاماكن المحددة بالحكم ، ويرفع الاخصايي الاجتماعي تقريرا\nللمحكمة بذلك اذا ما قام الطرف الداعي بهذا في هذا الخصوص .",
+      "text_for_embedding": "مادة 7 :\nلاي طرف من اطراف السند التنفيذي ان يستعين بالاخصايي الاجتماعي المنتدب للعمل بدايرة المحكمة التي اصدرت حكم\nالروية لاثبات تخلف الطرف الاخر عن التنفيذ في المواعيد والاماكن المحددة بالحكم ، ويرفع الاخصايي الاجتماعي تقريرا\nللمحكمة بذلك اذا ما قام الطرف الداعي بهذا في هذا الخصوص .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fd910833ea225fe3",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "8",
+      "article_title": null,
+      "source_order": 395,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 8 :\nياذن المسيول الاداري بالنوادي الرياضية او الاجتماعية او بمراكز رعاية الشباب او بدور رعاية الطفولة والامومة التي\nيجري تنفيذ حكم الروية فيها ، وبناء علي طلب اي من اطراف السند التنفيذي ، ان يثبت في مذكرة يحررهاحضور او عدم\nحضور المسيول عن تنفيذ حكم الروية وببدء الصغير .\nولمن حرت المذكرة بناء علي طلبه ان يثبت ان بيث مضمونها في محضر يحرر في قسم او مركز الشرطة التابع له مكان التنفيذ .",
+      "text_for_embedding": "مادة 8 :\nياذن المسيول الاداري بالنوادي الرياضية او الاجتماعية او بمراكز رعاية الشباب او بدور رعاية الطفولة والامومة التي\nيجري تنفيذ حكم الروية فيها ، وبناء علي طلب اي من اطراف السند التنفيذي ، ان يثبت في مذكرة يحررهاحضور او عدم\nحضور المسيول عن تنفيذ حكم الروية وببدء الصغير .\nولمن حرت المذكرة بناء علي طلبه ان يثبت ان بيث مضمونها في محضر يحرر في قسم او مركز الشرطة التابع له مكان التنفيذ .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_0e2c1107eb7d048c",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "article_number": "9",
+      "article_title": null,
+      "source_order": 396,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 9 :\nينشر هذا القرار في الوقايع المصرية ، ويعمل من اليوم التالي لتاريخ نشره .\nصدر في 6 / 3 / 2000\nوزير العدل\nالمستشار / فاروق سيف الدين\nوزارة العدل\nقرار وزير العدل رقم 1088 لسنة\n2000 بالاجراءات التي تتخذها النيابة العامة\nفي شان جرد اموال المعنيين بالحماية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000 :\nقرر",
+      "text_for_embedding": "مادة 9 :\nينشر هذا القرار في الوقايع المصرية ، ويعمل من اليوم التالي لتاريخ نشره .\nصدر في 6 / 3 / 2000\nوزير العدل\nالمستشار / فاروق سيف الدين\nوزارة العدل\nقرار وزير العدل رقم 1088 لسنة\n2000 بالاجراءات التي تتخذها النيابة العامة\nفي شان جرد اموال المعنيين بالحماية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000 :\nقرر",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 59,
+        "page_end": 59
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    }
+  ]
+}

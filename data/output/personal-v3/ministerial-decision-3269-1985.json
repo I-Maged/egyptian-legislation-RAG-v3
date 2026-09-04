@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "parserVersion": "3.3.0",
+    "inputFile": "personal_affair_law_qwen_output.json",
+    "pdfFile": "personal-src.pdf",
+    "generatedAt": "2026-09-03T10:34:13.040Z",
+    "recordCountOriginal": 390,
+    "recordCountRecovery": 50,
+    "recordCountMerged": 440,
+    "pdfRecoveryArticleCount": 0,
+    "instrumentId": "ministerial-decision-3269-1985",
+    "mode": "qwen+pdf"
+  },
+  "metadataResolved": {
+    "lawName": "personal_affairs",
+    "lawNumber": "3269",
+    "year": "1985"
+  },
+  "instruments": [
+    {
+      "id": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "kind": "ministerial_decision",
+      "title": "قرار وزير العدل رقم 3269 لسنة 1985",
+      "startPage": 56,
+      "endPage": 57,
+      "startMarkerOrdinal": 0,
+      "startAfter": {
+        "page": 55,
+        "articleNumber": "79"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 1 :\nعلي الموثق المختص بتوثيق اشهاد الطلاق ان يثبت فيه بيانا واضحا عن محل اقامة المطلقة ويكون اثبات هذا البيان بارشادها في حالة حضورها توثيق افشهاد وبارشاد المطلق في حالة عدم حضورها .\nويجب علي الموثق المختص في جميع الاحوال اثبات محل اقامة المطلق في اشهاد الطلاق .",
+      "textForEmbedding": "مادة 1 :\nعلي الموثق المختص بتوثيق اشهاد الطلاق ان يثبت فيه بيانا واضحا عن محل اقامة المطلقة ويكون اثبات هذا البيان بارشادها في حالة حضورها توثيق افشهاد وبارشاد المطلق في حالة عدم حضورها .\nويجب علي الموثق المختص في جميع الاحوال اثبات محل اقامة المطلق في اشهاد الطلاق .",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "pages": [
+        56
+      ],
+      "sourceOrder": 373,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:337:56:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 2 :\nيجب علي الموثق خلال سبعة ايام من تاريخ توثيق اشهاد الطلاق اعلان المطلقة لشخصها علي يد محضر بوقوع اطلاق وذلك في حالة عدم حضورها توثيق اشهاده .",
+      "textForEmbedding": "مادة 2 :\nيجب علي الموثق خلال سبعة ايام من تاريخ توثيق اشهاد الطلاق اعلان المطلقة لشخصها علي يد محضر بوقوع اطلاق وذلك في حالة عدم حضورها توثيق اشهاده .",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "pages": [
+        56
+      ],
+      "sourceOrder": 374,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:338:56:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "3",
+      "articleNumberNormalized": 3,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 3 :\nيجب ان يتضمن الاعلان المشار اليه في المادة السابقة البيانات الاتية :\n1- تاريخ وقوع الطلاق .\n2- اسم الموثق الدونثق اشهاد الطلاق ومقرعمله .\n3- رقم اشهاد الطلاق ز\n4- بيان الطلاق الذي تتضمنه الاشهاد .\n5- اخطار المطلقة باستلام نسخة اشهاد الطلاق الخاصة بها من الموثق المختص خلال خمسة عشر يوما من تاريخ الاعلان .",
+      "textForEmbedding": "مادة 3 :\nيجب ان يتضمن الاعلان المشار اليه في المادة السابقة البيانات الاتية :\n1- تاريخ وقوع الطلاق .\n2- اسم الموثق الدونثق اشهاد الطلاق ومقرعمله .\n3- رقم اشهاد الطلاق ز\n4- بيان الطلاق الذي تتضمنه الاشهاد .\n5- اخطار المطلقة باستلام نسخة اشهاد الطلاق الخاصة بها من الموثق المختص خلال خمسة عشر يوما من تاريخ الاعلان .",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "pages": [
+        56
+      ],
+      "sourceOrder": 375,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:339:56:3"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "4",
+      "articleNumberNormalized": 4,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات والمدنية والتجارية علي الاعلان بوقوع الطلاق .",
+      "textForEmbedding": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات والمدنية والتجارية علي الاعلان بوقوع الطلاق .",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "pages": [
+        56
+      ],
+      "sourceOrder": 376,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:340:56:4"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "5",
+      "articleNumberNormalized": 5,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينيب عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة نسخة الاشهاد الخاصة.",
+      "textForEmbedding": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينيب عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة نسخة الاشهاد الخاصة.",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "pages": [
+        56
+      ],
+      "sourceOrder": 377,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:341:56:5"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "4",
+      "articleNumberNormalized": 4,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات المدنية والتجارية علي الاعلان بوقوع الطلاق",
+      "textForEmbedding": "مادة 4 :\nفيما عدا ما تقدم تطبق القواعد والاجراءات المقررة في قانون المرافعات المدنية والتجارية علي الاعلان بوقوع الطلاق",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 378,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:342:57:4"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "5",
+      "articleNumberNormalized": 5,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينبه عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد ، فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة هنا يجب علي الموثق تسليم هذه النسخة الي المحكمة المختصة لاتباع هذا بمقتضي ثلاثين يوما من تاريخ التوثيق بمقتضي ايصال يفيد ذلك وعلي المحكمة في هذه الحالة ارسالها الي المطلقة كتابة بمكتب تسليم وصول ان كانت تقيم في مصر او بواسطة وزارة الخارجية ان كانت تقيم في الخارج .",
+      "textForEmbedding": "مادة 5 :\nعلي الموثق تسليم المطلقة او من ينبه عنها نسخة اشهاد الطلاق الخاصة بها بعد اخذ ايصال بذلك يرفق باصل الاشهاد ، فاذا لم تحضر المطلقة او نايبتها لدي الموثق لاستلام نسخة الاشهاد الخاصة هنا يجب علي الموثق تسليم هذه النسخة الي المحكمة المختصة لاتباع هذا بمقتضي ثلاثين يوما من تاريخ التوثيق بمقتضي ايصال يفيد ذلك وعلي المحكمة في هذه الحالة ارسالها الي المطلقة كتابة بمكتب تسليم وصول ان كانت تقيم في مصر او بواسطة وزارة الخارجية ان كانت تقيم في الخارج .",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 379,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:343:57:5"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "6",
+      "articleNumberNormalized": 6,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 6:\nعلي الموظف المختص بالمحكمة فيد نسخة اشهادات الطلاق التي يتسلم اليه فور استلامها في سجل خاص يبين فيه رقم الاشهاد وتاريخ واسم الموثق واسم المطلقة ومحل اقامته كل منهما وبين الزواج بالطلاق الوارد بالاشهاد وتاريخ استلامه نسخة الاشهاد بالمطلقة وعملية ارسالها الي المطلقة في اليوم التالي وفقا لاحكام المادة السابقة مع اثبات تاريخ ورقم الارسال في السجل المشار اليه ، والتاشير فيه بعد ذلك بما تم نو تسليم النسخة الي المطلقة .",
+      "textForEmbedding": "مادة 6:\nعلي الموظف المختص بالمحكمة فيد نسخة اشهادات الطلاق التي يتسلم اليه فور استلامها في سجل خاص يبين فيه رقم الاشهاد وتاريخ واسم الموثق واسم المطلقة ومحل اقامته كل منهما وبين الزواج بالطلاق الوارد بالاشهاد وتاريخ استلامه نسخة الاشهاد بالمطلقة وعملية ارسالها الي المطلقة في اليوم التالي وفقا لاحكام المادة السابقة مع اثبات تاريخ ورقم الارسال في السجل المشار اليه ، والتاشير فيه بعد ذلك بما تم نو تسليم النسخة الي المطلقة .",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 380,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:344:57:6"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "7",
+      "articleNumberNormalized": 7,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 7 :\nاذا اعيدت نسخة الاشهاد الخاصة بالمطلقة الي المحكمة بعد ارسالها اليها لتعذر تسليمها ، فعلي الموظف المختص بالمحكمة حفظها في ملف خاص والتاشير بذلك في السجل المشار اليه في المادة السابقة .",
+      "textForEmbedding": "مادة 7 :\nاذا اعيدت نسخة الاشهاد الخاصة بالمطلقة الي المحكمة بعد ارسالها اليها لتعذر تسليمها ، فعلي الموظف المختص بالمحكمة حفظها في ملف خاص والتاشير بذلك في السجل المشار اليه في المادة السابقة .",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 381,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:345:57:7"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "8",
+      "articleNumberNormalized": 8,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 8 :\nعلي الموثق المختص بتوثيق وثيقة الزواج ان يثبت في الوثيقة بيانا واضحا عن حالة الزوج الاجتماعية فاذا كان متزوجا فيجب ان يتضمن هذا البيان اسم الزوجة او الزوجات اللاتي في عصمة الزوج ومحال اقامتهن هذا البيان من واقع اقرار الزوج .",
+      "textForEmbedding": "مادة 8 :\nعلي الموثق المختص بتوثيق وثيقة الزواج ان يثبت في الوثيقة بيانا واضحا عن حالة الزوج الاجتماعية فاذا كان متزوجا فيجب ان يتضمن هذا البيان اسم الزوجة او الزوجات اللاتي في عصمة الزوج ومحال اقامتهن هذا البيان من واقع اقرار الزوج .",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 382,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:346:57:8"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "9",
+      "articleNumberNormalized": 9,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 9 :\nعلي الموثق اخطار الزوج او الزوجات اللاتي في عصمة الزوج بالزواج الجديد خلال سبعة ايام من تاريخ توثيق الزواج وذلك كتابة مسجل مقرون بعلم الوصول ان كانت الزوجة تقيم في مصر او بالطريق الذي رسمه قانون المرافعات المدنية والتجارية ان كانت تقيم في الخارج .",
+      "textForEmbedding": "مادة 9 :\nعلي الموثق اخطار الزوج او الزوجات اللاتي في عصمة الزوج بالزواج الجديد خلال سبعة ايام من تاريخ توثيق الزواج وذلك كتابة مسجل مقرون بعلم الوصول ان كانت الزوجة تقيم في مصر او بالطريق الذي رسمه قانون المرافعات المدنية والتجارية ان كانت تقيم في الخارج .",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 383,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:347:57:9"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "10",
+      "articleNumberNormalized": 10,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 10 :\nيلغي قرار وزي العدل رقم 244 لسنة 1979 كما يلغي كل نص يخالف احكام هذا القرار .",
+      "textForEmbedding": "مادة 10 :\nيلغي قرار وزي العدل رقم 244 لسنة 1979 كما يلغي كل نص يخالف احكام هذا القرار .",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 384,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:348:57:10"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-3269-1985",
+      "lawName": "personal_affairs",
+      "lawNumber": "3269",
+      "year": "1985",
+      "articleNumber": "11",
+      "articleNumberNormalized": 11,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 11 :\nينشر هذا القرار في الوقايع المصرية .\nصدر في 1 / 7 / 1985\n- 12\nوزير العدل\nالمستشار / احمد ممدوح عطية\nوزارة العدل\nقرار وزير العدل رقم 1086 لسنة 2000\n-13 بالمعاونين الملحقين للعمل بنيابات\nالاحوال الشخصية ومنحهم صفة الضبطية القضايية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000\nقرر",
+      "textForEmbedding": "مادة 11 :\nينشر هذا القرار في الوقايع المصرية .\nصدر في 1 / 7 / 1985\n- 12\nوزير العدل\nالمستشار / احمد ممدوح عطية\nوزارة العدل\nقرار وزير العدل رقم 1086 لسنة 2000\n-13 بالمعاونين الملحقين للعمل بنيابات\nالاحوال الشخصية ومنحهم صفة الضبطية القضايية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000\nقرر",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "pages": [
+        57
+      ],
+      "sourceOrder": 385,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:349:57:11"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    }
+  ],
+  "coverage": {
+    "pdfPageCount": 66,
+    "articleAnchorCount": 410,
+    "qwenRecordCount": 390,
+    "pdfOnlyArticleCount": 0,
+    "pdfRecoveredArticleCount": 0,
+    "missingArticleNumbers": [],
+    "suspiciousArticleCount": 45
+  },
+  "validation": {
+    "issues": [
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "ministerial-decision-3269-1985|4 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "4",
+        "instrumentId": "ministerial-decision-3269-1985"
+      },
+      {
+        "severity": "info",
+        "code": "REPEATED_ARTICLE_NUMBER",
+        "message": "ministerial-decision-3269-1985|5 occurs 2 times; this can be legitimate for amended/repeated provisions.",
+        "articleNumber": "5",
+        "instrumentId": "ministerial-decision-3269-1985"
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 45,
+      "infos": 12,
+      "articleCount": 426,
+      "qwenRecordCount": 390,
+      "recoveryRecordCount": 50,
+      "suspiciousMergeCount": 0,
+      "missingArticleNumberCount": 0
+    }
+  }
+}

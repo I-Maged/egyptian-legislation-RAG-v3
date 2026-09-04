@@ -1,0 +1,279 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model LawDocument {
+  id        String  @id
+  lawName   String  @map("law_name")
+  lawNumber String? @map("law_number")
+  year      String?
+
+  jurisdiction String
+  language     String
+
+  sourceFile String @map("source_file")
+
+  parserVersion        String? @map("parser_version")
+  normalizationVersion String? @map("normalization_version")
+
+  chunks LawChunk[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([lawName])
+  @@index([lawNumber])
+  @@index([year])
+  @@map("law_documents")
+}
+
+model LawChunk {
+  id         String @id
+  documentId String @map("document_id")
+
+  articleNumber String  @map("article_number")
+  articleTitle  String? @map("article_title")
+
+  text             String
+  textForEmbedding String @map("text_for_embedding")
+
+  sourcePageStart Int? @map("source_page_start")
+  sourcePageEnd   Int? @map("source_page_end")
+
+  sourceOrder Int? @map("source_order")
+
+  hierarchy Json?
+
+  parserVersion        String? @map("parser_version")
+  normalizationVersion String? @map("normalization_version")
+  ocrConfidence        Float?  @map("ocr_confidence")
+
+  document  LawDocument        @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  embedding LawChunkEmbedding?
+  citations RagCitation[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([documentId, articleNumber])
+  @@index([documentId])
+  @@index([articleNumber])
+  @@map("law_chunks")
+}
+
+model LawChunkEmbedding {
+  chunkId String @id @map("chunk_id")
+
+  model      String
+  dimensions Int
+  embedding  Unsupported("vector(1024)")
+
+  chunk LawChunk @relation(fields: [chunkId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("law_chunk_embeddings")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  name         String?
+  role         UserRole @default(USER)
+
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  lastLoginAt DateTime? @map("last_login_at")
+
+  conversations Conversation[]
+  feedbacks     Feedback[]
+  suggestions   LawSuggestion[]
+  auditLogs     AuditLog[]
+
+  @@map("users")
+}
+
+model Conversation {
+  id     String  @id @default(cuid())
+  userId String  @map("user_id")
+  title  String?
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  user     User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages Message[]
+
+  @@index([userId])
+  @@map("conversations")
+}
+
+enum MessageRole {
+  USER
+  ASSISTANT
+}
+
+model Message {
+  id             String      @id @default(cuid())
+  conversationId String      @map("conversation_id")
+  role           MessageRole
+  content        String
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  ragRun   RagRun?
+  feedback Feedback[]
+
+  @@index([conversationId])
+  @@map("messages")
+}
+
+model RagRun {
+  id        String @id @default(cuid())
+  messageId String @unique @map("message_id")
+
+  model            String
+  retrievalTimeMs  Int?    @map("retrieval_time_ms")
+  generationTimeMs Int?    @map("generation_time_ms")
+  totalTimeMs      Int?    @map("total_time_ms")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  message   Message       @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  citations RagCitation[]
+
+  @@map("rag_runs")
+}
+
+model RagCitation {
+  id       String @id @default(cuid())
+  ragRunId String @map("rag_run_id")
+  chunkId  String @map("chunk_id")
+
+  rank  Int?
+  score Float?
+
+  ragRun RagRun    @relation(fields: [ragRunId], references: [id], onDelete: Cascade)
+  chunk  LawChunk  @relation(fields: [chunkId], references: [id])
+
+  @@index([ragRunId])
+  @@index([chunkId])
+  @@map("rag_citations")
+}
+
+enum FeedbackType {
+  POSITIVE
+  NEGATIVE
+}
+
+model Feedback {
+  id        String       @id @default(cuid())
+  userId    String       @map("user_id")
+  messageId String       @map("message_id")
+  type      FeedbackType
+  comment   String?
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, messageId])
+  @@index([userId])
+  @@index([messageId])
+  @@map("feedbacks")
+}
+
+enum SuggestionType {
+  ADD_LAW
+  EDIT_LAW
+  EDIT_ARTICLE
+}
+
+enum SuggestionStatus {
+  PENDING
+  UNDER_REVIEW
+  APPROVED
+  REJECTED
+}
+
+model LawSuggestion {
+  id     String           @id @default(cuid())
+  userId String           @map("user_id")
+  type   SuggestionType
+  status SuggestionStatus @default(PENDING)
+
+  lawDocumentId String? @map("law_document_id")
+  lawChunkId    String? @map("law_chunk_id")
+
+  title        String
+  reason       String
+  proposedText String? @map("proposed_text")
+
+  adminNote String? @map("admin_note")
+
+  reviewedBy String?   @map("reviewed_by")
+  reviewedAt DateTime? @map("reviewed_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([status])
+  @@index([lawDocumentId])
+  @@index([lawChunkId])
+  @@map("law_suggestions")
+}
+
+enum AuditAction {
+  CREATE_LAW
+  UPDATE_LAW
+  DELETE_LAW
+  CREATE_ARTICLE
+  UPDATE_ARTICLE
+  DELETE_ARTICLE
+
+  APPROVE_SUGGESTION
+  REJECT_SUGGESTION
+}
+
+model AuditLog {
+  id     String      @id @default(cuid())
+  userId String      @map("user_id")
+  action AuditAction
+
+  entityType String @map("entity_type")
+  entityId   String @map("entity_id")
+
+  before Json?
+  after  Json?
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}

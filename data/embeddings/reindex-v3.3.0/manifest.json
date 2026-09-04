@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "index_version": "reindex-v3.3.0",
+  "source": {
+    "canonical_directory": "data/canonical",
+    "document_count": 16,
+    "chunk_count": 802
+  },
+  "embedding": {
+    "model": "bge-m3",
+    "dimensions": 1024
+  },
+  "corpora": [
+    {
+      "path": "financial-law-6-2022.json",
+      "document_id": "lawdoc_bdcbef44f3a8e375",
+      "law_name": "financial_law",
+      "law_number": "6",
+      "year": "2022",
+      "chunk_count": 78,
+      "parser_version": "parser-v2.3",
+      "normalization_version": "parser-v2.3",
+      "embedding_path": "financial-law-6-2022.json"
+    },
+    {
+      "path": "labour-law-14-2025.json",
+      "document_id": "lawdoc_04ec12b4c4f7e3a6",
+      "law_name": "labour_law",
+      "law_number": "14",
+      "year": "2025",
+      "chunk_count": 298,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "labour-law-14-2025.json"
+    },
+    {
+      "path": "personal-affairs/guardianship-person-decree-118-1952.json",
+      "document_id": "lawdoc_cc7f5358e6f50741",
+      "law_name": "guardianship",
+      "law_number": "118",
+      "year": "1952",
+      "chunk_count": 13,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/guardianship-person-decree-118-1952.json"
+    },
+    {
+      "path": "personal-affairs/guardianship-property-decree-119-1952.json",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "chunk_count": 91,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/guardianship-property-decree-119-1952.json"
+    },
+    {
+      "path": "personal-affairs/inheritance-application-law-35-1944.json",
+      "document_id": "lawdoc_c6f9a8b9f1625847",
+      "law_name": "inheritance",
+      "law_number": "35",
+      "year": "1944",
+      "chunk_count": 2,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/inheritance-application-law-35-1944.json"
+    },
+    {
+      "path": "personal-affairs/inheritance-law-77-1943.json",
+      "document_id": "lawdoc_b30e2a4693393c34",
+      "law_name": "inheritance",
+      "law_number": "77",
+      "year": "1943",
+      "chunk_count": 50,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/inheritance-law-77-1943.json"
+    },
+    {
+      "path": "personal-affairs/litigation-law-1-2000.json",
+      "document_id": "lawdoc_f1634b36a2edb8e5",
+      "law_name": "personal_affairs",
+      "law_number": "1",
+      "year": "2000",
+      "chunk_count": 83,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/litigation-law-1-2000.json"
+    },
+    {
+      "path": "personal-affairs/ministerial-decision-1086-2000.json",
+      "document_id": "lawdoc_89f9d0f223a55d6d",
+      "law_name": "personal_affairs",
+      "law_number": "1086",
+      "year": "2000",
+      "chunk_count": 2,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/ministerial-decision-1086-2000.json"
+    },
+    {
+      "path": "personal-affairs/ministerial-decision-1087-2000.json",
+      "document_id": "lawdoc_7dec8242be0a45d0",
+      "law_name": "personal_affairs",
+      "law_number": "1087",
+      "year": "2000",
+      "chunk_count": 9,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/ministerial-decision-1087-2000.json"
+    },
+    {
+      "path": "personal-affairs/ministerial-decision-1088-2000.json",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "chunk_count": 23,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/ministerial-decision-1088-2000.json"
+    },
+    {
+      "path": "personal-affairs/ministerial-decision-1089-2000.json",
+      "document_id": "lawdoc_564e9a4543479401",
+      "law_name": "personal_affairs",
+      "law_number": "1089",
+      "year": "2000",
+      "chunk_count": 12,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/ministerial-decision-1089-2000.json"
+    },
+    {
+      "path": "personal-affairs/ministerial-decision-1090-2000.json",
+      "document_id": "lawdoc_4900629b37816aa3",
+      "law_name": "personal_affairs",
+      "law_number": "1090",
+      "year": "2000",
+      "chunk_count": 3,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/ministerial-decision-1090-2000.json"
+    },
+    {
+      "path": "personal-affairs/ministerial-decision-3269-1985.json",
+      "document_id": "lawdoc_6500117cae50e72a",
+      "law_name": "personal_affairs",
+      "law_number": "3269",
+      "year": "1985",
+      "chunk_count": 13,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/ministerial-decision-3269-1985.json"
+    },
+    {
+      "path": "personal-affairs/personal-decree-25-1929.json",
+      "document_id": "lawdoc_ecde51a89e480e6f",
+      "law_name": "personal_affairs",
+      "law_number": "25",
+      "year": "1929",
+      "chunk_count": 27,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/personal-decree-25-1929.json"
+    },
+    {
+      "path": "personal-affairs/personal-law-25-1920.json",
+      "document_id": "lawdoc_9a396852aeb82aea",
+      "law_name": "personal_affairs",
+      "law_number": "25",
+      "year": "1920",
+      "chunk_count": 13,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/personal-law-25-1920.json"
+    },
+    {
+      "path": "personal-affairs/wills-law-71-1946.json",
+      "document_id": "lawdoc_f414b4b1f3edf2af",
+      "law_name": "wills",
+      "law_number": "71",
+      "year": "1946",
+      "chunk_count": 85,
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0",
+      "embedding_path": "personal-affairs/wills-law-71-1946.json"
+    }
+  ]
+}

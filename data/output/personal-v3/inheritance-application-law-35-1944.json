@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "parserVersion": "3.3.0",
+    "inputFile": "personal_affair_law_qwen_output.json",
+    "pdfFile": "personal-src.pdf",
+    "generatedAt": "2026-09-03T10:34:13.040Z",
+    "recordCountOriginal": 390,
+    "recordCountRecovery": 50,
+    "recordCountMerged": 440,
+    "pdfRecoveryArticleCount": 0,
+    "instrumentId": "inheritance-application-law-35-1944",
+    "mode": "qwen+pdf"
+  },
+  "metadataResolved": {
+    "lawName": "inheritance",
+    "lawNumber": "35",
+    "year": "1944"
+  },
+  "instruments": [
+    {
+      "id": "inheritance-application-law-35-1944",
+      "lawName": "inheritance",
+      "lawNumber": "35",
+      "year": "1944",
+      "kind": "law",
+      "title": "القانون رقم 35 لسنة 1944 بشأن بيان القانون الواجب التطبيق في مسائل المواريث والوصايا",
+      "startPage": 15,
+      "endPage": 15,
+      "startMarkerOrdinal": 2,
+      "startAfter": {
+        "page": 15,
+        "articleNumber": "48"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "instrumentId": "inheritance-application-law-35-1944",
+      "lawName": "inheritance",
+      "lawNumber": "35",
+      "year": "1944",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "القسم الخامس – في التخارج",
+      "text": "مادة 1\nقوانين الميراث والوصية واحكام الشريعة الاسلامية المتبعة فيها هي قانون البلد فيما يتعلق بالمواريث والوصايا علي انه اذا كان المورث غير مسلم جاز لورثته في حكم الشريعة الاسلامية . وقوانين الميراث والوصية ان يتفقوا علي ان يكون التوريث طبقا لشريعة المتوفي .",
+      "textForEmbedding": "مادة 1\nقوانين الميراث والوصية واحكام الشريعة الاسلامية المتبعة فيها هي قانون البلد فيما يتعلق بالمواريث والوصايا علي انه اذا كان المورث غير مسلم جاز لورثته في حكم الشريعة الاسلامية . وقوانين الميراث والوصية ان يتفقوا علي ان يكون التوريث طبقا لشريعة المتوفي .",
+      "pageStart": 15,
+      "pageEnd": 15,
+      "pages": [
+        15
+      ],
+      "sourceOrder": 96,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:92:15:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "inheritance-application-law-35-1944",
+      "lawName": "inheritance",
+      "lawNumber": "35",
+      "year": "1944",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "القسم الخامس – في التخارج",
+      "text": "مادة 2\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريدة الرسمية .\nالوصية\nقانون رقم 71 لسنة 1946\nباصدار قانون الوصية\nقرر مجلس الشيوخ ومجلس النواب القانون الاتي نصه . وقد صدقنا عليه واصدرناه .",
+      "textForEmbedding": "مادة 2\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريدة الرسمية .\nالوصية\nقانون رقم 71 لسنة 1946\nباصدار قانون الوصية\nقرر مجلس الشيوخ ومجلس النواب القانون الاتي نصه . وقد صدقنا عليه واصدرناه .",
+      "pageStart": 15,
+      "pageEnd": 15,
+      "pages": [
+        15
+      ],
+      "sourceOrder": 97,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:93:15:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    }
+  ],
+  "coverage": {
+    "pdfPageCount": 66,
+    "articleAnchorCount": 410,
+    "qwenRecordCount": 390,
+    "pdfOnlyArticleCount": 0,
+    "pdfRecoveredArticleCount": 0,
+    "missingArticleNumbers": [],
+    "suspiciousArticleCount": 45
+  },
+  "validation": {
+    "issues": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 45,
+      "infos": 12,
+      "articleCount": 426,
+      "qwenRecordCount": 390,
+      "recoveryRecordCount": 50,
+      "suspiciousMergeCount": 0,
+      "missingArticleNumberCount": 0
+    }
+  }
+}

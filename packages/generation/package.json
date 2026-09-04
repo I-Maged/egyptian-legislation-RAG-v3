@@ -1,0 +1,27 @@
+{
+  "name": "@egyptian-law/generation",
+  "version": "1.0.0",
+  "description": "@egyptian-law/generation",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@egyptian-law/core": "*",
+    "@egyptian-law/db": "*",
+    "ollama": "^0.5.18"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

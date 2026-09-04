@@ -1,0 +1,32 @@
+{
+  "name": "Egyptian Legislation RAG",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "recover": "npm run build && node dist/index.js",
+    "test": "vitest",
+    "ragas:dataset": "tsx packages/evaluation/src/ragas/export-labour.ts",
+    "ragas:evaluate": "python evaluation/ragas/run.py",
+    "ragas:diagnose-faithfulness": "python evaluation/ragas/faithfulness-diagnostic.py",
+    "ragas:inspect-faithfulness": "python evaluation/ragas/inspect-faithfulness.py",
+    "parse:law": "tsx packages/ingestion/src/parser/index.ts",
+    "test:parser": "vitest run --config packages/ingestion/vitest.config.ts"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.74",
+    "ollama": "^0.5.18",
+    "pdfjs-dist": "^5.4.149"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  }
+}

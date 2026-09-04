@@ -1,0 +1,113 @@
+{
+  "parserVersion": "2.3.0",
+  "workerVersion": "1.1.0",
+  "sourcePdf": "labour_law.pdf",
+  "model": "gemma4:cloud",
+  "generatedAt": "2026-08-15T02:44:08.149Z",
+  "requestedPages": [
+    53,
+    76
+  ],
+  "records": [
+    {
+      "law_name": null,
+      "law_number": null,
+      "year": null,
+      "article_number": "187",
+      "chapter": null,
+      "text": "تتبع في الطعن على أحكام المحاكم العاملة الأحكام الواردة في قوانين الإجراءات الجنائية ، وحالات وإجراءات الطعن أمام محكمة النقض ، والمرافعات المدنية والتجارية ، والإثبات في المواد المدنية والتجارية ، بحسب الأحوال ، وذلك فيما لم يرد بشأنه نص خاص في هذا القانون .",
+      "text_for_embedding": null,
+      "page_number": 76,
+      "source": "vision_ocr_recovery",
+      "record_id": "recovery:76:0:187",
+      "recovery": {
+        "workerVersion": "1.1.0",
+        "model": "gemma4:cloud",
+        "requestedPage": 76,
+        "expectedArticles": [
+          187,
+          188,
+          189
+        ],
+        "promptVersion": "recovery-ocr-v1",
+        "recoveredAt": "2026-08-15T02:44:08.148Z"
+      }
+    },
+    {
+      "law_name": null,
+      "law_number": null,
+      "year": null,
+      "article_number": "188",
+      "chapter": "الباب الثالث\nعلاقات العمل الجماعية\n( الفصل الأول )\nالحوار الاجتماعي",
+      "text": "ينشأ بالوزارة المختصة مجلس يسمى \"المجلس الأعلى للتشاور الاجتماعي\" ، وتكون له الشخصية الاعتبارية العامة ، يهدف إلى تعزيز التعاون والتشاور والحوار بين أطراف العمل الثلاثة في جميع قضايا العمل ، بما يحقق التوازن والاستقرار في علاقات العمل الفردية والجماعية .",
+      "text_for_embedding": null,
+      "page_number": 76,
+      "source": "vision_ocr_recovery",
+      "record_id": "recovery:76:1:188",
+      "recovery": {
+        "workerVersion": "1.1.0",
+        "model": "gemma4:cloud",
+        "requestedPage": 76,
+        "expectedArticles": [
+          187,
+          188,
+          189
+        ],
+        "promptVersion": "recovery-ocr-v1",
+        "recoveredAt": "2026-08-15T02:44:08.148Z"
+      }
+    },
+    {
+      "law_name": null,
+      "law_number": null,
+      "year": null,
+      "article_number": "189",
+      "chapter": null,
+      "text": "يختص المجلس الأعلى للتشاور الاجتماعي بما يأتي :\n١- رسم السياسات القومية للتشاور الثلاثي والحوار الاجتماعي ، وخلق بيئة عمل محفزة على التشاور والتعاون وتبادل المعلومات بين أطراف العمل الثلاثة ، بما يتفق مع السياسة العامة العامة للدولة .",
+      "text_for_embedding": null,
+      "page_number": 76,
+      "source": "vision_ocr_recovery",
+      "record_id": "recovery:76:2:189",
+      "recovery": {
+        "workerVersion": "1.1.0",
+        "model": "gemma4:cloud",
+        "requestedPage": 76,
+        "expectedArticles": [
+          187,
+          188,
+          189
+        ],
+        "promptVersion": "recovery-ocr-v1",
+        "recoveredAt": "2026-08-15T02:44:08.148Z"
+      }
+    }
+  ],
+  "pageResults": [
+    {
+      "pageNumber": 53,
+      "status": "failed",
+      "expectedArticles": [
+        121,
+        122
+      ],
+      "detectedArticles": [],
+      "recordCount": 0,
+      "error": "Ollama returned non-JSON output."
+    },
+    {
+      "pageNumber": 76,
+      "status": "recovered",
+      "expectedArticles": [
+        187,
+        188,
+        189
+      ],
+      "detectedArticles": [
+        "187",
+        "188",
+        "189"
+      ],
+      "recordCount": 3
+    }
+  ]
+}

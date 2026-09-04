@@ -1,0 +1,41 @@
+{
+  "name": "@egyptian-law/ingestion",
+  "version": "1.0.0",
+  "description": "@egyptian-law/ingestion",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "canonicalize:labour": "tsx src/commands/canonicalize-labour-law.ts",
+    "inspect:corpus": "tsx src/commands/inspect-canonical-corpus.ts",
+    "embed:labour": "tsx src/commands/embed-labour-law.ts",
+    "embed:financial": "tsx src/commands/embed-financial-law.ts",
+    "embed:personal": "tsx src/commands/embed-personal-affairs.ts",
+    "reindex": "tsx src/commands/reindex-canonical.ts",
+    "reindex:db": "tsx src/commands/reindex-db.ts",
+    "check:embeddings:labour": "tsx src/commands/check-labour-embeddings.ts",
+    "check:embeddings:financial": "tsx src/commands/check-financial-embeddings.ts",
+    "check:embeddings:personal": "tsx src/commands/check-personal-embeddings.ts",
+    "canonicalize:law": "tsx src/commands/canonicalize.ts",
+    "check:canonical": "tsx src/commands/check-canonical.ts",
+    "import:db": "tsx src/commands/import-corpus.ts",
+    "canonicalize:all": "tsx src/commands/canonicalize-all.ts",
+    "check:canonical:all": "tsx src/commands/check-canonical-all.ts"
+  },
+  "dependencies": {
+    "@egyptian-law/core": "*",
+    "@egyptian-law/db": "*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

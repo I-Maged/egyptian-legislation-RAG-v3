@@ -1,0 +1,679 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "id": "lawdoc_b3ca42fe1dd1894f",
+    "law_name": "personal_affairs",
+    "law_number": "1088",
+    "year": "2000",
+    "jurisdiction": "EG",
+    "language": "ar",
+    "source_file": "personal_affair_law.pdf",
+    "metadata": {
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0"
+    }
+  },
+  "chunks": [
+    {
+      "id": "lawchunk_436b5bd23232fab7",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "1",
+      "article_title": null,
+      "source_order": 397,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 1 :\nتتبع الاجراءات المبينة في المواد التالية في شان جرد اموال المعنيين بالحماية وفقا لحكم المادة 41 من القانون رقم 1 لسنة 2000 .",
+      "text_for_embedding": "مادة 1 :\nتتبع الاجراءات المبينة في المواد التالية في شان جرد اموال المعنيين بالحماية وفقا لحكم المادة 41 من القانون رقم 1 لسنة 2000 .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7270d9b803cc5f87",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "2",
+      "article_title": null,
+      "source_order": 398,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 2 :\nتخطر النيابة العامة من صدر في غيبته قرارا من المحكمة بتعيينه وصيا او قيم او وكيل عن الغايب او مساعد قضايي او مدير موقت بالقرار الصادر ، وذلك لشخصية علي يد محضر ، فان اعترض خلال الميعاد المنصوص عليه في المادة 40 من القانون رقم 1 لسنة 2000 المشار اليه يجب اتباع حكم المادة 39 من ذلك القانون .",
+      "text_for_embedding": "مادة 2 :\nتخطر النيابة العامة من صدر في غيبته قرارا من المحكمة بتعيينه وصيا او قيم او وكيل عن الغايب او مساعد قضايي او مدير موقت بالقرار الصادر ، وذلك لشخصية علي يد محضر ، فان اعترض خلال الميعاد المنصوص عليه في المادة 40 من القانون رقم 1 لسنة 2000 المشار اليه يجب اتباع حكم المادة 39 من ذلك القانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e990080219662c0a",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "3",
+      "article_title": null,
+      "source_order": 399,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 3 :\nتخطر النيابة العامة النايب المعين ونوي الشان بالموعد الذي حددته لجرد اموال المعني بالحماية ، وذلك بموجب اعلان علي يد محضر ، وللنيابة العامة دعوة القاصر الذي اتم خمس عشرة سنة ميلادية الحضور اجراءات الجرد متي رات ضرورة لحضوره .",
+      "text_for_embedding": "مادة 3 :\nتخطر النيابة العامة النايب المعين ونوي الشان بالموعد الذي حددته لجرد اموال المعني بالحماية ، وذلك بموجب اعلان علي يد محضر ، وللنيابة العامة دعوة القاصر الذي اتم خمس عشرة سنة ميلادية الحضور اجراءات الجرد متي رات ضرورة لحضوره .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_1fa1eebf2b1ad693",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "4",
+      "article_title": null,
+      "source_order": 400,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 4 :\nتولي النيابة العامة بنفسها او بمن تندبه لذلك من المعاونين الملحقين بها مباشرة اجراءات الجرد .",
+      "text_for_embedding": "مادة 4 :\nتولي النيابة العامة بنفسها او بمن تندبه لذلك من المعاونين الملحقين بها مباشرة اجراءات الجرد .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ef65c091afcae592",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "5",
+      "article_title": null,
+      "source_order": 401,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 5 :\nتثبت الاجراءات التي تتخذ في شان جرد اموال المعني بالحماية في محضر من نسختين يشار فيه لتاريخ افتتاح المحضر ومكانه وشخص القايم به ، واثبات دعوي ذوي الشان والنايب المعين لحضور الجرد والاثبات - حضور من حضر منهم والافاقة ان رغب في الاداء بواقع نقلع بما سيتم جرده من اموال وحقوق وديون .",
+      "text_for_embedding": "مادة 5 :\nتثبت الاجراءات التي تتخذ في شان جرد اموال المعني بالحماية في محضر من نسختين يشار فيه لتاريخ افتتاح المحضر ومكانه وشخص القايم به ، واثبات دعوي ذوي الشان والنايب المعين لحضور الجرد والاثبات - حضور من حضر منهم والافاقة ان رغب في الاداء بواقع نقلع بما سيتم جرده من اموال وحقوق وديون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_f9e218ed9dee107a",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "6",
+      "article_title": null,
+      "source_order": 402,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 6 :\nتثبت حالة الاختام التي امرت النيابة العامة بوضعها عند حصر الاموال اعمالا للمادة 33 من القانون رقم 1 لسنة 2000 المشار اليه ، بعد التاكد من سلامتها يتم رفعها ، ويطابق ما سبق حصره من اموال علي الواقع .",
+      "text_for_embedding": "مادة 6 :\nتثبت حالة الاختام التي امرت النيابة العامة بوضعها عند حصر الاموال اعمالا للمادة 33 من القانون رقم 1 لسنة 2000 المشار اليه ، بعد التاكد من سلامتها يتم رفعها ، ويطابق ما سبق حصره من اموال علي الواقع .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_0bebf8d03e9cd4db",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "7",
+      "article_title": null,
+      "source_order": 403,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 7 :\nيتم جرد جميع الاموال والمنقولات مع بيان اوصافها وتقدير قيمتها , وللنيابة العامة ان تستعين في ذلك باهل الخبرة من المختصين , وفي هذه الحالة يثبت في المحضر اسم وعمل من قام بهذا التقدير , فان تعذر استعانته باهل الخبرة وقت الجرد , كان للنيابة العامة ان تتحفظ موقتا علي ما لم تقدم قيمته من الاموال او تعين عليها حارسا ان لزم الامر لحين عرضها علي خبير لتقدير قيمتها , علي ان يثبت في المحضر اوصاف ما تم التحفظ عليه",
+      "text_for_embedding": "مادة 7 :\nيتم جرد جميع الاموال والمنقولات مع بيان اوصافها وتقدير قيمتها , وللنيابة العامة ان تستعين في ذلك باهل الخبرة من المختصين , وفي هذه الحالة يثبت في المحضر اسم وعمل من قام بهذا التقدير , فان تعذر استعانته باهل الخبرة وقت الجرد , كان للنيابة العامة ان تتحفظ موقتا علي ما لم تقدم قيمته من الاموال او تعين عليها حارسا ان لزم الامر لحين عرضها علي خبير لتقدير قيمتها , علي ان يثبت في المحضر اوصاف ما تم التحفظ عليه",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 60,
+        "page_end": 60
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_9dbeddb48210d59d",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "8",
+      "article_title": null,
+      "source_order": 404,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 8 :\nوان كان من بين الاموال معي المعني بالهملاية معادن او احجار كريمة او هي علي شكل سبايك او عياراتها , وذلك بمعرفة اهل الخبرة , فان تعذر ذلك وجد الجرد اثبت حكم المادة السابقة . مادة 9 :\nيرفق بالمحضر الجرد مذكرة تفصيلية تتضمن - حسب الاحوال - نوع واوصاف واوزان واعيار الاشياء والاموال التي بهد اليها وقيمة كل منها , ويثبت مضمونا ما اشتملت عليه المذكرة في المحضر .",
+      "text_for_embedding": "مادة 8 :\nوان كان من بين الاموال معي المعني بالهملاية معادن او احجار كريمة او هي علي شكل سبايك او عياراتها , وذلك بمعرفة اهل الخبرة , فان تعذر ذلك وجد الجرد اثبت حكم المادة السابقة . مادة 9 :\nيرفق بالمحضر الجرد مذكرة تفصيلية تتضمن - حسب الاحوال - نوع واوصاف واوزان واعيار الاشياء والاموال التي بهد اليها وقيمة كل منها , ويثبت مضمونا ما اشتملت عليه المذكرة في المحضر .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e58cbba8a58da433",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "9",
+      "article_title": null,
+      "source_order": 405,
+      "hierarchy": [],
+      "text": "مادة 9:\nيرفق بمحضر الجرد مذكرة من الخبير تتضمن - بحسب الاحوال - نوع واوصاف واوزان وعيار الاشياء والاموال التي عهد بها اليه وقيمة كل منها، ويثبت مضمون ما اشتملت عليه المذكرة في المحضر.",
+      "text_for_embedding": "مادة 9:\nيرفق بمحضر الجرد مذكرة من الخبير تتضمن - بحسب الاحوال - نوع واوصاف واوزان وعيار الاشياء والاموال التي عهد بها اليه وقيمة كل منها، ويثبت مضمون ما اشتملت عليه المذكرة في المحضر.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e5ee2a2308860756",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "10",
+      "article_title": null,
+      "source_order": 406,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 10 :\nيتم اثبات ما يوجد من الفتود السايله مع بيان نوعها ومقدارها .",
+      "text_for_embedding": "مادة 10 :\nيتم اثبات ما يوجد من الفتود السايله مع بيان نوعها ومقدارها .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_1d860a68a202561c",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "11",
+      "article_title": null,
+      "source_order": 407,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 11 :\nيتم اثبات ما يوجد من الاوسط والسندات , وترقم اوراقها ويوشر علي كل منها من القايم بالجرد .",
+      "text_for_embedding": "مادة 11 :\nيتم اثبات ما يوجد من الاوسط والسندات , وترقم اوراقها ويوشر علي كل منها من القايم بالجرد .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7985382ed7de5a75",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "12",
+      "article_title": null,
+      "source_order": 408,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 12 :\nتثبت حالة الدفاتر والسجلات التجارية , وترقم صفحاتها وصحايفها ويوشر علي ما لم يسبق التاشير عليه من قبل اثناء حصر الاموال , وتملا الفراغات بوضع علامات خطيه .",
+      "text_for_embedding": "مادة 12 :\nتثبت حالة الدفاتر والسجلات التجارية , وترقم صفحاتها وصحايفها ويوشر علي ما لم يسبق التاشير عليه من قبل اثناء حصر الاموال , وتملا الفراغات بوضع علامات خطيه .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c081787b8072e66a",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "13",
+      "article_title": null,
+      "source_order": 409,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 13 :\nللنيابة العامة ان تستعين بخبير حسابي لفحص الدفاتر والسجلات التجارية والسندات وتوصلا الي ما للمعني بالحماية من اموال وحقوق وما عليه من التزامات مالية .",
+      "text_for_embedding": "مادة 13 :\nللنيابة العامة ان تستعين بخبير حسابي لفحص الدفاتر والسجلات التجارية والسندات وتوصلا الي ما للمعني بالحماية من اموال وحقوق وما عليه من التزامات مالية .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_acf16fd19a47c21d",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "14",
+      "article_title": null,
+      "source_order": 410,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 14 :\nتثبت حالة الخزان المعلقة ان وجدت , ويعد , يفتح يتم جرد ما بها من اموال ومستندات وغيرهم .",
+      "text_for_embedding": "مادة 14 :\nتثبت حالة الخزان المعلقة ان وجدت , ويعد , يفتح يتم جرد ما بها من اموال ومستندات وغيرهم .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_f1bd9b24776afa13",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "15",
+      "article_title": null,
+      "source_order": 411,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 15 :\nاذا تبين اثناء الجرد وجود وصية مغلقة تكون محتمة تكون اثبات حالتها ومضمونها بالمحضر بعد التاشير عليها من القايم باعمال الجرد .",
+      "text_for_embedding": "مادة 15 :\nاذا تبين اثناء الجرد وجود وصية مغلقة تكون محتمة تكون اثبات حالتها ومضمونها بالمحضر بعد التاشير عليها من القايم باعمال الجرد .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_0c0ec8765cc15b11",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "16",
+      "article_title": null,
+      "source_order": 412,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 16 :\nاذا تبين اثناء الجرد وجود وصية او اوراق اخري مختومة يتم ايجاد اثبات ما يوجد علي ظاهرها من كتابة او ختم , والتوقيع علي المظروف الذي يحتويها من القايم باعمال الجرد والحاضر من ذوي الشان والثابتين المعين , وتحديد الي الذي يتم فص المظروف فيه بمعرفة النيابة العامة والعامل الحاضرين بذلك , وفي اليوم المحدد تتولي النيابة العامة فحص الاحراز واثبات حالة ما يوجد بها من اوراق وغيره , وتعرضها علي المحكمة المختصة .",
+      "text_for_embedding": "مادة 16 :\nاذا تبين اثناء الجرد وجود وصية او اوراق اخري مختومة يتم ايجاد اثبات ما يوجد علي ظاهرها من كتابة او ختم , والتوقيع علي المظروف الذي يحتويها من القايم باعمال الجرد والحاضر من ذوي الشان والثابتين المعين , وتحديد الي الذي يتم فص المظروف فيه بمعرفة النيابة العامة والعامل الحاضرين بذلك , وفي اليوم المحدد تتولي النيابة العامة فحص الاحراز واثبات حالة ما يوجد بها من اوراق وغيره , وتعرضها علي المحكمة المختصة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_004c8f3db7d2daab",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "17",
+      "article_title": null,
+      "source_order": 413,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 17 :\nاذا تبين للنيابة العامة من ظاهر ما هو مكتوب علي الاحراز المختومة انها مملوكة لغير ذوي الشان , تعين عليها استدعاوهم في ميعاد تحدده لحضور فحص الاحراز , وفي اليوم المحدد تتولي النيابة العامة فحصها ولو لم يحضر من تم استدعاوهم و فان تبين ان الاحراز لا شان لها شان لها بالمعني بالحماية تسلمها لذوي الشان او تعيد تحريزها لتسلم البهم عند طلبها .\n. فاذا ثار نزاع في هذا الشان تعين عرض امره علي المحكمة المختصة .",
+      "text_for_embedding": "مادة 17 :\nاذا تبين للنيابة العامة من ظاهر ما هو مكتوب علي الاحراز المختومة انها مملوكة لغير ذوي الشان , تعين عليها استدعاوهم في ميعاد تحدده لحضور فحص الاحراز , وفي اليوم المحدد تتولي النيابة العامة فحصها ولو لم يحضر من تم استدعاوهم و فان تبين ان الاحراز لا شان لها شان لها بالمعني بالحماية تسلمها لذوي الشان او تعيد تحريزها لتسلم البهم عند طلبها .\n. فاذا ثار نزاع في هذا الشان تعين عرض امره علي المحكمة المختصة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7e401b9e670dd7fd",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "18",
+      "article_title": null,
+      "source_order": 414,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 18 :\nيثبت في محضر بان ما سبق نقله الي حد المصروفات او الي اي مكان اخر من الاموال والاوراق المالية والمستندات والمصوغات اعمالا اعملا للفترة الثانية من المادة 33 من القانون رقم 1 لسنة 200 المشار اليه , ويتم حصر وتقييم هذه الاموال والمستندات وغيرها بمراعاة بمراعاة القواعد المتقمنة",
+      "text_for_embedding": "مادة 18 :\nيثبت في محضر بان ما سبق نقله الي حد المصروفات او الي اي مكان اخر من الاموال والاوراق المالية والمستندات والمصوغات اعمالا اعملا للفترة الثانية من المادة 33 من القانون رقم 1 لسنة 200 المشار اليه , ويتم حصر وتقييم هذه الاموال والمستندات وغيرها بمراعاة بمراعاة القواعد المتقمنة",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 61,
+        "page_end": 61
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_d09a07a7e468642e",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "19",
+      "article_title": null,
+      "source_order": 415,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 19 :\nفي حالة وجود نزاع علي اي من الاموال او الاشياء التي تم جردها تعين عرض الامر بشانها علي المحكمة المختصة بعد اتخاذ الاجراءات التخطيطية او الموقتة المناسبة ز",
+      "text_for_embedding": "مادة 19 :\nفي حالة وجود نزاع علي اي من الاموال او الاشياء التي تم جردها تعين عرض الامر بشانها علي المحكمة المختصة بعد اتخاذ الاجراءات التخطيطية او الموقتة المناسبة ز",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 62,
+        "page_end": 62
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_bcf426fbed01e76c",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "20",
+      "article_title": null,
+      "source_order": 416,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 20 :\nان تعزم اتتمام اجراءات الجرد في اليوم في يوم افتتاح المحضر تعين اثبات ما تم من اجراءات في حينه وارجاء الاعمال الاخري ليوم تال يحدد ويرفع علي المحضر من النايب المعين والحاضر من ذوي الشان والقايم باعمال الجرد باعمال الجرد بمثابة اخطار لهم باليوم المحدد لاستكمال اعمال الجرد .",
+      "text_for_embedding": "مادة 20 :\nان تعزم اتتمام اجراءات الجرد في اليوم في يوم افتتاح المحضر تعين اثبات ما تم من اجراءات في حينه وارجاء الاعمال الاخري ليوم تال يحدد ويرفع علي المحضر من النايب المعين والحاضر من ذوي الشان والقايم باعمال الجرد باعمال الجرد بمثابة اخطار لهم باليوم المحدد لاستكمال اعمال الجرد .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 62,
+        "page_end": 62
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_d1b17bc431061d09",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "21",
+      "article_title": null,
+      "source_order": 417,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 21 :\nبعد اتمام اعمال جرد السلم التزام النايب المعين ويوقع ذوو الشان والقايم باعمال الجرد والنايب المعين علي المحضر وبعد النايب المعين مسيولا عن الالوال التي تسلمها من تاريخ توقيعه . وترفع النايب العامة محضر جرد الي المحكمة للتصديق عليه علي النحو المبين بالمادة 42 من القانون رقم 1 لسنة 2000 المشار اليه .",
+      "text_for_embedding": "مادة 21 :\nبعد اتمام اعمال جرد السلم التزام النايب المعين ويوقع ذوو الشان والقايم باعمال الجرد والنايب المعين علي المحضر وبعد النايب المعين مسيولا عن الالوال التي تسلمها من تاريخ توقيعه . وترفع النايب العامة محضر جرد الي المحكمة للتصديق عليه علي النحو المبين بالمادة 42 من القانون رقم 1 لسنة 2000 المشار اليه .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 62,
+        "page_end": 62
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fd936974ad379590",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "22",
+      "article_title": null,
+      "source_order": 418,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 22 :\nفي حالة مصف لتزكة كل تعيين النايب عن المعني بالحماية وبمباشرة النيابة العامة لاجراءات الجرد يتبع حكم المادة 45 / 1 من القانون رقم 1 لسنة 2000 في شان هذه الاجراءات .",
+      "text_for_embedding": "مادة 22 :\nفي حالة مصف لتزكة كل تعيين النايب عن المعني بالحماية وبمباشرة النيابة العامة لاجراءات الجرد يتبع حكم المادة 45 / 1 من القانون رقم 1 لسنة 2000 في شان هذه الاجراءات .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 62,
+        "page_end": 62
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c8cea11dbec7ab2c",
+      "document_id": "lawdoc_b3ca42fe1dd1894f",
+      "law_name": "personal_affairs",
+      "law_number": "1088",
+      "year": "2000",
+      "article_number": "23",
+      "article_title": null,
+      "source_order": 419,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الباب الخامس",
+          "title": null
+        }
+      ],
+      "text": "مادة 23 :\nينشر هذا القرار في الوقايع المصرية , ويعمل به من اليوم لتاريخ نشره . صدر في 3 / 6 / 2000\nوزير العدل\nالمستشار / فاروق سيف النصر\nوزارة العدل\nقرار وزير العدل رقم 1089 لسنة 2000\nبقواعد واجراءات اعمال الاخصاييين\nالاجتماعيين الملحقين بالمحاكم الابتدايية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات القاضي في مسايل الاحوال الشخصية الصادر رقم 1 لسنة 2000 . وبناء علي موافقة وزيرة التاميدات والشيون الاجتماعية .\nقرر",
+      "text_for_embedding": "مادة 23 :\nينشر هذا القرار في الوقايع المصرية , ويعمل به من اليوم لتاريخ نشره . صدر في 3 / 6 / 2000\nوزير العدل\nالمستشار / فاروق سيف النصر\nوزارة العدل\nقرار وزير العدل رقم 1089 لسنة 2000\nبقواعد واجراءات اعمال الاخصاييين\nالاجتماعيين الملحقين بالمحاكم الابتدايية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات القاضي في مسايل الاحوال الشخصية الصادر رقم 1 لسنة 2000 . وبناء علي موافقة وزيرة التاميدات والشيون الاجتماعية .\nقرر",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 62,
+        "page_end": 62
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    }
+  ]
+}

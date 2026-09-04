@@ -1,0 +1,2151 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": {
+    "name": "labour-law-retrieval-generation-v1",
+    "timestamp": "2026-08-20T07:50:19.361Z",
+    "dataset": "labour-law-retrieval-v1",
+    "queryCount": 15
+  },
+  "corpus": {
+    "documentId": "lawdoc_f1fd6f6338643087",
+    "sourceFile": "labour-v2.3.pdf",
+    "chunkCount": 293
+  },
+  "embedding": {
+    "model": "bge-m3",
+    "dimensions": 1024
+  },
+  "generation": {
+    "model": "gemma4:cloud",
+    "concurrency": 3
+  },
+  "judge": {
+    "model": "gemma4:cloud",
+    "concurrency": 3,
+    "passThreshold": 0.7
+  },
+  "retrieval": {
+    "db-vector": {
+      "queryCount": 15,
+      "recall": {
+        "1": 0.7333333333333333,
+        "3": 0.9666666666666667,
+        "5": 1,
+        "10": 1
+      },
+      "precision": {
+        "5": 0.21333333333333335,
+        "10": 0.10666666666666667
+      },
+      "hitRate": {
+        "1": 0.7333333333333333,
+        "3": 1,
+        "5": 1,
+        "10": 1
+      },
+      "mrr": 0.8555555555555556,
+      "ndcg": {
+        "5": 0.8923940018097836,
+        "10": 0.8923940018097836
+      }
+    },
+    "db-vector-reranked": {
+      "queryCount": 15,
+      "recall": {
+        "1": 0.8,
+        "3": 0.9,
+        "5": 0.9666666666666667,
+        "10": 1
+      },
+      "precision": {
+        "5": 0.20000000000000004,
+        "10": 0.10666666666666667
+      },
+      "hitRate": {
+        "1": 0.8,
+        "3": 0.9333333333333333,
+        "5": 1,
+        "10": 1
+      },
+      "mrr": 0.8722222222222222,
+      "ndcg": {
+        "5": 0.8912119938685055,
+        "10": 0.905772489656383
+      }
+    }
+  },
+  "context": {
+    "db-vector": {
+      "queryCount": 15,
+      "contextRecall": 1,
+      "contextPrecision": 0.10666666666666667,
+      "contextHitRate": 1
+    },
+    "db-vector-reranked": {
+      "queryCount": 15,
+      "contextRecall": 1,
+      "contextPrecision": 0.10666666666666667,
+      "contextHitRate": 1
+    }
+  },
+  "generationEvaluation": {
+    "db-vector": {
+      "queryCount": 15,
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passRate": 1
+    },
+    "db-vector-reranked": {
+      "queryCount": 15,
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 0.8666666666666667,
+      "passRate": 0.8666666666666667
+    }
+  },
+  "diagnostics": [
+    {
+      "queryId": "labour-001",
+      "query": "ما هي مدة فترة الاختبار في عقد العمل؟",
+      "goldArticles": [
+        "90"
+      ],
+      "goldChunkIds": [
+        "lawchunk_055be547281b77e8"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_055be547281b77e8",
+          "articleNumber": "90",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_c946a5b413771dd0",
+          "articleNumber": "88",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_3a2499ab8dfc55d3",
+          "articleNumber": "141",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_60af156ac1fc2cdd",
+          "articleNumber": "58",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_54ff6fe02494ad38",
+          "articleNumber": "87",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_dcaa856cb9243baa",
+          "articleNumber": "6",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_bbf8f91f2acb4667",
+          "articleNumber": "48",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_4220a16f3fb6a74b",
+          "articleNumber": "156",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_055be547281b77e8",
+          "articleNumber": "90",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_dcaa856cb9243baa",
+          "articleNumber": "6",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_c946a5b413771dd0",
+          "articleNumber": "88",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_60af156ac1fc2cdd",
+          "articleNumber": "58",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-002",
+      "query": "كم مرة يجوز تعيين العامل تحت الاختبار لدى صاحب عمل واحد؟",
+      "goldArticles": [
+        "90"
+      ],
+      "goldChunkIds": [
+        "lawchunk_055be547281b77e8"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_055be547281b77e8",
+          "articleNumber": "90",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_8bea210af3bd88c9",
+          "articleNumber": "137",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_4e1f5f88fc8c9518",
+          "articleNumber": "140",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_e982f22206c656e9",
+          "articleNumber": "145",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_8f5988d9887ea867",
+          "articleNumber": "108",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_d89fa8a1cad08f75",
+          "articleNumber": "98",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_3a2499ab8dfc55d3",
+          "articleNumber": "141",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_d291afd7db531a86",
+          "articleNumber": "241",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_055be547281b77e8",
+          "articleNumber": "90",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_d89fa8a1cad08f75",
+          "articleNumber": "98",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_8f5988d9887ea867",
+          "articleNumber": "108",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_b39464f7c4c8adbc",
+          "articleNumber": "149",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_3a2499ab8dfc55d3",
+          "articleNumber": "141",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_d291afd7db531a86",
+          "articleNumber": "241",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_6e84221a439a2339",
+          "articleNumber": "136",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_2d04ce84a54ebe9e",
+          "articleNumber": "148",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_1ef41d4e89bc6e10",
+          "articleNumber": "110",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-003",
+      "query": "ما الحد الأقصى لساعات العمل الفعلية للعامل في اليوم والأسبوع؟",
+      "goldArticles": [
+        "117"
+      ],
+      "goldChunkIds": [
+        "lawchunk_2f170099833694d8"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_2d8442da98465c2d",
+          "articleNumber": "120",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_1ef41d4e89bc6e10",
+          "articleNumber": "110",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_3ef3c2190c2bd3c3",
+          "articleNumber": "162",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_05c226995f7a3a86",
+          "articleNumber": "123",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_8f5988d9887ea867",
+          "articleNumber": "108",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_3ef3c2190c2bd3c3",
+          "articleNumber": "162",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_1ef41d4e89bc6e10",
+          "articleNumber": "110",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-004",
+      "query": "هل تدخل فترات تناول الطعام والراحة ضمن ساعات العمل الفعلية؟",
+      "goldArticles": [
+        "117"
+      ],
+      "goldChunkIds": [
+        "lawchunk_2f170099833694d8"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_2d8442da98465c2d",
+          "articleNumber": "120",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_bc42f206f8d18002",
+          "articleNumber": "116",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_7168d9521f34328c",
+          "articleNumber": "31",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_bc42f206f8d18002",
+          "articleNumber": "116",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_348a9f104e195fe9",
+          "articleNumber": "56",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_05c226995f7a3a86",
+          "articleNumber": "123",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_179012f66e404d9e",
+          "articleNumber": "96",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 3,
+      "vectorRerankedFirstRelevantRank": 2
+    },
+    {
+      "queryId": "labour-005",
+      "query": "ما الحد الأدنى لمجموع فترات تناول الطعام والراحة أثناء العمل؟",
+      "goldArticles": [
+        "118"
+      ],
+      "goldChunkIds": [
+        "lawchunk_ef38f42433ad24e1"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_2d8442da98465c2d",
+          "articleNumber": "120",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_c8204ded8c07da6f",
+          "articleNumber": "57",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_8f5988d9887ea867",
+          "articleNumber": "108",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_c5f157651a9f59aa",
+          "articleNumber": "102",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_3ef3c2190c2bd3c3",
+          "articleNumber": "162",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_1173f59a9396c932",
+          "articleNumber": "271",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-006",
+      "query": "ما أقصى مدة يمكن أن يعملها العامل متصلة دون فترة راحة؟",
+      "goldArticles": [
+        "118"
+      ],
+      "goldChunkIds": [
+        "lawchunk_ef38f42433ad24e1"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_2d8442da98465c2d",
+          "articleNumber": "120",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_e982f22206c656e9",
+          "articleNumber": "145",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_c8204ded8c07da6f",
+          "articleNumber": "57",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_daf8cdf9b188b8b8",
+          "articleNumber": "164",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 2,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-007",
+      "query": "ما الحد الأقصى للفترة بين بداية ساعات العمل ونهايتها في اليوم؟",
+      "goldArticles": [
+        "119"
+      ],
+      "goldChunkIds": [
+        "lawchunk_c51318b487ef1194"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_2d8442da98465c2d",
+          "articleNumber": "120",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_eeee13ee9cf1a167",
+          "articleNumber": "143",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_4e1f5f88fc8c9518",
+          "articleNumber": "140",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_8020af7d0cbb3705",
+          "articleNumber": "157",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_179012f66e404d9e",
+          "articleNumber": "96",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_7835c98cd039e5c2",
+          "articleNumber": "65",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_4e1f5f88fc8c9518",
+          "articleNumber": "140",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_05c226995f7a3a86",
+          "articleNumber": "123",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_3ef3c2190c2bd3c3",
+          "articleNumber": "162",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_ef38f42433ad24e1",
+          "articleNumber": "118",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-008",
+      "query": "ما مدة تواجد العامل في المنشأة بالنسبة للأعمال المتقطعة أو ذات الطبيعة الخاصة؟",
+      "goldArticles": [
+        "119"
+      ],
+      "goldChunkIds": [
+        "lawchunk_c51318b487ef1194"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_e982f22206c656e9",
+          "articleNumber": "145",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_2d8442da98465c2d",
+          "articleNumber": "120",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_d26d76a19c4ddc53",
+          "articleNumber": "166",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_c51318b487ef1194",
+          "articleNumber": "119",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_a1abd5b26519d0bf",
+          "articleNumber": "151",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_daf8cdf9b188b8b8",
+          "articleNumber": "164",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_e982f22206c656e9",
+          "articleNumber": "145",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_2f170099833694d8",
+          "articleNumber": "117",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 2,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-009",
+      "query": "ما البيانات التي يجب أن يتضمنها عقد العمل؟",
+      "goldArticles": [
+        "89"
+      ],
+      "goldChunkIds": [
+        "lawchunk_ad93d4778843ca9e"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ad93d4778843ca9e",
+          "articleNumber": "89",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_e9e4c29c79504d33",
+          "articleNumber": "99",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_e2e3d62f3b250994",
+          "articleNumber": "38",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_31273153f791871c",
+          "articleNumber": "33",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_27785ddd1ba49895",
+          "articleNumber": "153",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_bbf8f91f2acb4667",
+          "articleNumber": "48",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_8855c5250d4ddc67",
+          "articleNumber": "134",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_05f41991b8c6daf7",
+          "articleNumber": "205",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_8855c5250d4ddc67",
+          "articleNumber": "134",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_31273153f791871c",
+          "articleNumber": "33",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_ad93d4778843ca9e",
+          "articleNumber": "89",
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_9c7cb8bc9a37c591",
+          "articleNumber": "36",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_e9e4c29c79504d33",
+          "articleNumber": "99",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_e2e3d62f3b250994",
+          "articleNumber": "38",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_590a54000c744478",
+          "articleNumber": "27",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 4
+    },
+    {
+      "queryId": "labour-010",
+      "query": "كم نسخة يجب تحريرها من عقد العمل؟",
+      "goldArticles": [
+        "89"
+      ],
+      "goldChunkIds": [
+        "lawchunk_ad93d4778843ca9e"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ad93d4778843ca9e",
+          "articleNumber": "89",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_e9e4c29c79504d33",
+          "articleNumber": "99",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_bbf8f91f2acb4667",
+          "articleNumber": "48",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_8bea210af3bd88c9",
+          "articleNumber": "137",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_56eae03a31707e03",
+          "articleNumber": "201",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_4e1f5f88fc8c9518",
+          "articleNumber": "140",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_27785ddd1ba49895",
+          "articleNumber": "153",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_055be547281b77e8",
+          "articleNumber": "90",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_ad93d4778843ca9e",
+          "articleNumber": "89",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_e9e4c29c79504d33",
+          "articleNumber": "99",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_bbf8f91f2acb4667",
+          "articleNumber": "48",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_8bea210af3bd88c9",
+          "articleNumber": "137",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_56eae03a31707e03",
+          "articleNumber": "201",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_4e1f5f88fc8c9518",
+          "articleNumber": "140",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_27785ddd1ba49895",
+          "articleNumber": "153",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_055be547281b77e8",
+          "articleNumber": "90",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-011",
+      "query": "ما المدة التي يلتزم فيها صاحب العمل بإعادة العامل إلى الجهة التي تم التعاقد معه فيها بعد انتهاء عقد العمل؟",
+      "goldArticles": [
+        "93"
+      ],
+      "goldChunkIds": [
+        "lawchunk_f925c79a89805a59"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_f925c79a89805a59",
+          "articleNumber": "93",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_e6bf30f765a5537b",
+          "articleNumber": "74",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_11a2791d324dba93",
+          "articleNumber": "95",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_daf8cdf9b188b8b8",
+          "articleNumber": "164",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_bbf8f91f2acb4667",
+          "articleNumber": "48",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_ad93d4778843ca9e",
+          "articleNumber": "89",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_f925c79a89805a59",
+          "articleNumber": "93",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_e6bf30f765a5537b",
+          "articleNumber": "74",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_11a2791d324dba93",
+          "articleNumber": "95",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_b39464f7c4c8adbc",
+          "articleNumber": "149",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_d291afd7db531a86",
+          "articleNumber": "241",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-012",
+      "query": "ما مدة الاحتفاظ بملف العامل بعد انتهاء علاقة العمل؟",
+      "goldArticles": [
+        "92"
+      ],
+      "goldChunkIds": [
+        "lawchunk_b406c4fbbb61695c"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_f925c79a89805a59",
+          "articleNumber": "93",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_60af156ac1fc2cdd",
+          "articleNumber": "58",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_f7359a214b435992",
+          "articleNumber": "169",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_e47743a693327320",
+          "articleNumber": "35",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_d1a1d499243e16ff",
+          "articleNumber": "173",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_ad93d4778843ca9e",
+          "articleNumber": "89",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_27785ddd1ba49895",
+          "articleNumber": "153",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_b406c4fbbb61695c",
+          "articleNumber": "92",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_bfd48ace5fa105a0",
+          "articleNumber": "163",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_f925c79a89805a59",
+          "articleNumber": "93",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_27785ddd1ba49895",
+          "articleNumber": "153",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_a1abd5b26519d0bf",
+          "articleNumber": "151",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_de98929af93f3db9",
+          "articleNumber": "154",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_f7359a214b435992",
+          "articleNumber": "169",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-013",
+      "query": "ما حقوق العاملة المتعلقة بإجازة الوضع؟",
+      "goldArticles": [
+        "54"
+      ],
+      "goldChunkIds": [
+        "lawchunk_91058331e6d912d9"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_d5bcca65c267b0e0",
+          "articleNumber": "129",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_c8204ded8c07da6f",
+          "articleNumber": "57",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_3858c5d2a52d03f7",
+          "articleNumber": "131",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_d2df260a4ceaab68",
+          "articleNumber": "127",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_af99935f4042a979",
+          "articleNumber": "126",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_3858c5d2a52d03f7",
+          "articleNumber": "131",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_d2df260a4ceaab68",
+          "articleNumber": "127",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_af99935f4042a979",
+          "articleNumber": "126",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_348a9f104e195fe9",
+          "articleNumber": "56",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_60af156ac1fc2cdd",
+          "articleNumber": "58",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_bfd48ace5fa105a0",
+          "articleNumber": "163",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-014",
+      "query": "ما حقوق العاملة بعد انتهاء إجازة الوضع؟",
+      "goldArticles": [
+        "55"
+      ],
+      "goldChunkIds": [
+        "lawchunk_0e7ce23fc2d9a931"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_c8204ded8c07da6f",
+          "articleNumber": "57",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_d5bcca65c267b0e0",
+          "articleNumber": "129",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_3858c5d2a52d03f7",
+          "articleNumber": "131",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_526819710a5dc0c4",
+          "articleNumber": "125",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_60af156ac1fc2cdd",
+          "articleNumber": "58",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_4e438f4c7fce3b64",
+          "articleNumber": "128",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_d2df260a4ceaab68",
+          "articleNumber": "127",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_0e7ce23fc2d9a931",
+          "articleNumber": "55",
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_91058331e6d912d9",
+          "articleNumber": "54",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_3858c5d2a52d03f7",
+          "articleNumber": "131",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_ccca362f8d37386a",
+          "articleNumber": "124",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_c2d5b130e994247e",
+          "articleNumber": "147",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_af99935f4042a979",
+          "articleNumber": "126",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_bfd48ace5fa105a0",
+          "articleNumber": "163",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_63b4b5b37f6ee4ba",
+          "articleNumber": "175",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_c8204ded8c07da6f",
+          "articleNumber": "57",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 1,
+      "vectorRerankedFirstRelevantRank": 1
+    },
+    {
+      "queryId": "labour-015",
+      "query": "ما العقوبات المقررة لمخالفة أحكام قانون العمل؟",
+      "goldArticles": [
+        "288",
+        "289"
+      ],
+      "goldChunkIds": [
+        "lawchunk_4efe79fbcda82975",
+        "lawchunk_e60c72fa595d91a8"
+      ],
+      "vector": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_290a7cf9b1b29e3a",
+          "articleNumber": "291",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_4efe79fbcda82975",
+          "articleNumber": "288",
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_ac8245c19f67cf4d",
+          "articleNumber": "286",
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_896d2bcfc407aabd",
+          "articleNumber": "297",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_e60c72fa595d91a8",
+          "articleNumber": "289",
+          "relevant": true
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_d83e25049a8721dd",
+          "articleNumber": "287",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_c5978d978ca11b5b",
+          "articleNumber": "293",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_7b549b77da5de99e",
+          "articleNumber": "295",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_27a49ec6f4dc5cad",
+          "articleNumber": "281",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_3118239530930247",
+          "articleNumber": "284",
+          "relevant": false
+        }
+      ],
+      "vectorReranked": [
+        {
+          "rank": 1,
+          "chunkId": "lawchunk_665d290f7f2950d0",
+          "articleNumber": "1",
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "chunkId": "lawchunk_896d2bcfc407aabd",
+          "articleNumber": "297",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_e60c72fa595d91a8",
+          "articleNumber": "289",
+          "relevant": true
+        },
+        {
+          "rank": 4,
+          "chunkId": "lawchunk_d2e3942ecfda3399",
+          "articleNumber": "4",
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "chunkId": "lawchunk_4e1f5f88fc8c9518",
+          "articleNumber": "140",
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "chunkId": "lawchunk_4efe79fbcda82975",
+          "articleNumber": "288",
+          "relevant": true
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_ac8245c19f67cf4d",
+          "articleNumber": "286",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_d83e25049a8721dd",
+          "articleNumber": "287",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_c5978d978ca11b5b",
+          "articleNumber": "293",
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "chunkId": "lawchunk_7b549b77da5de99e",
+          "articleNumber": "295",
+          "relevant": false
+        }
+      ],
+      "vectorFirstRelevantRank": 2,
+      "vectorRerankedFirstRelevantRank": 3
+    }
+  ]
+}

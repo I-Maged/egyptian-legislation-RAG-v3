@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "parserVersion": "3.3.0",
+    "inputFile": "personal_affair_law_qwen_output.json",
+    "pdfFile": "personal-src.pdf",
+    "generatedAt": "2026-09-03T10:34:13.040Z",
+    "recordCountOriginal": 390,
+    "recordCountRecovery": 50,
+    "recordCountMerged": 440,
+    "pdfRecoveryArticleCount": 0,
+    "instrumentId": "ministerial-decision-1087-2000",
+    "mode": "qwen+pdf"
+  },
+  "metadataResolved": {
+    "lawName": "personal_affairs",
+    "lawNumber": "1087",
+    "year": "2000"
+  },
+  "instruments": [
+    {
+      "id": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "kind": "ministerial_decision",
+      "title": "قرار وزير العدل رقم 1087 لسنة 2000",
+      "startPage": 58,
+      "endPage": 59,
+      "startMarkerOrdinal": 2,
+      "startAfter": {
+        "page": 58,
+        "articleNumber": "2",
+        "occurrenceOnPage": 1
+      }
+    }
+  ],
+  "articles": [
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "1",
+      "articleNumberNormalized": 1,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 1 :\nتنقذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او رويته او سكناه تطبيقا لاحكام المادتين 67 ، 69 من القانون\nرقم 1 لسنة 2000 مراعاة القواعد والاجراءات المبينة في المواد التالية .",
+      "textForEmbedding": "مادة 1 :\nتنقذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او رويته او سكناه تطبيقا لاحكام المادتين 67 ، 69 من القانون\nرقم 1 لسنة 2000 مراعاة القواعد والاجراءات المبينة في المواد التالية .",
+      "pageStart": 58,
+      "pageEnd": 58,
+      "pages": [
+        58
+      ],
+      "sourceOrder": 388,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:352:58:1"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "2",
+      "articleNumberNormalized": 2,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 2 :\nيجري تنفيذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او سكناه بمعرفة المحضر المختص وبحضور احد\nالاخصاييين الاجتماعيين الملحقين بالمحكمة ، فان حدثت مقاومة او امتناع وعدم استجابة للنصح والارشاد - يرفع الامر\nلقاضي التنفيذ ليامر بالتنفيذ والاستعانة بجبهة الادارة بالقوة الجبرية ان لزم الامر ، ويحرر الاخصايي الاجتماعي مذكرة\nتتضمن ملاحظاته ترفق باوراق التنفيذ .",
+      "textForEmbedding": "مادة 2 :\nيجري تنفيذ الاحكام والقرارات الصادرة بتسليم الصغير او ضمة او سكناه بمعرفة المحضر المختص وبحضور احد\nالاخصاييين الاجتماعيين الملحقين بالمحكمة ، فان حدثت مقاومة او امتناع وعدم استجابة للنصح والارشاد - يرفع الامر\nلقاضي التنفيذ ليامر بالتنفيذ والاستعانة بجبهة الادارة بالقوة الجبرية ان لزم الامر ، ويحرر الاخصايي الاجتماعي مذكرة\nتتضمن ملاحظاته ترفق باوراق التنفيذ .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 389,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:353:59:2"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "3",
+      "articleNumberNormalized": 3,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 3 :\nيراعي في جميع الاحوال ان تتم اجراءات التنفيذ ودخول المنازل وفقا لما يامر به قاضي التنفيذ ، ويجوز اعادة تنفيذ بداية السند التنفيذي كلما قضي الاحكام الذي دل علي ذلك في المادة 66 من القانون رقم 1 لسنة 2000 .",
+      "textForEmbedding": "مادة 3 :\nيراعي في جميع الاحوال ان تتم اجراءات التنفيذ ودخول المنازل وفقا لما يامر به قاضي التنفيذ ، ويجوز اعادة تنفيذ بداية السند التنفيذي كلما قضي الاحكام الذي دل علي ذلك في المادة 66 من القانون رقم 1 لسنة 2000 .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 390,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:354:59:3"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "4",
+      "articleNumberNormalized": 4,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 4 :\nفي حالة عدم اتفاق الحاضنين او من بيده الصغير والصادر لصاله الحكم علي المكان الذي يتم فيه روية الصغير ، ويكون\nللمحكمة ان تتني من الاماكن التالية مكانا للروية وفقا للحالة المعروضة عليها وبما يتناسب - قدر الاماكن - وظروف\nاطراف الخصومة ، مع مراعاة ان يتوفر في المكان ما يشبع الطمانينة في نفس الصغير ولا يكفي اطراف الخصومة مشفة لا\nتحتمل :\n1- احد النوادي الرياضية والاجتماعية .\n2- احد مراكز رعاية الشباب .\n3- احد دور رعاية الامومة والطفولة التي يتوفر فيها حدايق .\n4- احدي الحدايق العامة .",
+      "textForEmbedding": "مادة 4 :\nفي حالة عدم اتفاق الحاضنين او من بيده الصغير والصادر لصاله الحكم علي المكان الذي يتم فيه روية الصغير ، ويكون\nللمحكمة ان تتني من الاماكن التالية مكانا للروية وفقا للحالة المعروضة عليها وبما يتناسب - قدر الاماكن - وظروف\nاطراف الخصومة ، مع مراعاة ان يتوفر في المكان ما يشبع الطمانينة في نفس الصغير ولا يكفي اطراف الخصومة مشفة لا\nتحتمل :\n1- احد النوادي الرياضية والاجتماعية .\n2- احد مراكز رعاية الشباب .\n3- احد دور رعاية الامومة والطفولة التي يتوفر فيها حدايق .\n4- احدي الحدايق العامة .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 391,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:355:59:4"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "5",
+      "articleNumberNormalized": 5,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 5 :\nيجب ان لا تقل مدة الروية عن ثلاث ساعات اسبوعيا فيما بين الساعة التاسة صباحا والساعة السابعة مساء . ويراعي قدر\nالامكان ان يكون ذلك خلال العطلات الرسمية وبما لا يتعارض ومواعيد انتظام الصغير في دور التعليم .",
+      "textForEmbedding": "مادة 5 :\nيجب ان لا تقل مدة الروية عن ثلاث ساعات اسبوعيا فيما بين الساعة التاسة صباحا والساعة السابعة مساء . ويراعي قدر\nالامكان ان يكون ذلك خلال العطلات الرسمية وبما لا يتعارض ومواعيد انتظام الصغير في دور التعليم .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 392,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:356:59:5"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "6",
+      "articleNumberNormalized": 6,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 6 :\nينفذ حكم الصادر بروية الصغير في المكان والزمان المبين بالحكم .",
+      "textForEmbedding": "مادة 6 :\nينفذ حكم الصادر بروية الصغير في المكان والزمان المبين بالحكم .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 393,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:357:59:6"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "7",
+      "articleNumberNormalized": 7,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 7 :\nلاي طرف من اطراف السند التنفيذي ان يستعين بالاخصايي الاجتماعي المنتدب للعمل بدايرة المحكمة التي اصدرت حكم\nالروية لاثبات تخلف الطرف الاخر عن التنفيذ في المواعيد والاماكن المحددة بالحكم ، ويرفع الاخصايي الاجتماعي تقريرا\nللمحكمة بذلك اذا ما قام الطرف الداعي بهذا في هذا الخصوص .",
+      "textForEmbedding": "مادة 7 :\nلاي طرف من اطراف السند التنفيذي ان يستعين بالاخصايي الاجتماعي المنتدب للعمل بدايرة المحكمة التي اصدرت حكم\nالروية لاثبات تخلف الطرف الاخر عن التنفيذ في المواعيد والاماكن المحددة بالحكم ، ويرفع الاخصايي الاجتماعي تقريرا\nللمحكمة بذلك اذا ما قام الطرف الداعي بهذا في هذا الخصوص .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 394,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:358:59:7"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "8",
+      "articleNumberNormalized": 8,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 8 :\nياذن المسيول الاداري بالنوادي الرياضية او الاجتماعية او بمراكز رعاية الشباب او بدور رعاية الطفولة والامومة التي\nيجري تنفيذ حكم الروية فيها ، وبناء علي طلب اي من اطراف السند التنفيذي ، ان يثبت في مذكرة يحررهاحضور او عدم\nحضور المسيول عن تنفيذ حكم الروية وببدء الصغير .\nولمن حرت المذكرة بناء علي طلبه ان يثبت ان بيث مضمونها في محضر يحرر في قسم او مركز الشرطة التابع له مكان التنفيذ .",
+      "textForEmbedding": "مادة 8 :\nياذن المسيول الاداري بالنوادي الرياضية او الاجتماعية او بمراكز رعاية الشباب او بدور رعاية الطفولة والامومة التي\nيجري تنفيذ حكم الروية فيها ، وبناء علي طلب اي من اطراف السند التنفيذي ، ان يثبت في مذكرة يحررهاحضور او عدم\nحضور المسيول عن تنفيذ حكم الروية وببدء الصغير .\nولمن حرت المذكرة بناء علي طلبه ان يثبت ان بيث مضمونها في محضر يحرر في قسم او مركز الشرطة التابع له مكان التنفيذ .",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 395,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:359:59:8"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    {
+      "instrumentId": "ministerial-decision-1087-2000",
+      "lawName": "personal_affairs",
+      "lawNumber": "1087",
+      "year": "2000",
+      "articleNumber": "9",
+      "articleNumberNormalized": 9,
+      "articleSuffix": null,
+      "chapter": "الباب الخامس",
+      "text": "مادة 9 :\nينشر هذا القرار في الوقايع المصرية ، ويعمل من اليوم التالي لتاريخ نشره .\nصدر في 6 / 3 / 2000\nوزير العدل\nالمستشار / فاروق سيف الدين\nوزارة العدل\nقرار وزير العدل رقم 1088 لسنة\n2000 بالاجراءات التي تتخذها النيابة العامة\nفي شان جرد اموال المعنيين بالحماية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000 :\nقرر",
+      "textForEmbedding": "مادة 9 :\nينشر هذا القرار في الوقايع المصرية ، ويعمل من اليوم التالي لتاريخ نشره .\nصدر في 6 / 3 / 2000\nوزير العدل\nالمستشار / فاروق سيف الدين\nوزارة العدل\nقرار وزير العدل رقم 1088 لسنة\n2000 بالاجراءات التي تتخذها النيابة العامة\nفي شان جرد اموال المعنيين بالحماية\nوزير العدل\nبعد الاطلاع علي قانون تنظيم بعض اوضاع واجراءات التقاضي في مسايل الاحوال الشخصية الصادر بالقانون رقم 1 لسنة 2000 :\nقرر",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "pages": [
+        59
+      ],
+      "sourceOrder": 396,
+      "source": "vision_ocr",
+      "sourceRecordIds": [
+        "qwen:360:59:9"
+      ],
+      "qwenRecordCount": 1,
+      "recoveryRecordCount": 0,
+      "needsReview": false,
+      "reviewReasons": []
+    }
+  ],
+  "coverage": {
+    "pdfPageCount": 66,
+    "articleAnchorCount": 410,
+    "qwenRecordCount": 390,
+    "pdfOnlyArticleCount": 0,
+    "pdfRecoveredArticleCount": 0,
+    "missingArticleNumbers": [],
+    "suspiciousArticleCount": 45
+  },
+  "validation": {
+    "issues": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 45,
+      "infos": 12,
+      "articleCount": 426,
+      "qwenRecordCount": 390,
+      "recoveryRecordCount": 50,
+      "suspiciousMergeCount": 0,
+      "missingArticleNumberCount": 0
+    }
+  }
+}

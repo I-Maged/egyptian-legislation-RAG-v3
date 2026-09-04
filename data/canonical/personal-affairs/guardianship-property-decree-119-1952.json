@@ -1,0 +1,2513 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "id": "lawdoc_0c22cb5e7a14459a",
+    "law_name": "guardianship",
+    "law_number": "119",
+    "year": "1952",
+    "jurisdiction": "EG",
+    "language": "ar",
+    "source_file": "personal_affair_law.pdf",
+    "metadata": {
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0"
+    }
+  },
+  "chunks": [
+    {
+      "id": "lawchunk_23ba2d07893745a3",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "1",
+      "article_title": null,
+      "source_order": 197,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل السابع في تراحم الوصايا .",
+          "title": null
+        }
+      ],
+      "text": "مادة 1\nيعمل في مسايل الولاية علي المال بنصوص المرفقة لهذا القانون فيما عد احكام المادة 16 بالنسبة للاموال التي الات للقاصر قبل العمل بهذا القانون .",
+      "text_for_embedding": "مادة 1\nيعمل في مسايل الولاية علي المال بنصوص المرفقة لهذا القانون فيما عد احكام المادة 16 بالنسبة للاموال التي الات للقاصر قبل العمل بهذا القانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_dbfd3bcd847e652b",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "2",
+      "article_title": null,
+      "source_order": 198,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل السابع في تراحم الوصايا .",
+          "title": null
+        }
+      ],
+      "text": "مادة 2\nيلغي الكتاب الاول من قانون المحاكم الحسبيه الصادر بالقانون رقم 99 لسنه 1947و كذلك يلغي كل ما كان مخالفا للاحكام المفرره في النصوص المرافقه لهذا القانون.",
+      "text_for_embedding": "مادة 2\nيلغي الكتاب الاول من قانون المحاكم الحسبيه الصادر بالقانون رقم 99 لسنه 1947و كذلك يلغي كل ما كان مخالفا للاحكام المفرره في النصوص المرافقه لهذا القانون.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7a158dfb9837ce08",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "3",
+      "article_title": null,
+      "source_order": 199,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل السابع في تراحم الوصايا .",
+          "title": null
+        }
+      ],
+      "text": "مادة3\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريده الرسميه,\nالباب الاول\nفي القصر\nالفصل الاول في الولايه",
+      "text_for_embedding": "مادة3\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريده الرسميه,\nالباب الاول\nفي القصر\nالفصل الاول في الولايه",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_79ab2c12d9139c4f",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "1",
+      "article_title": null,
+      "source_order": 200,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة1\nللاب ثم للجد لم يكن الاب قد اختيار وصيا للولايه علي مال القاصر و عليه القيام بها ولاجوز له ان يتنحي عنها الا باذن المحكمه.",
+      "text_for_embedding": "مادة1\nللاب ثم للجد لم يكن الاب قد اختيار وصيا للولايه علي مال القاصر و عليه القيام بها ولاجوز له ان يتنحي عنها الا باذن المحكمه.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_082b622ab878e631",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "2",
+      "article_title": null,
+      "source_order": 201,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة2\nلا يجوز للولي مباشره مباشره حق من حقوق الولايه الا اذا توافرت له الاهليه اللازمه لمباشره هذا الحق فيما يتعلق بماله هو.",
+      "text_for_embedding": "مادة2\nلا يجوز للولي مباشره مباشره حق من حقوق الولايه الا اذا توافرت له الاهليه اللازمه لمباشره هذا الحق فيما يتعلق بماله هو.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_d487d04283dfaa4a",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "3",
+      "article_title": null,
+      "source_order": 202,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة 3\nلا يدخل في الولايه ما يوول للقاصر من مال بطريقه التبرع اذا اشترط المتبرع ذلك,",
+      "text_for_embedding": "مادة 3\nلا يدخل في الولايه ما يوول للقاصر من مال بطريقه التبرع اذا اشترط المتبرع ذلك,",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4522eeb475b97583",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "4",
+      "article_title": null,
+      "source_order": 203,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة4\nيقوم الولي علي رعايه اموال القاصر وله اداريتها وولايه التصرف فيها مع مراعاه الاحكام المقرره في هذا القانون .",
+      "text_for_embedding": "مادة4\nيقوم الولي علي رعايه اموال القاصر وله اداريتها وولايه التصرف فيها مع مراعاه الاحكام المقرره في هذا القانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_df65dc018f3c5b0d",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "5",
+      "article_title": null,
+      "source_order": 204,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة5\nلا يجوز للولي التبرع بمال القاصر الا لاداء واجب انساني اوعايلي وباذن المحكمه.",
+      "text_for_embedding": "مادة5\nلا يجوز للولي التبرع بمال القاصر الا لاداء واجب انساني اوعايلي وباذن المحكمه.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_aac32237661941ad",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "6",
+      "article_title": null,
+      "source_order": 205,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة6\nلا يجوز للولي ان يتصرف في عقار القاصر نفسه او لزوجه او لاقاريه او لاقاربيه الي درجه الرابعه الا باذن المحكمه ولا يجوز له ان يبرهن عقار القاصر لادين علي نفسه .",
+      "text_for_embedding": "مادة6\nلا يجوز للولي ان يتصرف في عقار القاصر نفسه او لزوجه او لاقاريه او لاقاربيه الي درجه الرابعه الا باذن المحكمه ولا يجوز له ان يبرهن عقار القاصر لادين علي نفسه .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c101f5390fe2463c",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "7",
+      "article_title": null,
+      "source_order": 206,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة7\nلا يجوز للاب ان يتصرف في العقار اوالمحل التجاري او الاوراق الماليه اذا زادت قيمتها علي 300 جنيه الا باذن المحكمه .\nولا يجوز للمحكمه ان ترفض الاذن الا اذا كان التصرف من شانه جعل اموال القاصر في خطر او كان فيه غبن يزيد علي خمس القيمه ,\nماده 8\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمه وتحت اشرافها.\nماده9\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمه.\nماده10\nلا يجوز للولي بغير اذن المحكمه تاجير عقار القاصر لمدة تمدد الي ما بعد سن الرشد بسنه .\nمادة : 11\nلا يجوز للولي ان يستمر في تجارة التت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن .\nمادة : 12\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة .\nمادة : 13\nلا شري القود المقصود عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتعويض بديم تدويم عن هذا المال .",
+      "text_for_embedding": "مادة7\nلا يجوز للاب ان يتصرف في العقار اوالمحل التجاري او الاوراق الماليه اذا زادت قيمتها علي 300 جنيه الا باذن المحكمه .\nولا يجوز للمحكمه ان ترفض الاذن الا اذا كان التصرف من شانه جعل اموال القاصر في خطر او كان فيه غبن يزيد علي خمس القيمه ,\nماده 8\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمه وتحت اشرافها.\nماده9\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمه.\nماده10\nلا يجوز للولي بغير اذن المحكمه تاجير عقار القاصر لمدة تمدد الي ما بعد سن الرشد بسنه .\nمادة : 11\nلا يجوز للولي ان يستمر في تجارة التت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن .\nمادة : 12\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة .\nمادة : 13\nلا شري القود المقصود عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتعويض بديم تدويم عن هذا المال .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 30,
+        "page_end": 30
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_bd8fc81ff0477fc0",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "8",
+      "article_title": null,
+      "source_order": 207,
+      "hierarchy": [],
+      "text": "مادة 8:\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمة وتحت اشرافها.",
+      "text_for_embedding": "مادة 8:\nاذا كان مورث القاصر قد اوصي بان لا يتصرف وليه في المال المورث فلا يجوز للولي ان يتصرف فيه الا باذن المحكمة وتحت اشرافها.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ac52d958e2a71e6c",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "9",
+      "article_title": null,
+      "source_order": 208,
+      "hierarchy": [],
+      "text": "مادة 9:\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمة.",
+      "text_for_embedding": "مادة 9:\nلا يجوز للولي اقراض مال الصغير ولا اقتراضه الا باذن المحكمة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_226fa12ab2d4fd08",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "10",
+      "article_title": null,
+      "source_order": 209,
+      "hierarchy": [],
+      "text": "مادة 10:\nلا يجوز للولي بغير اذن المحكمة تاجير عقار القاصر لمدة تمتد الي ما بعد سن الرشد بسنة.",
+      "text_for_embedding": "مادة 10:\nلا يجوز للولي بغير اذن المحكمة تاجير عقار القاصر لمدة تمتد الي ما بعد سن الرشد بسنة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7be61a81e8f51e59",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "11",
+      "article_title": null,
+      "source_order": 210,
+      "hierarchy": [],
+      "text": "مادة 11:\nلا يجوز للولي ان يستمر في تجارة الت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن.",
+      "text_for_embedding": "مادة 11:\nلا يجوز للولي ان يستمر في تجارة الت للقاصر الا باذن من المحكمة وفي حدود هذا الاذن.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_5c8889645dd3ceda",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "12",
+      "article_title": null,
+      "source_order": 211,
+      "hierarchy": [],
+      "text": "مادة 12:\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة.",
+      "text_for_embedding": "مادة 12:\nلا يجوز للولي ان يقبل هبة او وصية للصغير محملة بالتزامات معينة الا باذن المحكمة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e409ca15797dc33d",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "13",
+      "article_title": null,
+      "source_order": 212,
+      "hierarchy": [],
+      "text": "مادة 13:\nلا تسري القيود المنصوص عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتقديم حساب عن هذا المال.",
+      "text_for_embedding": "مادة 13:\nلا تسري القيود المنصوص عليها في هذا القانون علي ما ال القاصر من مال بطريق التبرع من ابيه صريحا كان التبرع او مستترا ولا يلزم الاب بتقديم حساب عن هذا المال.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_92eafeb40adf80a5",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "14",
+      "article_title": null,
+      "source_order": 213,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة14: للاب ان يتعاقد مع نفسه باسم القاصر سواء اكان ذلك لحساب شخص اخر الا اذا نص القانون علي غير ذلك\nمادة : 15\nلا يجوز لغير البالغ غير ان المحكمة التصرفي مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.\nمادة : 16\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة كلم كتاب المحكمة التي يقع بذاتنيتها موطنه في مدني شهرين من بدء الولاية او من ايولة هذا المال الي الصغير .\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاجير في تقديمها تعريضا مال القاصر للخطر",
+      "text_for_embedding": "مادة14: للاب ان يتعاقد مع نفسه باسم القاصر سواء اكان ذلك لحساب شخص اخر الا اذا نص القانون علي غير ذلك\nمادة : 15\nلا يجوز لغير البالغ غير ان المحكمة التصرفي مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.\nمادة : 16\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة كلم كتاب المحكمة التي يقع بذاتنيتها موطنه في مدني شهرين من بدء الولاية او من ايولة هذا المال الي الصغير .\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاجير في تقديمها تعريضا مال القاصر للخطر",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fc5086484ae2e1a9",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "15",
+      "article_title": null,
+      "source_order": 214,
+      "hierarchy": [],
+      "text": "مادة 15:\nلا يجوز للجد بغير اذن المحكمة التصرف في مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.",
+      "text_for_embedding": "مادة 15:\nلا يجوز للجد بغير اذن المحكمة التصرف في مال القاصر ولا الصلح عليه ولا التنازل عن التامينات او اضعافها.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ffc5eef4dbc44083",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "16",
+      "article_title": null,
+      "source_order": 215,
+      "hierarchy": [],
+      "text": "مادة 16:\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة قلم كتاب المحكمة التي يقع بدايرتها موطنه في مدي شهرين من بدء الولاية او من ايلولة هذا المال الي الصغير.\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاخير في تقديمها تعريضا لمال القاصر للخطر.",
+      "text_for_embedding": "مادة 16:\nعلي الولي ان يحرر قايمة بما يكون للقاصر من مال او ما يوول اليه وان يودع هذه القايمة قلم كتاب المحكمة التي يقع بدايرتها موطنه في مدي شهرين من بدء الولاية او من ايلولة هذا المال الي الصغير.\nويجوز للمحكمة اعتبار عدم تقديم هذه القايمة او التاخير في تقديمها تعريضا لمال القاصر للخطر.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_81906733fc864efc",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "17",
+      "article_title": null,
+      "source_order": 216,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة17:\nالولي ان ينفق علي نفسه من مال الصغير اذا كانت نفقته نفقته واجبة عليه وله كذلك ان ينفق منه علي من يجب عليه الصغير نفقته\nمادة : 18\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه .\nمادة : 19\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر .\nمادة : 20\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي الي اي سبب اخر فالمحكمة ان تسلب ولایته او تحد منها\nمادة : 21\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جنايية او بالحبس مدة تزيد علي سنة .",
+      "text_for_embedding": "مادة17:\nالولي ان ينفق علي نفسه من مال الصغير اذا كانت نفقته نفقته واجبة عليه وله كذلك ان ينفق منه علي من يجب عليه الصغير نفقته\nمادة : 18\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه .\nمادة : 19\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر .\nمادة : 20\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي الي اي سبب اخر فالمحكمة ان تسلب ولایته او تحد منها\nمادة : 21\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جنايية او بالحبس مدة تزيد علي سنة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_06ef27b9dde90ee7",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "18",
+      "article_title": null,
+      "source_order": 217,
+      "hierarchy": [],
+      "text": "مادة 18:\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه.",
+      "text_for_embedding": "مادة 18:\nتنتهي الولاية ببلوغ القاصر احدي وعشرين سنة ما لم تحكم المحكمة قبل بلوغه هذه السن باستمرار الولاية عليه.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fb5d8cbbd98116d9",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "19",
+      "article_title": null,
+      "source_order": 218,
+      "hierarchy": [],
+      "text": "مادة 19:\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر.",
+      "text_for_embedding": "مادة 19:\nاذا انتهت الولاية علي شخص فلا تعود الا اذا قام به سبب من اسباب الحجر.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_31368ef8d6778fe5",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "20",
+      "article_title": null,
+      "source_order": 219,
+      "hierarchy": [],
+      "text": "مادة 20:\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي او لاي سبب اخر فللمحكمة ان تسلب ولايته او تحد منها.",
+      "text_for_embedding": "مادة 20:\nاذا اصبحت اموال القاصر في خطر بسبب سوء تصرف الولي او لاي سبب اخر فللمحكمة ان تسلب ولايته او تحد منها.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c99b95f07ffff5a5",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "21",
+      "article_title": null,
+      "source_order": 220,
+      "hierarchy": [],
+      "text": "مادة 21:\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جناية او بالحبس مدة تزيد علي سنة.",
+      "text_for_embedding": "مادة 21:\nتحكم المحكمة بوقف الولاية اذا اعتبر الولي غايبا او اعتقل تنفيذا لحكم بعقوبة جناية او بالحبس مدة تزيد علي سنة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_26ac69967a2df257",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "22",
+      "article_title": null,
+      "source_order": 221,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة22:\nيترتب علي الحكم بسلب الولاية علي النفس الصغير او وقفها سقوطها او وقفها بالنسبة الي المال .",
+      "text_for_embedding": "مادة22:\nيترتب علي الحكم بسلب الولاية علي النفس الصغير او وقفها سقوطها او وقفها بالنسبة الي المال .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 31,
+        "page_end": 31
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_5d1348f84e243d80",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "23",
+      "article_title": null,
+      "source_order": 222,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة 23 :\nاذا سلبت الولاية او حد منها او وقفت فلا تعود الي المحكمة بعد التسببث بعد زوال الاسباب التي دعت الي سلبها\nتو حد منها او وقفها .\nومع ذلك لا يقبل طلب استرداد الولاية الذي سبق رفضه الا بعد انقضاء سنتين من تاريخ الحكم النهايي بالرفض .",
+      "text_for_embedding": "مادة 23 :\nاذا سلبت الولاية او حد منها او وقفت فلا تعود الي المحكمة بعد التسببث بعد زوال الاسباب التي دعت الي سلبها\nتو حد منها او وقفها .\nومع ذلك لا يقبل طلب استرداد الولاية الذي سبق رفضه الا بعد انقضاء سنتين من تاريخ الحكم النهايي بالرفض .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 32,
+        "page_end": 32
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c769a65621251460",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "24",
+      "article_title": null,
+      "source_order": 223,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة 24 :\nلا يسال الاب علي خطيه الجسيم اما الجد فيسال مسوولية الوصي .",
+      "text_for_embedding": "مادة 24 :\nلا يسال الاب علي خطيه الجسيم اما الجد فيسال مسوولية الوصي .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 32,
+        "page_end": 32
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_b9517af6310f393a",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "25",
+      "article_title": null,
+      "source_order": 224,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة 25 :\nعلي الولي او ورثته رد اموال القاصر اليه عند بلوغه ويسال هو او ورثته عن قيمة ما تصرف فيه باعتبار القيمة وقت\nالتصرف ولا يحاسب الاب علي ما تصرف فيه من ربع مال القاصر ومع ذلك يحاسب عن ربع المال الذي وهب للقاصر\nلغرض معين كالتعليم او القبر بحقره او مهنه .",
+      "text_for_embedding": "مادة 25 :\nعلي الولي او ورثته رد اموال القاصر اليه عند بلوغه ويسال هو او ورثته عن قيمة ما تصرف فيه باعتبار القيمة وقت\nالتصرف ولا يحاسب الاب علي ما تصرف فيه من ربع مال القاصر ومع ذلك يحاسب عن ربع المال الذي وهب للقاصر\nلغرض معين كالتعليم او القبر بحقره او مهنه .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 32,
+        "page_end": 32
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4e0695806e051dc1",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "26",
+      "article_title": null,
+      "source_order": 225,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الولايه",
+          "title": null
+        }
+      ],
+      "text": "مادة 26 :\nسري علي الاجحكام المقررة بهذا القانون شان الحساب .\nالفصل الثاني في الوصية\nاولا في تعين الاوصياء .",
+      "text_for_embedding": "مادة 26 :\nسري علي الاجحكام المقررة بهذا القانون شان الحساب .\nالفصل الثاني في الوصية\nاولا في تعين الاوصياء .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 32,
+        "page_end": 32
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_56b7d3998453506b",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "27",
+      "article_title": null,
+      "source_order": 226,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 27 :\n1- يجب ان يكون الوصي عدلا كفوا ذي اهلييه كامله ولا يجوز بجوز يكون خاصه ان يعين وصيا .\nالمحكوم عليه في جريمة من الجرايم المخلة بالاداب او باماسه بالشرف او النزاهة ومع ذلك اذا انضت الي تنفيذ العقوبه\nمدة تزيد علي خمس سنوات جاز عند الضرورة التنازر عن هذا الشرط .\n3- من حكم عليه بجريمة كانت تقتضي قانونيا سلب ولايته علي نفس القاصر لو انه كان في ولايته .\n4- من كان مشهورا بسببه السير من او لم يكن له وسيلة مشروعة للتعايش.\n5- المحكوم افلاسيه الي ان يحكم برد اعتبارہ .\n6- من سبق ان سلبت ولايته او علز او الوصيه علي قاصر اخر .\n7- من قرر الاب قبل وفاته وحرامه من التعين متي بينا الي اسباب قوية تري المحكمه بعد تحقيقها\nانها تبرر بذلك ويثبت الحرمان الحرمان بورقة رسميه او عرفية مسيقا علي امضاء الاب فيها او مكتوبه بخطه او\nموقعة بامضايه.\n8- من كان بينه وبهو او احد اصوله او فروعه او زوجته وبين القاصر نزاع قضايي او من كان بينه وبينه وبين القاصر او\nعايلته عداوه اذا كان يخشي من كله علي مصلحة القاصر .",
+      "text_for_embedding": "مادة 27 :\n1- يجب ان يكون الوصي عدلا كفوا ذي اهلييه كامله ولا يجوز بجوز يكون خاصه ان يعين وصيا .\nالمحكوم عليه في جريمة من الجرايم المخلة بالاداب او باماسه بالشرف او النزاهة ومع ذلك اذا انضت الي تنفيذ العقوبه\nمدة تزيد علي خمس سنوات جاز عند الضرورة التنازر عن هذا الشرط .\n3- من حكم عليه بجريمة كانت تقتضي قانونيا سلب ولايته علي نفس القاصر لو انه كان في ولايته .\n4- من كان مشهورا بسببه السير من او لم يكن له وسيلة مشروعة للتعايش.\n5- المحكوم افلاسيه الي ان يحكم برد اعتبارہ .\n6- من سبق ان سلبت ولايته او علز او الوصيه علي قاصر اخر .\n7- من قرر الاب قبل وفاته وحرامه من التعين متي بينا الي اسباب قوية تري المحكمه بعد تحقيقها\nانها تبرر بذلك ويثبت الحرمان الحرمان بورقة رسميه او عرفية مسيقا علي امضاء الاب فيها او مكتوبه بخطه او\nموقعة بامضايه.\n8- من كان بينه وبهو او احد اصوله او فروعه او زوجته وبين القاصر نزاع قضايي او من كان بينه وبينه وبين القاصر او\nعايلته عداوه اذا كان يخشي من كله علي مصلحة القاصر .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 32,
+        "page_end": 32
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_6d3f8b1cde681bef",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "28",
+      "article_title": null,
+      "source_order": 227,
+      "hierarchy": [],
+      "text": "مادة 28:\nيجوز للاب ان يكون وصيا مختارا لولده القاصر او للحمل المستكن ويجوز ذلك للمتبرع في الحالة المنصوص عليها في المادة 3.\nويشترط ان يثبت الاختيار بورقة رسمية او عرفية مصدق علي توقيع الاب او المتبرع فيها او المكتوبة بخطه وموقعة بامضايه.\n\nويجوز للاب والمتبرع بطريق الوصية في اي وقت ان يعدلا عن اختيارهما وتعرض الوصاية علي المحكمة لتثبيتها.",
+      "text_for_embedding": "مادة 28:\nيجوز للاب ان يكون وصيا مختارا لولده القاصر او للحمل المستكن ويجوز ذلك للمتبرع في الحالة المنصوص عليها في المادة 3.\nويشترط ان يثبت الاختيار بورقة رسمية او عرفية مصدق علي توقيع الاب او المتبرع فيها او المكتوبة بخطه وموقعة بامضايه.\n\nويجوز للاب والمتبرع بطريق الوصية في اي وقت ان يعدلا عن اختيارهما وتعرض الوصاية علي المحكمة لتثبيتها.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 32,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_f9ab361a19658433",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "29",
+      "article_title": null,
+      "source_order": 229,
+      "hierarchy": [],
+      "text": "مادة 29:\nاذا لم يكن للقاصر او للحمل المستكن وصي مختار تعين المحكمة وصيا ويبقي الحمل المستكن وصيا علي المولود ما لم تعين المحكمة غيره.",
+      "text_for_embedding": "مادة 29:\nاذا لم يكن للقاصر او للحمل المستكن وصي مختار تعين المحكمة وصيا ويبقي الحمل المستكن وصيا علي المولود ما لم تعين المحكمة غيره.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4e55f58d7f59e9bc",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "30",
+      "article_title": null,
+      "source_order": 230,
+      "hierarchy": [],
+      "text": "مادة 30:\nيجوز عند الضرورة تعيين اكثر من وصي واحد وفي هذه الحالة لا يجوز لاحدهم الانفراد الا اذا كانت المحكمة قد بينت اختصاصا لكل منهم في قرار تعيينه او في قرار لاحق، ومع ذلك لكل من الاوصياء اتخاذ الاجراءات الضرورية او المستعجلة او المتمخضة لنفع القاصر.\nوعند الاختلاف بين الاوصياء يرفع الامر الي المحكمة لتامر بما يتبع.",
+      "text_for_embedding": "مادة 30:\nيجوز عند الضرورة تعيين اكثر من وصي واحد وفي هذه الحالة لا يجوز لاحدهم الانفراد الا اذا كانت المحكمة قد بينت اختصاصا لكل منهم في قرار تعيينه او في قرار لاحق، ومع ذلك لكل من الاوصياء اتخاذ الاجراءات الضرورية او المستعجلة او المتمخضة لنفع القاصر.\nوعند الاختلاف بين الاوصياء يرفع الامر الي المحكمة لتامر بما يتبع.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_a5e4b78b49704536",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "31",
+      "article_title": null,
+      "source_order": 231,
+      "hierarchy": [],
+      "text": "مادة 31:\nا - اذا تعرضت مصلحة القاصر مع مصلحة الولي او مصلحة قاصر اخر مشمول بولايته.\nب - اذا تعارضت مصلحة القاصر مع مصلحة الولي او زوجته او احد اصوله او فروعه مع من يملكه الوصي.\nج - ابرام عقد من عقود المعارضة او تعديله او فسخه او ابطاله او الغاوه بين القاصر وبين الوصي او احد من المذكورين في البند.\nد - اذا ال الي القاصر مال بطريق التبرع وشرط المتبرع الا يتولي الولي ادارة المال.\nه - اذا استلزمت الظروف دراية خاصة لاداء بعض الاعمال.\nو - اذا كان الولي غير اهل لمباشرة حق من حقوق الولاية.",
+      "text_for_embedding": "مادة 31:\nا - اذا تعرضت مصلحة القاصر مع مصلحة الولي او مصلحة قاصر اخر مشمول بولايته.\nب - اذا تعارضت مصلحة القاصر مع مصلحة الولي او زوجته او احد اصوله او فروعه مع من يملكه الوصي.\nج - ابرام عقد من عقود المعارضة او تعديله او فسخه او ابطاله او الغاوه بين القاصر وبين الوصي او احد من المذكورين في البند.\nد - اذا ال الي القاصر مال بطريق التبرع وشرط المتبرع الا يتولي الولي ادارة المال.\nه - اذا استلزمت الظروف دراية خاصة لاداء بعض الاعمال.\nو - اذا كان الولي غير اهل لمباشرة حق من حقوق الولاية.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_b74a20b723f9cd31",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "32",
+      "article_title": null,
+      "source_order": 232,
+      "hierarchy": [],
+      "text": "مادة 32:\nتقيم المحكمة وصيا موقتا اذا حكم بوقف الولاية ولم يكن القاصر ولي اخر وكذلك اذا وقف الوصي او حالت ظروف موقتة دون ادايه لواجباته.",
+      "text_for_embedding": "مادة 32:\nتقيم المحكمة وصيا موقتا اذا حكم بوقف الولاية ولم يكن القاصر ولي اخر وكذلك اذا وقف الوصي او حالت ظروف موقتة دون ادايه لواجباته.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_d4438d83a9b916d2",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "33",
+      "article_title": null,
+      "source_order": 233,
+      "hierarchy": [],
+      "text": "مادة 33:\nيجوز للمحكمة ان تقيم وصي خصومة ولو لم يكن للقاصر مال.",
+      "text_for_embedding": "مادة 33:\nيجوز للمحكمة ان تقيم وصي خصومة ولو لم يكن للقاصر مال.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_28e8738485be09e6",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "34",
+      "article_title": null,
+      "source_order": 234,
+      "hierarchy": [],
+      "text": "مادة 34:\nتسري علي الوصي الخاص والوصي الموقت ووصي الخصومة احكام الوصاية الواردة في هذا القانون مع مراعاة ما تقتضيه طبيعة مهمة كل منهم.",
+      "text_for_embedding": "مادة 34:\nتسري علي الوصي الخاص والوصي الموقت ووصي الخصومة احكام الوصاية الواردة في هذا القانون مع مراعاة ما تقتضيه طبيعة مهمة كل منهم.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ee30dfc14abb73c8",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "35",
+      "article_title": null,
+      "source_order": 235,
+      "hierarchy": [],
+      "text": "مادة 35:\nتنتهي مهمة الوصي الخاص والوصي الموقت بانتهاء العمل الذي اقيم لمباشرته او المدة التي اقتضت بها تعيينه.",
+      "text_for_embedding": "مادة 35:\nتنتهي مهمة الوصي الخاص والوصي الموقت بانتهاء العمل الذي اقيم لمباشرته او المدة التي اقتضت بها تعيينه.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_50a6752be1d2dade",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "36",
+      "article_title": null,
+      "source_order": 236,
+      "hierarchy": [],
+      "text": "مادة 36:\nيتسلم الوصي اموال القاصر ويقوم علي رعايتها وعليه ان يبذل في ذلك من العناية ما يطلب من الوكيل الماجور وفقا لاحكام القانون المدني.",
+      "text_for_embedding": "مادة 36:\nيتسلم الوصي اموال القاصر ويقوم علي رعايتها وعليه ان يبذل في ذلك من العناية ما يطلب من الوكيل الماجور وفقا لاحكام القانون المدني.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ed9abf296f348fd9",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "37",
+      "article_title": null,
+      "source_order": 237,
+      "hierarchy": [],
+      "text": "مادة 37:\nللمحكمة ان تلزم الوصي بتقديم تامينات بالقيمة التي تراها وتكون مصروفات تقديم هذه التامينات علي حساب القاصر.",
+      "text_for_embedding": "مادة 37:\nللمحكمة ان تلزم الوصي بتقديم تامينات بالقيمة التي تراها وتكون مصروفات تقديم هذه التامينات علي حساب القاصر.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_d1997392fbd4e93a",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "38",
+      "article_title": null,
+      "source_order": 238,
+      "hierarchy": [],
+      "text": "مادة 38:\nلا يجوز للوصي التبرع بمال القاصر الا لاداء واجب انساني او عايلي او باذن من المحكمة.",
+      "text_for_embedding": "مادة 38:\nلا يجوز للوصي التبرع بمال القاصر الا لاداء واجب انساني او عايلي او باذن من المحكمة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 33,
+        "page_end": 33
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7d56289ffd4fe706",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "39",
+      "article_title": null,
+      "source_order": 239,
+      "hierarchy": [],
+      "text": "مادة 39:\nلا يجوز للوصي مباشرة التصرفات الاتية الا باذن من المحكمة:\nاولا: جميع التصرفات التي من شانها انشاء حق من الحقوق العينية العقارية الاصلية او التبعية او نقله او تغييره او زواله، وكذلك جميع التصرفات المقررة لحق من الحقوق المذكورة.\nثانيا: التصرف في المنقولات او الحقوق الشخصية او الاوراق المالية فيما عدا ما يدخل في اعمال الادارة.\nثالثا: الصلح والتحكيم الا فيما قل عن ماية جنيه مما يتصل باعمال الادارة.\nرابعا: حوالة الحقوق والديون وقبول الحوالة.\nخامسا: استثمار الاموال وتصفيتها.\nسادسا: اقتراض المال واقراضه.\nسابعا: ايجار عقار القاصر لمدة اكثر من ثلاث سنوات في الاراضي الزراعية ولمدة اكثر من سنة في المباني.\nثامنا: ايجار عقار القاصر لمدة تمتد الي ما بعد بلوغه سن الرشد لاكثر من سنة.\nتاسعا: قبول التبرعات المقترنة بشرط او رفضها.\nعاشرا: الانفاق من مال القاصر علي من تجب عليه نفقتهم الا اذا كانت النفقة مقضيا بها بحكم واجب النفاذ.\nحادي عشر: الوفاء الاختياري بالالتزامات التي تكون علي التركة او علي القاصر.\nثاني عشر: رفع الدعاوي الا ما يكون في تاخير رفعه ضرر بالقاصر او ضياع حق له.\nثالث عشر: التنازل عن الحقوق والدعاوي وقبول الاحكام القابلة للطعون العادية والتنازل عن هذه الطعون بعد رفعها ورفع الطعون غير العادية في الاحكام.\nرابع عشر: التنازل عن التامينات واضعافها.\nخامس عشر: ايجار الوصي اموال القاصر لنفسه او لزوجه او لاحد اقاربهما الي الدرجة الرابعة او لمن يكون الوصي نايبا عنه.\nسادس عشر: ما يصرف في تزويج القاصر.\nسابع عشر: تعليم القاصر اذا احتاج للنفقة والانفاق اللازم لمباشرة القاصر مهنة معينة.",
+      "text_for_embedding": "مادة 39:\nلا يجوز للوصي مباشرة التصرفات الاتية الا باذن من المحكمة:\nاولا: جميع التصرفات التي من شانها انشاء حق من الحقوق العينية العقارية الاصلية او التبعية او نقله او تغييره او زواله، وكذلك جميع التصرفات المقررة لحق من الحقوق المذكورة.\nثانيا: التصرف في المنقولات او الحقوق الشخصية او الاوراق المالية فيما عدا ما يدخل في اعمال الادارة.\nثالثا: الصلح والتحكيم الا فيما قل عن ماية جنيه مما يتصل باعمال الادارة.\nرابعا: حوالة الحقوق والديون وقبول الحوالة.\nخامسا: استثمار الاموال وتصفيتها.\nسادسا: اقتراض المال واقراضه.\nسابعا: ايجار عقار القاصر لمدة اكثر من ثلاث سنوات في الاراضي الزراعية ولمدة اكثر من سنة في المباني.\nثامنا: ايجار عقار القاصر لمدة تمتد الي ما بعد بلوغه سن الرشد لاكثر من سنة.\nتاسعا: قبول التبرعات المقترنة بشرط او رفضها.\nعاشرا: الانفاق من مال القاصر علي من تجب عليه نفقتهم الا اذا كانت النفقة مقضيا بها بحكم واجب النفاذ.\nحادي عشر: الوفاء الاختياري بالالتزامات التي تكون علي التركة او علي القاصر.\nثاني عشر: رفع الدعاوي الا ما يكون في تاخير رفعه ضرر بالقاصر او ضياع حق له.\nثالث عشر: التنازل عن الحقوق والدعاوي وقبول الاحكام القابلة للطعون العادية والتنازل عن هذه الطعون بعد رفعها ورفع الطعون غير العادية في الاحكام.\nرابع عشر: التنازل عن التامينات واضعافها.\nخامس عشر: ايجار الوصي اموال القاصر لنفسه او لزوجه او لاحد اقاربهما الي الدرجة الرابعة او لمن يكون الوصي نايبا عنه.\nسادس عشر: ما يصرف في تزويج القاصر.\nسابع عشر: تعليم القاصر اذا احتاج للنفقة والانفاق اللازم لمباشرة القاصر مهنة معينة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 34,
+        "page_end": 34
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_a6214f460932c8db",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "40",
+      "article_title": null,
+      "source_order": 240,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 40 :\nعلي الوصي ان يستاذن المحكمة في قسمة مال القاصر بالتراضي اذا كانت له مصلحة في ذلك فاذا اذنت المحكمة عينت الاسس التي تجري عليها القسمة والاجراءات الواجبة الاتباع ويعرض علي الوصي علي المحكمة عقد القسمة للتثبيت من عدالتها والمحكمة في جميع الاحوال ان تقرر اتخاذ اجراءات القسمة القضايية\nوفي حالة القسمة القضايية تصدق المحكمة الابتدايية علي التي يتبعها محكمة القسمة علي قسمة الاموال الي الحصص\nولهذه المحكمة عند الاقتضاء ان تدعوا الخصوم لسماع اقوالهم في جلسة تحديد لذلك\nواذا رفضت التصديق تعين عليها ان تقسم الاموال الي حصص علي الاسس التي تراها صالحة باعث بعدة دعوي الخصوم .\nويكون مقطع التصديق حتي تصدره المحكمة بوصفها محكمة استينافية بتاكيدون بخصوص الحصص .",
+      "text_for_embedding": "مادة 40 :\nعلي الوصي ان يستاذن المحكمة في قسمة مال القاصر بالتراضي اذا كانت له مصلحة في ذلك فاذا اذنت المحكمة عينت الاسس التي تجري عليها القسمة والاجراءات الواجبة الاتباع ويعرض علي الوصي علي المحكمة عقد القسمة للتثبيت من عدالتها والمحكمة في جميع الاحوال ان تقرر اتخاذ اجراءات القسمة القضايية\nوفي حالة القسمة القضايية تصدق المحكمة الابتدايية علي التي يتبعها محكمة القسمة علي قسمة الاموال الي الحصص\nولهذه المحكمة عند الاقتضاء ان تدعوا الخصوم لسماع اقوالهم في جلسة تحديد لذلك\nواذا رفضت التصديق تعين عليها ان تقسم الاموال الي حصص علي الاسس التي تراها صالحة باعث بعدة دعوي الخصوم .\nويكون مقطع التصديق حتي تصدره المحكمة بوصفها محكمة استينافية بتاكيدون بخصوص الحصص .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 34,
+        "page_end": 34
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_9afb0d423592c6ef",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "41",
+      "article_title": null,
+      "source_order": 241,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 41 :\nاذا رعت دعوي علي القاصر او المحجور عليه او الغايب من وارث اخر جاز للمحكمة بناء علي طلب من ينوب عنه او بناء علي طلب النيابة العامة ان توقف القسمة مدة لا تجاوز خمس سنوات اذا ثبت لها ان في التعجيل بها ضررا جسيما .",
+      "text_for_embedding": "مادة 41 :\nاذا رعت دعوي علي القاصر او المحجور عليه او الغايب من وارث اخر جاز للمحكمة بناء علي طلب من ينوب عنه او بناء علي طلب النيابة العامة ان توقف القسمة مدة لا تجاوز خمس سنوات اذا ثبت لها ان في التعجيل بها ضررا جسيما .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 34,
+        "page_end": 34
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_1c3173794fb19da1",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "42",
+      "article_title": null,
+      "source_order": 242,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 42 :\nيجب علي الوصي ان يعرض علي المحكمة بغير تاخر ما يرفع علي القاصر من عدي عادي وما يتخذ قبله من اجراء التنفيذ وبان يتبع في شانها ما تامر به المحكمة .",
+      "text_for_embedding": "مادة 42 :\nيجب علي الوصي ان يعرض علي المحكمة بغير تاخر ما يرفع علي القاصر من عدي عادي وما يتخذ قبله من اجراء التنفيذ وبان يتبع في شانها ما تامر به المحكمة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 34,
+        "page_end": 34
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_fdcb38b1d5f1be1c",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "43",
+      "article_title": null,
+      "source_order": 243,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 43 :\nعلي الوصي ان يودع باسم القاصر احدي خزاين المحكمة او احد المصارف حسبما تصير به المحكمة كل ما يحصله من\nنقد بعد استبعاد النفقة المقررة والمبلغ الذي تقدره المحكمة اجماليا لحساب مصروفات الادارة وذلك خلال خمسة عشر يوما\nمن تاريخ تسلمه .\nولا يجوز ان يسحب شييا من المال المودع الا باذن من المحكمة .",
+      "text_for_embedding": "مادة 43 :\nعلي الوصي ان يودع باسم القاصر احدي خزاين المحكمة او احد المصارف حسبما تصير به المحكمة كل ما يحصله من\nنقد بعد استبعاد النفقة المقررة والمبلغ الذي تقدره المحكمة اجماليا لحساب مصروفات الادارة وذلك خلال خمسة عشر يوما\nمن تاريخ تسلمه .\nولا يجوز ان يسحب شييا من المال المودع الا باذن من المحكمة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 34,
+        "page_end": 34
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_bf7b5bb0d241fc7d",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "44",
+      "article_title": null,
+      "source_order": 244,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 44\nعلي الوصي ان يودع باسم القاصر المصرف الذي تصير به المحكمة ما تري لزوما لاداعة من اوراق مالية ومجوهرات\nومصوغات وغيرها ، وذلك خلال خمسة عشر يوما من تاريخ تسلمها .\nوليس له ان يسحب منها شييا بغير اذا المحكمة .",
+      "text_for_embedding": "مادة 44\nعلي الوصي ان يودع باسم القاصر المصرف الذي تصير به المحكمة ما تري لزوما لاداعة من اوراق مالية ومجوهرات\nومصوغات وغيرها ، وذلك خلال خمسة عشر يوما من تاريخ تسلمها .\nوليس له ان يسحب منها شييا بغير اذا المحكمة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_af45ba736ba7e381",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "45",
+      "article_title": null,
+      "source_order": 245,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 45 :\nعلي الوصي ان يقدم حسابا مويدا بمستندات عن ادارته قبل اول يناير من كل سنة .\nويعين الوصي عند تقديم الحساب السنوي اذا كانت اموال القاصر لا تزيد علي خمسماية جنيه ما لم ترا المحكمة غير\nذاك .\nوفي جميع الاحوال يجب علي الوصي ان يستبدل به غيره ان يقدم حسابا خلال ثلاثون يوما من تاريخ انتهاء وصيته",
+      "text_for_embedding": "مادة 45 :\nعلي الوصي ان يقدم حسابا مويدا بمستندات عن ادارته قبل اول يناير من كل سنة .\nويعين الوصي عند تقديم الحساب السنوي اذا كانت اموال القاصر لا تزيد علي خمسماية جنيه ما لم ترا المحكمة غير\nذاك .\nوفي جميع الاحوال يجب علي الوصي ان يستبدل به غيره ان يقدم حسابا خلال ثلاثون يوما من تاريخ انتهاء وصيته",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_abc46ef5f9c65d80",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "46",
+      "article_title": null,
+      "source_order": 246,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 46 :\nتكون الوصية بغير اجر الا اذا رات المحكمة بناء علي طلب الوصي ان تعين له اجرا او تمنحه مكافاة عن عمل معين .",
+      "text_for_embedding": "مادة 46 :\nتكون الوصية بغير اجر الا اذا رات المحكمة بناء علي طلب الوصي ان تعين له اجرا او تمنحه مكافاة عن عمل معين .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_f4f59c8147340c17",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "47",
+      "article_title": null,
+      "source_order": 247,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 47 :\nثالثا - في انتهاء الوصية\nتنتهي مهمة الوصي :-\n1- ببلوغ القاصر احدي وعشرين سنة الا اذا تقرر استمرار الوصية علية\n2- بعودة الولاية للولي .\n3- بعزله او قبول استقالته .\n4- بفقد اهليته او ثبوت غيبته او موتة او موت القاصر .",
+      "text_for_embedding": "مادة 47 :\nثالثا - في انتهاء الوصية\nتنتهي مهمة الوصي :-\n1- ببلوغ القاصر احدي وعشرين سنة الا اذا تقرر استمرار الوصية علية\n2- بعودة الولاية للولي .\n3- بعزله او قبول استقالته .\n4- بفقد اهليته او ثبوت غيبته او موتة او موت القاصر .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_81b2118ee3db9be8",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "48",
+      "article_title": null,
+      "source_order": 248,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 48 :\nاذا توفرت اسباب جديد تدو النظر في عزل الوصي او في قيام عارض من العوارض التي تزيل اهلية المحكمة احكمة بوقفة.",
+      "text_for_embedding": "مادة 48 :\nاذا توفرت اسباب جديد تدو النظر في عزل الوصي او في قيام عارض من العوارض التي تزيل اهلية المحكمة احكمة بوقفة.",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c6da241c96b10da9",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "49",
+      "article_title": null,
+      "source_order": 249,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 49\nيحكم بعزل الوصي في الحالات الاتية .\n1- اذا قام به سبب من اسباب عدم الصلاحية للوصية وفقالمادة 27 ولو كان هذا السبب قام فتا سبب تعيينه .\n2- اذا اساء الادارة او اهمال فيها اساء الادارة او اهمال فيها او اصبح فيها او اصبح في بقايه خطر علي مصلحة القاصر .",
+      "text_for_embedding": "مادة 49\nيحكم بعزل الوصي في الحالات الاتية .\n1- اذا قام به سبب من اسباب عدم الصلاحية للوصية وفقالمادة 27 ولو كان هذا السبب قام فتا سبب تعيينه .\n2- اذا اساء الادارة او اهمال فيها اساء الادارة او اهمال فيها او اصبح فيها او اصبح في بقايه خطر علي مصلحة القاصر .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7ba00270a11b3dc5",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "50",
+      "article_title": null,
+      "source_order": 250,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 50 :\nعلي الوصي خلال الثلاثين يوما التالية لانتهاء الوصاية ان تسلم الاموال التي في عهدته بمحضر الي القاصرمن بلغ م\nالرشد او الي ورثته او الي الولي او الوصي او الوصي الموقت علي حسب الحول الكتاب في الميعاد\nالمذكور صورة من الحساب ومحضر تسليم الاموال .",
+      "text_for_embedding": "مادة 50 :\nعلي الوصي خلال الثلاثين يوما التالية لانتهاء الوصاية ان تسلم الاموال التي في عهدته بمحضر الي القاصرمن بلغ م\nالرشد او الي ورثته او الي الولي او الوصي او الوصي الموقت علي حسب الحول الكتاب في الميعاد\nالمذكور صورة من الحساب ومحضر تسليم الاموال .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c2d4506f771350fa",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "51",
+      "article_title": null,
+      "source_order": 251,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 51 :\nاذا مات الوصي او حجر عليه او عتب غايبا التزم ورثته او من ينوب عنه علي حسب الاحوال شمول اموال القاصر وتقدم الحاسب",
+      "text_for_embedding": "مادة 51 :\nاذا مات الوصي او حجر عليه او عتب غايبا التزم ورثته او من ينوب عنه علي حسب الاحوال شمول اموال القاصر وتقدم الحاسب",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 35,
+        "page_end": 35
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_63f4f3eac9ec7b4a",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "52",
+      "article_title": null,
+      "source_order": 252,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 52 :\nيكون قابلا للابطال كل تعهد او مخالصة تصدر لمصلحة الوصي ممن كان في وصايته وبلغ من الرشد اذا صدرت المخالصة او التعهد خلال سنة من تاريخ تقديم الحساب المشار اليه في المادة 45 .",
+      "text_for_embedding": "مادة 52 :\nيكون قابلا للابطال كل تعهد او مخالصة تصدر لمصلحة الوصي ممن كان في وصايته وبلغ من الرشد اذا صدرت المخالصة او التعهد خلال سنة من تاريخ تقديم الحساب المشار اليه في المادة 45 .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4f2ec08027180f18",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "53",
+      "article_title": null,
+      "source_order": 253,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 53 :\n1- كل دعوي للقاصر علي وصية او للمحجور عليه علي قيمة تكون متعلقة بامر الوصاية او القوامة تسقط بمضي خمس سنوات من تاريخ بلوغ القاصر بن الرشد او رفع الحجر او موت القاصر او المحجور عليه .\n2- ومع ذلك فان انتهت الوصية او القوامة بالعزل او بالاستقالة او موت فلا تبدا مدة التقادم المذكورة الا من تاريخ تقديم الحساب الخاص بالوصاية او القوامة .",
+      "text_for_embedding": "مادة 53 :\n1- كل دعوي للقاصر علي وصية او للمحجور عليه علي قيمة تكون متعلقة بامر الوصاية او القوامة تسقط بمضي خمس سنوات من تاريخ بلوغ القاصر بن الرشد او رفع الحجر او موت القاصر او المحجور عليه .\n2- ومع ذلك فان انتهت الوصية او القوامة بالعزل او بالاستقالة او موت فلا تبدا مدة التقادم المذكورة الا من تاريخ تقديم الحساب الخاص بالوصاية او القوامة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_6ae800dcdb3ff48f",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "54",
+      "article_title": null,
+      "source_order": 254,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 54 :\nيولي الان بان القاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها وتكون بذلك يشهد لدي الموثق وله ان يسبب هذا الاذن او يجمدن بشهاده اخر مع مرااة حكم المادة 1027 من قانون المرافعات .",
+      "text_for_embedding": "مادة 54 :\nيولي الان بان القاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها وتكون بذلك يشهد لدي الموثق وله ان يسبب هذا الاذن او يجمدن بشهاده اخر مع مرااة حكم المادة 1027 من قانون المرافعات .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_5ace8ca76858d377",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "55",
+      "article_title": null,
+      "source_order": 255,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 55 :\nيجوز للمحكمة بعد سماع اقوال الوصي ان تاذن للقاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها واذا رفضت المحكمة الاذن فلا يجوز تجديد طلبه قبل مضي سنة من تاريخ صدور القرار النهايي بالرفض .",
+      "text_for_embedding": "مادة 55 :\nيجوز للمحكمة بعد سماع اقوال الوصي ان تاذن للقاصر الذي بلغ الثامنة عشرة في تسليم امواله كلها او بعضها لادارتها واذا رفضت المحكمة الاذن فلا يجوز تجديد طلبه قبل مضي سنة من تاريخ صدور القرار النهايي بالرفض .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4e79c1b2911931c5",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "56",
+      "article_title": null,
+      "source_order": 256,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 56 :\nللقاصر الموذن له ان يباشر اعمال الادارة وله ان يثبت ووفي الديون المتولية علي هذه الاموال ولكن لا يجوز له ان يوجر الارض الزراعية والاملاك لمدة تزيد علي سنة ولا ان يثبت ديون خاص من المحكمة او من الوصي فيما يملكه من ذلك .\nولا يجوز للقاصر ان يتصرف في صفيه دخله الا بالقدر اللازم لسد نفاقته ومن نفقتهم قانون .",
+      "text_for_embedding": "مادة 56 :\nللقاصر الموذن له ان يباشر اعمال الادارة وله ان يثبت ووفي الديون المتولية علي هذه الاموال ولكن لا يجوز له ان يوجر الارض الزراعية والاملاك لمدة تزيد علي سنة ولا ان يثبت ديون خاص من المحكمة او من الوصي فيما يملكه من ذلك .\nولا يجوز للقاصر ان يتصرف في صفيه دخله الا بالقدر اللازم لسد نفاقته ومن نفقتهم قانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_1d9a7f60aabe7f2c",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "57",
+      "article_title": null,
+      "source_order": 257,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 57 :\nلا يجوز للقاصر سواء كان مشمولا بالولاية او بالوصاية ان يتجر الا اذا بلغ الثامنة عشرة وعذنت المحكمة في ذلك مطلقا مفيدا او مفيدا .",
+      "text_for_embedding": "مادة 57 :\nلا يجوز للقاصر سواء كان مشمولا بالولاية او بالوصاية ان يتجر الا اذا بلغ الثامنة عشرة وعذنت المحكمة في ذلك مطلقا مفيدا او مفيدا .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4b00ed7a45a24510",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "58",
+      "article_title": null,
+      "source_order": 258,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 58 :\nعلي الماذون له في الادارة يقدم حسابا سنويا يودع نظر الفي يوخذ راي الوصي وللمحكمة ان تامر ביاداف المتوفر ي من دخله خزان الحكومة او احد المصارف ولا يجوز له سحب شيء منه الا باذن منها .",
+      "text_for_embedding": "مادة 58 :\nعلي الماذون له في الادارة يقدم حسابا سنويا يودع نظر الفي يوخذ راي الوصي وللمحكمة ان تامر ביاداف المتوفر ي من دخله خزان الحكومة او احد المصارف ولا يجوز له سحب شيء منه الا باذن منها .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_99cef7e6bdebf3fa",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "59",
+      "article_title": null,
+      "source_order": 259,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 59 :\nاذا قصر الماذون له في الادارة فيتقيد ما قضت به المحكمة السابقة او اساس التصرف في ادارته او كتب اسباب يخشي منها من بقاء الاموال في يده جاز للمحكمة من تلقاء نفسها او بناء علي طلب النيابة العامة او احد ذوي الشان ان تحد من الاذن او تسلب القاصر اباء بعد سماع اقواله .",
+      "text_for_embedding": "مادة 59 :\nاذا قصر الماذون له في الادارة فيتقيد ما قضت به المحكمة السابقة او اساس التصرف في ادارته او كتب اسباب يخشي منها من بقاء الاموال في يده جاز للمحكمة من تلقاء نفسها او بناء علي طلب النيابة العامة او احد ذوي الشان ان تحد من الاذن او تسلب القاصر اباء بعد سماع اقواله .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_2db54e8fe6571827",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "60",
+      "article_title": null,
+      "source_order": 260,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 60 :\nاذا اذنت المحكمة فيجوز القاصر الذي له نال ذلك نال ذلك له في التصرف في المهر والنفقة مالم تامر المحكمة بغير ذلك عند الاذن او في قرار لا حق .",
+      "text_for_embedding": "مادة 60 :\nاذا اذنت المحكمة فيجوز القاصر الذي له نال ذلك نال ذلك له في التصرف في المهر والنفقة مالم تامر المحكمة بغير ذلك عند الاذن او في قرار لا حق .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_8408bf401a29255d",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "61",
+      "article_title": null,
+      "source_order": 261,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 61 :\nللقاصر اهلية التصرف فيما يسلم له او يوضع تحت تصرفه عادة من مال لاغراض نفقته ويصبح التزامه المتعلق بهذه الاغراض يحدود هذا المال فقط .",
+      "text_for_embedding": "مادة 61 :\nللقاصر اهلية التصرف فيما يسلم له او يوضع تحت تصرفه عادة من مال لاغراض نفقته ويصبح التزامه المتعلق بهذه الاغراض يحدود هذا المال فقط .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 36,
+        "page_end": 36
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_02ebe6619a8809b6",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "62",
+      "article_title": null,
+      "source_order": 262,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 62 :\nللقاصر ان يبرم عقد العمل الفردي وفقا لاحكام القانون وللمحكمة بناء علي طلب الوصي او ذي الشان انهاء هذا العقد رعاية لمصلحة القاصر او مستقبلة او المصلحة اخري ظاهرة .",
+      "text_for_embedding": "مادة 62 :\nللقاصر ان يبرم عقد العمل الفردي وفقا لاحكام القانون وللمحكمة بناء علي طلب الوصي او ذي الشان انهاء هذا العقد رعاية لمصلحة القاصر او مستقبلة او المصلحة اخري ظاهرة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_03c5b3bced75601f",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "63",
+      "article_title": null,
+      "source_order": 263,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 63 :\nيكون القاصر الذي بلغ السادسة عشر اهلا للتصرف فيما يكسبه من عملة من اجر او غيره ولا يجوز ان يتعدي اثر التزام القاصر حضور المال الذي يكسبه من مهنته او صناعته .\nومع ذلك فللمحكمة اذا اقتضت المصلحة ان تقيد حق القاصر الفاتصرف في كال المذكور وعنديذ تجري احكام الولاية والوصاية .",
+      "text_for_embedding": "مادة 63 :\nيكون القاصر الذي بلغ السادسة عشر اهلا للتصرف فيما يكسبه من عملة من اجر او غيره ولا يجوز ان يتعدي اثر التزام القاصر حضور المال الذي يكسبه من مهنته او صناعته .\nومع ذلك فللمحكمة اذا اقتضت المصلحة ان تقيد حق القاصر الفاتصرف في كال المذكور وعنديذ تجري احكام الولاية والوصاية .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_03db628da527bb9c",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "64",
+      "article_title": null,
+      "source_order": 264,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني في الوصية",
+          "title": null
+        }
+      ],
+      "text": "مادة 64 :\nيعتبر القاصر الماذون من قبل وليه او المحكمة او نص القانون كامل الاهلية فيما اذن له فيه وفي التقاضي فيه .\nالباب الثاني\nفي الحجر والمساعدة القضايية والغيبية\nالفصل الاول في الحجر",
+      "text_for_embedding": "مادة 64 :\nيعتبر القاصر الماذون من قبل وليه او المحكمة او نص القانون كامل الاهلية فيما اذن له فيه وفي التقاضي فيه .\nالباب الثاني\nفي الحجر والمساعدة القضايية والغيبية\nالفصل الاول في الحجر",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ce17731a06549f90",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "65",
+      "article_title": null,
+      "source_order": 265,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الحجر",
+          "title": null
+        }
+      ],
+      "text": "مادة 65 :\nيحكم بالحجر علي البالغ بالجنون او بالعتة او للسفه او للغفلة ولا يرفع الحجرالا بحكم وتقييم المحكمة علي من يحجر عليه فيما لادارة امواله وفقا للاحكام المقررة في هذا القانون .",
+      "text_for_embedding": "مادة 65 :\nيحكم بالحجر علي البالغ بالجنون او بالعتة او للسفه او للغفلة ولا يرفع الحجرالا بحكم وتقييم المحكمة علي من يحجر عليه فيما لادارة امواله وفقا للاحكام المقررة في هذا القانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e95ec9f1f03016f6",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "66",
+      "article_title": null,
+      "source_order": 266,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الحجر",
+          "title": null
+        }
+      ],
+      "text": "مادة 66 :\nالنفقات اللازمة للعناية بالمحجوزعليه مقدمة مقدمة علي ما عداها ز",
+      "text_for_embedding": "مادة 66 :\nالنفقات اللازمة للعناية بالمحجوزعليه مقدمة مقدمة علي ما عداها ز",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ec98ac980beb5ae9",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "67",
+      "article_title": null,
+      "source_order": 267,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الحجر",
+          "title": null
+        }
+      ],
+      "text": "مادة 67 :\nيجوز للمحجوز عليه للسفه او للغفلة باذن من المحكمة ان يتم استهلاك امواله كلها او بعضها لادرتها وفي هذه الحالة تسري عليه الاحكام التي تسري فيشان القاصر الماذون .",
+      "text_for_embedding": "مادة 67 :\nيجوز للمحجوز عليه للسفه او للغفلة باذن من المحكمة ان يتم استهلاك امواله كلها او بعضها لادرتها وفي هذه الحالة تسري عليه الاحكام التي تسري فيشان القاصر الماذون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_a6932f66026cca93",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "68",
+      "article_title": null,
+      "source_order": 268,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الحجر",
+          "title": null
+        }
+      ],
+      "text": "مادة 68 :\nتكون القوامة للابن البالغ ثم للاب ثم للجد ثم لمن تختار المحكمة .",
+      "text_for_embedding": "مادة 68 :\nتكون القوامة للابن البالغ ثم للاب ثم للجد ثم لمن تختار المحكمة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_e66b5fe10fde2b93",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "69",
+      "article_title": null,
+      "source_order": 269,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول في الحجر",
+          "title": null
+        }
+      ],
+      "text": "مادة 69 :\nيشترط في القيم ما يشترط في الوصي وفقا للمادة 27 ومع ذلك لا يحول قيام احد السببين المنصوص عليهما في البندين 1 ، 4 من المادة المذكورة دون تعيين الابن او الاب او الجد اذا رات المحكمة مصلحة في ذلك .\nالفصل الثاني\nفي المساعدة القضايية",
+      "text_for_embedding": "مادة 69 :\nيشترط في القيم ما يشترط في الوصي وفقا للمادة 27 ومع ذلك لا يحول قيام احد السببين المنصوص عليهما في البندين 1 ، 4 من المادة المذكورة دون تعيين الابن او الاب او الجد اذا رات المحكمة مصلحة في ذلك .\nالفصل الثاني\nفي المساعدة القضايية",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_a8bf0b1cb7cbf69d",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "70",
+      "article_title": null,
+      "source_order": 270,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني",
+          "title": null
+        }
+      ],
+      "text": "مادة 70 :\nاذا كان لشخص اصم ابكم او بكم او اعمي اصم ابكم اكثر من ذلك التعبير عن ارادته جاز للمحكمة ان تعين له مساعدا قضاييا يعاونه في التصرفات النصوص عليها في المادة 39 :\nويجوز لها ذلك ايضا اذا كان يخشي من انفراد الشخص بمباشرة التصرف في ماله بسبب عجز جسماني شديد .",
+      "text_for_embedding": "مادة 70 :\nاذا كان لشخص اصم ابكم او بكم او اعمي اصم ابكم اكثر من ذلك التعبير عن ارادته جاز للمحكمة ان تعين له مساعدا قضاييا يعاونه في التصرفات النصوص عليها في المادة 39 :\nويجوز لها ذلك ايضا اذا كان يخشي من انفراد الشخص بمباشرة التصرف في ماله بسبب عجز جسماني شديد .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 37,
+        "page_end": 37
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_1f3c2c07b5e65256",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "71",
+      "article_title": null,
+      "source_order": 271,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني",
+          "title": null
+        }
+      ],
+      "text": "مادة 71 :\nيشترك المساعد القضايي في التصرفات المشار اليها في المادة السابقة واذا امتنع عن الاشتراك في تصرف جاز رفع الامر للمحكمة فان رات ان الامتناع في غير محله عينت من خبر محله عينت شخصا اخر للمساعدة في ابرامه او ابرامه وفقا للتوجيهات التي تبينها في قرارها .\nواذا كان عدم قيام الشخص الذي تقررت مساعدته قضاييا بتصرف معين يعرض امواله للخطر جاز المساعدة ورفع الامر الي المحكمة ولها ان تامر بعد تحقق بانفراد المساعد باجراء هذا التصرف .",
+      "text_for_embedding": "مادة 71 :\nيشترك المساعد القضايي في التصرفات المشار اليها في المادة السابقة واذا امتنع عن الاشتراك في تصرف جاز رفع الامر للمحكمة فان رات ان الامتناع في غير محله عينت من خبر محله عينت شخصا اخر للمساعدة في ابرامه او ابرامه وفقا للتوجيهات التي تبينها في قرارها .\nواذا كان عدم قيام الشخص الذي تقررت مساعدته قضاييا بتصرف معين يعرض امواله للخطر جاز المساعدة ورفع الامر الي المحكمة ولها ان تامر بعد تحقق بانفراد المساعد باجراء هذا التصرف .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_4576084b53009206",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "72",
+      "article_title": null,
+      "source_order": 272,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني",
+          "title": null
+        }
+      ],
+      "text": "مادة 72 :\nيسري علي المساعد القضايي حكم المادة 50 من هذا القانون .",
+      "text_for_embedding": "مادة 72 :\nيسري علي المساعد القضايي حكم المادة 50 من هذا القانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7df22feb52d7105a",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "73",
+      "article_title": null,
+      "source_order": 273,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثاني",
+          "title": null
+        }
+      ],
+      "text": "مادة 73 :\nيعتبر المساعد القضايي في حكم النايب في تطبيق احكام المواد 108 , 382 , 479 من القانون المدني\nالفصل الثالث . في الغيبه .",
+      "text_for_embedding": "مادة 73 :\nيعتبر المساعد القضايي في حكم النايب في تطبيق احكام المواد 108 , 382 , 479 من القانون المدني\nالفصل الثالث . في الغيبه .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7dc8e41726f2d407",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "74",
+      "article_title": null,
+      "source_order": 274,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الغيبه .",
+          "title": null
+        }
+      ],
+      "text": "مادة 74 :\nتقيم المحكمة وكيلا عن الغايب كامل الاهلية في الاحوال الاتية :\nمتي كان قد انقضت مدة سنة او اكثر علي غيابه وترتب علي ذلك تعطيل مصالحة.\nاولا : اذا كان مفقودا لا تعرف حياته او مماته .\nثانيا : اذا لم يكن له محل اقامه ولا موطن معلوم موطن معلوم او كان له محل اقامة او موطن معلوم خارج المملكة المصرية . واستحال عليه ان يتولي شيونه بنفسه او ان يشرف علي من بينبه في ادارتها .",
+      "text_for_embedding": "مادة 74 :\nتقيم المحكمة وكيلا عن الغايب كامل الاهلية في الاحوال الاتية :\nمتي كان قد انقضت مدة سنة او اكثر علي غيابه وترتب علي ذلك تعطيل مصالحة.\nاولا : اذا كان مفقودا لا تعرف حياته او مماته .\nثانيا : اذا لم يكن له محل اقامه ولا موطن معلوم موطن معلوم او كان له محل اقامة او موطن معلوم خارج المملكة المصرية . واستحال عليه ان يتولي شيونه بنفسه او ان يشرف علي من بينبه في ادارتها .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_8520468d6697061c",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "75",
+      "article_title": null,
+      "source_order": 275,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الغيبه .",
+          "title": null
+        }
+      ],
+      "text": "مادة 75 :\nاذا رات الغايب وكيلا عاما حكم المحكمة بتعيينه متي توافرات فيه الشروط الواجب توافرها في الوصي ولا عينت غيره .",
+      "text_for_embedding": "مادة 75 :\nاذا رات الغايب وكيلا عاما حكم المحكمة بتعيينه متي توافرات فيه الشروط الواجب توافرها في الوصي ولا عينت غيره .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_7baedf94296668b2",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "76",
+      "article_title": null,
+      "source_order": 276,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الغيبه .",
+          "title": null
+        }
+      ],
+      "text": "مادة 76 :\nتنتهي الغيبة بزوال سببها او بموت الغايب او بالحكم من جهة الاحوال الشخصية المختصة باعتباره ميتا .\nالباب الثالث . احكام عامة\nالفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "text_for_embedding": "مادة 76 :\nتنتهي الغيبة بزوال سببها او بموت الغايب او بالحكم من جهة الاحوال الشخصية المختصة باعتباره ميتا .\nالباب الثالث . احكام عامة\nالفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_c9a334019821fc02",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "77",
+      "article_title": null,
+      "source_order": 277,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+          "title": null
+        }
+      ],
+      "text": "مادة 77 :\nتحسب المدد المنصوص عليها في هذا القانون بالتقويم الميلادي .",
+      "text_for_embedding": "مادة 77 :\nتحسب المدد المنصوص عليها في هذا القانون بالتقويم الميلادي .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_61288c2f4ad746b7",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "78",
+      "article_title": null,
+      "source_order": 278,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+          "title": null
+        }
+      ],
+      "text": "مادة 78 :\nيسري علي القوامة والوكالة علي الغايبين الاحكام المقررة في شان الوصايه علي القصر ويسري علي القوامة والوكلاء عن الغايبين الاحكام المقررة في شان الاوصياء .",
+      "text_for_embedding": "مادة 78 :\nيسري علي القوامة والوكالة علي الغايبين الاحكام المقررة في شان الوصايه علي القصر ويسري علي القوامة والوكلاء عن الغايبين الاحكام المقررة في شان الاوصياء .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_17bffd6b92a19701",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "79",
+      "article_title": null,
+      "source_order": 279,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الاول . احكام مشتركة في الوصايه والقوامة والغييبة .",
+          "title": null
+        }
+      ],
+      "text": "مادة 79 :\nيسري في شان قسمة مال الغايب والمحجور عليه ما يسري في شان قسمة القاصر من احكام .\nالفصل الثاني . في المشرف",
+      "text_for_embedding": "مادة 79 :\nيسري في شان قسمة مال الغايب والمحجور عليه ما يسري في شان قسمة القاصر من احكام .\nالفصل الثاني . في المشرف",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 38,
+        "page_end": 38
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_5d49629a6a2f0055",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "80",
+      "article_title": null,
+      "source_order": 280,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثانى . في المشرف",
+          "title": null
+        }
+      ],
+      "text": "مادة 80 :\nيجوز تعيين مشرف مع الموصي مع الموصي ولو كان مختارا كذلك مع القيم الوكيل عن الغايب .",
+      "text_for_embedding": "مادة 80 :\nيجوز تعيين مشرف مع الموصي مع الموصي ولو كان مختارا كذلك مع القيم الوكيل عن الغايب .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_23079eba2abebf0f",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "81",
+      "article_title": null,
+      "source_order": 281,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثانى . في المشرف",
+          "title": null
+        }
+      ],
+      "text": "مادة 81 :\nيراقب المشرف النايب عن عديم الاهلية او الوكيل عن الغايب في ادارته وعليه ابلاغ المحكمة او النيابة كل امر تقتضي المصلحة رفعه بهما .\nوعلي النايب او الوكيل اجابة المشرفين الي كل ما يطلبه من ايضاح عن ادارة الاموال وتمكينه من فحص الاوراق والمستندات الخاصة بهذه الاموال .\nويجب علي المشرف اذا كلا مكان النايب او الوكيل ام بطلب الي المحكمة اقامة النايب او وكيل جديد والي ان يباشر هذا عمله يقوم المشرف من تلقاء نفسه بالاعمال التي يكون من تاجيلها ضرر .",
+      "text_for_embedding": "مادة 81 :\nيراقب المشرف النايب عن عديم الاهلية او الوكيل عن الغايب في ادارته وعليه ابلاغ المحكمة او النيابة كل امر تقتضي المصلحة رفعه بهما .\nوعلي النايب او الوكيل اجابة المشرفين الي كل ما يطلبه من ايضاح عن ادارة الاموال وتمكينه من فحص الاوراق والمستندات الخاصة بهذه الاموال .\nويجب علي المشرف اذا كلا مكان النايب او الوكيل ام بطلب الي المحكمة اقامة النايب او وكيل جديد والي ان يباشر هذا عمله يقوم المشرف من تلقاء نفسه بالاعمال التي يكون من تاجيلها ضرر .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_42333c7ec927a377",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "82",
+      "article_title": null,
+      "source_order": 282,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثانى . في المشرف",
+          "title": null
+        }
+      ],
+      "text": "مادة 82 :\nيسري علي المشرف فيما يستعمل بتعيينه وعزله وقبول استقالته واجره عن اعماله ومسيوليتة عن تقصيره ما يسري من احكام علي النايب او الوكيل علي حسب الاحوال .",
+      "text_for_embedding": "مادة 82 :\nيسري علي المشرف فيما يستعمل بتعيينه وعزله وقبول استقالته واجره عن اعماله ومسيوليتة عن تقصيره ما يسري من احكام علي النايب او الوكيل علي حسب الاحوال .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_ff7e8c4ab4252920",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "83",
+      "article_title": null,
+      "source_order": 283,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثانى . في المشرف",
+          "title": null
+        }
+      ],
+      "text": "مادة 83 :\nتقرر المحكمة انتهاء الاشراف اذا رات زوال داعيه .\nالفصل الثالث . في الجزاءات",
+      "text_for_embedding": "مادة 83 :\nتقرر المحكمة انتهاء الاشراف اذا رات زوال داعيه .\nالفصل الثالث . في الجزاءات",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_72ede3c0a4bba3f2",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "84",
+      "article_title": null,
+      "source_order": 284,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الجزاءات",
+          "title": null
+        }
+      ],
+      "text": "مادة 84 :\nاذا قصر الوصي في الواجبات المفروضة عليه بمقتضي هذا القانون او وقف تنفيذ القرارات التي تصدرها المحكمة جاز لها ان تحكم عليه بغرامة لا تزيد علي ماية جنية جنيهه وجزاوه من اجره كله او بعضه وببعضه وباحده هذه الجزاءات .\nويجوز للمحكمة ان تمنح القاصر هذه الغرامة او جزءه منها . ويجوز اعفاء الوصي من الجزاء المالي كله او بعضه اذا نفذ الامر الذي ترتب عليه الحكم او قدم اعتذارا تقبلا المحكمة .",
+      "text_for_embedding": "مادة 84 :\nاذا قصر الوصي في الواجبات المفروضة عليه بمقتضي هذا القانون او وقف تنفيذ القرارات التي تصدرها المحكمة جاز لها ان تحكم عليه بغرامة لا تزيد علي ماية جنية جنيهه وجزاوه من اجره كله او بعضه وببعضه وباحده هذه الجزاءات .\nويجوز للمحكمة ان تمنح القاصر هذه الغرامة او جزءه منها . ويجوز اعفاء الوصي من الجزاء المالي كله او بعضه اذا نفذ الامر الذي ترتب عليه الحكم او قدم اعتذارا تقبلا المحكمة .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_82637d3e12e0db7b",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "85",
+      "article_title": null,
+      "source_order": 285,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الجزاءات",
+          "title": null
+        }
+      ],
+      "text": "مادة 85 :\nاذا نفذ علي ممتلكات النايب المحكوم عليه بالغرامة ثم صدر حكم باقالته منها فلا حق له الا في استرداد ماحصل من التنفيذ . اما اذا رسا المزاد علي قيم الكتاب الفلا يكون للمحكوم عليه الا استرداد العين بعد دفع مصروفات التنفيذ ما لم يكن هناك مانع فاذا وجد فلا يكون له استرداد العين الذي رسا به المزاد علي قيم الكتاب بعد خصم كامل المصرفات .",
+      "text_for_embedding": "مادة 85 :\nاذا نفذ علي ممتلكات النايب المحكوم عليه بالغرامة ثم صدر حكم باقالته منها فلا حق له الا في استرداد ماحصل من التنفيذ . اما اذا رسا المزاد علي قيم الكتاب الفلا يكون للمحكوم عليه الا استرداد العين بعد دفع مصروفات التنفيذ ما لم يكن هناك مانع فاذا وجد فلا يكون له استرداد العين الذي رسا به المزاد علي قيم الكتاب بعد خصم كامل المصرفات .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_5867a54a3529c3e1",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "86",
+      "article_title": null,
+      "source_order": 286,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الجزاءات",
+          "title": null
+        }
+      ],
+      "text": "مادة 86 :\nاذا اخل النايب بواجب من الواجبات المفروضه عليه بمقتضي هذا القانون كان مسيولا عما يلحق القاصر من ضرر بسبب ذلك وعلي كل حال بسال مسيوليته الوكيل باجر .",
+      "text_for_embedding": "مادة 86 :\nاذا اخل النايب بواجب من الواجبات المفروضه عليه بمقتضي هذا القانون كان مسيولا عما يلحق القاصر من ضرر بسبب ذلك وعلي كل حال بسال مسيوليته الوكيل باجر .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_f7604d629091a5f0",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "87",
+      "article_title": null,
+      "source_order": 287,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الجزاءات",
+          "title": null
+        }
+      ],
+      "text": "مادة 87 :\nسري احكام المواد السابقة علي القيم والمساعد القضايي والوكيل عن الغايب والوصي الخاص والوصي الموقت .",
+      "text_for_embedding": "مادة 87 :\nسري احكام المواد السابقة علي القيم والمساعد القضايي والوكيل عن الغايب والوصي الخاص والوصي الموقت .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_59d1c1faef696636",
+      "document_id": "lawdoc_0c22cb5e7a14459a",
+      "law_name": "guardianship",
+      "law_number": "119",
+      "year": "1952",
+      "article_number": "88",
+      "article_title": null,
+      "source_order": 288,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "الفصل الثالث . في الجزاءات",
+          "title": null
+        }
+      ],
+      "text": "مادة 88 :\nيعاقب بالحبس مدة لا تتجاوز سنه وبغرامة لا تزيد علي ماية جنيه او باحدي هاتين العقوبتين كل وصي او قيم او وكيل انتهت نيابته اذا كان بقصد الاساءة قد امتنع عن تسليم اموال القاصر او المحجوز عليه او الغايب او اوراقه لمن حل محله من الوصية او القوامة او الوكالة وذلك ما لم ينص القانون علي عقوبة اشد .\nقانون رقم 1 لسنة 2000 م\nباصدار قانون تنظيم بعض اوضاع واجراءات\nالتقاضي في مسايل الاحوال الشخصية\nباسم الشعب\nرييس الجمهورية\nقرار مجلس الشعب القانون الاتي نصه ، وقد اصدرناه :\nالمادة الاولي :\nشرع احكام القانون المرفق علي اجراءات التقاضي في مسايل الاحوال الشخصية والوقف ويطبق فيما لم يرد بشانه نص خاص فيما يخفي احكام قانون المرافعات المدنية والتجاريه واحكام قانون الاباثات في المواد المدنيه والتجاريه واحكام القانون المدني في شان ادارة وتصفية التركات .\nويختص قاضي الاموال الوقتية بالمحكمة الابتداييه دون غيره باصدار امر علي عريضة في مسايل الاحوال الشخصية الاتيه :\n1- التظلم من الامتناع المرفق عن توثيق عقد الزواج اوعدم اعطاء شهادة مشتهي مشتته للامتناع سواء للمصريين او الاجانب\n2- مد ميعاد جرد التركة بقدر ما يلزم لتمام جرد واذا كان القانون الواجب التطبيق حد ميعادا له\n3- اتخاذ ما يراه لازما من الاجراءات التخطيطيه او الوقتيه علي التركات التي لا يوجد فيها عديم اهليه او ناقصها او غايب\n4- غالاندين للنيابة العامة في نقل النقود والاوراق المالية والمستندات والصنوغات وغيرها مما يخص عليه عليه من اموال عديمي الاهليه او ناقصيها والغيبين الي خزانة احد المصارف او مكان امين .\n5- المنازعات حول السفر الي الخارج بعد سماع لقول نوع الشان .\nالمادة الثانيه\nعلي المحاكم ان تحيل بدون رسوم ومن تلقاء نفسها ما يوجد لديها من دعاوي اصبحت بمقتضي احكام القانون المرفق من اختصاص محاكم اخري وذلك بالحالة التي يكون عليها ، فلي حالة غياب احد الخصوم يقوم الفل الكتاب باعلانه بامير الاحاله مع تكليفه بالحضور في الميعاد امام المحكمة التي احيلت اليها الدعوي .\nولا تسري احكام الفقرة السابقة علي الدعاوي المحكوم فيها او الدعاوي الموجلة للنطق بالحكم فيها فتبقي خاضعة للنصوص السارية قبل العمل بهذا القانون .",
+      "text_for_embedding": "مادة 88 :\nيعاقب بالحبس مدة لا تتجاوز سنه وبغرامة لا تزيد علي ماية جنيه او باحدي هاتين العقوبتين كل وصي او قيم او وكيل انتهت نيابته اذا كان بقصد الاساءة قد امتنع عن تسليم اموال القاصر او المحجوز عليه او الغايب او اوراقه لمن حل محله من الوصية او القوامة او الوكالة وذلك ما لم ينص القانون علي عقوبة اشد .\nقانون رقم 1 لسنة 2000 م\nباصدار قانون تنظيم بعض اوضاع واجراءات\nالتقاضي في مسايل الاحوال الشخصية\nباسم الشعب\nرييس الجمهورية\nقرار مجلس الشعب القانون الاتي نصه ، وقد اصدرناه :\nالمادة الاولي :\nشرع احكام القانون المرفق علي اجراءات التقاضي في مسايل الاحوال الشخصية والوقف ويطبق فيما لم يرد بشانه نص خاص فيما يخفي احكام قانون المرافعات المدنية والتجاريه واحكام قانون الاباثات في المواد المدنيه والتجاريه واحكام القانون المدني في شان ادارة وتصفية التركات .\nويختص قاضي الاموال الوقتية بالمحكمة الابتداييه دون غيره باصدار امر علي عريضة في مسايل الاحوال الشخصية الاتيه :\n1- التظلم من الامتناع المرفق عن توثيق عقد الزواج اوعدم اعطاء شهادة مشتهي مشتته للامتناع سواء للمصريين او الاجانب\n2- مد ميعاد جرد التركة بقدر ما يلزم لتمام جرد واذا كان القانون الواجب التطبيق حد ميعادا له\n3- اتخاذ ما يراه لازما من الاجراءات التخطيطيه او الوقتيه علي التركات التي لا يوجد فيها عديم اهليه او ناقصها او غايب\n4- غالاندين للنيابة العامة في نقل النقود والاوراق المالية والمستندات والصنوغات وغيرها مما يخص عليه عليه من اموال عديمي الاهليه او ناقصيها والغيبين الي خزانة احد المصارف او مكان امين .\n5- المنازعات حول السفر الي الخارج بعد سماع لقول نوع الشان .\nالمادة الثانيه\nعلي المحاكم ان تحيل بدون رسوم ومن تلقاء نفسها ما يوجد لديها من دعاوي اصبحت بمقتضي احكام القانون المرفق من اختصاص محاكم اخري وذلك بالحالة التي يكون عليها ، فلي حالة غياب احد الخصوم يقوم الفل الكتاب باعلانه بامير الاحاله مع تكليفه بالحضور في الميعاد امام المحكمة التي احيلت اليها الدعوي .\nولا تسري احكام الفقرة السابقة علي الدعاوي المحكوم فيها او الدعاوي الموجلة للنطق بالحكم فيها فتبقي خاضعة للنصوص السارية قبل العمل بهذا القانون .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 39,
+        "page_end": 39
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    }
+  ]
+}

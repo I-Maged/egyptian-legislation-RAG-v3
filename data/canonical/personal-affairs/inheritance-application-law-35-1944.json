@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "id": "lawdoc_c6f9a8b9f1625847",
+    "law_name": "inheritance",
+    "law_number": "35",
+    "year": "1944",
+    "jurisdiction": "EG",
+    "language": "ar",
+    "source_file": "personal_affair_law.pdf",
+    "metadata": {
+      "parser_version": "parser-v3.3.0",
+      "normalization_version": "parser-v3.3.0"
+    }
+  },
+  "chunks": [
+    {
+      "id": "lawchunk_53ff1495ffc996e8",
+      "document_id": "lawdoc_c6f9a8b9f1625847",
+      "law_name": "inheritance",
+      "law_number": "35",
+      "year": "1944",
+      "article_number": "1",
+      "article_title": null,
+      "source_order": 96,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "القسم الخامس – في التخارج",
+          "title": null
+        }
+      ],
+      "text": "مادة 1\nقوانين الميراث والوصية واحكام الشريعة الاسلامية المتبعة فيها هي قانون البلد فيما يتعلق بالمواريث والوصايا علي انه اذا كان المورث غير مسلم جاز لورثته في حكم الشريعة الاسلامية . وقوانين الميراث والوصية ان يتفقوا علي ان يكون التوريث طبقا لشريعة المتوفي .",
+      "text_for_embedding": "مادة 1\nقوانين الميراث والوصية واحكام الشريعة الاسلامية المتبعة فيها هي قانون البلد فيما يتعلق بالمواريث والوصايا علي انه اذا كان المورث غير مسلم جاز لورثته في حكم الشريعة الاسلامية . وقوانين الميراث والوصية ان يتفقوا علي ان يكون التوريث طبقا لشريعة المتوفي .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 15,
+        "page_end": 15
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    },
+    {
+      "id": "lawchunk_548d7e6e09370b9c",
+      "document_id": "lawdoc_c6f9a8b9f1625847",
+      "law_name": "inheritance",
+      "law_number": "35",
+      "year": "1944",
+      "article_number": "2",
+      "article_title": null,
+      "source_order": 97,
+      "hierarchy": [
+        {
+          "type": "chapter",
+          "label": "القسم الخامس – في التخارج",
+          "title": null
+        }
+      ],
+      "text": "مادة 2\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريدة الرسمية .\nالوصية\nقانون رقم 71 لسنة 1946\nباصدار قانون الوصية\nقرر مجلس الشيوخ ومجلس النواب القانون الاتي نصه . وقد صدقنا عليه واصدرناه .",
+      "text_for_embedding": "مادة 2\nعلي وزير العدل تنفيذ هذا القانون ويعمل به من تاريخ نشره في الجريدة الرسمية .\nالوصية\nقانون رقم 71 لسنة 1946\nباصدار قانون الوصية\nقرر مجلس الشيوخ ومجلس النواب القانون الاتي نصه . وقد صدقنا عليه واصدرناه .",
+      "provenance": {
+        "source_file": "personal_affair_law.pdf",
+        "page_start": 15,
+        "page_end": 15
+      },
+      "metadata": {
+        "parser_version": "parser-v3.3.0",
+        "normalization_version": "parser-v3.3.0",
+        "ocr_confidence": null
+      }
+    }
+  ]
+}
