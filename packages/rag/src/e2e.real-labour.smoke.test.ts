@@ -165,7 +165,7 @@ describe.skipIf(!RUN_REAL_SMOKE)(
       // Generation
       // ---------------------------------------------------------
 
-      expect(response.generation.model).toBe("gemma4");
+      expect(response.generation.model).toBe("gemma4:cloud");
       expect(response.generation.durationMs).toBeGreaterThanOrEqual(0);
     }, 120_000);
   },

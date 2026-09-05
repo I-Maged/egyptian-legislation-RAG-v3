@@ -73,7 +73,7 @@ export class OllamaGenerationProvider implements GenerationProvider {
     return {
       answer,
       metadata: {
-        model: response.model ?? this.model,
+        model: this.model,
         durationMs: Date.now() - startedAt,
       },
     };

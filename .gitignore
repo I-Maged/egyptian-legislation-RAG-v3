@@ -10,7 +10,8 @@ apps/web/.next/
 /out/
 .opencode/
 .venv/
-
+.kilo/
+nul
 /.pnp
 .pnp.*
 .yarn/*
