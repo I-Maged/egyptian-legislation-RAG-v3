@@ -197,4 +197,51 @@ describe("RetrievalEvaluator", () => {
     expect(result.queryCount).toBe(3);
     expect(result.recall["1"]).toBeCloseTo(1 / 3);
   });
+  it("evaluates larger datasets with bounded concurrency and preserves query order", async () => {
+    const evaluator = new RetrievalEvaluator();
+    const largeDataset: RetrievalQuery[] = Array.from({ length: 70 }, (_, index) => ({
+      id: `q-${index + 1}`,
+      query: `query-${index + 1}`,
+      relevantChunkIds: [`chunk-${index + 1}`],
+    }));
+
+    let active = 0;
+    let maxActive = 0;
+
+    const result = await evaluator.evaluate(largeDataset, async (query) => {
+      active += 1;
+      maxActive = Math.max(maxActive, active);
+
+      await new Promise((resolve) => setTimeout(resolve, 1));
+
+      active -= 1;
+      const index = Number(query.replace("query-", ""));
+      return [`chunk-${index}`];
+    }, {
+      concurrency: 4,
+      recallAt: [1],
+      precisionAt: [1],
+      hitRateAt: [1],
+      ndcgAt: [1],
+    });
+
+    expect(result.queryCount).toBe(70);
+    expect(result.recall["1"]).toBe(1);
+    expect(result.precision["1"]).toBe(1);
+    expect(result.hitRate["1"]).toBe(1);
+    expect(result.ndcg["1"]).toBe(1);
+    expect(result.predictions.map((prediction) => prediction.queryId)).toEqual(
+      largeDataset.map((item) => item.id),
+    );
+    expect(maxActive).toBeLessThanOrEqual(4);
+  });
+
+  it("rejects invalid evaluation concurrency", async () => {
+    const evaluator = new RetrievalEvaluator();
+
+    await expect(
+      evaluator.evaluate(dataset, retrieve, { concurrency: 0 }),
+    ).rejects.toThrow("Invalid evaluation concurrency");
+  });
+
 });

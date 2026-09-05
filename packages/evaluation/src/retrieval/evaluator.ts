@@ -16,6 +16,9 @@ export interface RetrievalEvaluationOptions {
   hitRateAt?: number[];
   ndcgAt?: number[];
   includeMrr?: boolean;
+
+  /** Maximum number of retrieval queries evaluated concurrently. */
+  concurrency?: number;
 }
 
 export interface RetrievalEvaluationResult {
@@ -46,6 +49,11 @@ export class RetrievalEvaluator {
     const ndcgAt = options.ndcgAt ?? [5, 10];
 
     const includeMrr = options.includeMrr ?? true;
+    const concurrency = options.concurrency ?? 4;
+
+    if (!Number.isInteger(concurrency) || concurrency <= 0) {
+      throw new Error(`Invalid evaluation concurrency: ${concurrency}`);
+    }
 
     if (dataset.length === 0) {
       return {
@@ -59,16 +67,14 @@ export class RetrievalEvaluator {
       };
     }
 
-    const predictions: RetrievalPrediction[] = [];
-
-    for (const example of dataset) {
-      const retrievedChunkIds = await retrieve(example.query);
-
-      predictions.push({
+    const predictions = await mapWithConcurrency(
+      dataset,
+      concurrency,
+      async (example): Promise<RetrievalPrediction> => ({
         queryId: example.id,
-        retrievedChunkIds,
-      });
-    }
+        retrievedChunkIds: await retrieve(example.query),
+      }),
+    );
 
     const recall: Record<string, number> = {};
 
@@ -155,4 +161,34 @@ function average(values: number[]): number {
   }
 
   return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+async function mapWithConcurrency<T, R>(
+  items: T[],
+  concurrency: number,
+  worker: (item: T, index: number) => Promise<R>,
+): Promise<R[]> {
+  if (items.length === 0) {
+    return [];
+  }
+
+  const results = new Array<R>(items.length);
+  let nextIndex = 0;
+
+  const workerLoop = async (): Promise<void> => {
+    while (true) {
+      const index = nextIndex++;
+
+      if (index >= items.length) {
+        return;
+      }
+
+      results[index] = await worker(items[index]!, index);
+    }
+  };
+
+  const workerCount = Math.min(concurrency, items.length);
+  await Promise.all(Array.from({ length: workerCount }, () => workerLoop()));
+
+  return results;
 }

@@ -68,5 +68,5 @@ python evaluation/ragas/run.py --concurrency 3
 Results are written to:
 
 ```text
-data/evaluation/labour-law/ragas-results.json
+data/evaluation/labour-law-v2/ragas-results.json
 ```

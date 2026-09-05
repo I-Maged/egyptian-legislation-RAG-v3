@@ -9,17 +9,17 @@ import type { RagasEvaluationDataset, RagasEvaluationRecord } from "./types";
 
 const CORPUS_PATH = resolve(
   process.cwd(),
-  "data/canonical/labour-law-148-2019.json",
+  "data/canonical/labour-law-14-2025.json",
 );
 
 const OUTPUT_PATH = resolve(
   process.cwd(),
   process.env.RAGAS_DATASET_PATH ??
-    "data/evaluation/labour-law/ragas-dataset.json",
+    "data/evaluation/labour-law-v2/ragas-dataset.json",
 );
 
 const LAW_DOCUMENT_ID =
-  process.env.LABOUR_LAW_DOCUMENT_ID ?? "lawdoc_f1fd6f6338643087";
+  process.env.LABOUR_LAW_DOCUMENT_ID ?? "lawdoc_04ec12b4c4f7e3a6";
 
 const TOP_K = parsePositiveInteger(process.env.RAGAS_TOP_K, 5);
 const CANDIDATE_TOP_K = parsePositiveInteger(

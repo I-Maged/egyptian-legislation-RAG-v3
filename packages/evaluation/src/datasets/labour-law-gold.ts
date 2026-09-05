@@ -13,7 +13,7 @@ export interface LabourLawGoldDraft {
 }
 
 /**
- * Initial manually curated Labour Law retrieval questions.
+ * Manually curated retrieval questions for the current canonical Egyptian Labour Law No. 14 of 2025.
  *
  * Article numbers are resolved against the canonical corpus at runtime.
  * This keeps the benchmark independent of generated chunk IDs.
@@ -423,7 +423,7 @@ export function buildLabourLawGoldDataset(
     schema_version: "1.0",
     name: "labour-law-retrieval-v1",
     description:
-      "Initial manually curated retrieval benchmark for Egyptian Labour Law No. 148 of 2019.",
+      "Manually curated retrieval benchmark for Egyptian Labour Law No. 14 of 2025.",
     language: "ar",
     jurisdiction: "EG",
     items,

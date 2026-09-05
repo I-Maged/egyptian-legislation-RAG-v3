@@ -182,6 +182,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         precisionAt: [5, 10],
         ndcgAt: [5, 10],
         includeMrr: true,
+        concurrency: 4,
       });
 
       expect(benchmark.datasetName).toBe("financial-law-retrieval-v1");

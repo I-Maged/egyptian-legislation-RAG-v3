@@ -415,7 +415,7 @@ export function buildFinancialLawGoldDataset(
     schema_version: "1.0",
     name: "financial-law-retrieval-v1",
     description:
-      "Initial manually curated retrieval benchmark for Egyptian Financial Law No. 18 of 2019.",
+      "Manually curated retrieval benchmark for Egyptian Financial Law No. 6 of 2022.",
     language: "ar",
     jurisdiction: "EG",
     items,

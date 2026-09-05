@@ -420,7 +420,7 @@ def parse_args() -> argparse.Namespace:
         "--dataset",
         default=(
             "data/evaluation/"
-            "labour-law/ragas-dataset.json"
+            "labour-law-v2/ragas-dataset.json"
         ),
     )
 
@@ -428,7 +428,7 @@ def parse_args() -> argparse.Namespace:
         "--output",
         default=(
             "data/evaluation/"
-            "labour-law/ragas-results.json"
+            "labour-law-v2/ragas-results.json"
         ),
     )
 

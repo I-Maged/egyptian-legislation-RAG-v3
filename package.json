@@ -17,7 +17,13 @@
     "ragas:diagnose-faithfulness": "python evaluation/ragas/faithfulness-diagnostic.py",
     "ragas:inspect-faithfulness": "python evaluation/ragas/inspect-faithfulness.py",
     "parse:law": "tsx packages/ingestion/src/parser/index.ts",
-    "test:parser": "vitest run --config packages/ingestion/vitest.config.ts"
+    "test:parser": "vitest run --config packages/ingestion/vitest.config.ts",
+    "test:rag": "vitest run packages/rag/src",
+    "rag:smoke:labour": "npm --workspace @egyptian-law/rag run smoke:labour",
+    "rag:smoke:financial": "npm --workspace @egyptian-law/rag run smoke:financial",
+    "rag:smoke:personal": "npm --workspace @egyptian-law/rag run smoke:personal",
+    "rag:smoke:all": "npm run rag:smoke:labour && npm run rag:smoke:financial && npm run rag:smoke:personal",
+    "retrieval:benchmarks": "npm --workspace @egyptian-law/evaluation run retrieval-benchmarks"
   },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.74",

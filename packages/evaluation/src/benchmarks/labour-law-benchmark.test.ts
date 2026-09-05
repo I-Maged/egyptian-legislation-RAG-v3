@@ -24,7 +24,7 @@
 //   - Ollama judge access
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { resolve } from "node:path";
+import { dirname, resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
@@ -59,23 +59,27 @@ const RUN_REAL_BENCHMARK = process.env.RUN_LABOUR_LAW_BENCHMARK === "1";
 
 const CORPUS_PATH = resolve(
   process.cwd(),
-  "data/canonical/labour-law-148-2019.json",
+  "data/canonical/labour-law-14-2025.json",
 );
 
 const EMBEDDING_ARTIFACT_PATH = resolve(
   process.cwd(),
-  "data/embeddings/labour-law-148-2019.json",
+  "data/embeddings/reindex-v3.3.0/labour-law-14-2025.json",
 );
 
 const EXPERIMENT_RESULTS_PATH = resolve(
   process.cwd(),
-  "data/evaluation/labour-law/experiment-results.json",
+  "data/evaluation/labour-law-v2/experiment-results.json",
 );
 
+// const GENERATION_MODEL =
+//   process.env.LABOUR_LAW_GENERATION_MODEL ?? "gemma4:31b-cloud";
 const GENERATION_MODEL =
   process.env.LABOUR_LAW_GENERATION_MODEL ?? "gemma4:cloud";
 
-const JUDGE_MODEL = process.env.LABOUR_LAW_JUDGE_MODEL ?? "gemma4:cloud";
+const JUDGE_MODEL =
+  process.env.LABOUR_LAW_JUDGE_MODEL ?? "nemotron-3-nano:30b-cloud";
+// const JUDGE_MODEL = process.env.LABOUR_LAW_JUDGE_MODEL ?? "gemma4:cloud";
 
 const GENERATION_CONCURRENCY = parsePositiveInteger(
   process.env.LABOUR_LAW_GENERATION_CONCURRENCY,
@@ -441,6 +445,8 @@ async function writeExperimentResults(
     recursive: true,
   });
 
+  await mkdir(dirname(EXPERIMENT_RESULTS_PATH), { recursive: true });
+
   await writeFile(
     EXPERIMENT_RESULTS_PATH,
     JSON.stringify(results, null, 2),
@@ -472,7 +478,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
       const gold = buildLabourLawGoldDataset(corpus);
 
-      expect(gold.items).toHaveLength(15);
+      expect(gold.items).toHaveLength(65);
 
       /*
        * ============================================================
@@ -545,14 +551,14 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
       expect(benchmark.datasetName).toBe("labour-law-retrieval-v1");
 
-      expect(benchmark.queryCount).toBe(15);
+      expect(benchmark.queryCount).toBe(65);
 
       expect(benchmark.systems).toHaveLength(2);
 
       for (const system of benchmark.systems) {
         const result = system.result;
 
-        expect(result.queryCount).toBe(15);
+        expect(result.queryCount).toBe(65);
 
         expect(Object.keys(result.recall)).toEqual(["1", "3", "5", "10"]);
 
@@ -600,7 +606,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
           expect(value).toBeLessThanOrEqual(1);
         }
 
-        expect(result.predictions).toHaveLength(15);
+        expect(result.predictions).toHaveLength(65);
       }
 
       printRetrievalBenchmark(benchmark);
@@ -626,14 +632,14 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
       expect(contextBenchmark.datasetName).toBe("labour-law-retrieval-v1");
 
-      expect(contextBenchmark.queryCount).toBe(15);
+      expect(contextBenchmark.queryCount).toBe(65);
 
       expect(contextBenchmark.systems).toHaveLength(2);
 
       for (const system of contextBenchmark.systems) {
         const result = system.result;
 
-        expect(result.queryCount).toBe(15);
+        expect(result.queryCount).toBe(65);
 
         expect(Number.isFinite(result.contextRecall)).toBe(true);
 
@@ -653,9 +659,9 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
         expect(result.contextHitRate).toBeLessThanOrEqual(1);
 
-        expect(result.predictions).toHaveLength(15);
+        expect(result.predictions).toHaveLength(65);
 
-        expect(result.perQuery).toHaveLength(15);
+        expect(result.perQuery).toHaveLength(65);
       }
 
       printContextBenchmark(contextBenchmark);
@@ -1136,45 +1142,45 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
        * ============================================================
        */
 
-      for (const diagnostic of diagnostics) {
-        console.log(
-          "\n------------------------------------------------------------",
-        );
+      // for (const diagnostic of diagnostics) {
+      //   console.log(
+      //     "\n------------------------------------------------------------",
+      //   );
 
-        console.log(`${diagnostic.queryId}: ${diagnostic.query}`);
+      //   console.log(`${diagnostic.queryId}: ${diagnostic.query}`);
 
-        console.log(`Gold articles: ${diagnostic.goldArticles.join(", ")}`);
+      //   console.log(`Gold articles: ${diagnostic.goldArticles.join(", ")}`);
 
-        console.log(`Gold chunks: ${diagnostic.goldChunkIds.join(", ")}`);
+      //   console.log(`Gold chunks: ${diagnostic.goldChunkIds.join(", ")}`);
 
-        console.log("\nVector:");
+      //   console.log("\nVector:");
 
-        console.table(
-          diagnostic.vector.map((result) => ({
-            rank: result.rank,
+      //   console.table(
+      //     diagnostic.vector.map((result) => ({
+      //       rank: result.rank,
 
-            article: result.articleNumber,
+      //       article: result.articleNumber,
 
-            relevant: result.relevant ? "✓" : "✗",
+      //       relevant: result.relevant ? "✓" : "✗",
 
-            chunk: result.chunkId,
-          })),
-        );
+      //       chunk: result.chunkId,
+      //     })),
+      //   );
 
-        console.log("Vector + Reranker:");
+      //   console.log("Vector + Reranker:");
 
-        console.table(
-          diagnostic.vectorReranked.map((result) => ({
-            rank: result.rank,
+      //   console.table(
+      //     diagnostic.vectorReranked.map((result) => ({
+      //       rank: result.rank,
 
-            article: result.articleNumber,
+      //       article: result.articleNumber,
 
-            relevant: result.relevant ? "✓" : "✗",
+      //       relevant: result.relevant ? "✓" : "✗",
 
-            chunk: result.chunkId,
-          })),
-        );
-      }
+      //       chunk: result.chunkId,
+      //     })),
+      //   );
+      // }
 
       /*
        * ============================================================
@@ -1232,7 +1238,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
       for (const system of generationSystems) {
         const result = system.result;
 
-        expect(result.queryCount).toBe(15);
+        expect(result.queryCount).toBe(65);
 
         expect(Number.isFinite(result.correctness)).toBe(true);
 
@@ -1264,9 +1270,9 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
         expect(passRate).toBeLessThanOrEqual(1);
 
-        expect(result.predictions).toHaveLength(15);
+        expect(result.predictions).toHaveLength(65);
 
-        expect(result.perQuery).toHaveLength(15);
+        expect(result.perQuery).toHaveLength(65);
       }
 
       /*
@@ -1287,7 +1293,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         embeddingArtifact,
       );
     }, /*
-     * 15 queries × generation + 15 queries × judging can easily
+     * 65 queries × generation + 65 queries × judging can easily
      * exceed two minutes when using a cloud Ollama model.
      *
      * This timeout belongs to the integration benchmark only;

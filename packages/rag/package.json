@@ -8,7 +8,10 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run packages/rag/src",
+    "smoke:labour": "cd ../.. && set RUN_RAG_LABOUR_SMOKE=1&& vitest run packages/rag/src/e2e.real-labour.smoke.test.ts",
+    "smoke:financial": "cd ../.. && set RUN_RAG_FINANCIAL_SMOKE=1&& vitest run packages/rag/src/e2e.real-financial.smoke.test.ts",
+    "smoke:personal": "cd ../.. && set RUN_RAG_PERSONAL_SMOKE=1&& vitest run packages/rag/src/e2e.real-personal.smoke.test.ts"
   },
   "dependencies": {
     "@egyptian-law/core": "*",

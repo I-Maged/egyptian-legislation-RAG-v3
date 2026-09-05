@@ -12,6 +12,7 @@ import {
   InMemoryVectorRetriever,
   HybridRetriever,
   OllamaEmbeddingProvider,
+  loadCanonicalCorpora,
 } from "@egyptian-law/ingestion";
 
 import { buildPersonalAffairsLawGoldDataset } from "../datasets/personal-affairs-law-gold";
@@ -21,28 +22,75 @@ import { runRetrievalBenchmark } from "./retrieval-benchmark";
 const RUN_REAL_BENCHMARK =
   process.env.RUN_PERSONAL_AFFAIRS_LAW_BENCHMARK === "1";
 
-const CORPUS_PATH = resolve(
-  process.cwd(),
-  "data/canonical/personal-affairs/personal-law-25-1920.json",
-);
+const CANONICAL_DIR = resolve(process.cwd(), "data/canonical/personal-affairs");
 
-const EMBEDDING_ARTIFACT_PATH = resolve(
+const EMBEDDING_DIR = resolve(
   process.cwd(),
-  "data/embeddings/reindex-v3.3.0/personal-affairs/personal-law-25-1920.json",
+  "data/embeddings/reindex-v3.3.0/personal-affairs",
 );
 
 async function readJsonFile<T>(path: string): Promise<T> {
   const json = await readFile(path, "utf8");
-
   return JSON.parse(json) as T;
 }
 
-async function loadPersonalAffairsLawCorpus(): Promise<CanonicalCorpus> {
-  return readJsonFile<CanonicalCorpus>(CORPUS_PATH);
-}
+async function loadPersonalAffairsBundle(): Promise<{
+  corpora: CanonicalCorpus[];
+  corpus: CanonicalCorpus;
+  embeddingArtifact: EmbeddingArtifact;
+}> {
+  const loaded = await loadCanonicalCorpora(CANONICAL_DIR);
 
-async function loadPersonalAffairsLawEmbeddingArtifact(): Promise<EmbeddingArtifact> {
-  return readJsonFile<EmbeddingArtifact>(EMBEDDING_ARTIFACT_PATH);
+  const corpora = loaded.corpora.map((entry) => entry.corpus);
+
+  const artifacts = await Promise.all(
+    loaded.corpora.map(async (entry) => {
+      const artifactPath = resolve(EMBEDDING_DIR, entry.relativePath);
+      return readJsonFile<EmbeddingArtifact>(artifactPath);
+    }),
+  );
+
+  const first = corpora[0];
+  const firstArtifact = artifacts[0];
+
+  if (!first || !firstArtifact) {
+    throw new Error("Personal Affairs corpus is empty.");
+  }
+
+  const dimensions = firstArtifact.dimensions;
+  const model = firstArtifact.model;
+
+  for (const artifact of artifacts) {
+    if (artifact.model !== model || artifact.dimensions !== dimensions) {
+      throw new Error(
+        "Personal Affairs embedding artifacts use inconsistent models or dimensions.",
+      );
+    }
+  }
+
+  const chunks = corpora.flatMap((corpus) => corpus.chunks);
+  const records = artifacts.flatMap((artifact) => artifact.records);
+
+  if (records.length !== chunks.length) {
+    throw new Error(
+      `Personal Affairs embedding count ${records.length} does not match chunk count ${chunks.length}.`,
+    );
+  }
+
+  const corpus: CanonicalCorpus = {
+    schema_version: "1.0",
+    document: first.document,
+    chunks,
+  };
+
+  const embeddingArtifact: EmbeddingArtifact = {
+    schema_version: "1.0",
+    model,
+    dimensions,
+    records,
+  };
+
+  return { corpora, corpus, embeddingArtifact };
 }
 
 interface DiagnosticResult {
@@ -82,17 +130,17 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
   "Personal Affairs Law retrieval benchmark",
   () => {
     it("evaluates BM25, vector, and hybrid retrieval on the real corpus", async () => {
-      const corpus = await loadPersonalAffairsLawCorpus();
+      const bundle = await loadPersonalAffairsBundle();
+      const { corpora, corpus, embeddingArtifact } = bundle;
 
-      const embeddingArtifact = await loadPersonalAffairsLawEmbeddingArtifact();
-
-      expect(corpus.chunks.length).toBeGreaterThan(0);
+      expect(corpora).toHaveLength(14);
+      expect(corpus.chunks.length).toBe(426);
 
       expect(embeddingArtifact.records.length).toBe(corpus.chunks.length);
 
       expect(embeddingArtifact.dimensions).toBeGreaterThan(0);
 
-      const gold = buildPersonalAffairsLawGoldDataset(corpus);
+      const gold = buildPersonalAffairsLawGoldDataset(corpora);
 
       expect(gold.items).toHaveLength(70);
 
@@ -183,9 +231,10 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         precisionAt: [5, 10],
         ndcgAt: [5, 10],
         includeMrr: true,
+        concurrency: 4,
       });
 
-      expect(benchmark.datasetName).toBe("personal-affairs-law-retrieval-v1");
+      expect(benchmark.datasetName).toBe("personal-affairs-retrieval-v1");
 
       expect(benchmark.queryCount).toBe(70);
 
