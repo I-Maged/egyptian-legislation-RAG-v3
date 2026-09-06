@@ -11,7 +11,7 @@
 | Personal Affairs |                     ? |                  ? |          ? |
 
 ============================================================
-Financial LAW RAGAS EVALUATION
+EGYPTIAN Financial LAW RAGAS EVALUATION
 ============================================================
 Queries: 65
 Faithfulness: 0.9264
@@ -21,7 +21,7 @@ Context Relevance: 0.9808
 ============================================================
 
 ============================================================
-Financial RAGAS FAITHFULNESS CLAIM-LEVEL DIAGNOSTIC
+EGYPTIAN Financial LAW RAGAS FAITHFULNESS CLAIM-LEVEL DIAGNOSTIC
 ============================================================
 Queries: 65
 Faithfulness: 0.9280
@@ -30,7 +30,7 @@ Threshold: 0.60
 ============================================================
 
 ====================================================================================================
-RAGAS FAITHFULNESS CLAIM-LEVEL INSPECTOR
+EGYPTIAN Financial Law RAGAS FAITHFULNESS CLAIM-LEVEL INSPECTOR
 ====================================================================================================
 Threshold: 0.60 | Cases: 4
 
@@ -123,5 +123,140 @@ Reason: While Article 62 states that the Minister issues these rules annually, A
 Claim 2 [SUPPORTED]
 Statement: يتم تحديد مواعيد تقديم القوائم المالية والحسابات الختامية استناداً للمادة (62) بند (أ).
 Reason: Article 62, paragraph (a) explicitly states that the Minister issues the necessary rules annually to determine the dates for administrative bodies and economic ministries to submit their financial statements and final accounts to the Ministry and the Central Auditing Organization.
+
+====================================================================================================
+
+============================================================
+EGYPTIAN Personal Affairs LAW RAGAS EVALUATION
+============================================================
+Queries: 70
+Faithfulness: 0.8141
+Answer Relevancy: 0.8023
+Context Precision: 0.9012
+Context Relevance: 1.0000
+============================================================
+============================================================
+RAGAS Personal Affairs FAITHFULNESS CLAIM-LEVEL DIAGNOSTIC
+============================================================
+Queries: 70
+Faithfulness: 0.8166
+Low-faithfulness: 5
+Threshold: 0.60
+============================================================
+
+====================================================================================================
+RAGAS Personal Affairs LAW FAITHFULNESS CLAIM-LEVEL INSPECTOR
+====================================================================================================
+Threshold: 0.60 | Cases: 5
+
+---
+
+personal-001 | faithfulness=0.3333 | claims=3 | supported=1 | unsupported=2
+Question: متى تعتبر نفقة المطلقة دينًا؟
+Answer: تعتبر نفقة المطلقة ديناً من تاريخ الطلاق، وذلك للمطلقة التي تستحق النفقة [1].
+
+يرجى العلم أن هذه الإجابة مستمدة من النصوص القانونية المقدمة ولا تمثل استشارة قانونية ملزمة.
+
+Claim 1 [SUPPORTED]
+Statement: تعتبر نفقة المطلقة ديناً من تاريخ الطلاق للمطلقة التي تستحق النفقة.
+Reason: This is explicitly stated in Article 2 (المادة 2), which says: 'المطلقة التي تستحق النفقة تعتبر نفقتها دينا كما في المادة السابقة من تاريخ الطلاق'.
+
+Claim 2 [UNSUPPORTED]
+Statement: هذه الإجابة مستمدة من النصوص القانونية المقدمة.
+Reason: While the information provided in the context consists of legal texts, the statement itself is a meta-commentary about the source of an answer, not a fact that can be inferred from the legal articles themselves.
+
+Claim 3 [UNSUPPORTED]
+Statement: هذه الإجابة لا تمثل استشارة قانونية ملزمة.
+Reason: The provided context contains legal articles but does not contain any disclaimer stating that the answers provided do not constitute binding legal advice.
+
+---
+
+personal-050 | faithfulness=0.3333 | claims=3 | supported=1 | unsupported=2
+Question: متى يستعان بأهل الخبرة في دعاوى الفسخ المتعلقة بعيوب الزواج؟
+Answer: يستعان بأهل الخبرة في العيوب التي يُطلب فسخ الزواج من أجلها، وذلك وفقاً لما نصت عليه المادة 11 من القانون رقم 25 لسنة 1920 [1].
+
+يرجى العلم أن هذه الإجابة مستمدة من النصوص المقدمة ولا تمثل استشارة قانونية ملزمة.
+
+Claim 1 [SUPPORTED]
+Statement: يستعان بأهل الخبرة في العيوب التي يُطلب فسخ الزواج من أجلها وفقاً لما نصت عليه المادة 11 من القانون رقم 25 لسنة 1920.
+Reason: This is explicitly stated in the text of Article 11 of Law No. 25 of 1920: 'يستعان باهل الخبرة في العيوب التي يطلب فسخ الزواج من اجلها'.
+
+Claim 2 [UNSUPPORTED]
+Statement: هذه الإجابة مستمدة من النصوص المقدمة.
+Reason: The context provided consists of legal texts, but the statement is a meta-commentary about the source of an answer, which is not a fact contained within the legal articles themselves.
+
+Claim 3 [UNSUPPORTED]
+Statement: هذه الإجابة لا تمثل استشارة قانونية ملزمة.
+Reason: The provided context contains legal articles but does not contain any disclaimer stating that the information does not constitute binding legal advice.
+
+---
+
+personal-068 | faithfulness=0.3333 | claims=3 | supported=1 | unsupported=2
+Question: كيف يتصرف القاضي إذا كان الزوج غائباً وله مال ظاهر؟
+Answer: وفقاً للنصوص القانونية المقدمة، إذا كان الزوج غائباً وله مال ظاهر، فإن القاضي يتصرف كالتالي:
+
+يتم تنفيذ الحكم عليه بالنفقة في ماله [1].
+
+يرجى العلم أن هذه الإجابة تستند إلى النصوص القانونية المقدمة ولا تمثل استشارة قانونية ملزمة.
+
+Claim 1 [SUPPORTED]
+Statement: وفقاً للنصوص القانونية المقدمة، إذا كان الزوج غائباً وله مال ظاهر، فإن القاضي ينفذ الحكم بالنفقة في مال الزوج الغائب.
+Reason: This is directly stated in Article 5 (مادة 5), which says: 'اذا كان الزوج غايبا... فان كان له مال ظاهر نفذ الحكم عليه بالنفقة في ماله'.
+
+Claim 2 [UNSUPPORTED]
+Statement: هذه الإجابة تستند إلى النصوص القانونية المقدمة.
+Reason: The statement is a meta-commentary about the source of the information. While the information provided in the context is indeed legal text, the context itself does not contain a statement asserting that 'this answer is based on the provided legal texts'.
+
+Claim 3 [UNSUPPORTED]
+Statement: هذه الإجابة لا تمثل استشارة قانونية ملزمة.
+Reason: The provided context consists of legal articles and does not contain any disclaimer stating that the information does not constitute binding legal advice.
+
+---
+
+personal-019 | faithfulness=0.5000 | claims=4 | supported=2 | unsupported=2
+Question: كم نسخة يحرر بها محضر جرد الأموال؟
+Answer: يُحرر محضر جرد أموال المعني بالحماية من نسختين، وذلك وفقاً لما نصت عليه المادة 5 من القانون رقم 1088 لسنة 2000 [1].
+
+تنويه: هذه الإجابة مستمدة من النصوص القانونية المقدمة ولا تمثل استشارة قانونية ملزمة.
+
+Claim 1 [SUPPORTED]
+Statement: يُحرر محضر جرد أموال المعني بالحماية من نسختين.
+Reason: Article 5 explicitly states that the procedures for inventorying the assets of the person under protection are recorded in a report consisting of two copies ('في محضر من نسختين').
+
+Claim 2 [SUPPORTED]
+Statement: تحرير محضر جرد أموال المعني بالحماية من نسختين يتم وفقاً لما نصت عليه المادة 5 من القانون رقم 1088 لسنة 2000.
+Reason: The context provided for Law No. 1088 of 2000, Article 5, specifically mentions that the inventory report shall be made in two copies.
+
+Claim 3 [UNSUPPORTED]
+Statement: هذه الإجابة مستمدة من النصوص القانونية المقدمة.
+Reason: This is a meta-statement about the source of the answer, not a fact that can be inferred from the legal text of the laws themselves.
+
+Claim 4 [UNSUPPORTED]
+Statement: هذه الإجابة لا تمثل استشارة قانونية ملزمة.
+Reason: This is a legal disclaimer and is not mentioned or inferable from the provided legal articles of Law No. 1088 of 2000.
+
+---
+
+personal-034 | faithfulness=0.5000 | claims=4 | supported=2 | unsupported=2
+Question: ما المدة التي لا تُسمع بعدها دعوى النفقة من تاريخ الطلاق؟
+Answer: بناءً على النصوص القانونية المقدمة، لا تُسمع دعوى النفقة لمدة تزيد على سنة من تاريخ الطلاق، وذلك وفقاً لما نصت عليه المادة 17 من القانون رقم 25 لسنة 1929 [1].
+
+يرجى العلم أن هذه الإجابة مستمدة من النصوص المقدمة ولا تمثل استشارة قانونية ملزمة.
+
+Claim 1 [SUPPORTED]
+Statement: لا تُسمع دعوى النفقة إذا مر على تاريخ الطلاق مدة تزيد على سنة.
+Reason: This is directly stated in Article 17 (مادة 17) of the provided text: 'لا تسمع دعوي النفقة لمدة مدة لمدة تزيد علي سنة من تاريخ الطلاق'.
+
+Claim 2 [SUPPORTED]
+Statement: تنص المادة 17 من القانون رقم 25 لسنة 1929 على أن دعوى النفقة لا تُسمع بعد مرور سنة من تاريخ الطلاق.
+Reason: The context explicitly links Article 17 of Law No. 25 of 1929 to the rule that alimony claims are not heard if more than a year has passed since the divorce.
+
+Claim 3 [UNSUPPORTED]
+Statement: هذه الإجابة مستمدة من النصوص القانونية المقدمة.
+Reason: While the statements are derived from the text, this specific sentence is a meta-commentary about the source of the answer and is not a fact contained within the legal text itself.
+
+Claim 4 [UNSUPPORTED]
+Statement: هذه الإجابة لا تمثل استشارة قانونية ملزمة.
+Reason: The provided context consists of legal articles; it does not contain a disclaimer stating that the answers provided are not binding legal advice.
 
 ====================================================================================================
