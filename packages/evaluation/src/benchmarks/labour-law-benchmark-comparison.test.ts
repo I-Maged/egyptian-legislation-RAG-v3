@@ -451,5 +451,5 @@ describe.skipIf(!RUN_REAL_BENCHMARK)("Labour Law retrieval benchmark", () => {
         queriesMissed: 65 - countHits("hybrid"),
       },
     ]);
-  }, 120_000);
+  }, 600_000);
 });

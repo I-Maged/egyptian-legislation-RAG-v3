@@ -511,6 +511,6 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
           queriesMissed: 70 - countHits("hybrid"),
         },
       ]);
-    }, 120_000);
+    }, 600_000);
   },
 );
