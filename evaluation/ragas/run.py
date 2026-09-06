@@ -8,6 +8,10 @@ from pathlib import Path
 from statistics import mean
 from typing import Any
 
+
+def default_law() -> str:
+    return os.getenv("EVALUATION_LAW", "labour")
+
 from openai import AsyncOpenAI
 
 from ragas.llms import llm_factory
@@ -410,33 +414,17 @@ async def run(
 def parse_args() -> argparse.Namespace:
 
     parser = argparse.ArgumentParser(
-        description=(
-            "Run RAGAS evaluation "
-            "for Egyptian Law RAG."
-        )
+        description="Run RAGAS evaluation for Egyptian Law RAG."
     )
 
     parser.add_argument(
-        "--dataset",
-        default=(
-            "data/evaluation/"
-            "labour-law-v3/ragas-dataset.json"
-        ),
+        "--law",
+        choices=["labour", "financial", "personal-affairs"],
+        default=default_law(),
     )
-
-    parser.add_argument(
-        "--output",
-        default=(
-            "data/evaluation/"
-            "labour-law-v3/ragas-results.json"
-        ),
-    )
-
-    parser.add_argument(
-        "--concurrency",
-        type=int,
-        default=3,
-    )
+    parser.add_argument("--dataset", default=None)
+    parser.add_argument("--output", default=None)
+    parser.add_argument("--concurrency", type=int, default=3)
 
     return parser.parse_args()
 
@@ -446,14 +434,15 @@ if __name__ == "__main__":
     args = parse_args()
 
     if args.concurrency <= 0:
-        raise SystemExit(
-            "--concurrency must be greater than zero."
-        )
+        raise SystemExit("--concurrency must be greater than zero.")
+
+    dataset = args.dataset or f"data/evaluation/{args.law}-v3/ragas-dataset.json"
+    output = args.output or f"data/evaluation/{args.law}-v3/ragas-results.json"
 
     asyncio.run(
         run(
-            Path(args.dataset),
-            Path(args.output),
+            Path(dataset),
+            Path(output),
             args.concurrency,
         )
     )

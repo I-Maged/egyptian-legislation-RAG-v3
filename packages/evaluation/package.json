@@ -15,7 +15,10 @@
     "labour-law-benchmark-comparison": "cd ../.. && set RUN_LABOUR_LAW_BENCHMARK=1&& vitest run packages/evaluation/src/benchmarks/labour-law-benchmark-comparison.test.ts",
     "financial-law-benchmark-comparison": "cd ../.. && set RUN_FINANCIAL_LAW_BENCHMARK=1&& vitest run packages/evaluation/src/benchmarks/financial-law-benchmark-comparison.test.ts",
     "personal-affairs-law-benchmark-comparison": "cd ../.. && set RUN_PERSONAL_AFFAIRS_LAW_BENCHMARK=1&& vitest run packages/evaluation/src/benchmarks/personal-law-benchmark-comparison.test.ts",
-    "retrieval-benchmarks": "cd ../.. && set RUN_LABOUR_LAW_BENCHMARK=1&& set RUN_FINANCIAL_LAW_BENCHMARK=1&& set RUN_PERSONAL_AFFAIRS_LAW_BENCHMARK=1&& vitest run packages/evaluation/src/benchmarks/labour-law-benchmark-comparison.test.ts packages/evaluation/src/benchmarks/financial-law-benchmark-comparison.test.ts packages/evaluation/src/benchmarks/personal-law-benchmark-comparison.test.ts"
+    "retrieval-benchmarks": "cd ../.. && set RUN_LABOUR_LAW_BENCHMARK=1&& set RUN_FINANCIAL_LAW_BENCHMARK=1&& set RUN_PERSONAL_AFFAIRS_LAW_BENCHMARK=1&& vitest run packages/evaluation/src/benchmarks/labour-law-benchmark-comparison.test.ts packages/evaluation/src/benchmarks/financial-law-benchmark-comparison.test.ts packages/evaluation/src/benchmarks/personal-law-benchmark-comparison.test.ts",
+    "law-generation-benchmark": "cd ../.. && set RUN_LAW_GENERATION_BENCHMARK=1&& vitest run packages/evaluation/src/benchmarks/law-generation-benchmark.test.ts",
+    "financial-law-evaluation": "cd ../.. && set RUN_LAW_GENERATION_BENCHMARK=1&& set EVALUATION_LAW=financial&& vitest run packages/evaluation/src/benchmarks/law-generation-benchmark.test.ts",
+    "personal-affairs-law-evaluation": "cd ../.. && set RUN_LAW_GENERATION_BENCHMARK=1&& set EVALUATION_LAW=personal-affairs&& vitest run packages/evaluation/src/benchmarks/law-generation-benchmark.test.ts"
   },
   "keywords": [],
   "author": "",

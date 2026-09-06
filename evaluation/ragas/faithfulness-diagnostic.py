@@ -4,6 +4,7 @@ import argparse
 import asyncio
 import json
 import os
+import sys
 from pathlib import Path
 from statistics import mean
 from typing import Any
@@ -522,61 +523,28 @@ async def run(
 def main() -> None:
 
     parser = argparse.ArgumentParser(
-        description=(
-            "Claim-level RAGAS Faithfulness "
-            "diagnostic for Egyptian Law RAG."
-        )
+        description="Claim-level RAGAS Faithfulness diagnostic for Egyptian Law RAG."
     )
-
     parser.add_argument(
-        "--dataset",
-        default=(
-            "data/evaluation/"
-            "labour-law-v3/ragas-dataset.json"
-        ),
+        "--law",
+        choices=["labour", "financial", "personal-affairs"],
+        default=os.getenv("EVALUATION_LAW", "labour"),
     )
-
-    parser.add_argument(
-        "--output",
-        default=(
-            "data/evaluation/"
-            "labour-law-v3/"
-            "ragas-faithfulness-diagnostics.json"
-        ),
-    )
-
-    parser.add_argument(
-        "--concurrency",
-        type=int,
-        default=3,
-    )
-
-    parser.add_argument(
-        "--threshold",
-        type=float,
-        default=0.60,
-    )
-
+    parser.add_argument("--dataset", default=None)
+    parser.add_argument("--output", default=None)
+    parser.add_argument("--concurrency", type=int, default=3)
+    parser.add_argument("--threshold", type=float, default=0.60)
     args = parser.parse_args()
 
     if not 0.0 <= args.threshold <= 1.0:
-        raise SystemExit(
-            "--threshold must be between 0 and 1."
-        )
-
+        raise SystemExit("--threshold must be between 0 and 1.")
     if args.concurrency <= 0:
-        raise SystemExit(
-            "--concurrency must be greater than zero."
-        )
+        raise SystemExit("--concurrency must be greater than zero.")
 
-    asyncio.run(
-        run(
-            Path(args.dataset),
-            Path(args.output),
-            args.concurrency,
-            args.threshold,
-        )
-    )
+    dataset = args.dataset or f"data/evaluation/{args.law}-v3/ragas-dataset.json"
+    output = args.output or f"data/evaluation/{args.law}-v3/ragas-faithfulness-diagnostics.json"
+
+    asyncio.run(run(Path(dataset), Path(output), args.concurrency, args.threshold))
 
 
 if __name__ == "__main__":

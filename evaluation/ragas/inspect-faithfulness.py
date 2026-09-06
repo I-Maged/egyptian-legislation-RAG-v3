@@ -2,16 +2,20 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Inspect low-faithfulness RAGAS claims.")
-    parser.add_argument("--input", default="data/evaluation/labour-law-v3/ragas-faithfulness-diagnostics.json")
+    law = os.getenv("EVALUATION_LAW", "labour")
+    parser.add_argument("--law", choices=["labour", "financial", "personal-affairs"], default=law)
+    parser.add_argument("--input", default=None)
     parser.add_argument("--threshold", type=float, default=None)
     args = parser.parse_args()
+    input_path = args.input or f"data/evaluation/{args.law}-v3/ragas-faithfulness-diagnostics.json"
 
-    data = json.loads(Path(args.input).read_text(encoding="utf-8"))
+    data = json.loads(Path(input_path).read_text(encoding="utf-8"))
     threshold = data["threshold"] if args.threshold is None else args.threshold
 
     records = [
