@@ -1,0 +1,1543 @@
+{
+  "schema_version": "1.0",
+  "experiment": "financial-retrieval-generation-v3",
+  "law": "financial",
+  "gold_dataset": "financial-law-retrieval-v1-corrected",
+  "top_k": 10,
+  "generation_model": "gemma4:cloud",
+  "judge_model": "gemma4:cloud",
+  "generation_concurrency": 3,
+  "judge_concurrency": 3,
+  "retrieval": {
+    "db-vector": {
+      "queryCount": 65,
+      "recall": {
+        "1": 0.823076923076923,
+        "3": 0.9692307692307692,
+        "5": 0.9846153846153847,
+        "10": 1
+      },
+      "precision": {
+        "5": 0.1999999999999998,
+        "10": 0.10153846153846142
+      },
+      "hitRate": {
+        "1": 0.8307692307692308,
+        "3": 0.9692307692307692,
+        "5": 0.9846153846153847,
+        "10": 1
+      },
+      "ndcg": {
+        "5": 0.9140087972541595,
+        "10": 0.9194889078250522
+      },
+      "mrr": 0.8928205128205129,
+      "predictions": [
+        {
+          "queryId": "financial-001",
+          "retrievedChunkIds": [
+            "chunk_820e9fcc7f8297ef",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_9c746f551aaccdba",
+            "chunk_abf4c2cb6f7e82b1",
+            "chunk_871de9396e96f3e6",
+            "chunk_0bc237ec56155710",
+            "chunk_e6101734f6a8ad11",
+            "chunk_9bd5078c6cd60fbd",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_345c6d3061c5be55"
+          ]
+        },
+        {
+          "queryId": "financial-002",
+          "retrievedChunkIds": [
+            "chunk_9c746f551aaccdba",
+            "chunk_e6101734f6a8ad11",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_345c6d3061c5be55",
+            "chunk_0bc237ec56155710",
+            "chunk_0ba2c336e59e22e7",
+            "chunk_9bd5078c6cd60fbd",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_820e9fcc7f8297ef",
+            "chunk_abf4c2cb6f7e82b1"
+          ]
+        },
+        {
+          "queryId": "financial-003",
+          "retrievedChunkIds": [
+            "chunk_0873de9837af83dc",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_4396c616504322bf",
+            "chunk_0bc237ec56155710",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_a96eacc057329d0f",
+            "chunk_e791278694364506",
+            "chunk_f1d1892670f80e12",
+            "chunk_871de9396e96f3e6",
+            "chunk_ecd280b87e0a42d7"
+          ]
+        },
+        {
+          "queryId": "financial-004",
+          "retrievedChunkIds": [
+            "chunk_1d0d52fb3c8c1f94",
+            "chunk_e51a197c30008ba7",
+            "chunk_0873de9837af83dc",
+            "chunk_e791278694364506",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_21e6858a15cd9bf6"
+          ]
+        },
+        {
+          "queryId": "financial-005",
+          "retrievedChunkIds": [
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_3440bf9ca1f84980",
+            "chunk_c9e45562dae3da0d",
+            "chunk_871de9396e96f3e6",
+            "chunk_9ef4e5ba26fc42ca",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_edef10d0325a538e",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_6aab948771e5fb85"
+          ]
+        },
+        {
+          "queryId": "financial-006",
+          "retrievedChunkIds": [
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_b4d4086bc41ebe1c",
+            "chunk_9ef4e5ba26fc42ca",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_65a75bb90336460f",
+            "chunk_a255db290a620925",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_c9e45562dae3da0d",
+            "chunk_edef10d0325a538e"
+          ]
+        },
+        {
+          "queryId": "financial-007",
+          "retrievedChunkIds": [
+            "chunk_0bc237ec56155710",
+            "chunk_9c746f551aaccdba",
+            "chunk_9bd5078c6cd60fbd",
+            "chunk_e6101734f6a8ad11",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_820e9fcc7f8297ef",
+            "chunk_345c6d3061c5be55",
+            "chunk_abf4c2cb6f7e82b1",
+            "chunk_a7796c2e4787e5f8"
+          ]
+        },
+        {
+          "queryId": "financial-008",
+          "retrievedChunkIds": [
+            "chunk_700e2bcf66c57846",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_5d9b1b270b2edc55",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_6bc7b764476b4f2e",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_e791278694364506"
+          ]
+        },
+        {
+          "queryId": "financial-009",
+          "retrievedChunkIds": [
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_0bc237ec56155710",
+            "chunk_9bd5078c6cd60fbd",
+            "chunk_9c746f551aaccdba",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_e6101734f6a8ad11",
+            "chunk_49255da8636006e1",
+            "chunk_345c6d3061c5be55",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_abf4c2cb6f7e82b1"
+          ]
+        },
+        {
+          "queryId": "financial-010",
+          "retrievedChunkIds": [
+            "chunk_abf4c2cb6f7e82b1",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_9c746f551aaccdba",
+            "chunk_4bc53ee494e690a7",
+            "chunk_c7c7a45b430f1874",
+            "chunk_0bc237ec56155710",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_78ad40a350e23b9f",
+            "chunk_871de9396e96f3e6",
+            "chunk_03aa7368087b0741"
+          ]
+        },
+        {
+          "queryId": "financial-011",
+          "retrievedChunkIds": [
+            "chunk_e6101734f6a8ad11",
+            "chunk_9c746f551aaccdba",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_c9e45562dae3da0d",
+            "chunk_0ba2c336e59e22e7",
+            "chunk_5fc9b6eed93ac6d9",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_9bd5078c6cd60fbd",
+            "chunk_a255db290a620925",
+            "chunk_345c6d3061c5be55"
+          ]
+        },
+        {
+          "queryId": "financial-012",
+          "retrievedChunkIds": [
+            "chunk_55d2c4fafdf486cb",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_0bc237ec56155710",
+            "chunk_e6101734f6a8ad11",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_a255db290a620925",
+            "chunk_49255da8636006e1",
+            "chunk_65a75bb90336460f",
+            "chunk_5d9b1b270b2edc55"
+          ]
+        },
+        {
+          "queryId": "financial-013",
+          "retrievedChunkIds": [
+            "chunk_19f135de9a7113a6",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_e95f48003c60eab5",
+            "chunk_871de9396e96f3e6",
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_0bc237ec56155710",
+            "chunk_9bd5078c6cd60fbd",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_a255db290a620925"
+          ]
+        },
+        {
+          "queryId": "financial-014",
+          "retrievedChunkIds": [
+            "chunk_29a865c0c730ff3a",
+            "chunk_6bc7b764476b4f2e",
+            "chunk_0bc237ec56155710",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_4396c616504322bf",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_05ee34b0bd5ec7fb",
+            "chunk_abf4c2cb6f7e82b1",
+            "chunk_49255da8636006e1",
+            "chunk_e791278694364506"
+          ]
+        },
+        {
+          "queryId": "financial-015",
+          "retrievedChunkIds": [
+            "chunk_6bc7b764476b4f2e",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_9c746f551aaccdba",
+            "chunk_ecd280b87e0a42d7",
+            "chunk_820e9fcc7f8297ef",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_0bc237ec56155710",
+            "chunk_4396c616504322bf",
+            "chunk_898b068bec94a8b8"
+          ]
+        },
+        {
+          "queryId": "financial-016",
+          "retrievedChunkIds": [
+            "chunk_3ef9878a0aef23c9",
+            "chunk_898b068bec94a8b8",
+            "chunk_4396c616504322bf",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_5d9b1b270b2edc55",
+            "chunk_a3efa717394f4a9b",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_6bc7b764476b4f2e"
+          ]
+        },
+        {
+          "queryId": "financial-017",
+          "retrievedChunkIds": [
+            "chunk_05ee34b0bd5ec7fb",
+            "chunk_4396c616504322bf",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_871de9396e96f3e6",
+            "chunk_898b068bec94a8b8",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_e791278694364506",
+            "chunk_e51a197c30008ba7",
+            "chunk_c7c7a45b430f1874"
+          ]
+        },
+        {
+          "queryId": "financial-018",
+          "retrievedChunkIds": [
+            "chunk_c7c7a45b430f1874",
+            "chunk_44af9c8f78694447",
+            "chunk_abf4c2cb6f7e82b1",
+            "chunk_05ee34b0bd5ec7fb",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_e791278694364506",
+            "chunk_a3efa717394f4a9b",
+            "chunk_78ad40a350e23b9f",
+            "chunk_871de9396e96f3e6"
+          ]
+        },
+        {
+          "queryId": "financial-019",
+          "retrievedChunkIds": [
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_9c746f551aaccdba",
+            "chunk_a3efa717394f4a9b",
+            "chunk_4396c616504322bf",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_0bc237ec56155710",
+            "chunk_44af9c8f78694447",
+            "chunk_5fc9b6eed93ac6d9",
+            "chunk_e6101734f6a8ad11"
+          ]
+        },
+        {
+          "queryId": "financial-020",
+          "retrievedChunkIds": [
+            "chunk_a7796c2e4787e5f8",
+            "chunk_c9e45562dae3da0d",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_abaaffbd43945224",
+            "chunk_9c746f551aaccdba",
+            "chunk_03aa7368087b0741",
+            "chunk_3440bf9ca1f84980",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_2c37c6ef2ba4a3bd"
+          ]
+        },
+        {
+          "queryId": "financial-021",
+          "retrievedChunkIds": [
+            "chunk_0ba2c336e59e22e7",
+            "chunk_871de9396e96f3e6",
+            "chunk_a3efa717394f4a9b",
+            "chunk_345c6d3061c5be55",
+            "chunk_9c746f551aaccdba",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_a0a64027fe6f93aa",
+            "chunk_0bc237ec56155710",
+            "chunk_58f394b8fc0e1a6e"
+          ]
+        },
+        {
+          "queryId": "financial-022",
+          "retrievedChunkIds": [
+            "chunk_a3efa717394f4a9b",
+            "chunk_871de9396e96f3e6",
+            "chunk_345c6d3061c5be55",
+            "chunk_0ba2c336e59e22e7",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_44af9c8f78694447",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_a0a64027fe6f93aa",
+            "chunk_9c746f551aaccdba",
+            "chunk_5fc9b6eed93ac6d9"
+          ]
+        },
+        {
+          "queryId": "financial-023",
+          "retrievedChunkIds": [
+            "chunk_c7c7a45b430f1874",
+            "chunk_abf4c2cb6f7e82b1",
+            "chunk_44af9c8f78694447",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_9c746f551aaccdba",
+            "chunk_871de9396e96f3e6",
+            "chunk_e791278694364506",
+            "chunk_05ee34b0bd5ec7fb"
+          ]
+        },
+        {
+          "queryId": "financial-024",
+          "retrievedChunkIds": [
+            "chunk_345c6d3061c5be55",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_9c746f551aaccdba",
+            "chunk_0bc237ec56155710",
+            "chunk_e6101734f6a8ad11",
+            "chunk_871de9396e96f3e6",
+            "chunk_820e9fcc7f8297ef",
+            "chunk_a0a64027fe6f93aa",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_abf4c2cb6f7e82b1"
+          ]
+        },
+        {
+          "queryId": "financial-025",
+          "retrievedChunkIds": [
+            "chunk_871de9396e96f3e6",
+            "chunk_a3efa717394f4a9b",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_345c6d3061c5be55",
+            "chunk_6aab948771e5fb85",
+            "chunk_a0a64027fe6f93aa",
+            "chunk_0ba2c336e59e22e7",
+            "chunk_84e6bc4b815969ab",
+            "chunk_2be743b426147f53",
+            "chunk_5fc9b6eed93ac6d9"
+          ]
+        },
+        {
+          "queryId": "financial-026",
+          "retrievedChunkIds": [
+            "chunk_a0a64027fe6f93aa",
+            "chunk_345c6d3061c5be55",
+            "chunk_871de9396e96f3e6",
+            "chunk_0ba2c336e59e22e7",
+            "chunk_6aab948771e5fb85",
+            "chunk_a3efa717394f4a9b",
+            "chunk_c9e45562dae3da0d",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_401206ebea8f4048",
+            "chunk_b4d4086bc41ebe1c"
+          ]
+        },
+        {
+          "queryId": "financial-027",
+          "retrievedChunkIds": [
+            "chunk_6aab948771e5fb85",
+            "chunk_871de9396e96f3e6",
+            "chunk_345c6d3061c5be55",
+            "chunk_a3efa717394f4a9b",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_9c746f551aaccdba",
+            "chunk_e95f48003c60eab5",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_2c37c6ef2ba4a3bd"
+          ]
+        },
+        {
+          "queryId": "financial-028",
+          "retrievedChunkIds": [
+            "chunk_401206ebea8f4048",
+            "chunk_871de9396e96f3e6",
+            "chunk_6aab948771e5fb85",
+            "chunk_a0a64027fe6f93aa",
+            "chunk_345c6d3061c5be55",
+            "chunk_c9e45562dae3da0d",
+            "chunk_9c746f551aaccdba",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_3440bf9ca1f84980",
+            "chunk_9bd5078c6cd60fbd"
+          ]
+        },
+        {
+          "queryId": "financial-029",
+          "retrievedChunkIds": [
+            "chunk_5e5af1a81e41d43b",
+            "chunk_871de9396e96f3e6",
+            "chunk_a3efa717394f4a9b",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_345c6d3061c5be55",
+            "chunk_4396c616504322bf",
+            "chunk_3440bf9ca1f84980",
+            "chunk_9c746f551aaccdba",
+            "chunk_c9e45562dae3da0d"
+          ]
+        },
+        {
+          "queryId": "financial-030",
+          "retrievedChunkIds": [
+            "chunk_21e6858a15cd9bf6",
+            "chunk_84e6bc4b815969ab",
+            "chunk_abaaffbd43945224",
+            "chunk_edef10d0325a538e",
+            "chunk_871de9396e96f3e6",
+            "chunk_2d76c22a1a218b32",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_65a75bb90336460f",
+            "chunk_f1d1892670f80e12"
+          ]
+        },
+        {
+          "queryId": "financial-031",
+          "retrievedChunkIds": [
+            "chunk_5e5af1a81e41d43b",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_57897d582cc57a42",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_871de9396e96f3e6",
+            "chunk_2d76c22a1a218b32",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_401206ebea8f4048",
+            "chunk_4bc53ee494e690a7",
+            "chunk_e95f48003c60eab5"
+          ]
+        },
+        {
+          "queryId": "financial-032",
+          "retrievedChunkIds": [
+            "chunk_a255db290a620925",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_871de9396e96f3e6",
+            "chunk_55d2c4fafdf486cb",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_0bc237ec56155710",
+            "chunk_9c746f551aaccdba",
+            "chunk_49255da8636006e1",
+            "chunk_58f394b8fc0e1a6e"
+          ]
+        },
+        {
+          "queryId": "financial-033",
+          "retrievedChunkIds": [
+            "chunk_29dfd238d1c53ed1",
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_a255db290a620925",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_65a75bb90336460f",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_e51a197c30008ba7",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_55d2c4fafdf486cb",
+            "chunk_c9e45562dae3da0d"
+          ]
+        },
+        {
+          "queryId": "financial-034",
+          "retrievedChunkIds": [
+            "chunk_21e6858a15cd9bf6",
+            "chunk_991d25ae5a07bfe0",
+            "chunk_e51a197c30008ba7",
+            "chunk_f1d1892670f80e12",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_abaaffbd43945224",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_57897d582cc57a42",
+            "chunk_29ef47f2b26a5f4e"
+          ]
+        },
+        {
+          "queryId": "financial-035",
+          "retrievedChunkIds": [
+            "chunk_c9e45562dae3da0d",
+            "chunk_3440bf9ca1f84980",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_6aab948771e5fb85",
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_edef10d0325a538e",
+            "chunk_abaaffbd43945224",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_84e6bc4b815969ab",
+            "chunk_9ef4e5ba26fc42ca"
+          ]
+        },
+        {
+          "queryId": "financial-036",
+          "retrievedChunkIds": [
+            "chunk_abaaffbd43945224",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_3440bf9ca1f84980",
+            "chunk_6aab948771e5fb85",
+            "chunk_c9e45562dae3da0d",
+            "chunk_871de9396e96f3e6",
+            "chunk_edef10d0325a538e",
+            "chunk_03aa7368087b0741",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_21e6858a15cd9bf6"
+          ]
+        },
+        {
+          "queryId": "financial-037",
+          "retrievedChunkIds": [
+            "chunk_edef10d0325a538e",
+            "chunk_c9e45562dae3da0d",
+            "chunk_3440bf9ca1f84980",
+            "chunk_2d76c22a1a218b32",
+            "chunk_abaaffbd43945224",
+            "chunk_84e6bc4b815969ab",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_383c818999ca6f18",
+            "chunk_4bc53ee494e690a7",
+            "chunk_ec5968f46cc63382"
+          ]
+        },
+        {
+          "queryId": "financial-038",
+          "retrievedChunkIds": [
+            "chunk_991d25ae5a07bfe0",
+            "chunk_65a75bb90336460f",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_edef10d0325a538e",
+            "chunk_21e6858a15cd9bf6",
+            "chunk_e95f48003c60eab5",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_f1d1892670f80e12",
+            "chunk_4396c616504322bf",
+            "chunk_29ef47f2b26a5f4e"
+          ]
+        },
+        {
+          "queryId": "financial-039",
+          "retrievedChunkIds": [
+            "chunk_65a75bb90336460f",
+            "chunk_47e519575373c331",
+            "chunk_ec5968f46cc63382",
+            "chunk_75aec0679912b268",
+            "chunk_2d76c22a1a218b32",
+            "chunk_f1d1892670f80e12",
+            "chunk_f1671604d0eac5f0",
+            "chunk_991d25ae5a07bfe0",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_5e5af1a81e41d43b"
+          ]
+        },
+        {
+          "queryId": "financial-040",
+          "retrievedChunkIds": [
+            "chunk_ec5968f46cc63382",
+            "chunk_65a75bb90336460f",
+            "chunk_47e519575373c331",
+            "chunk_2d76c22a1a218b32",
+            "chunk_e95f48003c60eab5",
+            "chunk_edef10d0325a538e",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_3440bf9ca1f84980",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_29dfd238d1c53ed1"
+          ]
+        },
+        {
+          "queryId": "financial-041",
+          "retrievedChunkIds": [
+            "chunk_383c818999ca6f18",
+            "chunk_b4d4086bc41ebe1c",
+            "chunk_dbf6f7c1e344458b",
+            "chunk_84e6bc4b815969ab",
+            "chunk_d8d48cdda5c2ef4d",
+            "chunk_2d76c22a1a218b32",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_edef10d0325a538e",
+            "chunk_65a75bb90336460f",
+            "chunk_21e6858a15cd9bf6"
+          ]
+        },
+        {
+          "queryId": "financial-042",
+          "retrievedChunkIds": [
+            "chunk_2d76c22a1a218b32",
+            "chunk_65a75bb90336460f",
+            "chunk_abaaffbd43945224",
+            "chunk_47e519575373c331",
+            "chunk_0bc237ec56155710",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_05ee34b0bd5ec7fb",
+            "chunk_4bc53ee494e690a7",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_5e5af1a81e41d43b"
+          ]
+        },
+        {
+          "queryId": "financial-043",
+          "retrievedChunkIds": [
+            "chunk_d8d48cdda5c2ef4d",
+            "chunk_84e6bc4b815969ab",
+            "chunk_edef10d0325a538e",
+            "chunk_b4d4086bc41ebe1c",
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_9ef4e5ba26fc42ca",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_5fc9b6eed93ac6d9",
+            "chunk_2be743b426147f53",
+            "chunk_c9e45562dae3da0d"
+          ]
+        },
+        {
+          "queryId": "financial-044",
+          "retrievedChunkIds": [
+            "chunk_4bc53ee494e690a7",
+            "chunk_2d76c22a1a218b32",
+            "chunk_03aa7368087b0741",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_78ad40a350e23b9f",
+            "chunk_e95f48003c60eab5",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_383c818999ca6f18",
+            "chunk_2c151fc0186d5b2f"
+          ]
+        },
+        {
+          "queryId": "financial-045",
+          "retrievedChunkIds": [
+            "chunk_4396c616504322bf",
+            "chunk_ecc0df1552fcd1cb",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_a3efa717394f4a9b",
+            "chunk_9c746f551aaccdba",
+            "chunk_871de9396e96f3e6",
+            "chunk_0bc237ec56155710",
+            "chunk_0873de9837af83dc",
+            "chunk_5fc9b6eed93ac6d9"
+          ]
+        },
+        {
+          "queryId": "financial-046",
+          "retrievedChunkIds": [
+            "chunk_2be743b426147f53",
+            "chunk_9c746f551aaccdba",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_2c37c6ef2ba4a3bd",
+            "chunk_e6101734f6a8ad11",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_0bc237ec56155710",
+            "chunk_9bd5078c6cd60fbd"
+          ]
+        },
+        {
+          "queryId": "financial-047",
+          "retrievedChunkIds": [
+            "chunk_47e519575373c331",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_f1671604d0eac5f0",
+            "chunk_e95f48003c60eab5",
+            "chunk_0bc237ec56155710",
+            "chunk_401206ebea8f4048",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_a96eacc057329d0f",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_55d2c4fafdf486cb"
+          ]
+        },
+        {
+          "queryId": "financial-048",
+          "retrievedChunkIds": [
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_5d9b1b270b2edc55",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_92cccfed9dbc250d",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_e51a197c30008ba7",
+            "chunk_dbf6f7c1e344458b",
+            "chunk_ec5968f46cc63382"
+          ]
+        },
+        {
+          "queryId": "financial-049",
+          "retrievedChunkIds": [
+            "chunk_3ef9878a0aef23c9",
+            "chunk_5d9b1b270b2edc55",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_5fc9b6eed93ac6d9",
+            "chunk_92cccfed9dbc250d",
+            "chunk_4396c616504322bf",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_e95f48003c60eab5"
+          ]
+        },
+        {
+          "queryId": "financial-050",
+          "retrievedChunkIds": [
+            "chunk_5d9b1b270b2edc55",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_f1d1892670f80e12",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_2d84ada58bf066fc",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_49255da8636006e1",
+            "chunk_991d25ae5a07bfe0"
+          ]
+        },
+        {
+          "queryId": "financial-051",
+          "retrievedChunkIds": [
+            "chunk_a96eacc057329d0f",
+            "chunk_4a8fc441e697ccb7",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_34cfe0254dad2f23",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_f1671604d0eac5f0",
+            "chunk_92cccfed9dbc250d",
+            "chunk_e95f48003c60eab5",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_3ef9878a0aef23c9"
+          ]
+        },
+        {
+          "queryId": "financial-052",
+          "retrievedChunkIds": [
+            "chunk_e51a197c30008ba7",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_e791278694364506",
+            "chunk_f1d1892670f80e12",
+            "chunk_0873de9837af83dc",
+            "chunk_34cfe0254dad2f23",
+            "chunk_57897d582cc57a42",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_f1671604d0eac5f0",
+            "chunk_1d0d52fb3c8c1f94"
+          ]
+        },
+        {
+          "queryId": "financial-053",
+          "retrievedChunkIds": [
+            "chunk_4a8fc441e697ccb7",
+            "chunk_a96eacc057329d0f",
+            "chunk_34cfe0254dad2f23",
+            "chunk_4396c616504322bf",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_ecd280b87e0a42d7",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_57897d582cc57a42",
+            "chunk_92cccfed9dbc250d",
+            "chunk_29ef47f2b26a5f4e"
+          ]
+        },
+        {
+          "queryId": "financial-054",
+          "retrievedChunkIds": [
+            "chunk_34cfe0254dad2f23",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_f1671604d0eac5f0",
+            "chunk_92cccfed9dbc250d",
+            "chunk_f1d1892670f80e12",
+            "chunk_2be743b426147f53",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_4396c616504322bf",
+            "chunk_78ad40a350e23b9f"
+          ]
+        },
+        {
+          "queryId": "financial-055",
+          "retrievedChunkIds": [
+            "chunk_92cccfed9dbc250d",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_5d9b1b270b2edc55",
+            "chunk_a5cc3d0a4fd8dd31",
+            "chunk_34cfe0254dad2f23",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_29dfd238d1c53ed1",
+            "chunk_73eb240274a85112",
+            "chunk_e51a197c30008ba7"
+          ]
+        },
+        {
+          "queryId": "financial-056",
+          "retrievedChunkIds": [
+            "chunk_73eb240274a85112",
+            "chunk_92cccfed9dbc250d",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_abaaffbd43945224",
+            "chunk_a7796c2e4787e5f8",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_3440bf9ca1f84980",
+            "chunk_5e5af1a81e41d43b",
+            "chunk_edef10d0325a538e",
+            "chunk_3ef9878a0aef23c9"
+          ]
+        },
+        {
+          "queryId": "financial-057",
+          "retrievedChunkIds": [
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_3ef9878a0aef23c9",
+            "chunk_57897d582cc57a42",
+            "chunk_1d0d52fb3c8c1f94",
+            "chunk_5d9b1b270b2edc55",
+            "chunk_898b068bec94a8b8",
+            "chunk_ec5968f46cc63382",
+            "chunk_e51a197c30008ba7",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_a96eacc057329d0f"
+          ]
+        },
+        {
+          "queryId": "financial-058",
+          "retrievedChunkIds": [
+            "chunk_9034b57ac764b995",
+            "chunk_29ef47f2b26a5f4e",
+            "chunk_e791278694364506",
+            "chunk_898b068bec94a8b8",
+            "chunk_0873de9837af83dc",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_d8d48cdda5c2ef4d",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_4396c616504322bf",
+            "chunk_e51a197c30008ba7"
+          ]
+        },
+        {
+          "queryId": "financial-059",
+          "retrievedChunkIds": [
+            "chunk_49255da8636006e1",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_34cfe0254dad2f23",
+            "chunk_78ad40a350e23b9f",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_e51a197c30008ba7",
+            "chunk_03aa7368087b0741",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_58f394b8fc0e1a6e"
+          ]
+        },
+        {
+          "queryId": "financial-060",
+          "retrievedChunkIds": [
+            "chunk_61dfdf1095b82fb0",
+            "chunk_e51a197c30008ba7",
+            "chunk_4396c616504322bf",
+            "chunk_e791278694364506",
+            "chunk_f1d1892670f80e12",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_0873de9837af83dc",
+            "chunk_f1671604d0eac5f0",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_05ee34b0bd5ec7fb"
+          ]
+        },
+        {
+          "queryId": "financial-061",
+          "retrievedChunkIds": [
+            "chunk_e791278694364506",
+            "chunk_0873de9837af83dc",
+            "chunk_34cfe0254dad2f23",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_e51a197c30008ba7",
+            "chunk_4396c616504322bf",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_f1d1892670f80e12",
+            "chunk_78ad40a350e23b9f",
+            "chunk_57897d582cc57a42"
+          ]
+        },
+        {
+          "queryId": "financial-062",
+          "retrievedChunkIds": [
+            "chunk_78ad40a350e23b9f",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_03aa7368087b0741",
+            "chunk_49255da8636006e1",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_e95f48003c60eab5",
+            "chunk_34cfe0254dad2f23",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_4bc53ee494e690a7",
+            "chunk_29ef47f2b26a5f4e"
+          ]
+        },
+        {
+          "queryId": "financial-063",
+          "retrievedChunkIds": [
+            "chunk_49255da8636006e1",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_03aa7368087b0741",
+            "chunk_34cfe0254dad2f23",
+            "chunk_78ad40a350e23b9f",
+            "chunk_e51a197c30008ba7",
+            "chunk_9d0fef7e8b8ded5b",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_a5cc3d0a4fd8dd31"
+          ]
+        },
+        {
+          "queryId": "financial-064",
+          "retrievedChunkIds": [
+            "chunk_49255da8636006e1",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_03aa7368087b0741",
+            "chunk_e51a197c30008ba7",
+            "chunk_78ad40a350e23b9f",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_9c746f551aaccdba",
+            "chunk_34cfe0254dad2f23",
+            "chunk_e6101734f6a8ad11",
+            "chunk_820e9fcc7f8297ef"
+          ]
+        },
+        {
+          "queryId": "financial-065",
+          "retrievedChunkIds": [
+            "chunk_03aa7368087b0741",
+            "chunk_49255da8636006e1",
+            "chunk_79890bcbf6d9aa9b",
+            "chunk_2c151fc0186d5b2f",
+            "chunk_f1d1892670f80e12",
+            "chunk_9c746f551aaccdba",
+            "chunk_58f394b8fc0e1a6e",
+            "chunk_61dfdf1095b82fb0",
+            "chunk_0bc237ec56155710",
+            "chunk_a5cc3d0a4fd8dd31"
+          ]
+        }
+      ]
+    }
+  },
+  "generation": {
+    "queryCount": 65,
+    "correctness": 0.9846153846153846,
+    "faithfulness": 0.9892307692307691,
+    "citationCorrectness": 1,
+    "passRate": 1
+  },
+  "perQuery": [
+    {
+      "queryId": "financial-001",
+      "answer": "تصدُر الموازنة العامة للدولة على أساس زمني يتمثل في الآتي:\n\n1. تصدر الموازنة العامة للدولة على سنة مالية مقطعة [1].\n2. تُعرف \"السنة المالية\" بأنها سنة ميلادية تبدأ من أول يوليو وتنتهي في آخر يونيو من كل سنة [2].\n3. كما يتم إعداد مشروع الموازنة العامة للدولة من قبل الوزارة بشكل سنوي [9].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-002",
+      "answer": "تتكون الموازنة العامة للدولة وفقاً للنصوص القانونية المتاحة من المكونات الرئيسية التالية:\n\n**أولاً: التكوين العام للموازنة:**\nتتكون الموازنة العامة للدولة من [1]:\n*   الميزانية السنوية للبرامج التي يتم وفقاً بها من الجميع الإداري للمديرية ووحدات الإدارة المالية والهيئات العامة الخدمية (ومنها ما يكون ذات دخل عام خالص).\n*   المصروفات.\n*   حسابات الخزانة.\n*   حسابات خاصة.\n*   الميزانية الخاصة.\n\n**ثانياً: التقسيمات التفصيلية للموازنة:**\nتقسم الموازنة العامة للدولة إلى [2]:\n1.  **المصروفات، وتشمل الأبواب التالية:**\n    *   الباب الأول: الأجور وتعويضات العاملين.\n    *   الباب الثاني: شراء السلع والخدمات.\n    *   الباب الثالث: الفوائد.\n    *   الباب الرابع: الدعم والمنح والمزايا الاجتماعية.\n    *   الباب الخامس: المصروفات الأخرى.\n    *   الباب السادس: شراء الأصول غير المالية (الاستثمارات).\n\n2.  **الإيرادات، وتشمل الأبواب التالية:**\n    *   الباب الأول: الضرائب.\n    *   الباب الثاني: المنح.\n    *   الباب الثالث: الإيرادات الأخرى.\n\n3.  **مصادر التمويل، وتشمل الأبواب التالية:**\n    *   الباب الرابع: الإيرادات من القروض ومبيعات الأصول المالية وغيرها من الأصول.\n    *   الباب الخامس: الاقتراض.\n\n**(ملاحظة إضافية):** ورد في المادة (12) تقسيم آخر تحت مسمى \"حصيلة الإيرادات الأصلية\" يتضمن (جباية الأصول المالية المحلية والأجنبية، إيرادات متنوعة، وسداد القروض المحلية والأجنبية) [2].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-003",
+      "answer": "يجب على الجهة الإدارية تطبيق \"مبدأ الشفافية\" خلال مراحل إعداد وتنفيذ الموازنة [1].\n\nويترتب على تطبيق هذا المبدأ قيام الجهة بنشر التقارير والبيانات المرتبطة بالأداء لكل مرحلة بشكل دوري، وذلك لتمكين تحقيق الرقابة المجتمعية المشتركة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-004",
+      "answer": "تلتزم الجهات الإدارية بالإفصاح عن المعلومات المالية التالية:\n\n- المعلومات المالية والضريبية، والقانون المالية والضريبة، والحساب الختامي، وذلك مع عدم الإخلال بالقواعد المقررة قانوناً بسرية البيانات والمعلومات [1].\n- كما تلتزم الجهات الإدارية بتطبيق مبدأ الشفافية خلال مراحل إعداد وتنفيذ الموازنة، ونشر التقارير والبيانات المرتبطة بالأداء الخاصة بكل منها بشكل دوري [3].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-005",
+      "answer": "يجوز تخصيص مورد معين لاستخدام محدد في الموازنة في الحالات التالية:\n\n1. بصفة عامة، لا يجوز تخصيص مورد معين لموازنة استخدام محدداً إلا بناءً على قانون [6].\n2. فيما يتعلق بالصناديق والحسابات الخاصة، يجوز بقانون تخصيص مورد معين لبرامج واستخدامات محددة لها، مع عمل الضمانات الخاصة على مستوى الجهة التي تتولى الموازنة العامة للدولة للجهة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-006",
+      "answer": "لا يجوز إنشاء صناديق أو حسابات خاصة بغير قانون، وذلك وفقاً لما يلي:\n\n1. تنص المادة (7) صراحةً على أنه \"لا يجوز إحداث أي أموال صناديق وحسابات خاصة خاصاً بالقانون\" [1].\n2. كما أكدت المادة (6) على أنه \"لا يجوز تخصيص مورد معين لموازنة استخدام محدداً إلا بناءً على قانون\" [4].\n3. وبناءً على ذلك، يجوز بقانون تخصيص مورد معين لاستخدامات وبرامج محددة للصناديق والحسابات الخاصة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-007",
+      "answer": "تُعد الموازنة العامة للدولة على الأسس التالية وفقاً للنصوص المتاحة:\n\n1. **أساس الإعداد العام:** تُعد الموازنة العامة للدولة على أساس \"موازنة البرامج والنتائج\"، وذلك في ضوء الأهداف الاستراتيجية للدولة وأهداف الخطة العامة للتنمية الاقتصادية والاجتماعية [1].\n2. **الأساس المحاسبي:** تُحدد نقاط الموازنة العامة للدولة وفقاً لـ \"الأساس النقدي\" [3].\n3. **التصنيف:** يتم التبويب وفقاً لكل من:\n    * التصنيف الاقتصادي [1].\n    * التصنيف الإداري [1].\n    (علتماً بأن اللائحة التنفيذية للقانون هي التي تحدد تفاصيل هذه التصنيفات في ضوء المعايير الدولية المطبقة في هذا الشأن) [1].\n4. **موازنات الجهات الإدارية التابعة للحكومة:** تلتزم هذه الجهات بالإعداد على أساس \"موازنة البرامج والأداء\" وفقاً للنظام المحاسبي الموحد، وفي ضوء الأهداف الاستراتيجية للدولة وأهداف الخطة العامة للتنمية الاقتصادية والاجتماعية، وبناءً على النمطي المعتمد لموازنات الجهات الإدارية والمعايير والتقسيم والتصنيف [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-008",
+      "answer": "تلتزم وزارة المالية، بالتنسيق مع الوزارة المختصة بشؤون التخطيط، بتخصيص نسب من الإنفاق الحكومي من الناتج القومي الإجمالي وفقاً لما نص عليه الدستور في المجالات التالية:\n- الصحة [1].\n- التعليم [1].\n- التعليم الجامعي [1].\n- البحث العلمي [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-009",
+      "answer": "يتم تحديد الأساس المحاسبي المستخدم وفقاً لنوع الموازنة كما يلي:\n\n1. **الموازنة العامة للدولة:** تحدد وفقاً لـ **\"الأساس النقدي\"** [3]، وهو الأساس المحاسبي الذي يتم فيه تسجيل الموارد عند تحصيلها، وتسجيل الاستخدامات عند سدادها [1].\n2. **موازنات الهيئات العامة الاقتصادية والهيئة القومية للإنتاج الحربي:** تعد وتعتمد وفقاً لـ **\"أساس الاستحقاق\"** [3]، وهو الأساس المحاسبي الذي يتم فيه تسجيل الموارد والاستخدامات عند استحقاقها دون النظر إلى وقت تحصيلها أو سدادها [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-010",
+      "answer": "مدة الإطار متوسط المدى لموازنة الموازنة العامة للدولة، وموازنات الهيئات العامة الاقتصادية والهيئة القومية للإنتاج الحربي هي ثلاث سنوات مالية تالية لسنة الموازنة [1].\n\nكما عُرّف \"إطار موازني متوسط المدى\" في القانون بأنه بيان يحتوي على تقدير الموارد والاستخدامات لمدة ثلاث سنوات مالية تالية لسنة الموازنة، على أن تكون تقديرات كل سنة مالية على حدة [2].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-011",
+      "answer": "تنقسم أبواب المصروفات في الموازنة العامة للدولة وفقاً للمادة (12) من القانون رقم 6 لسنة 2022 إلى ما يأتي:\n\n*   **الباب الأول:** الأجور وتعويضات العاملين [1].\n*   **الباب الثاني:** شراء السلع والخدمات [1].\n*   **الباب الثالث:** الفوائد [1].\n*   **الباب الرابع:** الدعم والمنح والمزايا الاجتماعية [1].\n*   **الباب الخامس:** المصروفات الأخرى [1].\n*   **الباب السادس:** شراء الأصول غير المالية (الاستثمارات) [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-012",
+      "answer": "تُصنف الحسابات الحكومية وفقاً للمادة (13) من القانون رقم 6 لسنة 2022 إلى الآتي:\n\n1. حسابات البرامج والاستخدامات والاستهلاكات والموارد [1].\n2. حسابات الأصول والخصوم [1].\n3. الحسابات النظامية [1].\n\nويتم تصنيف وتبويب هذه الحسابات وفقاً لدليل إدخال الحسابات مالية الحكومة وتصنيفات موازنة العام للدولة، على أن تحدد اللجنة المالية المختصة بناء واجهة هذه الحسابات على المستويين الإجمالي والتفصيلي [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-013",
+      "answer": "يحدد القانون المنظم للائحة الملحقة المحددة لدرج برنامج واعتمادات الحسابات المالية المحلية بموازنة ديوان عام المحافظة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-014",
+      "answer": "الجهة التي تعد الخطة العامة للتنمية الاقتصادية والاجتماعية والأهداف الاستراتيجية للدولة هي الوزارة المختصة بالشؤون التخطيط [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-015",
+      "answer": "تتولى الوزارة (المقصود بها الوزارة المختصة بالشؤون المالية وفقاً للمادة 1) إقرار السياسة المالية العامة السنوية للدولة [1]، [2].\n\nويتم ذلك في ضوء مقترحات تطويرية وتنفيذية تُقدم بناءً على الخطط والأهداف الاستراتيجية للتنمية العامة للتنمية الاقتصادية والاجتماعية من مجلس الوزراء، على أن تحدد اللجنة المالية التنفيذية مواقيت التطبيق والمتابعة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-016",
+      "answer": "يتمثل دور وزير المالية في متابعة إعداد مشروعات موازنات الجهات الإدارية فيما يلي:\n\n*   **المتابعة الدورية للإجراءات:** يصدر وزير المالية شهرياً مذكرة توضح مدى تقدم تنفيذ القواعد والإجراءات التي تلتزم الجهات الإدارية باتباعها عند إعداد مشروعات موازناتها [2].\n*   **إعداد مشروع الموازنة العامة:** تتولى الوزارة إعداد مشروع الموازنة العامة للدولة سنوياً، ويتم ذلك بعد دراسة مشروعات الموازنات الواردة إليها من الجهات الإدارية [4].\n*   **التنسيق مع السياسات العامة:** يتم إعداد مشروع الموازنة بالتنسيق بين السياسات المالية والضريبية والجمركية بما يحقق الأهداف الاستراتيجية والسياسة المالية العامة للدولة وخطة التنمية الاقتصادية والاجتماعية [4].\n*   **إعداد الإطار الموازني:** تتولى الوزارة إعداد مشروع الإطار الموازني متوسط المدى لموازنة الدولة وموازنات الهيئات العامة الاقتصادية والهيئة القومية للإنتاج الحربي، مع تحديد سقف إجمالي الإنفاق العام الموزع على الوزارات والجهات والمصالح وفقاً لمعايير محددة [4].\n*   **العرض على السلطات التشريعية والتنفيذية:** يتولى الوزير عرض مشروع قانون ربط الموازنة العامة للدولة وموازنات الهيئات العامة الاقتصادية والهيئة القومية للإنتاج الحربي على مجلس الوزراء، وكذلك عرض مشروعات ربط هذه الموازنات على مجلس النواب [7].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-017",
+      "answer": "تلتزم كل جهة إدارية عند إعداد مشروع موازنتها بما يلي:\n\n1. إعداد مشروع الموازنة بما يتوافق ويستهدف خطة الحجم العامة للتنمية الاقتصادية والاجتماعية والأهداف الاستراتيجية لكل وزارة أو جهة مختصة [1].\n2. تقديم مشروع الموازنة الإدارية إلى الوزارة في الميعاد الذي يحدده الوزير ووفق الصيغة المحددة قبل بدء السنة المالية [1].\n3. اتباع القواعد والإجراءات التي يلزم وزير المالية الجهات الإدارية باتباعها عند إعداد مشروعات موازناتها، والتي يصدر بشأنها مذكرة شهرية [6].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-018",
+      "answer": "يُقدم مشروع الإطار الموازني متوسط المدى مع مشروع موازنة السنة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-019",
+      "answer": "تتولى **الوزارة** (والمقصود بها وفقاً للتعريفات في المادة 1 هي **الوزارة المختصة بالشئون المالية**) إعداد مشروع الموازنة العامة للدولة سنوياً [1]، [5].\n\nويتم ذلك وفق الضوابط التالية:\n*   مراعاة موازنات الهيئة القومية للإنتاج الحربي وموازنات الهيئات العامة الاقتصادية [1].\n*   دراسة مشروعات الموازنات الواردة إلى الوزارة من الجهات الإدارية [1].\n*   استطلاع رأي البنك المركزي [1].\n*   التنسيق بين السياسات الجمركية والضريبية والمالية بما يحقق الأهداف الاستراتيجية والسياسة المالية العامة للدولة، وأهداف خطة التنمية الاقتصادية والاجتماعية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-020",
+      "answer": "يجوز إدراج اعتمادات إجمالية لبعض البنود أو الحسابات دون التقيد بالتفصيلات الاقتصادية لبنود الأبواب في حالات خاصة تقدم مصلحة البلاد العامة، وذلك في الحالات الآتية:\n\n1. لمقتضيات الضرورة القصوى [1].\n2. المصلحة الوطنية [1].\n3. الموازنة أو المصروفات أو الالتزامات التي يتم مباشرة تنفيذها على إعداد مشروع الموازنة العامة للدولة أو الموازنة العامة لبعض الجهات الإدارية الضرورية [1].\n\nعلى أن تدرج هذه الاعتمادات ضمن برنامج أو أبواب أو استنباطات بالموازنة العامة للدولة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-021",
+      "answer": "يجب أن يوضح جدول الموازنة العامة المرافق لقانون ربط الموازنة العامة للدولة البيانات المالية التالية:\n\n- العجز أو الفائض النقدي [1].\n- العجز أو الفائض الكلي [1].\n- العجز أو الفائض الأصلي [1].\n- مصدر سد العجز [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-022",
+      "answer": "يُعرض مشروع قانون ربط الموازنة العامة للدولة على الجهات التالية وفقاً للمادة (23) من القانون رقم 6 لسنة 2022:\n\n1. **مجلس الوزراء**: حيث يتولى الوزير عرض مشروع قانون ربط الموازنة العامة للدولة، ومستلزمات وموازنات الهيئات العامة الاقتصادية والهيئة القومية للإنتاج الحربي عليه [1].\n2. **مجلس النواب**: حيث تُعرض عليه مشروعات موازنات ربط الموازنة العامة للدولة، وموازنات الهيئات العامة الاقتصادية، والهيئة القومية للإنتاج الحربي [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-023",
+      "answer": "يتمثل أثر اعتماد الإطار الموازني متوسط المدى على مشروع موازنة الوزارة أو الجهة في أن القيمة المعتمدة لإجمالي هذا الإطار على مستوى كل وزارة أو جهة مستقلة تُعتبر هي \"السقف الأعلى\" لكل منها فيما يتعلق بمشروع موازنتها لسنوات الإطار، ما لم يطرأ ما يغير ذلك [3].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-024",
+      "answer": "تتمثل الطبيعة القانونية للموازنة العامة للدولة وفقاً للنصوص المتاحة فيما يلي:\n\nتعتبر الموازنة العامة للدولة \"قانوناً\" [1]، ويصدر \"قانون ربط الموازنة العامة للدولة\" ليكون بمثابة ترخيص لكل جهة تنفيذية تتضمنها الموازنة في استخداماتها المعتمدة المقدرة لها في البنود المرخص لها بها، وذلك بدءاً من أول السنة المالية [6].\n\nكما يجوز أن يتضمن قانون ربط الموازنة العامة للدولة تعديلاً في قانون قائم أو إقرار قانون آخر، وذلك بهدف تحقيق التوازن بين مصروفات الموازنة ومواردها [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-025",
+      "answer": "يرخص قانون ربط الموازنة العامة للدولة لكل جهة تنفيذية تضمينها الموازنة، استخداماتها المعتمدة المقدرة لها في البنود المرخص لها تضمينها، وذلك بدءاً من أول السنة المالية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-026",
+      "answer": "لا يجوز للتشريعات العامة المطبعة بقانون ربط الموازنة العامة للدولة أن تخالفه أو أن تكون لها قوة القانون [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-027",
+      "answer": "في حالة عدم صدور قانون ربط الموازنة قبل بداية السنة المالية، يتم الصرف وفقاً لما يلي:\n\nيتم الصرف في حدود اعتمادات موازنات السنة السابقة إلى حين صدور قانون ربط الموازنة، إلا إذا صدر قرار من وزير المالية بخلاف ذلك [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-028",
+      "answer": "تعتبر أحكام وقواعد ربط الموازنات العامة المعتمدة بالقانون والقوانين واللوائح المكملة لها سارية المفعول، بما في ذلك ما تتضمنه من السلطات المالية والنظام المحاسبي أو الإجراءات التي تقتضيها متطلبات جهات الإدارة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-029",
+      "answer": "بناءً على النصوص القانونية المتاحة، فإن الإجراءات المطلوبة هي كالتالي:\n\n- **بالنسبة لمشروعات القوانين:** ينص القانون على أنه \"يحتزن أحد الوزراء أو المسؤولين في مشروعات القوانين التي من شأنها ترتيب أعباء مالية إضافية على الموازنة العامة للدولة\" [1].\n- **بالنسبة لمشروعات القرارات:** يجب اقتراح \"الإجراءات اللازمة لإقرار موافقة الموازنة على مشروعات القرارات التي من شأنها ترتيب أعباء مالية إضافية على الموازنة العامة للدولة قبل إصدارها من السلطة المختصة\" [1].\n\nوفي حالة **عدم موافقة الجهة الموازنة** على مشروع القرار، يتم اتخاذ الإجراءات التالية:\n- يتولى اتخاذ الحلول خلال ثلاثة أيام من تاريخ استلام المذكرة كتابةً بإعلام اسم صاحب المشروع، أو عرض مشروع القرار على مجلس الوزراء للقرار به مباشرة [1].",
+      "correctness": 0.8,
+      "faithfulness": 0.9,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-030",
+      "answer": "يجوز للجهة الإدارية إجراء صرف أو الحصول على تمويل أو الالتزام ببرنامج أو غيره في موازنة العامين للدولة أو موازنات الهيئات العامة الاقتصادية والهيئة القومية للإنتاج الحيواني، مما يترتب عليه اتفاق بإغلاق موازنتها أو ترتيب أعباء مالية على هذه الموازنة، فقط وفقاً لما تقره مجلس الوزراء [2].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-031",
+      "answer": "تُنفذ القرارات الصادرة عن الجهات التي يترتب عليها أعباء مالية بعد الحصول على موافقة وزارة المالية [3].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-032",
+      "answer": "تفتح بالحسابات المدينة المركزية حساب لكل جهة من الجهات التي تتضمنها الموازنة العامة للدولة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-033",
+      "answer": "القاعدة العامة لفتح الجهات الإدارية حسابات باسمها أو باسم الصناديق والحسابات الخاصة التابعة لها هي كما يلي:\n\nلا يجوز للجهات الإدارية فتح هذه الحسابات إلا في البنك المركزي، أو وفقاً لموازنة الوزير بشرط أن تكون هذه الحسابات \"صفرية\" [1].\n\nوتوجد استثناءات وقواعد إضافية وفقاً للنص:\n*   يجوز فتح حسابات بالبنك المركزي لمثل هذه الحسابات (ترصد فيها الإيرادات أو مخصصات من الموازنة العامة للدولة، ويفرد لكل منها حساب خاص يتم الصرف منه) بشرط موافقة وزير الموازنة إيجاباً [1].\n*   لا تسري هذه الأحكام على الجهات التالية:\n    *   وزارة الدفاع والهيئة القومية وجميع أجهزتها [1].\n    *   الهيئة العامة للتأمين الصحي، والهيئة العامة للتأمين الصحي الشامل [1].\n    *   صناديق والمعاشات التأمينية والضمانية، والهيئة القومية للتأمينات الاجتماعية [1].\n    *   الهيئة القومية للبريد (فيما يتعلق بأموال المودعين) [1].\n    *   صناديق الرعاية الاجتماعية والصحية، وصناديق التأمين الخاص بالعاملين بالجهة الإدارية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-034",
+      "answer": "عندما تقوم الجهة الإدارية بالارتباط بأي مصروفات أو ديون، أو إبرام عقد أو اتفاقيات مالية، يجب عليها مراعاة الآتي وفقاً للمادة (35) من القانون رقم 6 لسنة 2022:\n\n1. تنفيذ نظام الارتباطات بإدارة الميزانية بالجهة [1].\n2. التأكد من أن البند المختص يسمح بالخصم الجزئي قانونياً بقيمة الارتباطات المعتمدة المدرجة في الموازنة [1].\n3. الالتزام بعدم صرف أي مبالغ فوق المبالغ التي يوجد لها ارتباط، وبشرط أن يسمح البند المختص بالصرف؛ حيث يحظر على ممثلي الوزارة بالوحدات الحسابية الموافقة على صرف مبالغ تخالف ذلك [1].\n\nكما أشارت المادة ذاتها إلى أن اللائحة التنفيذية للقانون هي التي تنظم نظام الارتباطات والالتزامات والمدد اللازمة لمرئيتها، وكذلك نظام الارتباطات الخاص بالتوريدات والمصروفات المتكررة التي تعتمد كلياً أو جزئياً سنة مالية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-035",
+      "answer": "وفقاً للنصوص القانونية المتاحة، تخضع عملية نقل مبالغ الاعتمادات من باب إلى باب آخر في الموازنة للقيود التالية:\n\n**أولاً: القيود والشروط الأساسية للنقل بين الأبواب:**\nلا يجوز نقل أي مبلغ من باب إلى باب آخر من أبواب الموازنة إلا بعد استيفاء الشروط الآتية مجتمعة:\n1. الرجوع إلى الوزارة [1].\n2. الحصول على موافقة مجلس النواب [1].\n3. صدور القانون الخاص بذلك [1].\n*(ملاحظة: ورد في المادة 37 نص مشابه يشير إلى الرجوع للوزير المختص وموافقة مجلس الوزراء وصدور القانون الخاص بذلك [2])*.\n\n**ثانياً: الاستثناءات (النقل المسموح به بضوابط):**\nيجوز النقل في الحالات التالية (داخل اعتمادات البرنامج الواحد، أو من برنامج إلى آخر في ذات الباب بالجهة الواحدة، أو بين جهات الموازنة العامة للدولة) وذلك وفقاً لـ:\n* ما يقرره الوزير في الحالات التي تحددها اللائحة التنفيذية للقانون والتأشيرات الملحقة بقانون ربط الموازنة العامة للدولة [1].\n* أن يكون النقل لاعتبارات تتعلق بإعادة التنظيم، أو إجراء تسويات مالية، أو تنفيذ حتميات ضرورية [1].\n\n**ثالثاً: الحد الأقصى للمناقلات المسموح بها:**\nيجب ألا تتجاوز جملة المناقلات (باستثناء ما ينقل من الاحتياطيات العامة) النسبة الأقل من بين الآتي:\n* نسبة (10%) من الاعتمادات الأصلية لكل باب [1].\n* أو (1%) من إجمالي الاستخدامات بالموازنة العامة للدولة التي وافق عليها مجلس النواب بدون الفوائد [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-036",
+      "answer": "يجوز استخدام اعتمادات مبالغ سنة مالية سابقة لتعزيز موازنات الجهات الإدارية وفقاً للشروط التالية:\n\n1. أن يكون ذلك في جزء محدود فقط من القيمة [1].\n2. الحصول على موافقة وزارة الموازنة المختصة بشأن التوقيع بنظام الاستثمارات، على ألا يتجاوز ذلك هذه الاعتمادات [1].\n3. تحدد اللائحة التنفيذية كيفية الصرف المباشر لهذه المبالغ [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-037",
+      "answer": "يحظر صرف أية مبالغ أو تسويتها أو إبدالها بعد اعتماد الصرف أو التسوية من رصيد الجهة أو ميزانيتها في حال استنفاذ المخصصات اللازمة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-038",
+      "answer": "بناءً على النصوص القانونية المقدمة، يتحمل المسؤولية في حالة التوقيع على أوامر صرف أو مستندات مالية مخالفة الآتي:\n\nيُعتبر المسؤولون والوزراء المسؤولون بالمصالح الجهات الإدارية لصاحبين بصلاحياتها مسؤولين في حال كونهم على اتفاقي إقرار أو أمر صرف أو أي مبلغ مخالف لأحكام المستوى أو القوانين أو قرارات حكومية، أو قرارات مجلس الوزراء أو وزير رئيس مجلس الوزراء أو الوزير، أو القوانين السارية وفق ما يرد تحديداً باللائحة التنفيذية [1].",
+      "correctness": 0.8,
+      "faithfulness": 0.9,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-039",
+      "answer": "يتم اعتماد أوامر الدفع الإلكترونية في الجهات الإدارية وفقاً لما نصت عليه المادة (41) من القانون رقم 6 لسنة 2022 على النحو التالي:\n\n1. **مجموعة التوقيعات:** يتم الصرف بموجب أمر دفع إلكتروني يتضمن مجموعة من التوقيعات:\n   - **توقيع أول:** يكون من رئيس الجهة الإدارية أو من يقوم مقامه [1].\n   - **توقيع ثانٍ:** يكون من مديري أو وكلاء الحسابات دون غيرهم [1].\n2. **آلية الاعتماد:**\n   - يتم التوقيع إلكترونياً وفقاً للنظام الحسابي المعتمد في كل جهة [1].\n   - يجب أن يكون التوقيعان الإلكترونيان (الأول والثاني) معتمدين بموجب شهادة توقيع إلكترونية تصدرها وحدة التصديق الإلكتروني الحكومي بوزارة العدل [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-040",
+      "answer": "بناءً على النصوص القانونية المتاحة، يتم التعامل مع استرداد المبالغ المالية التي حُولت إلى الحسابات عبر وسائل الدفع الإلكتروني وفقاً للآتي:\n\nتُخطر وزارة المالية المتقدمين بطلب استرداد المبالغ المالية التي تم تحويلها إلى حساباتهم تسبيقا عبر سبل الدفع الإلكتروني، ويتم تحويل هذه المبالغ عن طريق البريد الإلكتروني للمتقدم أو وسيلة أخرى خاصة به، بشرط أن يتحمل السداد سابقاً تكلفة هذه الخدمة من مستحقاته، ويُستثنى من تحمل هذه التكلفة البريد الإلكتروني [1].\n\nكما أشارت المادة إلى الآتي:\n- تحدد اللائحة التنفيذية القواعد الخاصة بالجهة المختصة بذلك [1].\n- تسري في هذا الشأن أحكام قانون تنظيم استخدام وسائل الدفع غير النقدي الصادر بالقانون رقم 18 لسنة 2019 [1].\n- يلتزم ممثلو الوزارة بالوحدات الحسابية بتوريد المبالغ المحصلة، على أن تحدد اللائحة التنفيذية مواعيد وإجراءات هذا التوريد [1].",
+      "correctness": 0.7,
+      "faithfulness": 0.7,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-041",
+      "answer": "لا يجوز لأي جهة إدارية، بأي من مستوياتها أو موظفيها، قبول أي تبرعات أو إعانات أو هبات إلا بعد الحصول على الموافقات اللازمة وفقاً للقنوات واللوائح والقوانين السارية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-042",
+      "answer": "بناءً على النصوص القانونية المتاحة، تُحدد الدفعات التي تحصلها الجهة الإدارية على سبيل المعجل من الموعد المحدد وفقاً للأساس التالي:\n\nيراعى في تقدير المعدل الخاص بتلك الدفعات أن يكون محسوباً على أساس سعر الخزانة والخصم الساري المعلن من البنك المركزي في التاريخ المحدد للتوريد أو تسوية تلك البيعها أعلى [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-043",
+      "answer": "وفقاً للنص المتاح في المادة (45) من القانون رقم 6 لسنة 2022، فإنه يجوز للجهة أن تدرج في حسابات الجهات الإدارية قيمة أية ممتلكات مادية لا تسمح الخزانة العامة للدولة بتمويلها بما تسمح به أرصدتها، على أن يتم إخطار الجهة الإدارية بذلك [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-044",
+      "answer": "يجوز المطالبة بمستحقات العاملين من أجور ومكافآت وبدلات خلال خمس سنوات من تاريخ استحقاقها [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-045",
+      "answer": "يكون الوزير مسؤولاً عن تنفيذ مواد الموازنة العامة للدولة وعرض التقارير الخاصة بها على مجلس الوزراء ومجلس النواب [2].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-046",
+      "answer": "بناءً على النصوص القانونية المقدمة، فإن السلع أو الأصول التي تُراعى عند إعداد موازنة غير السلع الاستهلاكية هي:\n\n- **الممتلكات التي تمتلكها الجهة الإدارية**: حيث نصت المادة (49) على أنه يتم إعداد جهات تحصيل جهة إدارية عن شراء السلع الاستهلاكية أو الممتلكات التي تمتلكها [1].\n- **نوع من الأصول التي يكون لها مبلغ مخصص على حدة**: حيث يتم توضيح ما تفتقده الجهة حتى نهاية السنة المالية من هذا النوع من الأصول وفقاً للنظام المحاسبي المحتسب عليه [1].",
+      "correctness": 0.8,
+      "faithfulness": 0.9,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-047",
+      "answer": "بناءً على النصوص القانونية المقدمة، تتمثل القواعد المتعلقة بالمجموعة المستندية والسجلات والنماذج المحاسبية المعتمدة فيما يلي:\n\n1. **تحديد المجموعة المستندية والنماذج:** تحدد اللائحة الإدارية مجموعة مستندية (ورقية وبنكية) معتمدة رسمياً، سواء كانت ورقية أو إلكترونية [3].\n2. **حظر الاستبدال أو التعديل:** لا يجوز استبدال أو إعادة أو تعليب هذه المستندات، أو السجلات، أو النماذج المحاسبية (الورقية أو الإلكترونية) الواجب استخدامها، إلا بموجب ترخيص كتابي كافٍ من الوزارة، وذلك وفقاً لتغيير تحدده اللائحة التنفيذية [3].\n3. **تصحيح الأخطاء:** يُسمح للجهة الإدارية بإصلاح السقطات أو الأخطاء في النماذج التي تتبعها، بشرط إثبات ذلك بطريقة تتماشى أو تنطبق مع تحديث الرافعة الدافعة الداخلية [3].\n4. **المستندات الأصلية المعتمدة:** تُعد الموازنات والعمليات المالية المسرعة عبر النظام الإلكتروني المحاسبي (من خلال منظومة الموازنة والأكواد الموحدة للمؤسسات الحسابية بالجهات الإدارية)، وكذلك الموافقات المالية المسرعة عبر النظام الإلكتروني المرتبط بالتصنيف الإداري الإلكتروني المعتمد، بمثابة مخاطبات وموافقات رسمية ومستندات أصلية معتمدة، على أن تحدد اللائحة التنفيذية ضوابط وصيغ وإجراءات ذلك [1].\n5. **المخالفات المالية المتعلقة بالسجلات:** يُعتبر من قبيل المخالفات المالية ما يلي:\n   - عدم إمساك الدفاتر والسجلات المحاسبية وفقاً للقواعد التي تنص عليها اللائحة التنفيذية للمالية للموازنة والحسابات [4].\n   - امتناع الجهة الإدارية عن توفير المستندات والسجلات والبيانات التي تطلبها أعمال الرقابة والتدقيق من قِبل الوزارة وأعضاء الجهاز المركزي للمحاسبات [4].",
+      "correctness": 0.9,
+      "faithfulness": 0.9,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-048",
+      "answer": "بناءً على النصوص القانونية المقدمة، يتمثل دور وزارة المالية في حصر أرصدة الجهات الإدارية لدى البنوك فيما يلي:\n\nيكون ضبط حسابات الجهات الإدارية، والاطلاع على حساباتها، وحصر أرصدتها لدى البنوك التجارية والمصرفية أو البنوك المركزية أو غيرها من البنوك (سواء كانت حسابات جارية أو حسابات ودائع أو غير ذلك من الحسابات المالية أو المعتمدة بالجهات الاجتماعية)، بالتنسيق مع مصلحة الرقابة المالية والبنك المركزي [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-049",
+      "answer": "تتمثل اختصاصات وزارة المالية في الرقابة على تنفيذ موازنات الجهات الإدارية وفقاً للنصوص المتاحة فيما يلي:\n\n*   **الرقابة على التنفيذ والإشراف المحاسبي:** تحدد وزارة المالية الصرف على تنفيذ موازنات الجهات الإدارية وتأمر بتنفيذها، ولها في سبيل ذلك الاطلاع على جميع المستندات التي تتطلبها طبيعة عملها [1]. كما يشرف ممثلو الوزارة على أعمال الحسابات بالجهات الإدارية، وتحدد اللائحة التنفيذية سلطات واختصاصات هؤلاء الممثلين في مراقبة تنفيذ القانون [1].\n*   **التفتيش المالي:** تختص الجهات التفتيش السنوية بالوزارة بالتأكد من صحة البيانات الحسابية للجهات الإدارية من خلال الاطلاع على كافة السجلات والبيانات، ولهذه الجهات التفتيش على المختصين في العهدة والمقررات والمخازن، مع استخراج صور ضوئية من المستندات عند الضرورة (وذلك دون الإخلال باختصاصات الجهاز المركزي للمحاسبات في الرقابة القانونية) [7].\n*   **إدارة الحسابات والوحدات الحسابية:** تختص وزارة المالية بوحدات الحسابات في الدولة أو بعضها وفقاً للمعايير والضوابط التي تحددها اللائحة التنفيذية [2].\n*   **المخالفات الرقابية:** يعتبر من المخالفات المالية عدم تمكين ممثلي الوزارة من القيام بمهامهم في الرقابة والتفتيش وممارسة اختصاصاتهم في طلب المستندات أو الاطلاع عليها، أو امتناع الجهة الإدارية عن توفير المستندات والسجلات والبيانات المطلوبة للوزارة والتي تتطلبها أعمال الرقابة والتدقيق [10].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-050",
+      "answer": "طبيعة إشراف ممثلي وزارة المالية على العاملين بالوحدات الحسابية بالجهات الإدارية هي إشراف **فني** [5].\n\nوقد نصت المادة (53) من القانون رقم 6 لسنة 2022 على أن اللائحة التنفيذية هي التي تحدد قواعد تنفيذ هذا الإشراف [5].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-051",
+      "answer": "تهدف أنظمة الرقابة الداخلية في الجهة الإدارية إلى تحقيق الآتي:\n\n1. **تحقيق الأهداف الاستراتيجية:** تهدف الرقابة الداخلية إلى تحقيق الأهداف الاستراتيجية المحددة للجهة [3]، ورفع كفاءة أداء الأعمال وتحقيق الأهداف الاستراتيجية للجهة [1].\n2. **كفاءة التنفيذ والالتزام:** التأكد من سلامة وكفاءة تنفيذ أعمال الجهة الإدارية [3]، والتأكد من الالتزام بالسياسات الإدارية المنظمة للعمل داخل الجهة بما يضمن تنفيذ البرنامج وفقاً لما هو مخطط له [1].\n3. **سلامة التقارير والبيانات المالية:** كفالة سلامة إعداد التقارير المالية السليمة [1]، والتأكد من سلامة إعداد التقارير المالية واكتمال الدفاتر والسجلات المحاسبية وإعداد البيانات المالية السليمة في المواعيد المحددة لها [3].\n4. **الحفاظ على الأصول والحقوق:** المحافظة على موجودات الجهة وحقوقها لدى الغير [1]، وكذلك المحافظة على أصول وموجودات الجهة الإدارية وحقوقها لدى الغير [3].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-052",
+      "answer": "تلتزم الجهة الإدارية بإعداد وتحديث السجلات التالية دورياً وفقاً للنصوص المتاحة:\n\nتلتزم كل جهة إدارية بإعداد سجلات على شكل من السجلات المالية في موجودات الحسابات، ويجب تحديث هذه السجلات بشكل دوري لأغراض المتابعة والرقابة، مع إطارة كل سجل منها في نهاية السنة المالية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-053",
+      "answer": "يتولى رئيس الجهة الإدارية تفعيل لجنة الرقابة الداخلية، على أن يتم ذلك من عامليها الخبراء في شؤون الرقابة، وتحدد اللائحة التنفيذية تشكيل هذه اللجنة وصلاحياته [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-054",
+      "answer": "يتولى مكتب المراجعة في الجهات الإدارية المهام التالية وفقاً للمادة (57) من القانون رقم 6 لسنة 2022:\n\n1. فحص ومراجعة وإعداد التقارير السنوية والربع سنوية للقوائم المالية والحساب الختامي التي تخضع لها الجهة الإدارية [1].\n2. إعداد خطة مراجعة سنوية وفق شروط وفي ضوء القواعد والتعليمات التي تصدرها الوزارة، على أن يتم اعتماد هذه الخطة من رئيس الجهة الإدارية، وتحدد هذه الخطة جدول المراجعة [1].\n3. في حال عدم قيام إدارة الالتزام بالقيام بالقوائم المالية والحساب الختامي بناءً على التقارير والملاحظات المذكورة وعدم اتخاذ الإجراءات اللازمة، يتم إخطار الوزارة والجهة المركزية للمحاسبات بذلك مع الملحقات والملاحظات مع ضرورة الرد الفوري بينها [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-055",
+      "answer": "تختص الجهات التفتيش السنوية بوزارة المالية تجاه البيانات الحسابية للجهات الإدارية بما يلي:\n\n*   التأكد من صحة البيانات الحسابية للجهات الإدارية [1].\n*   التحقق من صحة هذه البيانات من خلال الاطلاع على كافة السجلات والبيانات التي تتطلبها طبيعة عملهم [1].\n*   استخراج صور ضوئية من المستندات والبيانات عند الضرورة [1].\n*   التفتيش على المختصين في العهدة والمقررات والمخازن [1].\n\nوكل ذلك يتم دون الإخلال باختصاصات الجهاز المركزي للمحاسبات في الرقابة القانونية [1]. كما نص القانون على أن اللائحة التنفيذية هي التي تحدد اختصاصات الجهاز التفتيشي المالي بالوزارة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-056",
+      "answer": "يجوز للوزارة ترشيح أحد المختصين بالتفتيش المالي بالوزارة بناءً على:\n1. طلب الجهة المعنية [1].\n2. بناءً على مهمة الهيئة الإدارية، بسبب المقتضيات [1].\n\nوذلك للاستنطاق فيما يخص المسائل المتعلقة بما تقتضيه سبل التحقيق [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-057",
+      "answer": "تلتزم وزارة المالية، وفقاً للمادة (60) من القانون رقم 6 لسنة 2022، بما يلي بشأن نتائج التحقيقات والقرارات الصادرة:\n\nإخطار الوزارة المختصة والجهة المركزي للمحاسبات بنتيجة التحقيق والقرار الصادر بشأنها، وذلك خلال مدة خمسة عشر يوماً من تاريخ صدوره [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-058",
+      "answer": "تلتزم الجهات الإدارية بإخطار الوزارة والجهاز المركزي للمحاسبات والجهات الرقابية والمعنية بالحوادث التالية التي تقع بالجهة:\n\n*   الاختلاس.\n*   السرقة.\n*   الحريق.\n*   التلفين.\n*   التدمير.\n*   الإهمال.\n*   التعدي على أملاكها وما في حكمها [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-059",
+      "answer": "يصدر الوزير (المختص بالشؤون المالية) سنوياً القواعد الضرورية اللازمة لتحديد مواعيد تقديم الجهات الإدارية والوزارات الاقتصادية لقوائمها المالية وحساباتها الختامية إلى الوزارة والجهاز المركزي للمحاسبات [3]، [6].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-060",
+      "answer": "تلتزم كل جهة إدارية بإعداد المستندات والتقارير المالية التالية وفقاً للنصوص المتاحة:\n\n1. **القوائم المالية والحساب الختامي**: تلتزم كل جهة إدارية بإعدادهما متضمنين جميع البيانات المالية اللازمة، بالإضافة إلى أي تقارير أو مستندات أخرى تطلبها الوزارة [1].\n2. **السجلات المالية**: تلتزم بإعداد سجلات على شكل من السجلات المالية في موجودات الحسابات، يتم تحديثها دورياً لأغراض المتابعة والرقابة وإغلاقها في نهاية السنة المالية، مع توضيح التغييرات التي طرأت عليها خلال السنة المالية عند القيام بأعمال الحساب الختامي [2].\n3. **مشروع الموازنة**: تعد كل جهة إدارية مشروع موازنتها بما يتوافق مع خطة التنمية الاقتصادية والاجتماعية العامة والأهداف الاستراتيجية للوزارة أو الجهة المختصة، وتقديمه للوزارة في الموعد والصيغة التي يحددهما الوزير قبل بدء السنة المالية [10].\n4. **تقارير الأداء**: تلتزم الجهات الإدارية بإعداد التقارير التالية:\n    * تقرير أداء عن مدى تحقيق أهداف الاستراتيجية المحددة لها في السنة المالية [4].\n    * تقرير أداء عن النسب المحققة من الأهداف الاستراتيجية في السنة المالية والتقرير الموازني متوسط المدى [4].\n    (ويتم تقديم هذه التقارير إلى الوزارة، والوزارة المختصة بشؤون التخطيط، والجهاز المركزي للمحاسبات، مع بيان أسباب انحراف المنفذ الفعلي عن الأهداف الاستراتيجية المعتمدة حال حدوث ذلك) [4].\n5. **تقارير وبيانات الأداء الدورية**: للجهة الإدارية تطبيق مبدأ الشفافية من خلال نشر التقارير والبيانات المرتبطة بالأداء بشكل دوري [7].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-061",
+      "answer": "تلتزم الجهات الإدارية بإعداد وتقديم التقارير المتعلقة بالأداء والبيانات المالية التالية وفقاً للنصوص المتاحة:\n\n**أولاً: تقارير الأداء الاستراتيجية والموازنية:**\nتلتزم الجهات الإدارية بإعداد وتقديم التقارير التالية إلى الوزارة، والوزارة المختصة بشؤون التخطيط (فيما يخص سياسات الاستثمارات)، والجهاز المركزي للمحاسبات:\n*   تقرير أداء عن مدى تحقيق أهداف الاستراتيجية المحددة للجهة في السنة المالية [1].\n*   تقرير أداء عن النسب المحققة من الأهداف الاستراتيجية في السنة المالية [1].\n*   التقرير الموازني متوسط المدى [1].\n*   يجب أن تتضمن هذه التقارير بياناً بأسباب انحراف المنفذ الفعلي عن الأهداف الاستراتيجية المعتمدة في حال حدوث ذلك، وذلك وفقاً للشروط والضوابط والمواعيد التي تحددها اللائحة التنفيذية [1].\n\n**ثانياً: التقارير والبيانات العامة والدورية:**\n*   نشر التقارير والبيانات المرتبطة بالأداء لكل جهة إدارية بشكل دوري، وذلك تطبيقاً لمبدأ الشفافية خلال مراحل إعداد وتنفيذ الموازنة بما يسمح بتحقيق الرقابة المجتمعية المشتركة [2].\n*   إعداد القوائم المالية والحساب الختامي الخاصين بالجهة الإدارية، متضمنين جميع البيانات المالية اللازمة، بالإضافة إلى أي تقارير أو مستندات أخرى تطلبها الوزارة [7].\n\n**ثالثاً: تقارير المراجعة والرقابة الداخلية:**\n*   يتولى مكتب المراجعة في الجهات الإدارية إعداد التقارير السنوية والربع سنوية للقوائم المالية والحساب الختامي التي تخضع لها الجهة [3].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-062",
+      "answer": "بناءً على النصوص القانونية المتاحة، تختلف مدة تقديم تقرير الجهاز المركزي للمحاسبات وفقاً للجهة الموجه إليها التقرير:\n\n1. **إلى الوزارة، والوزارة المختصة بشؤون التخطيط (فيما يخص الميزانيات المعتمدة)، والوزارة المختصة أو الجهة المشرفة:** يقدم الجهاز تقريراً عن نتائج مراجعة القوائم المالية والحسابات الختامية للجهات الإدارية والوحدات الاقتصادية خلال شهر من تاريخ تسلمه تلك القوائم من القوائم المالية والحساب الختامي [2].\n2. **إلى مجلس النواب:** يقدم الجهاز تقريراً سنوياً عن مراجعة القوائم المالية والحساب الختامي وتقديم الأداء (في ضوء أهداف الخطة العامة للتنمية الاقتصادية والاجتماعية والأهداف الاستراتيجية للجهات الإدارية) في ميعاد لا يتجاوز ستة أشهر من تاريخ انتهاء السنة المالية، مع إرسال نسخة منه إلى مجلس الشيوخ والوزارة والوزارة المختصة بشؤون التخطيط والوزارات المختصة أو الجهات المشرفة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-063",
+      "answer": "يعد الجهاز المركزي للمحاسبات الحساب الختامي للدولة في نهاية السنة المالية [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-064",
+      "answer": "يشمل الحساب الختامي للدولة في نهاية السنة المالية ما يلي:\n\n*   **من حيث المكونات:** يشمل القوائم المالية للجهات الإدارية والوحدات الاقتصادية في نهاية السنة المالية [1].\n*   **من حيث التعريف:** يُعرف الحساب الختامي بأنه تقرير عن نتائج التنفيذ الفعلي لموازنات الجهات الإدارية الملحقة بالموازنة العامة للدولة والداخلة فيها في نهاية السنة المالية [2].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    },
+    {
+      "queryId": "financial-065",
+      "answer": "بناءً على النصوص القانونية المتاحة، فإن الإجراء المطلوب بشأن الحسابات الختامية للموازنة العامة للدولة والوحدات العامة الاقتصادية بعد إجراء جميع التسويات التدقيقية اللازمة هو قيام الجهاز المركزي للمحاسبات بمراجعتها وإرسالها مع بياناتها التفصيلية وتنمية القيمة المضافة للخزانة العامة [1].",
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passed": true
+    }
+  ]
+}
