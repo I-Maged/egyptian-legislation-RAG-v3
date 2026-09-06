@@ -15,7 +15,8 @@ import {
   loadCanonicalCorpora,
 } from "@egyptian-law/ingestion";
 
-import { buildPersonalAffairsLawGoldDataset } from "../datasets/personal-affairs-law-gold";
+// import { buildPersonalAffairsLawGoldDataset } from "../datasets/personal-affairs-law-gold";
+import { buildPersonalAffairsLawGoldDatasetCorrected } from "../datasets/personal-affairs-law-gold-corrections";
 
 import { runRetrievalBenchmark } from "./retrieval-benchmark";
 
@@ -140,7 +141,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
       expect(embeddingArtifact.dimensions).toBeGreaterThan(0);
 
-      const gold = buildPersonalAffairsLawGoldDataset(corpora);
+      const gold = buildPersonalAffairsLawGoldDatasetCorrected(corpora);
 
       expect(gold.items).toHaveLength(70);
 
@@ -234,7 +235,10 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         concurrency: 4,
       });
 
-      expect(benchmark.datasetName).toBe("personal-affairs-retrieval-v1");
+      // expect(benchmark.datasetName).toBe("personal-affairs-retrieval-v1");
+      expect(benchmark.datasetName).toBe(
+        "personal-affairs-retrieval-v1-corrected",
+      );
 
       expect(benchmark.queryCount).toBe(70);
 

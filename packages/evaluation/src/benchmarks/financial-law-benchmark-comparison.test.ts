@@ -14,7 +14,8 @@ import {
   OllamaEmbeddingProvider,
 } from "@egyptian-law/ingestion";
 
-import { buildFinancialLawGoldDataset } from "../datasets/financial-law-gold";
+// import { buildFinancialLawGoldDataset } from "../datasets/financial-law-gold";
+import { buildFinancialLawGoldDatasetCorrected } from "../datasets/financial-law-gold-corrections";
 
 import { runRetrievalBenchmark } from "./retrieval-benchmark";
 
@@ -91,7 +92,8 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
       expect(embeddingArtifact.dimensions).toBeGreaterThan(0);
 
-      const gold = buildFinancialLawGoldDataset(corpus);
+      // const gold = buildFinancialLawGoldDataset(corpus);
+      const gold = buildFinancialLawGoldDatasetCorrected(corpus);
 
       expect(gold.items).toHaveLength(65);
 
@@ -185,7 +187,10 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         concurrency: 4,
       });
 
-      expect(benchmark.datasetName).toBe("financial-law-retrieval-v1");
+      // expect(benchmark.datasetName).toBe("financial-law-retrieval-v1");
+      expect(benchmark.datasetName).toBe(
+        "financial-law-retrieval-v1-corrected",
+      );
 
       expect(benchmark.queryCount).toBe(65);
 

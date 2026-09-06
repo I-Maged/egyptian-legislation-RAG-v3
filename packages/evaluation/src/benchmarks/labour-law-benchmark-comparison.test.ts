@@ -14,7 +14,8 @@ import {
   OllamaEmbeddingProvider,
 } from "@egyptian-law/ingestion";
 
-import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
+// import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
+import { buildLabourLawGoldDatasetCorrected } from "../datasets/labour-law-gold-corrections";
 
 import { runRetrievalBenchmark } from "./retrieval-benchmark";
 
@@ -89,7 +90,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)("Labour Law retrieval benchmark", () => {
 
     expect(embeddingArtifact.dimensions).toBeGreaterThan(0);
 
-    const gold = buildLabourLawGoldDataset(corpus);
+    const gold = buildLabourLawGoldDatasetCorrected(corpus);
 
     expect(gold.items).toHaveLength(65);
 
@@ -182,7 +183,8 @@ describe.skipIf(!RUN_REAL_BENCHMARK)("Labour Law retrieval benchmark", () => {
       includeMrr: true,
     });
 
-    expect(benchmark.datasetName).toBe("labour-law-retrieval-v1");
+    // expect(benchmark.datasetName).toBe("labour-law-retrieval-v1");
+    expect(benchmark.datasetName).toBe("labour-law-retrieval-v1-corrected");
 
     expect(benchmark.queryCount).toBe(65);
 

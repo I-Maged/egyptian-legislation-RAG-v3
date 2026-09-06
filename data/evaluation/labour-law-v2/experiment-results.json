@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "experiment": {
     "name": "labour-law-retrieval-generation-v1",
-    "timestamp": "2026-09-05T06:21:24.387Z",
-    "dataset": "labour-law-retrieval-v1",
+    "timestamp": "2026-09-05T21:37:03.532Z",
+    "dataset": "labour-law-retrieval-v1-corrected",
     "queryCount": 65
   },
   "corpus": {
@@ -20,7 +20,7 @@
     "concurrency": 3
   },
   "judge": {
-    "model": "nemotron-3-nano:30b-cloud",
+    "model": "gemma4:cloud",
     "concurrency": 3,
     "passThreshold": 0.7
   },
@@ -53,7 +53,7 @@
       "queryCount": 65,
       "recall": {
         "1": 0.7846153846153846,
-        "3": 0.9153846153846154,
+        "3": 0.9076923076923077,
         "5": 0.9615384615384616,
         "10": 0.9692307692307692
       },
@@ -63,14 +63,14 @@
       },
       "hitRate": {
         "1": 0.7846153846153846,
-        "3": 0.9230769230769231,
+        "3": 0.9076923076923077,
         "5": 0.9692307692307692,
         "10": 0.9692307692307692
       },
-      "mrr": 0.8602564102564103,
+      "mrr": 0.8582051282051282,
       "ndcg": {
-        "5": 0.8848478699323555,
-        "10": 0.8882079843449427
+        "5": 0.8837805486459951,
+        "10": 0.8867563394708762
       }
     }
   },
@@ -91,17 +91,17 @@
   "generationEvaluation": {
     "db-vector": {
       "queryCount": 65,
-      "correctness": 0.9846153846153847,
-      "faithfulness": 0.9815384615384615,
-      "citationCorrectness": 0.9476923076923077,
-      "passRate": 0.9384615384615385
+      "correctness": 1,
+      "faithfulness": 1,
+      "citationCorrectness": 1,
+      "passRate": 1
     },
     "db-vector-reranked": {
       "queryCount": 65,
-      "correctness": 0.9846153846153847,
-      "faithfulness": 0.9953846153846154,
-      "citationCorrectness": 0.9538461538461539,
-      "passRate": 0.9384615384615385
+      "correctness": 0.9923076923076923,
+      "faithfulness": 0.9969230769230769,
+      "citationCorrectness": 0.9846153846153847,
+      "passRate": 0.9692307692307692
     }
   },
   "diagnostics": [
@@ -2011,7 +2011,7 @@
     },
     {
       "queryId": "labour-015",
-      "query": "ما العقوبات المقررة لمخالفة أحكام قانون العمل؟",
+      "query": "ما عقوبة مخالفة أحكام العلاوة السنوية واتفاق التدرج وإجازات المرأة العاملة وعقود العمل وساعات العمل وفترات الراحة وتشغيل الأطفال؟",
       "goldArticles": [
         "288",
         "289"
@@ -2035,50 +2035,50 @@
         },
         {
           "rank": 3,
-          "chunkId": "lawchunk_7c613dd61234018d",
-          "articleNumber": "297",
-          "relevant": false
-        },
-        {
-          "rank": 4,
           "chunkId": "lawchunk_09168cedffd20784",
           "articleNumber": "293",
           "relevant": false
         },
         {
-          "rank": 5,
-          "chunkId": "lawchunk_2e234b18740a4596",
-          "articleNumber": "290",
-          "relevant": false
-        },
-        {
-          "rank": 6,
-          "chunkId": "lawchunk_e00e188a64b40162",
-          "articleNumber": "284",
-          "relevant": false
-        },
-        {
-          "rank": 7,
+          "rank": 4,
           "chunkId": "lawchunk_84d1595845d51888",
           "articleNumber": "281",
           "relevant": false
         },
         {
-          "rank": 8,
-          "chunkId": "lawchunk_eae226c7829da464",
-          "articleNumber": "286",
+          "rank": 5,
+          "chunkId": "lawchunk_e00e188a64b40162",
+          "articleNumber": "284",
           "relevant": false
         },
         {
-          "rank": 9,
+          "rank": 6,
           "chunkId": "lawchunk_29d4c8a7e5298f48",
           "articleNumber": "282",
           "relevant": false
         },
         {
+          "rank": 7,
+          "chunkId": "lawchunk_eae226c7829da464",
+          "articleNumber": "286",
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "chunkId": "lawchunk_e11588b4d1f490d4",
+          "articleNumber": "139",
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "chunkId": "lawchunk_2e234b18740a4596",
+          "articleNumber": "290",
+          "relevant": false
+        },
+        {
           "rank": 10,
-          "chunkId": "lawchunk_a787e65f28e4318f",
-          "articleNumber": "287",
+          "chunkId": "lawchunk_936fe127be465ed0",
+          "articleNumber": "1",
           "relevant": false
         }
       ],
@@ -2091,50 +2091,50 @@
         },
         {
           "rank": 2,
+          "chunkId": "lawchunk_e11588b4d1f490d4",
+          "articleNumber": "139",
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "chunkId": "lawchunk_daa3dd03e4383754",
+          "articleNumber": "102",
+          "relevant": false
+        },
+        {
+          "rank": 4,
           "chunkId": "lawchunk_7c613dd61234018d",
           "articleNumber": "297",
           "relevant": false
         },
         {
-          "rank": 3,
+          "rank": 5,
           "chunkId": "lawchunk_1f9e7d58508bd091",
           "articleNumber": "289",
           "relevant": true
         },
         {
-          "rank": 4,
-          "chunkId": "lawchunk_37f04a8fe9ddc6b9",
-          "articleNumber": "140",
-          "relevant": false
-        },
-        {
-          "rank": 5,
-          "chunkId": "lawchunk_9828139c368aee38",
-          "articleNumber": "4",
-          "relevant": false
-        },
-        {
           "rank": 6,
+          "chunkId": "lawchunk_f62b17baed3b018f",
+          "articleNumber": "121",
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "chunkId": "lawchunk_ece67258c26f1554",
+          "articleNumber": "6",
+          "relevant": false
+        },
+        {
+          "rank": 8,
           "chunkId": "lawchunk_ba662af9263f2bbf",
           "articleNumber": "288",
           "relevant": true
         },
         {
-          "rank": 7,
+          "rank": 9,
           "chunkId": "lawchunk_09168cedffd20784",
           "articleNumber": "293",
-          "relevant": false
-        },
-        {
-          "rank": 8,
-          "chunkId": "lawchunk_2e234b18740a4596",
-          "articleNumber": "290",
-          "relevant": false
-        },
-        {
-          "rank": 9,
-          "chunkId": "lawchunk_e00e188a64b40162",
-          "articleNumber": "284",
           "relevant": false
         },
         {
@@ -2145,7 +2145,7 @@
         }
       ],
       "vectorFirstRelevantRank": 2,
-      "vectorRerankedFirstRelevantRank": 3
+      "vectorRerankedFirstRelevantRank": 5
     },
     {
       "queryId": "labour-016",

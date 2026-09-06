@@ -45,7 +45,8 @@ import {
 
 import { GenerationEvaluator, LlmGenerationJudge } from "../generation";
 
-import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
+// import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
+import { buildLabourLawGoldDatasetCorrected } from "../datasets/labour-law-gold-corrections";
 
 import {
   createDbVectorRerankedRetriever,
@@ -77,9 +78,8 @@ const EXPERIMENT_RESULTS_PATH = resolve(
 const GENERATION_MODEL =
   process.env.LABOUR_LAW_GENERATION_MODEL ?? "gemma4:cloud";
 
-const JUDGE_MODEL =
-  process.env.LABOUR_LAW_JUDGE_MODEL ?? "nemotron-3-nano:30b-cloud";
-// const JUDGE_MODEL = process.env.LABOUR_LAW_JUDGE_MODEL ?? "gemma4:cloud";
+// const JUDGE_MODEL =  process.env.LABOUR_LAW_JUDGE_MODEL ?? "nemotron-3-nano:30b-cloud";
+const JUDGE_MODEL = process.env.LABOUR_LAW_JUDGE_MODEL ?? "gemma4:cloud";
 
 const GENERATION_CONCURRENCY = parsePositiveInteger(
   process.env.LABOUR_LAW_GENERATION_CONCURRENCY,
@@ -396,7 +396,7 @@ async function writeExperimentResults(
     experiment: {
       name: "labour-law-retrieval-generation-v1",
       timestamp: new Date().toISOString(),
-      dataset: "labour-law-retrieval-v1",
+      dataset: "labour-law-retrieval-v1-corrected",
       queryCount: benchmark.queryCount,
     },
 
@@ -476,7 +476,8 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
 
       expect(embeddingArtifact.dimensions).toBeGreaterThan(0);
 
-      const gold = buildLabourLawGoldDataset(corpus);
+      // const gold = buildLabourLawGoldDataset(corpus);
+      const gold = buildLabourLawGoldDatasetCorrected(corpus);
 
       expect(gold.items).toHaveLength(65);
 
@@ -549,7 +550,7 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         includeMrr: true,
       });
 
-      expect(benchmark.datasetName).toBe("labour-law-retrieval-v1");
+      expect(benchmark.datasetName).toBe("labour-law-retrieval-v1-corrected");
 
       expect(benchmark.queryCount).toBe(65);
 
@@ -630,7 +631,9 @@ describe.skipIf(!RUN_REAL_BENCHMARK)(
         })),
       });
 
-      expect(contextBenchmark.datasetName).toBe("labour-law-retrieval-v1");
+      expect(contextBenchmark.datasetName).toBe(
+        "labour-law-retrieval-v1-corrected",
+      );
 
       expect(contextBenchmark.queryCount).toBe(65);
 

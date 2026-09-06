@@ -4,7 +4,8 @@ import { resolve } from "node:path";
 import type { CanonicalCorpus } from "@egyptian-law/core";
 import { getRagService } from "@egyptian-law/rag";
 
-import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
+// import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
+import { buildLabourLawGoldDatasetCorrected } from "../datasets/labour-law-gold-corrections";
 import type { RagasEvaluationDataset, RagasEvaluationRecord } from "./types";
 
 const CORPUS_PATH = resolve(
@@ -48,7 +49,7 @@ function parsePositiveInteger(
 
 async function main(): Promise<void> {
   const corpus = await readJsonFile<CanonicalCorpus>(CORPUS_PATH);
-  const gold = buildLabourLawGoldDataset(corpus);
+  const gold = buildLabourLawGoldDatasetCorrected(corpus);
 
   const chunkById = new Map(corpus.chunks.map((chunk) => [chunk.id, chunk]));
 
