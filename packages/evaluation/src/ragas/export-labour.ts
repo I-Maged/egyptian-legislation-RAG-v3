@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 import type { CanonicalCorpus } from "@egyptian-law/core";
-import { getRagService } from "@egyptian-law/rag";
+import { getRagService, serializeRagContextDocument } from "@egyptian-law/rag";
 
 // import { buildLabourLawGoldDataset } from "../datasets/labour-law-gold";
 import { buildLabourLawGoldDatasetCorrected } from "../datasets/labour-law-gold-corrections";
@@ -16,13 +16,13 @@ const CORPUS_PATH = resolve(
 const OUTPUT_PATH = resolve(
   process.cwd(),
   process.env.RAGAS_DATASET_PATH ??
-    "data/evaluation/labour-law-v2/ragas-dataset.json",
+    "data/evaluation/labour-law-v3/ragas-dataset.json",
 );
 
 const LAW_DOCUMENT_ID =
   process.env.LABOUR_LAW_DOCUMENT_ID ?? "lawdoc_04ec12b4c4f7e3a6";
 
-const TOP_K = parsePositiveInteger(process.env.RAGAS_TOP_K, 5);
+const TOP_K = parsePositiveInteger(process.env.RAGAS_TOP_K, 10);
 const CANDIDATE_TOP_K = parsePositiveInteger(
   process.env.RAGAS_CANDIDATE_TOP_K,
   Math.max(TOP_K * 4, TOP_K),
@@ -88,8 +88,11 @@ async function main(): Promise<void> {
       user_input: item.query,
       response: response.answer,
 
+      // Keep RAGAS context identical to the serialized context supplied to
+      // the generation model. This intentionally preserves law identity,
+      // article metadata, hierarchy, citation marker, and legal text.
       retrieved_contexts: response.context.documents.map(
-        (document) => document.text,
+        serializeRagContextDocument,
       ),
       retrieved_context_ids: response.retrieved.map(
         (retrieved) => retrieved.chunk.id,
@@ -115,7 +118,7 @@ async function main(): Promise<void> {
   const dataset: RagasEvaluationDataset = {
     schema_version: "1.0",
     evaluator: "ragas",
-    dataset_name: "labour-law-ragas-v1",
+    dataset_name: "labour-law-ragas-v2-context-aligned-top10",
     language: "ar",
     jurisdiction: "EG",
     metrics: [

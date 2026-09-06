@@ -48,6 +48,33 @@ const DEFAULT_SYSTEM_PROMPT = `
 استخدم أرقام المصادر [1]، [2]، إلخ عند الاستناد إلى النصوص.
 `.trim();
 
+export function serializeRagContextDocument(
+  document: RagResponse["context"]["documents"][number],
+): string {
+  const hierarchy =
+    document.hierarchy.length > 0
+      ? `التصنيف: ${document.hierarchy.join(" > ")}`
+      : null;
+
+  const articleTitle = document.articleTitle
+    ? `عنوان المادة: ${document.articleTitle}`
+    : null;
+
+  return [
+    document.citationId,
+    `القانون: ${document.lawName}`,
+    `رقم القانون: ${document.lawNumber ?? "غير محدد"}`,
+    `السنة: ${document.year ?? "غير محددة"}`,
+    `المادة: ${document.articleNumber}`,
+    articleTitle,
+    hierarchy,
+    "النص:",
+    document.text,
+  ]
+    .filter(Boolean)
+    .join("\n");
+}
+
 function buildContext(retrieved: RagRetrievalResult[]): {
   documents: RagResponse["context"]["documents"];
   text: string;
@@ -82,30 +109,7 @@ function buildContext(retrieved: RagRetrievalResult[]): {
   });
 
   const text = documents
-    .map((document) => {
-      const hierarchy =
-        document.hierarchy.length > 0
-          ? `التصنيف: ${document.hierarchy.join(" > ")}`
-          : null;
-
-      const articleTitle = document.articleTitle
-        ? `عنوان المادة: ${document.articleTitle}`
-        : null;
-
-      return [
-        document.citationId,
-        `القانون: ${document.lawName}`,
-        `رقم القانون: ${document.lawNumber ?? "غير محدد"}`,
-        `السنة: ${document.year ?? "غير محددة"}`,
-        `المادة: ${document.articleNumber}`,
-        articleTitle,
-        hierarchy,
-        "النص:",
-        document.text,
-      ]
-        .filter(Boolean)
-        .join("\n");
-    })
+    .map(serializeRagContextDocument)
     .join("\n\n------------------------------\n\n");
 
   return {

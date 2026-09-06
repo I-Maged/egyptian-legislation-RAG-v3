@@ -532,7 +532,7 @@ def main() -> None:
         "--dataset",
         default=(
             "data/evaluation/"
-            "labour-law-v2/ragas-dataset.json"
+            "labour-law-v3/ragas-dataset.json"
         ),
     )
 
@@ -540,7 +540,7 @@ def main() -> None:
         "--output",
         default=(
             "data/evaluation/"
-            "labour-law-v2/"
+            "labour-law-v3/"
             "ragas-faithfulness-diagnostics.json"
         ),
     )

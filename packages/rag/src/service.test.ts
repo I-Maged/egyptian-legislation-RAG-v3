@@ -10,6 +10,7 @@ import type { LawChunk } from "@egyptian-law/core";
 
 import {
   createRagService,
+  serializeRagContextDocument,
   type RagRetriever,
   type RagRetrievalResult,
 } from "./index";
@@ -102,6 +103,25 @@ function createGenerationProvider(
 }
 
 describe("createRagService", () => {
+  it("serializes context documents with the same metadata used for generation", () => {
+    const retriever = createRetriever([createRetrievalResult()]);
+    const generationProvider = createGenerationProvider();
+    const service = createRagService(retriever, generationProvider);
+
+    return service.answer({ query: "ما هي المادة الأولى؟" }).then((response) => {
+      const document = response.context.documents[0];
+      expect(document).toBeDefined();
+      const serialized = serializeRagContextDocument(document!);
+
+      expect(response.context.text).toBe(serialized);
+      expect(serialized).toContain("القانون: قانون العمل");
+      expect(serialized).toContain("رقم القانون: 148");
+      expect(serialized).toContain("السنة: 2019");
+      expect(serialized).toContain("المادة: 1");
+      expect(serialized).toContain("النص:\nالنص القانوني للمادة الأولى.");
+    });
+  });
+
   it("retrieves context and generates an answer", async () => {
     const retrievalResult = createRetrievalResult();
 

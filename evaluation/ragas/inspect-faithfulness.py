@@ -7,7 +7,7 @@ from pathlib import Path
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Inspect low-faithfulness RAGAS claims.")
-    parser.add_argument("--input", default="data/evaluation/labour-law-v2/ragas-faithfulness-diagnostics.json")
+    parser.add_argument("--input", default="data/evaluation/labour-law-v3/ragas-faithfulness-diagnostics.json")
     parser.add_argument("--threshold", type=float, default=None)
     args = parser.parse_args()
 

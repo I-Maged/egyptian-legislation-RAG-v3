@@ -70,7 +70,7 @@ const EMBEDDING_ARTIFACT_PATH = resolve(
 
 const EXPERIMENT_RESULTS_PATH = resolve(
   process.cwd(),
-  "data/evaluation/labour-law-v2/experiment-results.json",
+  "data/evaluation/labour-law-v3/experiment-results.json",
 );
 
 // const GENERATION_MODEL =
@@ -441,7 +441,7 @@ async function writeExperimentResults(
     })),
   };
 
-  await mkdir(resolve(process.cwd(), "data/evaluation/labour-law"), {
+  await mkdir(resolve(process.cwd(), "data/evaluation/labour-law-v3"), {
     recursive: true,
   });
 

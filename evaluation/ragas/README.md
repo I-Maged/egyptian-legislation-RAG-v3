@@ -68,5 +68,17 @@ python evaluation/ragas/run.py --concurrency 3
 Results are written to:
 
 ```text
-data/evaluation/labour-law-v2/ragas-results.json
+data/evaluation/labour-law-v3/ragas-results.json
+```
+
+Claim-level faithfulness diagnostics can be generated with:
+
+```bash
+npm run ragas:diagnose-faithfulness
+```
+
+They are written to:
+
+```text
+data/evaluation/labour-law-v3/ragas-faithfulness-diagnostics.json
 ```
