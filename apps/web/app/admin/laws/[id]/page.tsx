@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getLawDocument } from "@egyptian-law/db";
 
-import { saveChunk, updateLaw } from "@/app/admin/laws/actions";
+import { addArticle, saveChunk, updateLaw } from "@/app/admin/laws/actions";
 
 
 export default async function LawPage({
@@ -46,6 +46,14 @@ export default async function LawPage({
       </form>
 
       <hr className="admin-divider" />
+
+      <h2>إضافة مادة جديدة</h2>
+      <form action={addArticle.bind(null, id)} className="article-editor">
+        <label>Article<input name="articleNumber" required /></label>
+        <label>Title<input name="articleTitle" /></label>
+        <label>Text<textarea name="text" rows={10} className="article-textarea" required /></label>
+        <button type="submit">Add article</button>
+      </form>
 
       <h2>Articles ({law.chunks.length})</h2>
 

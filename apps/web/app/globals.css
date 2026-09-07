@@ -1009,3 +1009,13 @@ button {
     z-index: 20;
   }
 }
+
+
+.suggestions-main { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+.suggestion-form { display: grid; gap: 1rem; margin: 2rem 0; }
+.suggestion-form label, .article-editor label { display: grid; gap: .4rem; }
+.suggestion-form input, .suggestion-form select, .suggestion-form textarea, .suggestion-review-actions input { width: 100%; padding: .65rem; }
+.suggestion-review-card { border: 1px solid #ddd; border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+.suggestion-proposed-text { white-space: pre-wrap; font-family: inherit; padding: 1rem; background: #f7f7f7; border-radius: 8px; }
+.suggestion-review-actions { display: flex; gap: .75rem; align-items: center; margin-top: 1rem; }
+.suggestion-review-actions form:last-child { display: flex; gap: .5rem; flex: 1; }

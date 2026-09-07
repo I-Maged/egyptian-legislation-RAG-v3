@@ -44,3 +44,5 @@ export * from "./repositories/analytics.repository";
 export * from "./repositories/feedback.repository";
 
 export * from "./repositories/admin-stats.repository";
+
+export * from "./repositories/hitl.repository";

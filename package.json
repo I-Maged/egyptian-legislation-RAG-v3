@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "pretypecheck": "npm run prisma:generate --workspace @egyptian-law/db",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "recover": "npm run build && node dist/index.js",
     "test": "vitest",

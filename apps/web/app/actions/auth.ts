@@ -6,7 +6,6 @@ import { prisma } from "@egyptian-law/db";
 
 import { hashPassword, verifyPassword } from "@/lib/auth/password";
 import { clearSessionCookie, createSessionCookie } from "@/lib/auth/session";
-import type { UserRoleName } from "@/lib/auth/types";
 
 export type AuthState = {
   error: string;
@@ -20,15 +19,6 @@ function normalizeEmail(formData: FormData): string {
   return String(formData.get("email") ?? "").trim().toLowerCase();
 }
 
-function readRole(formData: FormData): UserRoleName | null {
-  const role = String(formData.get("role") ?? "");
-
-  if (role !== "USER" && role !== "ADMIN") {
-    return null;
-  }
-
-  return role;
-}
 
 export async function signIn(
   _prevState: AuthState,
@@ -68,9 +58,7 @@ export async function signUp(
   const name = String(formData.get("name") ?? "").trim();
   const email = normalizeEmail(formData);
   const password = String(formData.get("password") ?? "");
-  const role = readRole(formData);
-
-  if (!name || !email || !password || !role) {
+  if (!name || !email || !password) {
     return { error: MANDATORY_FIELDS_ERROR };
   }
 
@@ -89,7 +77,7 @@ export async function signUp(
       email,
       passwordHash: await hashPassword(password),
       name,
-      role,
+      role: "USER",
     },
     select: { id: true, role: true },
   });

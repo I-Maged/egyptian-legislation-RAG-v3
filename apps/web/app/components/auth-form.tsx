@@ -130,16 +130,6 @@ export default function AuthForm() {
             />
           </label>
 
-          <label className="auth-field">
-            الدور
-            <select name="role" required defaultValue="" className="auth-select">
-              <option value="" disabled>
-                اختر الدور
-              </option>
-              <option value="USER">مستخدم</option>
-              <option value="ADMIN">مسؤول</option>
-            </select>
-          </label>
 
           <button type="submit" className="auth-submit" disabled={isSigningUp}>
             {isSigningUp ? "جارٍ إنشاء الحساب..." : "إنشاء الحساب"}

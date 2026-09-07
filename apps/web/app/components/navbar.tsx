@@ -133,6 +133,12 @@ export default function Navbar() {
             محادثة جديدة
           </Link>
         )}
+        {user?.role === "ADMIN" && (
+          <Link href="/admin/suggestions" className="auth-btn auth-btn--secondary">مراجعة الاقتراحات</Link>
+        )}
+        {user?.role === "USER" && (
+          <Link href="/suggestions" className="auth-btn auth-btn--secondary">اقتراح تعديل</Link>
+        )}
         {user ? (
           <>
             <span className="nav-user" title={user.email}>

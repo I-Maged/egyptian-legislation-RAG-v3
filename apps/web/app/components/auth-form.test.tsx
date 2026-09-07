@@ -40,17 +40,17 @@ describe("AuthForm", () => {
     await user.click(screen.getByRole("tab", { name: "إنشاء حساب" }));
 
     expect(screen.getByLabelText("الاسم")).toBeInTheDocument();
-    expect(screen.getByLabelText("الدور")).toBeInTheDocument();
+    // expect(screen.getByLabelText("الدور")).toBeInTheDocument();
 
-    const roleSelect = screen.getByLabelText("الدور");
+    // const roleSelect = screen.getByLabelText("الدور");
 
-    expect(roleSelect).toHaveValue("");
-    expect(roleSelect).toContainElement(
-      screen.getByRole("option", { name: "مستخدم" }),
-    );
-    expect(roleSelect).toContainElement(
-      screen.getByRole("option", { name: "مسؤول" }),
-    );
+    // expect(roleSelect).toHaveValue("");
+    // expect(roleSelect).toContainElement(
+    //   screen.getByRole("option", { name: "مستخدم" }),
+    // );
+    // expect(roleSelect).toContainElement(
+    //   screen.getByRole("option", { name: "مسؤول" }),
+    // );
   });
 
   it("marks every field as mandatory", async () => {
@@ -64,7 +64,7 @@ describe("AuthForm", () => {
 
     await user.click(screen.getByRole("tab", { name: "إنشاء حساب" }));
 
-    for (const label of ["الاسم", "البريد الإلكتروني", "كلمة المرور", "الدور"]) {
+    for (const label of ["الاسم", "البريد الإلكتروني", "كلمة المرور"]) {
       expect(screen.getByLabelText(label)).toBeRequired();
     }
   });

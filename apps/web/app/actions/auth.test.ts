@@ -133,7 +133,6 @@ describe("signUp", () => {
         name: "",
         email: "new@example.com",
         password: "secret",
-        role: "USER",
       }),
     );
 
@@ -141,19 +140,24 @@ describe("signUp", () => {
     expect(mockedCreate).not.toHaveBeenCalled();
   });
 
-  it("rejects an invalid role value", async () => {
-    const result = await signUp(
-      null,
-      formData({
-        name: "Ali",
-        email: "new@example.com",
-        password: "secret",
-        role: "SUPERADMIN",
-      }),
-    );
+  it("cannot self-elevate by submitting an ADMIN role", async () => {
+    mockedFindUnique.mockResolvedValueOnce(null);
+    mockedCreate.mockResolvedValueOnce({ id: "user-3", role: "USER" } as never);
 
-    expect(result).toEqual({ error: "جميع الحقول مطلوبة." });
-    expect(mockedCreate).not.toHaveBeenCalled();
+    await expect(
+      signUp(
+        null,
+        formData({
+          name: "Ali",
+          email: "new@example.com",
+          password: "secret",
+          role: "ADMIN",
+        }),
+      ),
+    ).rejects.toThrow("NEXT_REDIRECT");
+
+    const createArgs = mockedCreate.mock.calls[0]![0];
+    expect(createArgs.data.role).toBe("USER");
   });
 
   it("rejects an already registered email", async () => {
@@ -165,7 +169,6 @@ describe("signUp", () => {
         name: "Ali",
         email: "taken@example.com",
         password: "secret",
-        role: "USER",
       }),
     );
 
@@ -186,8 +189,7 @@ describe("signUp", () => {
           name: "Ali",
           email: "New@Example.com",
           password: "secret",
-          role: "USER",
-        }),
+          }),
       ),
     ).rejects.toThrow("NEXT_REDIRECT");
 
