@@ -293,11 +293,21 @@ Reason: The provided context consists of legal articles; it does not contain a d
 ولا تمثل استشارة قانونية ملزمة.
 
 ============================================================
-EGYPTIAN LAW RAGAS EVALUATION
+EGYPTIAN PERSONAL AFFAIRS LAW RAGAS EVALUATION
 ============================================================
 Queries: 70
 Faithfulness: 0.9833
 Answer Relevancy: 0.8140
 Context Precision: 0.8954
 Context Relevance: 1.0000
+============================================================
+
+============================================================
+EGYPTIAN FINANCIAL LAW RAGAS EVALUATION
+============================================================
+Queries: 65
+Faithfulness: 0.9821
+Answer Relevancy: 0.8713
+Context Precision: 0.7959
+Context Relevance: 0.9808
 ============================================================
