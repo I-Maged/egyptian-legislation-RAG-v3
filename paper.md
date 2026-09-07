@@ -301,6 +301,14 @@ Answer Relevancy: 0.8140
 Context Precision: 0.8954
 Context Relevance: 1.0000
 ============================================================
+============================================================
+RAGAS PERSONAL AFFAIRS FAITHFULNESS CLAIM-LEVEL DIAGNOSTIC
+============================================================
+Queries: 70
+Faithfulness: 0.9833
+Low-faithfulness: 1
+Threshold: 0.60
+============================================================
 
 ============================================================
 EGYPTIAN FINANCIAL LAW RAGAS EVALUATION
@@ -310,4 +318,30 @@ Faithfulness: 0.9821
 Answer Relevancy: 0.8713
 Context Precision: 0.7959
 Context Relevance: 0.9808
+============================================================
+============================================================
+RAGAS FINANCIAL LAW FAITHFULNESS CLAIM-LEVEL DIAGNOSTIC
+============================================================
+Queries: 65
+Faithfulness: 0.9897
+Low-faithfulness: 1
+Threshold: 0.60
+============================================================
+
+============================================================
+EGYPTIAN LABOUR LAW RAGAS EVALUATION
+============================================================
+Queries: 65
+Faithfulness: 0.9765
+Answer Relevancy: 0.8588
+Context Precision: 0.8531
+Context Relevance: 0.9654
+============================================================
+============================================================
+RAGAS LABOUR LAW FAITHFULNESS CLAIM-LEVEL DIAGNOSTIC
+============================================================
+Queries: 65
+Faithfulness: 0.9867
+Low-faithfulness: 0
+Threshold: 0.60
 ============================================================
