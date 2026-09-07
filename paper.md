@@ -288,3 +288,16 @@ Statement: هذه الإجابة لا تمثل استشارة قانونية م�
 Reason: The provided context consists of legal articles; it does not contain a disclaimer stating that the answers provided are not binding legal advice.
 
 ====================================================================================================
+
+هذه الإجابة تم استخلاصها من النصوص القانونية المتاحة
+ولا تمثل استشارة قانونية ملزمة.
+
+============================================================
+EGYPTIAN LAW RAGAS EVALUATION
+============================================================
+Queries: 70
+Faithfulness: 0.9833
+Answer Relevancy: 0.8140
+Context Precision: 0.8954
+Context Relevance: 1.0000
+============================================================

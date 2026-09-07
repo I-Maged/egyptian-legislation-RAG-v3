@@ -3,7 +3,7 @@ import { describe, expect, it, vi } from "vitest";
 import type { LawChunk } from "@egyptian-law/core";
 
 import type { GenerationProvider } from "./provider";
-import { generateAnswer } from "./generate";
+import { generateAnswer, sanitizeGeneratedAnswer } from "./generate";
 import { GenerationProviderResponse } from "./provider";
 
 function createChunk(): LawChunk {
@@ -67,6 +67,38 @@ describe("generateAnswer", () => {
     expect(result.metadata.contextChunkCount).toBe(1);
     expect(result.metadata.citationCount).toBe(1);
     expect(result.metadata.latencyMs).toBeGreaterThanOrEqual(0);
+  });
+
+  it("removes model-added legal disclaimer boilerplate", async () => {
+    const provider: GenerationProvider = {
+      model: "test-model",
+      generate: vi.fn().mockResolvedValue({
+        answer: "ينص القانون على ذلك في المادة الأولى. [1]\n\nيرجى العلم أن هذه الإجابة مستمدة من النصوص القانونية المقدمة ولا تمثل استشارة قانونية ملزمة.",
+        metadata: { model: "test-model", durationMs: 10 },
+      }),
+    };
+
+    const result = await generateAnswer(provider, {
+      query: "ما هو الحكم؟",
+      chunks: [createChunk()],
+    });
+
+    expect(result.answer).toBe("ينص القانون على ذلك في المادة الأولى. [1]");
+    expect(result.citations).toHaveLength(1);
+  });
+
+  it("sanitizes only known trailing meta boilerplate", () => {
+    expect(
+      sanitizeGeneratedAnswer(
+        "الإجابة القانونية [1]\n\nهذه الإجابة لا تمثل استشارة قانونية ملزمة.",
+      ),
+    ).toBe("الإجابة القانونية [1]");
+
+    expect(
+      sanitizeGeneratedAnswer(
+        "النص القانوني ينص على الحكم المذكور [1].",
+      ),
+    ).toBe("النص القانوني ينص على الحكم المذكور [1].");
   });
 
   it("passes generation configuration to the provider", async () => {
