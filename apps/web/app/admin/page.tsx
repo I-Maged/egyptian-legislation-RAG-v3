@@ -21,11 +21,10 @@ export default async function AdminPage() {
     getFeedbackStats(),
   ]);
 
-  const { ragPerformance, retrievalQuality, usage, feedback, suggestions } =
-    stats;
+  const { ragPerformance, usage, feedback, suggestions } = stats;
 
   return (
-    <main className="admin-main">
+    <main dir="ltr" className="admin-main">
       <h1>Egyptian Law — Admin</h1>
 
       <p>Minimal HITL dashboard for corpus management.</p>
@@ -85,7 +84,7 @@ export default async function AdminPage() {
         </table>
       )}
 
-      <h2>Retrieval Quality</h2>
+      {/* <h2>Retrieval Quality</h2>
 
       <div className="stats-grid">
         <Stat label="Citations" value={retrievalQuality.totalCitations} />
@@ -128,7 +127,9 @@ export default async function AdminPage() {
 
             <tbody>
               {retrievalQuality.topLaws.map((law) => (
-                <tr key={`${law.lawName}-${law.lawNumber ?? ""}-${law.year ?? ""}`}>
+                <tr
+                  key={`${law.lawName}-${law.lawNumber ?? ""}-${law.year ?? ""}`}
+                >
                   <td>{law.lawName}</td>
                   <td>{law.lawNumber ?? "-"}</td>
                   <td>{law.year ?? "-"}</td>
@@ -138,7 +139,7 @@ export default async function AdminPage() {
             </tbody>
           </table>
         </>
-      )}
+      )} */}
 
       <h2>Usage</h2>
 
@@ -219,13 +220,7 @@ export default async function AdminPage() {
   );
 }
 
-function Stat({
-  label,
-  value,
-}: {
-  label: string;
-  value: number | string;
-}) {
+function Stat({ label, value }: { label: string; value: number | string }) {
   return (
     <div className="stat-card">
       <div className="stat-label">{label}</div>

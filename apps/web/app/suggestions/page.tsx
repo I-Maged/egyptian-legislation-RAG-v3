@@ -1,45 +1,24 @@
 import Link from "next/link";
-import { getSuggestionPageData, submitArticleSuggestion } from "@/app/actions/suggestions";
+import { getSuggestionPageData } from "@/app/actions/suggestions";
+import SuggestionForm, { type SuggestionLawOption } from "./suggestion-form";
 
 export default async function SuggestionsPage() {
   const { laws, suggestions } = await getSuggestionPageData();
+  const lawOptions: SuggestionLawOption[] = laws.map((law) => ({
+    id: law.id,
+    lawName: law.lawName,
+    lawNumber: law.lawNumber ?? null,
+    chunks: law.chunks.map((chunk) => ({
+      id: chunk.id,
+      articleNumber: chunk.articleNumber,
+      articleTitle: chunk.articleTitle ?? null,
+    })),
+  }));
   return (
     <main className="suggestions-main">
       <h1>اقتراح تعديل أو إضافة مادة</h1>
       <p>يمكن للمستخدم المسجل اقتراح تعديل مادة موجودة أو إضافة مادة إلى قانون موجود. لا يصبح التعديل فعالاً في البحث إلا بعد مراجعته واعتماده من المسؤول.</p>
-      <form action={submitArticleSuggestion} className="suggestion-form">
-        <label>نوع الاقتراح
-          <select name="type" defaultValue="EDIT_ARTICLE" required>
-            <option value="EDIT_ARTICLE">تعديل مادة موجودة</option>
-            <option value="ADD_ARTICLE">إضافة مادة</option>
-          </select>
-        </label>
-        <label>القانون
-          <select name="lawDocumentId" required defaultValue="">
-            <option value="" disabled>اختر القانون</option>
-            {laws.map((law) => <option key={law.id} value={law.id}>{law.lawName}{law.lawNumber ? ` — ${law.lawNumber}` : ""}</option>)}
-          </select>
-        </label>
-        <label>المادة المراد تعديلها <span>(للتعديل)</span>
-          <select name="lawChunkId" defaultValue="">
-            <option value="">— إضافة مادة جديدة —</option>
-            {laws.flatMap((law) => law.chunks.map((chunk) => <option key={chunk.id} value={chunk.id}>{law.lawName} — مادة {chunk.articleNumber}</option>))}
-          </select>
-        </label>
-        <label>رقم المادة
-          <input name="articleNumber" required placeholder="مثال: 45" />
-        </label>
-        <label>عنوان المادة <span>(اختياري)</span>
-          <input name="articleTitle" />
-        </label>
-        <label>النص المقترح
-          <textarea name="proposedText" required rows={12} />
-        </label>
-        <label>سبب الاقتراح
-          <textarea name="reason" required rows={5} />
-        </label>
-        <button type="submit">إرسال الاقتراح</button>
-      </form>
+      <SuggestionForm laws={lawOptions} />
       <section>
         <h2>اقتراحاتي السابقة</h2>
         {suggestions.length === 0 ? <p>لا توجد اقتراحات بعد.</p> : (

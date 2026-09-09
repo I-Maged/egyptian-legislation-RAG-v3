@@ -101,9 +101,7 @@ export default function Navbar() {
         <div className="brand-mark">ق</div>
         <div>
           <div className="brand-title">المساعد القانوني المصري</div>
-          <div className="brand-subtitle">
-            محادثة تجريبية للتشريعات المصرية
-          </div>
+          <div className="brand-subtitle">محادثة تجريبية للتشريعات المصرية</div>
         </div>
       </div>
       <div className="nav-actions">
@@ -134,10 +132,22 @@ export default function Navbar() {
           </Link>
         )}
         {user?.role === "ADMIN" && (
-          <Link href="/admin/suggestions" className="auth-btn auth-btn--secondary">مراجعة الاقتراحات</Link>
+          <Link
+            href="/admin/suggestions"
+            className="auth-btn auth-btn--secondary"
+          >
+            مراجعة الاقتراحات
+          </Link>
+        )}
+        {user?.role === "ADMIN" && (
+          <Link href="/admin" className="auth-btn auth-btn--secondary">
+            احصاءات
+          </Link>
         )}
         {user?.role === "USER" && (
-          <Link href="/suggestions" className="auth-btn auth-btn--secondary">اقتراح تعديل</Link>
+          <Link href="/suggestions" className="auth-btn auth-btn--secondary">
+            اقتراح تعديل
+          </Link>
         )}
         {user ? (
           <>

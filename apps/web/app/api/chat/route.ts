@@ -47,9 +47,7 @@ export async function POST(request: Request) {
     }
 
     const requestedConversationId =
-      typeof body.conversationId === "string"
-        ? body.conversationId.trim()
-        : "";
+      typeof body.conversationId === "string" ? body.conversationId.trim() : "";
 
     let conversationId: string;
 

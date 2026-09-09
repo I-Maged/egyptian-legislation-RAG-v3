@@ -9,14 +9,14 @@ type Mode = "signin" | "signup";
 export default function AuthForm() {
   const [mode, setMode] = useState<Mode>("signin");
 
-  const [signInState, doSignIn, isSigningIn] = useActionState<AuthState, FormData>(
-    signIn,
-    null,
-  );
-  const [signUpState, doSignUp, isSigningUp] = useActionState<AuthState, FormData>(
-    signUp,
-    null,
-  );
+  const [signInState, doSignIn, isSigningIn] = useActionState<
+    AuthState,
+    FormData
+  >(signIn, null);
+  const [signUpState, doSignUp, isSigningUp] = useActionState<
+    AuthState,
+    FormData
+  >(signUp, null);
 
   function guardEmptyFields(event: FormEvent<HTMLFormElement>) {
     const form = event.currentTarget;
@@ -66,6 +66,7 @@ export default function AuthForm() {
           <label className="auth-field">
             البريد الإلكتروني
             <input
+              dir="ltr"
               type="email"
               name="email"
               required
@@ -77,6 +78,7 @@ export default function AuthForm() {
           <label className="auth-field">
             كلمة المرور
             <input
+              dir="ltr"
               type="password"
               name="password"
               required
@@ -111,6 +113,7 @@ export default function AuthForm() {
           <label className="auth-field">
             البريد الإلكتروني
             <input
+              dir="ltr"
               type="email"
               name="email"
               required
@@ -122,6 +125,7 @@ export default function AuthForm() {
           <label className="auth-field">
             كلمة المرور
             <input
+              dir="ltr"
               type="password"
               name="password"
               required
@@ -129,7 +133,6 @@ export default function AuthForm() {
               className="auth-input"
             />
           </label>
-
 
           <button type="submit" className="auth-submit" disabled={isSigningUp}>
             {isSigningUp ? "جارٍ إنشاء الحساب..." : "إنشاء الحساب"}

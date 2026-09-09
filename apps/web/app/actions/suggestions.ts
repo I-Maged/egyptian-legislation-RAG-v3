@@ -15,6 +15,7 @@ import {
 import { OllamaEmbeddingProvider } from "@egyptian-law/ingestion";
 
 import { getCurrentUser } from "@/lib/auth/session";
+import type { SuggestionFormState } from "../suggestions/suggestion-state";
 
 const embedder = new OllamaEmbeddingProvider({ model: "bge-m3", dimensions: 1024 });
 
@@ -30,7 +31,10 @@ async function requireAdmin() {
   return user;
 }
 
-export async function submitArticleSuggestion(formData: FormData) {
+export async function submitArticleSuggestion(
+  _prevState: SuggestionFormState,
+  formData: FormData,
+): Promise<SuggestionFormState> {
   const user = await requireUser();
   const type = String(formData.get("type") ?? "");
   const lawDocumentId = String(formData.get("lawDocumentId") ?? "").trim();
@@ -41,31 +45,36 @@ export async function submitArticleSuggestion(formData: FormData) {
   const reason = String(formData.get("reason") ?? "").trim();
 
   if ((type !== "EDIT_ARTICLE" && type !== "ADD_ARTICLE") || !lawDocumentId || !articleNumber || !proposedText || !reason) {
-    throw new Error("نوع الاقتراح والقانون ورقم المادة والنص والسبب مطلوبة.");
+    return { ok: false, error: "نوع الاقتراح والقانون ورقم المادة والنص والسبب مطلوبة." };
   }
 
   const law = await getLawDocument(lawDocumentId);
-  if (!law) throw new Error("القانون المحدد غير موجود.");
+  if (!law) return { ok: false, error: "القانون المحدد غير موجود." };
 
   if (type === "EDIT_ARTICLE") {
-    if (!lawChunkId) throw new Error("يجب تحديد المادة المراد تعديلها.");
+    if (!lawChunkId) return { ok: false, error: "يجب تحديد المادة المراد تعديلها من مواد القانون المختار." };
     const chunk = law.chunks.find((item) => item.id === lawChunkId);
-    if (!chunk) throw new Error("المادة المحددة لا تنتمي إلى القانون المختار.");
+    if (!chunk) return { ok: false, error: "المادة المحددة لا تنتمي إلى القانون المختار. حدث الصفحة وأعد اختيار القانون ثم المادة." };
   }
 
-  await createLawSuggestion({
-    userId: user.id,
-    type: type as "EDIT_ARTICLE" | "ADD_ARTICLE",
-    lawDocumentId,
-    ...(type === "EDIT_ARTICLE" ? { lawChunkId } : {}),
-    title: `${type === "EDIT_ARTICLE" ? "تعديل" : "إضافة"} المادة ${articleNumber}`,
-    reason,
-    proposedText,
-    proposedArticleNumber: articleNumber,
-    ...(articleTitle ? { proposedArticleTitle: articleTitle } : {}),
-  });
+  try {
+    await createLawSuggestion({
+      userId: user.id,
+      type: type as "EDIT_ARTICLE" | "ADD_ARTICLE",
+      lawDocumentId,
+      ...(type === "EDIT_ARTICLE" ? { lawChunkId } : {}),
+      title: `${type === "EDIT_ARTICLE" ? "تعديل" : "إضافة"} المادة ${articleNumber}`,
+      reason,
+      proposedText,
+      proposedArticleNumber: articleNumber,
+      ...(articleTitle ? { proposedArticleTitle: articleTitle } : {}),
+    });
+  } catch (error) {
+    console.error("submitArticleSuggestion failed", error);
+    return { ok: false, error: "تعذر حفظ الاقتراح. حاول مرة أخرى." };
+  }
 
-  redirect("/suggestions");
+  return { ok: true, created: true };
 }
 
 export async function approveArticleSuggestion(suggestionId: string) {

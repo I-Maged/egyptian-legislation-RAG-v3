@@ -1019,3 +1019,5 @@ button {
 .suggestion-proposed-text { white-space: pre-wrap; font-family: inherit; padding: 1rem; background: #f7f7f7; border-radius: 8px; }
 .suggestion-review-actions { display: flex; gap: .75rem; align-items: center; margin-top: 1rem; }
 .suggestion-review-actions form:last-child { display: flex; gap: .5rem; flex: 1; }
+.form-error { padding: .75rem 1rem; border-radius: 8px; background: #fdecea; color: #8f1d1d; border: 1px solid #f3b7b3; }
+.form-success { display: flex; gap: .75rem; align-items: center; justify-content: space-between; padding: .75rem 1rem; border-radius: 8px; background: #e7f6ec; color: #14532d; border: 1px solid #a9dfbd; }
