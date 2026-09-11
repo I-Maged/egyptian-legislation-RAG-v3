@@ -47,13 +47,6 @@ export class DbRagRetriever implements RagRetriever {
       throw new Error("Embedding provider returned no query embedding.");
     }
 
-    /*
-     * Stage 1:
-     * Retrieve a larger candidate set using vector similarity.
-     *
-     * No BM25.
-     * No hybrid retrieval.
-     */
     const vectorResults = await this.vectorRetriever.search(queryEmbedding, {
       topK: candidateTopK,
       ...(options.lawDocumentId !== undefined
@@ -67,11 +60,6 @@ export class DbRagRetriever implements RagRetriever {
       return [];
     }
 
-    /*
-     * Stage 2:
-     * Rerank the vector candidates using the existing
-     * lightweight BaselineReranker.
-     */
     const candidates: RerankCandidate[] = vectorResults.map((result) => ({
       chunk: result.chunk,
       score: result.score,
@@ -82,10 +70,6 @@ export class DbRagRetriever implements RagRetriever {
       topK,
     });
 
-    /*
-     * Stage 3:
-     * Convert the reranked results into the RAG retrieval contract.
-     */
     return reranked.map((result) => ({
       chunk: result.chunk,
 

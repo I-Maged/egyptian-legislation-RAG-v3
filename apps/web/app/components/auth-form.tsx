@@ -102,6 +102,7 @@ export default function AuthForm() {
           <label className="auth-field">
             الاسم
             <input
+              dir="ltr"
               type="text"
               name="name"
               required

@@ -23,12 +23,6 @@ export interface CreateChunkInput {
   sourcePageEnd?: number | null;
   sourceOrder?: number | null;
 
-  /**
-   * Prisma JSON input.
-   *
-   * null means explicitly store JSON null.
-   * undefined means do not provide the field on create/update.
-   */
   hierarchy?: Prisma.InputJsonValue | null;
 
   parserVersion?: string | null;

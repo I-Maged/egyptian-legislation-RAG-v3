@@ -5,7 +5,6 @@ import type { ParsedArticle, ParserOutput } from "../parser/types";
 import { reconstructPersonalAffairsArticles } from "./personal-affairs-reconstruction";
 import type { CanonicalCorpus } from "./types";
 
-/** Parser article shape used by the Personal Affairs canonicalizer. */
 export type PersonalAffairsParserArticle = ParsedArticle;
 
 export interface PersonalAffairsParserOutput {
@@ -30,11 +29,18 @@ function normalizePageNumber(page: number | null | undefined): number | null {
   return page;
 }
 
-function buildDocumentId(lawName: string, lawNumber: string, year: string): string {
+function buildDocumentId(
+  lawName: string,
+  lawNumber: string,
+  year: string,
+): string {
   return stableId("lawdoc", `${lawName}|${lawNumber}|${year}`);
 }
 
-function buildChunkId(documentId: string, article: PersonalAffairsParserArticle): string {
+function buildChunkId(
+  documentId: string,
+  article: PersonalAffairsParserArticle,
+): string {
   return stableId(
     "lawchunk",
     [
@@ -103,38 +109,36 @@ export function canonicalizePersonalAffairsLaw(
     },
   };
 
-  const chunks = normalized.articles.map((article) => ({
-    id: buildChunkId(documentId, article),
-    document_id: documentId,
-    law_name: article.lawName,
-    law_number: article.lawNumber,
-    year: article.year,
-    article_number: article.articleNumber,
-    article_title: null,
-    source_order: article.sourceOrder,
-    hierarchy: buildHierarchy(article.chapter),
-    text: article.text,
-    text_for_embedding: article.textForEmbedding,
-    provenance: {
-      source_file: SOURCE_FILE,
-      page_start: normalizePageNumber(article.pageStart),
-      page_end: normalizePageNumber(article.pageEnd),
-    },
-    metadata: {
-      parser_version: PARSER_VERSION,
-      normalization_version: NORMALIZATION_VERSION,
-      ocr_confidence: null,
-    },
-  } satisfies LawChunk));
+  const chunks = normalized.articles.map(
+    (article) =>
+      ({
+        id: buildChunkId(documentId, article),
+        document_id: documentId,
+        law_name: article.lawName,
+        law_number: article.lawNumber,
+        year: article.year,
+        article_number: article.articleNumber,
+        article_title: null,
+        source_order: article.sourceOrder,
+        hierarchy: buildHierarchy(article.chapter),
+        text: article.text,
+        text_for_embedding: article.textForEmbedding,
+        provenance: {
+          source_file: SOURCE_FILE,
+          page_start: normalizePageNumber(article.pageStart),
+          page_end: normalizePageNumber(article.pageEnd),
+        },
+        metadata: {
+          parser_version: PARSER_VERSION,
+          normalization_version: NORMALIZATION_VERSION,
+          ocr_confidence: null,
+        },
+      }) satisfies LawChunk,
+  );
 
   return { schema_version: "1.0", document, chunks };
 }
 
-/**
- * Canonicalize the complete multi-instrument Personal Affairs parser output.
- * Each legal instrument becomes its own CanonicalCorpus so that document
- * identity is never represented by the compilation-level null identity.
- */
 export function canonicalizePersonalAffairsBundle(
   input: ParserOutput | PersonalAffairsParserOutput,
 ): CanonicalCorpus[] {
@@ -143,8 +147,11 @@ export function canonicalizePersonalAffairsBundle(
   if (articles.length === 0) return [];
 
   if (!("instruments" in input)) {
-    const instrumentIds = [...new Set(articles.map((article) => article.instrumentId))];
-    if (instrumentIds.length <= 1) return [canonicalizePersonalAffairsLaw(input)];
+    const instrumentIds = [
+      ...new Set(articles.map((article) => article.instrumentId)),
+    ];
+    if (instrumentIds.length <= 1)
+      return [canonicalizePersonalAffairsLaw(input)];
     throw new Error(
       "Personal Affairs bundle canonicalization requires ParserOutput with instrument metadata when multiple instruments are present.",
     );
@@ -159,7 +166,8 @@ export function canonicalizePersonalAffairsBundle(
 
     if (instrumentArticles.length === 0) continue;
 
-    const reconstructed = reconstructPersonalAffairsArticles(instrumentArticles);
+    const reconstructed =
+      reconstructPersonalAffairsArticles(instrumentArticles);
 
     corpora.push(
       canonicalizePersonalAffairsLaw({

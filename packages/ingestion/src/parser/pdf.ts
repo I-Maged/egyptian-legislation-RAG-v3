@@ -272,13 +272,6 @@ export interface PdfRecoveryResult {
   }>;
 }
 
-/**
- * Profile-aware recovery for article numbers missing from the authoritative Qwen stream.
- * Recovery is deliberately conservative: a profile must opt in, the expected article
- * must have exactly one matching PDF anchor when required, and the extracted article
- * text must be non-empty. No recovery is attempted from the PDF text layer for profiles
- * that have disabled PDF recovery (e.g. Financial and the Personal Affairs compilation).
- */
 export function recoverMissingArticlesFromPdf(
   pages: PdfPage[],
   profile: LawProfile,

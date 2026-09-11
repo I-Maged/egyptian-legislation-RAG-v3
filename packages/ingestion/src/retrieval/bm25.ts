@@ -56,12 +56,6 @@ function normalizeArabic(text: string): string {
     .toLowerCase();
 }
 
-/**
- * Conservative tokenizer for Arabic legal text.
- *
- * We deliberately avoid stemming at this stage because Arabic legal
- * morphology can carry meaningful distinctions.
- */
 export function tokenizeArabic(text: string): string[] {
   const normalized = normalizeArabic(text);
 
@@ -115,8 +109,6 @@ export function createBm25Index(
 
     totalLength += tokens.length;
 
-    // Document frequency counts a term once per document,
-    // regardless of how many times it occurs in that document.
     for (const term of termFrequencies.keys()) {
       documentFrequency.set(term, (documentFrequency.get(term) ?? 0) + 1);
     }
@@ -158,7 +150,6 @@ export function scoreBm25(
     return 0;
   }
 
-  // Standard BM25 treats each query term once.
   const uniqueQueryTerms = new Set(queryTokens);
 
   let score = 0;

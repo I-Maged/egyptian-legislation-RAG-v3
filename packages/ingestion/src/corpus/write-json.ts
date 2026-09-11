@@ -15,7 +15,6 @@ export async function writeCanonicalCorpusJson(
   corpus: CanonicalCorpus,
   options: WriteCanonicalCorpusOptions = {},
 ): Promise<void> {
-  // Validate again at the persistence boundary.
   const validatedCorpus = validateCanonicalCorpus(corpus);
 
   await mkdir(dirname(filePath), {

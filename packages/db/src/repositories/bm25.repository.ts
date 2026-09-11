@@ -12,12 +12,6 @@ export interface Bm25SearchResult {
   score: number;
 }
 
-/**
- * Conservative Arabic stopword list.
- *
- * These words are common in natural-language questions but usually
- * provide little lexical retrieval value.
- */
 const ARABIC_STOPWORDS = new Set([
   "ما",
   "ماذا",
@@ -51,17 +45,6 @@ const ARABIC_STOPWORDS = new Set([
   "تكون",
 ]);
 
-/**
- * Tokenize a natural-language Arabic query into lexical terms.
- *
- * Example:
- *
- *   ما هي مدة فترة الاختبار في عقد العمل؟
- *
- * becomes:
- *
- *   ["مدة", "فترة", "الاختبار", "عقد", "العمل"]
- */
 function tokenizeQuery(query: string): string[] {
   return query
     .trim()
@@ -71,16 +54,6 @@ function tokenizeQuery(query: string): string[] {
     .filter((token) => !ARABIC_STOPWORDS.has(token));
 }
 
-/**
- * Build the value passed to PostgreSQL to_tsquery().
- *
- * PostgreSQL's `to_tsquery` supports the `|` operator for OR:
- *
- *   مدة | فترة | الاختبار | عقد | العمل
- *
- * The individual terms have already been stripped of characters
- * that could be interpreted as tsquery operators.
- */
 function buildOrTsQuery(query: string): string {
   const terms = tokenizeQuery(query);
 
@@ -102,15 +75,6 @@ export async function searchBm25(
 
   const lexicalQuery = buildOrTsQuery(query);
 
-  /**
-   * The query may consist entirely of stopwords.
-   *
-   * Example:
-   *
-   *   "ما هي"
-   *
-   * produces no useful lexical terms.
-   */
   if (!lexicalQuery) {
     return [];
   }

@@ -70,13 +70,6 @@ export async function upsertEmbeddings(
   return artifact.records.length;
 }
 
-/**
- * Replaces the active vector index while preserving law documents/chunks,
- * conversations, citations, and other application data.
- *
- * Stale chunks remain in the database for historical references, but they no
- * longer participate in vector retrieval because their embeddings are removed.
- */
 export async function replaceEmbeddingIndex(
   artifacts: EmbeddingArtifact[],
 ): Promise<number> {
@@ -90,7 +83,9 @@ export async function replaceEmbeddingIndex(
 
   for (const artifact of artifacts) {
     if (artifact.model !== model || artifact.dimensions !== dimensions) {
-      throw new Error("All embedding artifacts must use the same model and dimensions.");
+      throw new Error(
+        "All embedding artifacts must use the same model and dimensions.",
+      );
     }
 
     for (const record of artifact.records) {
@@ -107,7 +102,9 @@ export async function replaceEmbeddingIndex(
       }
 
       if (chunkIds.has(record.chunk_id)) {
-        throw new Error(`Duplicate embedding chunk ID across artifacts: ${record.chunk_id}`);
+        throw new Error(
+          `Duplicate embedding chunk ID across artifacts: ${record.chunk_id}`,
+        );
       }
 
       chunkIds.add(record.chunk_id);
@@ -118,9 +115,6 @@ export async function replaceEmbeddingIndex(
 
   await prisma.$transaction(
     async (tx) => {
-      // Verify every target FK before deleting the current index. If this
-      // fails, the transaction aborts and the existing embedding index stays
-      // intact.
       const rows = await tx.$queryRaw<Array<{ id: string }>>(
         Prisma.sql`
           SELECT "id"

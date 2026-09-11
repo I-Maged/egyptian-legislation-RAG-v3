@@ -3,33 +3,35 @@ import type { GenerationProvider } from "./provider";
 import { LEGAL_SYSTEM_PROMPT, buildGenerationPrompt } from "./prompt";
 import type { GenerationRequest, GenerationResponse } from "./types";
 
-/**
- * Removes model-added meta/disclaimer boilerplate that is outside the legal answer.
- * This is intentionally narrow: it targets common non-legal boilerplate and
- * leaves substantive legal content untouched.
- */
 export function sanitizeGeneratedAnswer(answer: string): string {
   const lines = answer.trim().split(/\r?\n/);
   const cleaned = lines.filter((line) => {
-    const normalized = line
-      .replace(/[*_`]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
+    const normalized = line.replace(/[*_`]/g, "").replace(/\s+/g, " ").trim();
 
     if (!normalized) return true;
 
-    // The model sometimes adds this disclaimer verbatim or with a short
-    // introductory phrase. It is not part of the legal answer.
-    if (/لا تمثل\s+استشارة قانونية\s+ملزمة|ليست\s+استشارة قانونية\s+ملزمة/u.test(normalized)) {
+    if (
+      /لا تمثل\s+استشارة قانونية\s+ملزمة|ليست\s+استشارة قانونية\s+ملزمة/u.test(
+        normalized,
+      )
+    ) {
       return false;
     }
 
-    // Remove source/meta commentary when it is presented as its own line.
-    return !/(?:هذه|هذا)\s+الإجابة.*(?:مستمدة|تستند|مبنية|مستخلصة|تم استخلاصها).*النصوص/u.test(normalized)
-      && !/^(?:يرجى العلم|يرجى ملاحظة)\s+أن\s+(?:هذه|هذا)\s+الإجابة/u.test(normalized);
+    return (
+      !/(?:هذه|هذا)\s+الإجابة.*(?:مستمدة|تستند|مبنية|مستخلصة|تم استخلاصها).*النصوص/u.test(
+        normalized,
+      ) &&
+      !/^(?:يرجى العلم|يرجى ملاحظة)\s+أن\s+(?:هذه|هذا)\s+الإجابة/u.test(
+        normalized,
+      )
+    );
   });
 
-  return cleaned.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+  return cleaned
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 export async function generateAnswer(

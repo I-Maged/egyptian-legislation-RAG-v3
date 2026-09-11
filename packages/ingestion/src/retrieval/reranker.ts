@@ -5,67 +5,34 @@ import { tokenizeArabic } from "./bm25";
 export interface RerankCandidate {
   chunk: LawChunk;
 
-  /**
-   * Original vector retrieval score.
-   */
   score: number;
 
-  /**
-   * Original pgvector similarity score.
-   */
   vectorScore: number;
 }
 
 export interface RerankOptions {
   topK?: number;
 
-  /**
-   * Weight applied to exact query phrase matching.
-   */
   phraseWeight?: number;
 
-  /**
-   * Weight applied to query-term coverage.
-   */
   coverageWeight?: number;
 
-  /**
-   * Weight applied to the original vector retrieval score.
-   */
   retrievalWeight?: number;
 }
 
 export interface RerankedResult {
   chunk: LawChunk;
 
-  /**
-   * Final reranking score.
-   */
   score: number;
 
-  /**
-   * Original vector retrieval score.
-   */
   retrievalScore: number;
 
-  /**
-   * Number of unique query terms found in the chunk.
-   */
   matchedTerms: number;
 
-  /**
-   * Query-term coverage in [0, 1].
-   */
   termCoverage: number;
 
-  /**
-   * Whether the normalized query phrase occurs in the chunk.
-   */
   exactPhraseMatch: boolean;
 
-  /**
-   * Original vector similarity score.
-   */
   vectorScore: number;
 }
 

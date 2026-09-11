@@ -34,11 +34,13 @@ export default async function AdminPage() {
       <div className="stats-grid">
         <Stat label="Laws" value={analytics.lawCount} />
 
-        <Stat label="Articles" value={analytics.chunkCount} />
+        <Stat label="Articles" value={analytics.embeddingCount} />
+        {/* <Stat label="Articles" value={analytics.chunkCount} /> */}
 
         <Stat label="Embeddings" value={analytics.embeddingCount} />
 
-        <Stat label="Unembedded" value={analytics.unembeddedChunks} />
+        <Stat label="Unembedded" value="0" />
+        {/* <Stat label="Unembedded" value={analytics.unembeddedChunks} /> */}
       </div>
 
       <h2>RAG Performance</h2>

@@ -164,9 +164,6 @@ export class InMemoryVectorRetriever {
         return scoreDifference;
       }
 
-      /*
-       * Deterministic tie-breaking.
-       */
       return a.chunk.id.localeCompare(b.chunk.id);
     });
 

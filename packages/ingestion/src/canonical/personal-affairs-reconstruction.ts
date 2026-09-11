@@ -17,13 +17,6 @@ export function reconstructPersonalAffairsArticles(
       continue;
     }
 
-    /*
-     * Only merge records when they are consecutive and represent
-     * the same article within the same structural context.
-     *
-     * Article number alone is NOT sufficient because numbers such as
-     * "1", "2", "3", etc. legitimately repeat in different sections.
-     */
     const sameArticle =
       current.articleNumber === article.articleNumber &&
       current.chapter === article.chapter;
@@ -75,22 +68,16 @@ function mergeArticles(
   return {
     ...first,
 
-    /*
-     * Preserve the first record's identity/order.
-     */
     ...(first.sourceOrder !== undefined && { sourceOrder: first.sourceOrder }),
 
-    /*
-     * Preserve the complete article text in parser order.
-     */
     text: joinText(first.text, next.text),
 
     textForEmbedding: joinText(first.textForEmbedding, next.textForEmbedding),
 
-    /*
-     * Expand provenance.
-     */
-    pageStart: Math.min(first.pageStart ?? Number.POSITIVE_INFINITY, next.pageStart ?? Number.POSITIVE_INFINITY),
+    pageStart: Math.min(
+      first.pageStart ?? Number.POSITIVE_INFINITY,
+      next.pageStart ?? Number.POSITIVE_INFINITY,
+    ),
 
     pageEnd: Math.max(first.pageEnd ?? 0, next.pageEnd ?? 0),
 
@@ -127,4 +114,3 @@ function joinText(first: string, second: string): string {
 function unique<T>(values: T[]): T[] {
   return [...new Set(values)];
 }
-

@@ -1,21 +1,12 @@
 import { createHash } from "crypto";
 
 import {
-  LawChunkSchema,
-  LawDocumentSchema,
   validateCanonicalCorpus,
   type CanonicalCorpus,
   type LawChunk as CanonicalLawChunk,
   type LawDocument,
 } from "@egyptian-law/core";
 
-/**
- * Exact output shape produced by the current parser v2.3.
- *
- * We intentionally define this locally rather than importing the parser's
- * LawChunk type. This keeps the canonical layer independent from the parser
- * implementation.
- */
 export interface ParserV23LawChunk {
   instrumentId: string;
 
@@ -51,29 +42,11 @@ export interface ParserV23LawChunk {
 export interface CanonicalizeOptions {
   source_file: string;
 
-  /**
-   * Version of the parser that produced the input.
-   *
-   * Example:
-   *   "parser-v2.3"
-   */
   parser_version: string;
 
-  /**
-   * Version/name of the normalization process that produced
-   * text_for_embedding.
-   *
-   * Example:
-   *   "arabic-normalization-v1"
-   */
   normalization_version: string;
 }
 
-/**
- * Create a stable document ID from the legal identity + source file.
- *
- * The same document metadata and source file will produce the same ID.
- */
 function createDocumentId(
   lawName: string,
   lawNumber: string | null,
@@ -90,12 +63,6 @@ function createDocumentId(
   return `lawdoc_${hash}`;
 }
 
-/**
- * Create a stable chunk ID.
- *
- * The occurrence index is important because article numbers are not
- * guaranteed to be unique in a damaged/parser output.
- */
 function createChunkId(
   documentId: string,
   articleNumber: string,
@@ -111,9 +78,6 @@ function createChunkId(
   return `lawchunk_${hash}`;
 }
 
-/**
- * Convert parser-v2.3 output into our canonical legal corpus format.
- */
 export function canonicalizeLabourLaw(
   parserChunks: ParserV23LawChunk[],
   options: CanonicalizeOptions,
@@ -149,7 +113,6 @@ export function canonicalizeLabourLaw(
     },
   };
 
-  // Track repeated article numbers so chunk IDs remain unique.
   const articleOccurrences = new Map<string, number>();
 
   const chunks: CanonicalLawChunk[] = parserChunks.map((parserChunk) => {
@@ -218,12 +181,6 @@ export function canonicalizeLabourLaw(
   return validateCanonicalCorpus(corpus);
 }
 
-/**
- * Parser v2.3 uses a numeric page_number.
- *
- * Canonical schema requires a positive integer when a page exists.
- * Invalid/missing values become null rather than being invented.
- */
 function normalizePageNumber(page: number | null | undefined): number | null {
   if (page == null) {
     return null;

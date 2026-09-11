@@ -56,7 +56,15 @@ export async function createLawSuggestion(input: {
   });
 }
 
-export async function listLawSuggestions(status?: "PENDING" | "UNDER_REVIEW" | "APPROVED" | "REJECTED" | "APPLIED" | "FAILED") {
+export async function listLawSuggestions(
+  status?:
+    | "PENDING"
+    | "UNDER_REVIEW"
+    | "APPROVED"
+    | "REJECTED"
+    | "APPLIED"
+    | "FAILED",
+) {
   const where = status ? { status } : {};
   return prisma.lawSuggestion.findMany({
     where,
@@ -92,7 +100,10 @@ export async function rejectLawSuggestion(input: {
     });
 
     if (!suggestion) throw new Error("Suggestion not found.");
-    if (suggestion.status !== "PENDING" && suggestion.status !== "UNDER_REVIEW") {
+    if (
+      suggestion.status !== "PENDING" &&
+      suggestion.status !== "UNDER_REVIEW"
+    ) {
       throw new Error("Only pending suggestions can be rejected.");
     }
 
@@ -129,9 +140,12 @@ export async function applyArticleChange(input: ArticleChange) {
     let before: Record<string, unknown> | null = null;
 
     if (input.mode === "update") {
-      if (!appliedChunkId) throw new Error("chunkId is required for article updates.");
+      if (!appliedChunkId)
+        throw new Error("chunkId is required for article updates.");
 
-      const current = await tx.lawChunk.findUnique({ where: { id: appliedChunkId } });
+      const current = await tx.lawChunk.findUnique({
+        where: { id: appliedChunkId },
+      });
       if (!current || current.documentId !== input.documentId) {
         throw new Error("Target article was not found in the selected law.");
       }
@@ -202,15 +216,10 @@ export async function applyArticleChange(input: ArticleChange) {
       embeddingDimensions: input.embeddingDimensions,
     };
 
-    // Keep the audit payload inline so Prisma provides contextual typing for
-    // `action`. Building an intermediate object widens the string-literal
-    // union to `string` under TypeScript's inference rules, which is not
-    // assignable to the generated Prisma AuditAction enum type.
     await tx.auditLog.create({
       data: {
         userId: input.actorUserId,
-        action:
-          input.mode === "create" ? "CREATE_ARTICLE" : "UPDATE_ARTICLE",
+        action: input.mode === "create" ? "CREATE_ARTICLE" : "UPDATE_ARTICLE",
         entityType: "LawChunk",
         entityId: appliedChunkId,
         after: json(after),
@@ -228,12 +237,15 @@ export async function applyArticleChange(input: ArticleChange) {
           status: "APPLIED",
           reviewedBy: input.actorUserId,
           reviewedAt: new Date(),
-          adminNote: "تم اعتماد الاقتراح وتطبيقه على قاعدة البيانات وفهرس المتجهات.",
+          adminNote:
+            "تم اعتماد الاقتراح وتطبيقه على قاعدة البيانات وفهرس المتجهات.",
         },
       });
 
       if (updated.count !== 1) {
-        throw new Error("Suggestion was already reviewed or no longer pending.");
+        throw new Error(
+          "Suggestion was already reviewed or no longer pending.",
+        );
       }
 
       await tx.auditLog.create({

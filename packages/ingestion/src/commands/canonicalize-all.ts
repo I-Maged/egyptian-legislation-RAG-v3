@@ -19,7 +19,6 @@ async function write(path: string, value: unknown): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  // const root = resolve(process.cwd());
   const __dirname = dirname(fileURLToPath(import.meta.url));
   const root = resolve(__dirname, "../../../..");
 
