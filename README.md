@@ -60,3 +60,18 @@ docker compose up --build -d
 Local dev (without Docker) still uses `packages/db/docker-compose.yml` for
 Postgres plus `apps/web/.env.local`. See `evaluation/ragas/README.md` for
 the Python evaluator.
+
+### Tests
+
+```bash
+npx vitest run
+```
+
+Requires the dev database to be up **and migrated with data**: start
+`packages/db/docker-compose.yml`, then `prisma migrate deploy` in
+`packages/db/` (schema only is not enough — the `bm25`/`vector`/`hybrid`
+suites query real corpus rows; restore `packages/db/seed/data/corpus.dump`
+or ingest). Also unset any `OLLAMA_*`/`EMBEDDING_*`/`GENERATION_*` env vars
+in the test shell: provider defaults fall back to them and assertions
+expect the localhost defaults. Live-Ollama suites stay skipped unless
+their `RUN_*=1` flags are set.
