@@ -1,6 +1,8 @@
 import { defineConfig, mergeConfig } from "vitest/config";
 
-import webConfig from "./apps/web/vitest.config";
+// NOTE: explicit `.mts` extension is required by Vite's native config loader (plain Node `import()`).
+// @ts-expect-error TS5097: `allowImportingTsExtensions` can't be enabled because `npm run build` uses `tsc` emit.
+import webConfig from "./apps/web/vitest.config.mts";
 
 export default defineConfig({
   test: {

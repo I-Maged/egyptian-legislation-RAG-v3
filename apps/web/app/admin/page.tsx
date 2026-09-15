@@ -21,7 +21,8 @@ export default async function AdminPage() {
     getFeedbackStats(),
   ]);
 
-  const { ragPerformance, usage, feedback, suggestions } = stats;
+  const { ragPerformance, usage, feedback, suggestions, retrievalQuality } =
+    stats;
 
   return (
     <main dir="ltr" className="admin-main">
@@ -34,13 +35,11 @@ export default async function AdminPage() {
       <div className="stats-grid">
         <Stat label="Laws" value={analytics.lawCount} />
 
-        <Stat label="Articles" value={analytics.embeddingCount} />
-        {/* <Stat label="Articles" value={analytics.chunkCount} /> */}
+        <Stat label="Articles" value={analytics.chunkCount} />
 
         <Stat label="Embeddings" value={analytics.embeddingCount} />
 
-        <Stat label="Unembedded" value="0" />
-        {/* <Stat label="Unembedded" value={analytics.unembeddedChunks} /> */}
+        <Stat label="Unembedded" value={analytics.unembeddedChunks} />
       </div>
 
       <h2>RAG Performance</h2>
@@ -86,7 +85,7 @@ export default async function AdminPage() {
         </table>
       )}
 
-      {/* <h2>Retrieval Quality</h2>
+      <h2>Retrieval Quality</h2>
 
       <div className="stats-grid">
         <Stat label="Citations" value={retrievalQuality.totalCitations} />
@@ -141,7 +140,7 @@ export default async function AdminPage() {
             </tbody>
           </table>
         </>
-      )} */}
+      )}
 
       <h2>Usage</h2>
 
