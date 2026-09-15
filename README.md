@@ -4,14 +4,14 @@ Chat with Egyptian legislation (labour, financial, personal-affairs laws):
 retrieval-augmented generation over a Postgres + pgvector corpus, served by a
 Next.js app, with Ollama providing embeddings and generation.
 
-## 60-second demo (prebuilt image, no source build)
+## Quick demo (prebuilt image, no source build)
 
 Prerequisites: [Docker](https://docs.docker.com/get-docker/) and
 [Ollama](https://ollama.com/download). Disk: ~650MB app image + ~1.1GB
 `bge-m3` + several GB for `gemma4`.
 
 ```bash
-git clone <this-repo> && cd <this-repo>
+git clone https://github.com/I-Maged/egyptian-legislation-RAG-v3.git && cd egyptian-legislation-RAG-v3
 bash scripts/setup-recruiter.sh   # creates .env with generated secrets
 
 ollama pull bge-m3
@@ -26,6 +26,8 @@ docker compose -f docker-compose.pull.yml up -d
 ```
 
 Open **http://localhost:3000** (liveness probe: `/api/health`).
+First start takes a few minutes (seed restore + migrations); follow it with
+`docker logs egyptian-law-rag-postgres-1` and `docker logs egyptian-law-rag-web-1`.
 To stop: `docker compose -f docker-compose.pull.yml down`.
 
 | What | Where |
@@ -49,6 +51,10 @@ Notes:
   `linux/arm64` is planned — see `docker-compose.yml` to build natively.
 * To re-seed from scratch: `docker compose -f docker-compose.pull.yml down -v`
   (**deletes** the demo database volume), place the dump, then `up -d`.
+* Maintainers: the quickstart above needs a GitHub Release containing
+  `corpus-public.dump` (sanitized public corpus — see
+  `packages/db/seed/data/README.md`); without it, step 2 has nothing to
+  download.
 
 ## For contributors
 
