@@ -14,6 +14,18 @@ function formatPercent(value: number | null): string {
   return value === null ? "-" : `${value}%`;
 }
 
+function formatAvg(value: number | null): string {
+  if (value === null) return "-";
+
+  return `${Math.round(value * 100) / 100}`;
+}
+
+function formatScore(value: number | null): string {
+  if (value === null) return "-";
+
+  return `${Math.round(value * 1000) / 1000}`;
+}
+
 export default async function AdminPage() {
   const [analytics, stats, feedbackTotals] = await Promise.all([
     getCorpusAnalytics(),
@@ -53,6 +65,16 @@ export default async function AdminPage() {
         />
 
         <Stat
+          label="Timed runs"
+          value={ragPerformance.runsWithRetrievalTiming}
+        />
+
+        <Stat
+          label="Retrieval coverage"
+          value={formatPercent(ragPerformance.retrievalCoveragePercent)}
+        />
+
+        <Stat
           label="Avg generation time"
           value={formatMs(ragPerformance.avgGenerationTimeMs)}
         />
@@ -62,6 +84,15 @@ export default async function AdminPage() {
           value={formatMs(ragPerformance.avgTotalTimeMs)}
         />
       </div>
+
+      {ragPerformance.totalRuns > 0 &&
+        ragPerformance.runsWithRetrievalTiming === 0 && (
+          <p>
+            No retrieval timings recorded yet. Retrieval time is saved for new
+            answers — answers generated before retrieval timing was enabled
+            show up here as untimed.
+          </p>
+        )}
 
       {ragPerformance.models.length > 0 && (
         <table className="data-table">
@@ -88,6 +119,8 @@ export default async function AdminPage() {
       <h2>Retrieval Quality</h2>
 
       <div className="stats-grid">
+        <Stat label="Answers" value={retrievalQuality.totalRuns} />
+
         <Stat label="Citations" value={retrievalQuality.totalCitations} />
 
         <Stat
@@ -95,22 +128,44 @@ export default async function AdminPage() {
           value={retrievalQuality.avgCitationsPerAnswer ?? "-"}
         />
 
-        <Stat label="Avg rank" value={retrievalQuality.avgRank ?? "-"} />
+        <Stat
+          label="Answers with citations"
+          value={retrievalQuality.runsWithCitations}
+        />
 
         <Stat
-          label="Avg score"
-          value={
-            retrievalQuality.avgScore === null
-              ? "-"
-              : Math.round(retrievalQuality.avgScore * 1000) / 1000
-          }
+          label="Answers without citations"
+          value={retrievalQuality.runsWithoutCitations}
         />
+
+        <Stat
+          label="Citation coverage"
+          value={formatPercent(retrievalQuality.citationCoveragePercent)}
+        />
+
+        <Stat label="Avg rank" value={formatAvg(retrievalQuality.avgRank)} />
+
+        <Stat label="Avg score" value={formatScore(retrievalQuality.avgScore)} />
 
         <Stat
           label="Never-cited articles"
           value={retrievalQuality.neverCitedChunks}
         />
       </div>
+
+      {retrievalQuality.totalRuns === 0 && (
+        <p>No answers recorded yet. Ask a question in chat to populate retrieval stats.</p>
+      )}
+
+      {retrievalQuality.totalRuns > 0 &&
+        retrievalQuality.totalCitations === 0 && (
+          <p>
+            No citations recorded yet. Citations are saved when the answer
+            contains [1]-style references — answers without references, or
+            answers generated before citation persistence was enabled, show up
+            here as 0. Check “Answers without citations” above.
+          </p>
+        )}
 
       {retrievalQuality.topLaws.length > 0 && (
         <>

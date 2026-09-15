@@ -6,11 +6,18 @@ export interface CreateConversationInput {
   title?: string | null;
 }
 
+export interface CreateRagCitationInput {
+  chunkId: string;
+  rank?: number | null;
+  score?: number | null;
+}
+
 export interface CreateRagRunInput {
   model: string;
   retrievalTimeMs?: number | null;
   generationTimeMs?: number | null;
   totalTimeMs?: number | null;
+  citations?: CreateRagCitationInput[];
 }
 
 export interface AppendMessageInput {
@@ -98,6 +105,17 @@ export async function appendMessage(input: AppendMessageInput) {
                   retrievalTimeMs: input.ragRun.retrievalTimeMs ?? null,
                   generationTimeMs: input.ragRun.generationTimeMs ?? null,
                   totalTimeMs: input.ragRun.totalTimeMs ?? null,
+                  ...(input.ragRun.citations && input.ragRun.citations.length > 0
+                    ? {
+                        citations: {
+                          create: input.ragRun.citations.map((citation) => ({
+                            chunkId: citation.chunkId,
+                            rank: citation.rank ?? null,
+                            score: citation.score ?? null,
+                          })),
+                        },
+                      }
+                    : {}),
                 },
               },
             }

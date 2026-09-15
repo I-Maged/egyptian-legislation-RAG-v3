@@ -5,6 +5,8 @@ export interface RagPerformanceStats {
   avgRetrievalTimeMs: number | null;
   avgGenerationTimeMs: number | null;
   avgTotalTimeMs: number | null;
+  runsWithRetrievalTiming: number;
+  retrievalCoveragePercent: number | null;
   models: {
     model: string;
     runs: number;
@@ -18,6 +20,10 @@ export interface RetrievalQualityStats {
   avgRank: number | null;
   avgScore: number | null;
   neverCitedChunks: number;
+  totalRuns: number;
+  runsWithCitations: number;
+  runsWithoutCitations: number;
+  citationCoveragePercent: number | null;
   topLaws: {
     lawName: string;
     lawNumber: string | null;
@@ -117,7 +123,7 @@ export function buildTopLaws(
 }
 
 export async function getRagPerformance(): Promise<RagPerformanceStats> {
-  const [aggregate, models] = await Promise.all([
+  const [aggregate, timedRuns, models] = await Promise.all([
     prisma.ragRun.aggregate({
       _count: { _all: true },
       _avg: {
@@ -125,6 +131,10 @@ export async function getRagPerformance(): Promise<RagPerformanceStats> {
         generationTimeMs: true,
         totalTimeMs: true,
       },
+    }),
+
+    prisma.ragRun.count({
+      where: { retrievalTimeMs: { not: null } },
     }),
 
     prisma.ragRun.groupBy({
@@ -135,11 +145,15 @@ export async function getRagPerformance(): Promise<RagPerformanceStats> {
     }),
   ]);
 
+  const totalRuns = aggregate._count._all;
+
   return {
-    totalRuns: aggregate._count._all,
+    totalRuns,
     avgRetrievalTimeMs: aggregate._avg.retrievalTimeMs,
     avgGenerationTimeMs: aggregate._avg.generationTimeMs,
     avgTotalTimeMs: aggregate._avg.totalTimeMs,
+    runsWithRetrievalTiming: timedRuns,
+    retrievalCoveragePercent: percent(timedRuns, totalRuns),
     models: models.map((entry) => ({
       model: entry.model,
       runs: entry._count._all,
@@ -149,26 +163,38 @@ export async function getRagPerformance(): Promise<RagPerformanceStats> {
 }
 
 export async function getRetrievalQuality(): Promise<RetrievalQualityStats> {
-  const [citationsAggregate, runCount, citedChunkGroups, chunkCount] =
-    await Promise.all([
-      prisma.ragCitation.aggregate({
-        _count: { _all: true },
-        _avg: { rank: true, score: true },
-      }),
+  const [
+    citationsAggregate,
+    runCount,
+    citedChunkGroups,
+    chunkCount,
+    citedRunGroups,
+  ] = await Promise.all([
+    prisma.ragCitation.aggregate({
+      _count: { _all: true },
+      _avg: { rank: true, score: true },
+    }),
 
-      prisma.ragRun.count(),
+    prisma.ragRun.count(),
 
-      prisma.ragCitation.groupBy({
-        by: ["chunkId"],
-        _count: { _all: true },
-      }),
+    prisma.ragCitation.groupBy({
+      by: ["chunkId"],
+      _count: { _all: true },
+    }),
 
-      prisma.lawChunk.count(),
-    ]);
+    prisma.lawChunk.count(),
+
+    prisma.ragCitation.groupBy({
+      by: ["ragRunId"],
+      _count: { _all: true },
+    }),
+  ]);
 
     const citationsByChunkId = new Map(
       citedChunkGroups.map((group) => [group.chunkId, group._count._all]),
     );
+
+    const runsWithCitations = citedRunGroups.length;
 
     const citedChunks = await prisma.lawChunk.findMany({
       where: { id: { in: [...citationsByChunkId.keys()] } },
@@ -203,7 +229,11 @@ export async function getRetrievalQuality(): Promise<RetrievalQualityStats> {
           : null,
       avgRank: citationsAggregate._avg.rank,
       avgScore: citationsAggregate._avg.score,
-      neverCitedChunks: chunkCount - citationsByChunkId.size,
+      neverCitedChunks: Math.max(0, chunkCount - citationsByChunkId.size),
+      totalRuns: runCount,
+      runsWithCitations: runsWithCitations,
+      runsWithoutCitations: Math.max(0, runCount - runsWithCitations),
+      citationCoveragePercent: percent(runsWithCitations, runCount),
       topLaws: buildTopLaws(citationsByChunkId, chunksById),
     };
 }

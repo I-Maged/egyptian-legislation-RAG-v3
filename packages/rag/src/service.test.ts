@@ -150,6 +150,9 @@ describe("createRagService", () => {
 
     expect(response.context.text).toContain("النص القانوني للمادة الأولى.");
 
+    expect(response.retrieval.durationMs).toEqual(expect.any(Number));
+    expect(response.retrieval.durationMs).toBeGreaterThanOrEqual(0);
+
     expect(generationProvider.generate).toHaveBeenCalledTimes(1);
   });
 

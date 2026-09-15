@@ -215,11 +215,15 @@ export class RagService {
       throw new Error(`Invalid candidateTopK: ${candidateTopK}`);
     }
 
+    const retrievalStartedAt = performance.now();
+
     const retrieved = await this.retriever.retrieve(query, {
       topK,
       candidateTopK,
       ...request.retrieval,
     });
+
+    const retrievalDurationMs = performance.now() - retrievalStartedAt;
 
     if (retrieved.length === 0) {
       return {
@@ -229,6 +233,9 @@ export class RagService {
         context: {
           documents: [],
           text: "",
+        },
+        retrieval: {
+          durationMs: retrievalDurationMs,
         },
         generation: {
           model: this.generator.model,
@@ -280,6 +287,10 @@ export class RagService {
       retrieved,
 
       context,
+
+      retrieval: {
+        durationMs: retrievalDurationMs,
+      },
 
       generation: {
         model: generationResponse.metadata.model,

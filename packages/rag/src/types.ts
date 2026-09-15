@@ -92,6 +92,10 @@ export interface RagResponse {
 
   context: RagContext;
 
+  retrieval: {
+    durationMs: number;
+  };
+
   generation: {
     model: string;
     durationMs: number;

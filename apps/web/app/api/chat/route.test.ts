@@ -56,6 +56,7 @@ function mockAnswer() {
     citations: [],
     retrieved: [],
     context: { documents: [], text: "" },
+    retrieval: { durationMs: 123 },
     generation: { model: "test-model", durationMs: 42 },
   });
 
@@ -130,7 +131,10 @@ describe("POST /api/chat", () => {
         conversationId: "conv-1",
         role: "ASSISTANT",
         content: "وفقًا للمادة [1]، يحدد القانون ذلك.",
-        ragRun: expect.objectContaining({ model: "test-model" }),
+        ragRun: expect.objectContaining({
+          model: "test-model",
+          retrievalTimeMs: 123,
+        }),
       }),
     );
 

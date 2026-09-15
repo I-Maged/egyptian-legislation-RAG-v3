@@ -22,6 +22,29 @@ function deriveTitle(query: string): string {
     : query;
 }
 
+function buildCitationRecords(response: RagResponse) {
+  const rankByChunkId = new Map<string, { rank: number; score: number }>();
+
+  response.retrieved.forEach((result, index) => {
+    if (!rankByChunkId.has(result.chunk.id)) {
+      rankByChunkId.set(result.chunk.id, {
+        rank: index + 1,
+        score: result.retrievalScore,
+      });
+    }
+  });
+
+  return response.citations.map((citation) => {
+    const retrieval = rankByChunkId.get(citation.chunkId);
+
+    return {
+      chunkId: citation.chunkId,
+      rank: retrieval?.rank ?? null,
+      score: retrieval?.score ?? null,
+    };
+  });
+}
+
 export async function POST(request: Request) {
   try {
     const user = await getCurrentUser();
@@ -105,8 +128,10 @@ export async function POST(request: Request) {
       content: response.answer,
       ragRun: {
         model: response.generation.model,
+        retrievalTimeMs: Math.round(response.retrieval.durationMs),
         generationTimeMs: Math.round(response.generation.durationMs),
         totalTimeMs: Math.round(performance.now() - startedAt),
+        citations: buildCitationRecords(response),
       },
     });
 
