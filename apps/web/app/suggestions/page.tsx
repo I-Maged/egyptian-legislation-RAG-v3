@@ -2,6 +2,10 @@ import Link from "next/link";
 import { getSuggestionPageData } from "@/app/actions/suggestions";
 import SuggestionForm, { type SuggestionLawOption } from "./suggestion-form";
 
+// Render per request: suggestions depend on the logged-in user and the live
+// database, neither of which exists at `next build` time (Docker builder).
+export const dynamic = "force-dynamic";
+
 export default async function SuggestionsPage() {
   const { laws, suggestions } = await getSuggestionPageData();
   const lawOptions: SuggestionLawOption[] = laws.map((law) => ({

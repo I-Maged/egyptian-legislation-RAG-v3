@@ -3,6 +3,10 @@ import { getLawDocument } from "@egyptian-law/db";
 
 import { addArticle, saveChunk, updateLaw } from "@/app/admin/laws/actions";
 
+// Render per request: law details must reflect the live database,
+// and there is no database available at `next build` time (Docker builder).
+export const dynamic = "force-dynamic";
+
 
 export default async function LawPage({
   params,

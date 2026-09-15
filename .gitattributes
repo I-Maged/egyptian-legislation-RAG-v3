@@ -1,0 +1,5 @@
+# Keep shell entrypoints LF-only so Docker `sh`/`ENTRYPOINT` works even when
+# contributors check out on Windows.
+apps/web/entrypoint.sh text eol=lf
+packages/db/seed/init/*.sh text eol=lf
+scripts/*.sh text eol=lf

@@ -42,6 +42,11 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# pre-seeded DB dumps (large, machine-specific; see packages/db/seed/data/README.md)
+packages/db/seed/data/*
+!packages/db/seed/data/README.md
 
 # vercel
 .vercel

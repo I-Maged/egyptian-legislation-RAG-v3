@@ -1,16 +1,15 @@
 import dotenv from "dotenv";
-import { existsSync } from "node:fs";
-import path from "node:path";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient } from "../generated/prisma/client";
 
-for (const candidate of [".env", "../../.env"]) {
-  const envPath = path.resolve(process.cwd(), candidate);
-
-  if (existsSync(envPath)) {
-    dotenv.config({ path: envPath });
-    break;
-  }
+// Local DX only: load `.env` files for tsx/vitest CLIs (Next.js loads
+// `.env*` itself, and in production/Docker env comes from the container
+// runtime, so skip file probing there). Static string literals — no dynamic
+// path resolution — keep Next standalone output tracing tight instead of
+// pulling the whole project into the Docker image.
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: ".env" });
+  dotenv.config({ path: "../../.env" });
 }
 
 const connectionString = `${process.env.DATABASE_URL}`;

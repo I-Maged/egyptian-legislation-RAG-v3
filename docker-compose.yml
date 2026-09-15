@@ -1,0 +1,66 @@
+# Production compose: Next.js web (incl. /api RAG routes) + Postgres+pgvector.
+#
+#   cp .env.example .env   # fill in secrets first
+#   docker compose up --build -d
+#
+# Notes:
+# - Ollama is EXTERNAL (not containerized): point OLLAMA_HOST at your host
+#   or LAN Ollama server. `extra_hosts` maps host.docker.internal on Linux.
+# - Postgres restores a pre-seeded corpus on FIRST init if you place a dump
+#   at packages/db/seed/data/corpus.dump (or .sql). Otherwise it starts
+#   empty and the web entrypoint applies Prisma migrations on boot.
+# - Local dev without Docker still uses packages/db/docker-compose.yml.
+
+name: egyptian-law-rag
+
+services:
+  postgres:
+    # Multi-arch (amd64 + arm64) Postgres + pgvector. Pinned: restore of the
+    # PG15/pgvector-0.5.1 corpus dump verified clean on this tag (extension
+    # auto-upgrades to 0.8.0). `ankane/pgvector` is amd64-only and has no
+    # `:16` tag, so it is intentionally not used here.
+    image: pgvector/pgvector:0.8.0-pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-egyptian_law_rag_v3}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./packages/db/seed/init:/docker-entrypoint-initdb.d:ro
+      - ./packages/db/seed/data:/seed:ro
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U $${POSTGRES_USER:-postgres} -d $${POSTGRES_DB:-egyptian_law_rag_v3}",
+        ]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    image: egyptian-law-rag-web:latest
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      # NOTE: use a URL-safe POSTGRES_PASSWORD (no @ : / ? #) or the URL breaks.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-egyptian_law_rag_v3}?schema=public
+      AUTH_SECRET: ${AUTH_SECRET:?Set AUTH_SECRET in .env (openssl rand -hex 32)}
+      OLLAMA_HOST: ${OLLAMA_HOST:-http://host.docker.internal:11434}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-bge-m3}
+      # Local default (no ollama.com signin); override with gemma4:cloud etc.
+      GENERATION_MODEL: ${GENERATION_MODEL:-gemma4}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  postgres_data:

@@ -4,6 +4,11 @@ import {
   getFeedbackStats,
 } from "@egyptian-law/db";
 
+// Always render on the server per request: the stats must reflect the live
+// database, and there is no database available at `next build` time
+// (Docker builder) to prerender against.
+export const dynamic = "force-dynamic";
+
 function formatMs(value: number | null): string {
   if (value === null) return "-";
 

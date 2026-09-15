@@ -17,10 +17,14 @@ export class OllamaEmbeddingProvider implements EmbeddingProvider {
   private readonly baseUrl: string;
 
   constructor(options: OllamaEmbeddingProviderOptions = {}) {
-    this.baseUrl = (options.base_url ?? "http://localhost:11434").replace(
-      /\/+$/,
-      "",
-    );
+    // Inside Docker `localhost` points at the web container, so the host
+    // must be overridable via env. Explicit options always win.
+    this.baseUrl = (
+      options.base_url ??
+      process.env.EMBEDDING_BASE_URL ??
+      process.env.OLLAMA_HOST ??
+      "http://localhost:11434"
+    ).replace(/\/+$/, "");
 
     this.model = options.model ?? "bge-m3";
     this.dimensions = options.dimensions ?? 1024;

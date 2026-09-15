@@ -1,4 +1,4 @@
-import ollama from "ollama";
+import ollama, { Ollama } from "ollama";
 
 import type {
   GenerationProvider,
@@ -8,10 +8,26 @@ import type {
 
 export interface OllamaProviderOptions {
   model: string;
+  /**
+   * Ollama server base URL (e.g. http://ollama:11434).
+   * Falls back to the `OLLAMA_HOST` env var, then to the `ollama`
+   * package default (http://127.0.0.1:11434).
+   * Must be configurable: inside Docker `localhost`/`127.0.0.1`
+   * points at the web container, not the Ollama host.
+   */
+  host?: string;
+}
+
+function resolveHost(explicitHost?: string): string | undefined {
+  const host = explicitHost ?? process.env.OLLAMA_HOST;
+
+  return host?.trim() ? host.trim() : undefined;
 }
 
 export class OllamaGenerationProvider implements GenerationProvider {
   readonly model: string;
+
+  private readonly client: Pick<typeof ollama, "chat">;
 
   constructor(options: OllamaProviderOptions) {
     const model = options.model.trim();
@@ -21,6 +37,12 @@ export class OllamaGenerationProvider implements GenerationProvider {
     }
 
     this.model = model;
+
+    const host = resolveHost(options.host);
+
+    // Use the default singleton when no host is configured so existing
+    // call sites and unit-test mocks keep working unchanged.
+    this.client = host ? new Ollama({ host }) : ollama;
   }
 
   async generate(
@@ -28,7 +50,7 @@ export class OllamaGenerationProvider implements GenerationProvider {
   ): Promise<GenerationProviderResponse> {
     const startedAt = Date.now();
 
-    const response = await ollama.chat({
+    const response = await this.client.chat({
       model: this.model,
 
       messages: [

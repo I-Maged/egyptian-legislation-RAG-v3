@@ -1,0 +1,44 @@
+# Keep the Docker build context (and image) small. Build context is the repo
+# root because the web app consumes the npm-workspace packages.
+
+node_modules
+**/node_modules
+.next
+**/.next
+out
+dist
+build
+coverage
+
+# TypeScript / build caches
+*.tsbuildinfo
+
+# Heavy local-only data (PDFs, corpora, embeddings, eval outputs).
+# The DB corpus ships as a Postgres dump via packages/db/seed/data instead.
+data
+
+# Python Ragas evaluator: intentionally excluded from the prod image.
+# Run it locally per evaluation/ragas/README.md
+evaluation
+.venv
+__pycache__
+**/__pycache__
+
+# Secrets are injected at runtime via compose env, never baked into the image.
+.env
+.env.local
+.env.*.local
+
+# Pre-seeded DB dumps are large and machine-specific; never send to Docker.
+packages/db/seed/data
+
+# VCS / editor / agent noise
+.git
+.gitignore
+.opencode
+.kilo
+.vscode
+.idea
+nul
+*.pem
+.vercel

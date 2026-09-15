@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { listLawDocuments } from "@egyptian-law/db";
 
+// Render per request: the corpus listing must reflect the live database,
+// and there is no database available at `next build` time (Docker builder).
+export const dynamic = "force-dynamic";
+
 
 export default async function LawsPage() {
   const laws = await listLawDocuments();

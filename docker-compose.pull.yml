@@ -1,0 +1,60 @@
+# Recruiter / demo compose: prebuilt web image from Docker Hub.
+# No source build needed — just pull and run.
+#
+#   1. cp .env.example .env   (or run scripts/setup-recruiter.sh)
+#   2. Download corpus-public.dump from the GitHub Release into
+#      packages/db/seed/data/corpus.dump  (see packages/db/seed/data/README.md)
+#   3. docker compose -f docker-compose.pull.yml up -d
+#   4. Open http://localhost:3000  (health: /api/health)
+#
+# Prerequisites: Docker + Ollama with `ollama pull bge-m3 gemma4`.
+# Ollama stays EXTERNAL (not containerized); the web container reaches it
+# via OLLAMA_HOST (`host.docker.internal` is mapped on Linux via extra_hosts).
+#
+# Pin a release:  WEB_IMAGE_TAG=v0.1.0 docker compose -f docker-compose.pull.yml up -d
+
+name: egyptian-law-rag
+
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.0-pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-egyptian_law_rag_v3}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./packages/db/seed/init:/docker-entrypoint-initdb.d:ro
+      - ./packages/db/seed/data:/seed:ro
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U $${POSTGRES_USER:-postgres} -d $${POSTGRES_DB:-egyptian_law_rag_v3}",
+        ]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  web:
+    image: magedhanafy/egyptian-law-rag-web:${WEB_IMAGE_TAG:-v0.1.0}
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      # NOTE: use a URL-safe POSTGRES_PASSWORD (no @ : / ? #) or the URL breaks.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-egyptian_law_rag_v3}?schema=public
+      AUTH_SECRET: ${AUTH_SECRET:?Set AUTH_SECRET in .env (run scripts/setup-recruiter.sh)}
+      OLLAMA_HOST: ${OLLAMA_HOST:-http://host.docker.internal:11434}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-bge-m3}
+      GENERATION_MODEL: ${GENERATION_MODEL:-gemma4}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  postgres_data:
