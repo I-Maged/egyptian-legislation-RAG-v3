@@ -2,7 +2,11 @@
 
 import { redirect } from "next/navigation";
 
-import { prisma } from "@egyptian-law/db";
+import {
+  createUser,
+  findUserByEmail,
+  recordLastLogin,
+} from "@egyptian-law/db";
 
 import { hashPassword, verifyPassword } from "@/lib/auth/password";
 import { clearSessionCookie, createSessionCookie } from "@/lib/auth/session";
@@ -35,16 +39,13 @@ export async function signIn(
     return { error: "البريد الإلكتروني غير صالح." };
   }
 
-  const user = await prisma.user.findUnique({ where: { email } });
+  const user = await findUserByEmail(email);
 
-  if (!user || !(await verifyPassword(password, user.passwordHash))) {
+  if (!user?.passwordHash || !(await verifyPassword(password, user.passwordHash))) {
     return { error: "البريد الإلكتروني أو كلمة المرور غير صحيحة." };
   }
 
-  await prisma.user.update({
-    where: { id: user.id },
-    data: { lastLoginAt: new Date() },
-  });
+  await recordLastLogin(user.id);
 
   await createSessionCookie(user.id, user.role);
 
@@ -66,20 +67,17 @@ export async function signUp(
     return { error: "البريد الإلكتروني غير صالح." };
   }
 
-  const existing = await prisma.user.findUnique({ where: { email } });
+  const existing = await findUserByEmail(email);
 
   if (existing) {
     return { error: "هذا البريد الإلكتروني مستخدم بالفعل." };
   }
 
-  const user = await prisma.user.create({
-    data: {
-      email,
-      passwordHash: await hashPassword(password),
-      name,
-      role: "USER",
-    },
-    select: { id: true, role: true },
+  const user = await createUser({
+    email,
+    passwordHash: await hashPassword(password),
+    name,
+    role: "USER",
   });
 
   await createSessionCookie(user.id, user.role);

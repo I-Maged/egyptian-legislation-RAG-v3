@@ -5,13 +5,9 @@ import { createSessionCookie } from "@/lib/auth/session";
 import { signIn, signOut, signUp } from "./auth";
 
 vi.mock("@egyptian-law/db", () => ({
-  prisma: {
-    user: {
-      findUnique: vi.fn(),
-      update: vi.fn(),
-      create: vi.fn(),
-    },
-  },
+  findUserByEmail: vi.fn(),
+  createUser: vi.fn(),
+  recordLastLogin: vi.fn(),
 }));
 
 vi.mock("@/lib/auth/session", () => ({
@@ -25,11 +21,15 @@ vi.mock("next/navigation", () => ({
   }),
 }));
 
-import { prisma } from "@egyptian-law/db";
+import {
+  createUser,
+  findUserByEmail,
+  recordLastLogin,
+} from "@egyptian-law/db";
 
-const mockedFindUnique = vi.mocked(prisma.user.findUnique);
-const mockedUpdate = vi.mocked(prisma.user.update);
-const mockedCreate = vi.mocked(prisma.user.create);
+const mockedFindUserByEmail = vi.mocked(findUserByEmail);
+const mockedCreateUser = vi.mocked(createUser);
+const mockedRecordLastLogin = vi.mocked(recordLastLogin);
 const mockedCreateSessionCookie = vi.mocked(createSessionCookie);
 
 function formData(entries: Record<string, string>) {
@@ -51,7 +51,7 @@ describe("signIn", () => {
     const result = await signIn(null, formData({ email: "", password: "" }));
 
     expect(result).toEqual({ error: "جميع الحقول مطلوبة." });
-    expect(mockedFindUnique).not.toHaveBeenCalled();
+    expect(mockedFindUserByEmail).not.toHaveBeenCalled();
   });
 
   it("rejects a malformed email", async () => {
@@ -61,11 +61,11 @@ describe("signIn", () => {
     );
 
     expect(result).toEqual({ error: "البريد الإلكتروني غير صالح." });
-    expect(mockedFindUnique).not.toHaveBeenCalled();
+    expect(mockedFindUserByEmail).not.toHaveBeenCalled();
   });
 
   it("returns a generic error for an unknown email", async () => {
-    mockedFindUnique.mockResolvedValueOnce(null);
+    mockedFindUserByEmail.mockResolvedValueOnce(null);
 
     const result = await signIn(
       null,
@@ -78,14 +78,15 @@ describe("signIn", () => {
   });
 
   it("returns a generic error for a wrong password", async () => {
-    mockedFindUnique.mockResolvedValueOnce({
+    const { hashPassword } = await import("@/lib/auth/password");
+
+    mockedFindUserByEmail.mockResolvedValueOnce({
       id: "user-1",
       email: "user@example.com",
-      passwordHash: await (async () => {
-        const { hashPassword } = await import("@/lib/auth/password");
-        return hashPassword("right-password");
-      })(),
-    } as never);
+      name: "User",
+      role: "USER",
+      passwordHash: await hashPassword("right-password"),
+    });
 
     const result = await signIn(
       null,
@@ -100,12 +101,13 @@ describe("signIn", () => {
   it("creates a session and redirects on success", async () => {
     const { hashPassword } = await import("@/lib/auth/password");
 
-    mockedFindUnique.mockResolvedValueOnce({
+    mockedFindUserByEmail.mockResolvedValueOnce({
       id: "user-1",
+      email: "admin@example.com",
+      name: "Admin",
       role: "ADMIN",
       passwordHash: await hashPassword("right-password"),
-    } as never);
-    mockedUpdate.mockResolvedValueOnce({} as never);
+    });
 
     await expect(
       signIn(
@@ -114,9 +116,7 @@ describe("signIn", () => {
       ),
     ).rejects.toThrow("NEXT_REDIRECT");
 
-    expect(mockedUpdate).toHaveBeenCalledWith(
-      expect.objectContaining({ where: { id: "user-1" } }),
-    );
+    expect(mockedRecordLastLogin).toHaveBeenCalledWith("user-1");
     expect(mockedCreateSessionCookie).toHaveBeenCalledWith("user-1", "ADMIN");
   });
 });
@@ -137,12 +137,12 @@ describe("signUp", () => {
     );
 
     expect(result).toEqual({ error: "جميع الحقول مطلوبة." });
-    expect(mockedCreate).not.toHaveBeenCalled();
+    expect(mockedCreateUser).not.toHaveBeenCalled();
   });
 
   it("cannot self-elevate by submitting an ADMIN role", async () => {
-    mockedFindUnique.mockResolvedValueOnce(null);
-    mockedCreate.mockResolvedValueOnce({ id: "user-3", role: "USER" } as never);
+    mockedFindUserByEmail.mockResolvedValueOnce(null);
+    mockedCreateUser.mockResolvedValueOnce({ id: "user-3", role: "USER" });
 
     await expect(
       signUp(
@@ -156,12 +156,12 @@ describe("signUp", () => {
       ),
     ).rejects.toThrow("NEXT_REDIRECT");
 
-    const createArgs = mockedCreate.mock.calls[0]![0];
-    expect(createArgs.data.role).toBe("USER");
+    const createArgs = mockedCreateUser.mock.calls[0]![0];
+    expect(createArgs.role).toBe("USER");
   });
 
   it("rejects an already registered email", async () => {
-    mockedFindUnique.mockResolvedValueOnce({ id: "existing" } as never);
+    mockedFindUserByEmail.mockResolvedValueOnce({ id: "existing" } as never);
 
     const result = await signUp(
       null,
@@ -175,12 +175,12 @@ describe("signUp", () => {
     expect(result).toEqual({
       error: "هذا البريد الإلكتروني مستخدم بالفعل.",
     });
-    expect(mockedCreate).not.toHaveBeenCalled();
+    expect(mockedCreateUser).not.toHaveBeenCalled();
   });
 
   it("creates the user with a hashed password and signs them in", async () => {
-    mockedFindUnique.mockResolvedValueOnce(null);
-    mockedCreate.mockResolvedValueOnce({ id: "user-2", role: "USER" } as never);
+    mockedFindUserByEmail.mockResolvedValueOnce(null);
+    mockedCreateUser.mockResolvedValueOnce({ id: "user-2", role: "USER" });
 
     await expect(
       signUp(
@@ -189,17 +189,17 @@ describe("signUp", () => {
           name: "Ali",
           email: "New@Example.com",
           password: "secret",
-          }),
+        }),
       ),
     ).rejects.toThrow("NEXT_REDIRECT");
 
-    const createArgs = mockedCreate.mock.calls[0]![0];
+    const createArgs = mockedCreateUser.mock.calls[0]![0];
 
-    expect(createArgs.data.email).toBe("new@example.com");
-    expect(createArgs.data.name).toBe("Ali");
-    expect(createArgs.data.role).toBe("USER");
-    expect(createArgs.data.passwordHash).toMatch(/^[0-9a-f]+:[0-9a-f]+$/);
-    expect(createArgs.data.passwordHash).not.toContain("secret");
+    expect(createArgs.email).toBe("new@example.com");
+    expect(createArgs.name).toBe("Ali");
+    expect(createArgs.role).toBe("USER");
+    expect(createArgs.passwordHash).toMatch(/^[0-9a-f]+:[0-9a-f]+$/);
+    expect(createArgs.passwordHash).not.toContain("secret");
     expect(mockedCreateSessionCookie).toHaveBeenCalledWith("user-2", "USER");
   });
 });

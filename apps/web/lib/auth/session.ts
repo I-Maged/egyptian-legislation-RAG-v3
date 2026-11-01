@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 
-import { prisma } from "@egyptian-law/db";
+import { findUserById } from "@egyptian-law/db";
 
 import { createSessionToken, decodeSessionToken } from "./session-token";
 import type { SessionUser, UserRoleName } from "./types";
@@ -41,10 +41,7 @@ export async function getCurrentUser(): Promise<SessionUser | null> {
     return null;
   }
 
-  const user = await prisma.user.findUnique({
-    where: { id: session.userId },
-    select: { id: true, email: true, name: true, role: true },
-  });
+  const user = await findUserById(session.userId);
 
   return user ?? null;
 }

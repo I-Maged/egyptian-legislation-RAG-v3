@@ -10,6 +10,8 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./seed/init:/docker-entrypoint-initdb.d:ro
+      - ./seed/data:/seed:ro
 
 volumes:
   postgres_data:
