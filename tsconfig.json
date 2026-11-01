@@ -44,6 +44,9 @@
       "@egyptian-law/ingestion/*": [
         "./packages/ingestion/src/*"
       ],
+      "@egyptian-law/ingestion/*": [
+        "./packages/ingestion/src/*"
+      ],
       "@egyptian-law/rag": [
         "./packages/rag/src"
       ],
@@ -57,5 +60,11 @@
   },
   "include": [
     "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".kilo",
+    ".next",
+    "dist"
   ]
 }

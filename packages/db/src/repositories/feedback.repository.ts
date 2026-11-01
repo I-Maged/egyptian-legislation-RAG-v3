@@ -52,6 +52,20 @@ export async function getMessageFeedback(messageId: string, userId: string) {
   });
 }
 
+export async function findAssistantMessageForUser(
+  messageId: string,
+  userId: string,
+): Promise<{ id: string } | null> {
+  return prisma.message.findFirst({
+    where: {
+      id: messageId,
+      role: "ASSISTANT",
+      conversation: { userId },
+    },
+    select: { id: true },
+  });
+}
+
 export async function getFeedbackForMessages(
   messageIds: string[],
   userId: string

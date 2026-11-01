@@ -3,9 +3,14 @@ import { resolve } from "path";
 
 import { describe, expect, it } from "vitest";
 
+const runPersonalAffairsDiagnostics =
+  process.env.RUN_PERSONAL_AFFAIRS_DIAGNOSTICS === "1";
+
 import type { PersonalAffairsParserOutput } from "./personal-affairs";
 
-describe("Personal Affairs V2.3 structure", () => {
+describe.skipIf(!runPersonalAffairsDiagnostics)(
+  "Personal Affairs V2.3 structure",
+  () => {
   it("reports how the 390 parser records map to article objects", async () => {
     const inputPath = resolve(
       process.cwd(),

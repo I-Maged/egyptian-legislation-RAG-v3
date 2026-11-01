@@ -1,13 +1,14 @@
-import { mkdir, writeFile } from "fs/promises";
-import { dirname } from "path";
-
 import type { EmbeddingArtifact } from "@egyptian-law/core";
+
+import { validateEmbeddingArtifact } from "@egyptian-law/core";
+
+import { writeJsonFile } from "../io/json-file";
 
 export async function writeEmbeddingArtifactJson(
   outputPath: string,
   artifact: EmbeddingArtifact,
 ): Promise<void> {
-  await mkdir(dirname(outputPath), { recursive: true });
+  validateEmbeddingArtifact(artifact);
 
-  await writeFile(outputPath, `${JSON.stringify(artifact, null, 2)}\n`, "utf8");
+  await writeJsonFile(outputPath, artifact);
 }

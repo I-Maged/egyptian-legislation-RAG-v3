@@ -13,6 +13,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "recover": "npm run build && node dist/index.js",
     "test": "vitest",
+    "test:personal-diagnostics": "set RUN_PERSONAL_AFFAIRS_DIAGNOSTICS=1&& vitest run packages/ingestion/src/canonical/personal-affairs.reconstruction.test.ts packages/ingestion/src/canonical/personal-affairs.source-order.test.ts packages/ingestion/src/canonical/personal-affairs.structure.test.ts",
     "ragas:dataset": "tsx packages/evaluation/src/ragas/export.ts",
     "ragas:evaluate": "python evaluation/ragas/run.py",
     "ragas:diagnose-faithfulness": "python evaluation/ragas/faithfulness-diagnostic.py",

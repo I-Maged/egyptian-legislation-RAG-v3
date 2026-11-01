@@ -5,7 +5,17 @@ import type { SessionPayload, UserRoleName } from "./types";
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7;
 
 function getSecret(): string {
-  return process.env.AUTH_SECRET ?? "insecure-dev-secret";
+  const secret = process.env.AUTH_SECRET;
+
+  if (secret) {
+    return secret;
+  }
+
+  if (process.env.NODE_ENV === "production") {
+    throw new Error("AUTH_SECRET is required in production.");
+  }
+
+  return "insecure-dev-secret";
 }
 
 function sign(data: string): string {

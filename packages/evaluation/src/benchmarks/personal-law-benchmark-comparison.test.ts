@@ -8,12 +8,15 @@ import { describe, expect, it } from "vitest";
 import type { CanonicalCorpus, EmbeddingArtifact } from "@egyptian-law/core";
 
 import {
-  InMemoryBm25Retriever,
-  InMemoryVectorRetriever,
-  HybridRetriever,
   OllamaEmbeddingProvider,
   loadCanonicalCorpora,
 } from "@egyptian-law/ingestion";
+
+import {
+  HybridRetriever,
+  InMemoryBm25Retriever,
+  InMemoryVectorRetriever,
+} from "@egyptian-law/ingestion/experimental";
 
 // import { buildPersonalAffairsLawGoldDataset } from "../datasets/personal-affairs-law-gold";
 import { buildPersonalAffairsLawGoldDatasetCorrected } from "../datasets/personal-affairs-law-gold-corrections";

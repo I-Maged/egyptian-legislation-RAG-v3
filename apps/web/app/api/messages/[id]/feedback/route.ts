@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 
-import { prisma, removeFeedback, upsertFeedback } from "@egyptian-law/db";
+import {
+  findAssistantMessageForUser,
+  removeFeedback,
+  upsertFeedback,
+} from "@egyptian-law/db";
 
 import { getCurrentUser } from "@/lib/auth/session";
 
@@ -20,14 +24,7 @@ function parseFeedbackType(value: unknown): FeedbackTypeValue | null {
 }
 
 async function getAssistantMessageForUser(id: string, userId: string) {
-  return prisma.message.findFirst({
-    where: {
-      id,
-      role: "ASSISTANT",
-      conversation: { userId },
-    },
-    select: { id: true },
-  });
+  return findAssistantMessageForUser(id, userId);
 }
 
 export async function POST(request: Request, context: RouteContext) {

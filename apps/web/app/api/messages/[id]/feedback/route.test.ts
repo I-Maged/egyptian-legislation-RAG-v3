@@ -6,22 +6,22 @@ vi.mock("@/lib/auth/session", () => ({
 }));
 
 vi.mock("@egyptian-law/db", () => ({
-  prisma: {
-    message: {
-      findFirst: vi.fn(),
-    },
-  },
+  findAssistantMessageForUser: vi.fn(),
   upsertFeedback: vi.fn(),
   removeFeedback: vi.fn(),
 }));
 
 import { getCurrentUser } from "@/lib/auth/session";
-import { prisma, removeFeedback, upsertFeedback } from "@egyptian-law/db";
+import {
+  findAssistantMessageForUser,
+  removeFeedback,
+  upsertFeedback,
+} from "@egyptian-law/db";
 
 import { DELETE, POST } from "./route";
 
 const mockedGetCurrentUser = vi.mocked(getCurrentUser);
-const mockedFindMessage = vi.mocked(prisma.message.findFirst);
+const mockedFindMessage = vi.mocked(findAssistantMessageForUser);
 const mockedUpsertFeedback = vi.mocked(upsertFeedback);
 const mockedRemoveFeedback = vi.mocked(removeFeedback);
 

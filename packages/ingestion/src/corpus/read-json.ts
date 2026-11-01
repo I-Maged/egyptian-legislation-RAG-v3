@@ -1,16 +1,14 @@
-import { readFile } from "fs/promises";
-
 import {
   validateCanonicalCorpus,
   type CanonicalCorpus,
 } from "@egyptian-law/core";
 
+import { readJsonFile } from "../io/json-file";
+
 export async function readCanonicalCorpusJson(
   filePath: string,
 ): Promise<CanonicalCorpus> {
-  const json = await readFile(filePath, "utf8");
-
-  const parsed: unknown = JSON.parse(json);
+  const parsed: unknown = await readJsonFile(filePath);
 
   return validateCanonicalCorpus(parsed);
 }

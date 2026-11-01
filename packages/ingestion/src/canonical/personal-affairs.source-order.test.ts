@@ -3,6 +3,9 @@ import { resolve } from "path";
 
 import { describe, expect, it } from "vitest";
 
+const runPersonalAffairsDiagnostics =
+  process.env.RUN_PERSONAL_AFFAIRS_DIAGNOSTICS === "1";
+
 import type { PersonalAffairsParserArticle } from "./personal-affairs";
 
 interface PersonalAffairsRawV23Output {
@@ -39,7 +42,9 @@ function extractRecordIndex(sourceRecordId: string): number | null {
   return match ? Number(match[1]) : null;
 }
 
-describe("Personal Affairs V2.3 source order", () => {
+describe.skipIf(!runPersonalAffairsDiagnostics)(
+  "Personal Affairs V2.3 source order",
+  () => {
   it("reports the original 390 parser records in source order", async () => {
     const filePath = resolve(
       process.cwd(),

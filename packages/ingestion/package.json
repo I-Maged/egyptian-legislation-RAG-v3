@@ -11,6 +11,10 @@
     ".": {
       "types": "./src/index.ts",
       "default": "./src/index.ts"
+    },
+    "./experimental": {
+      "types": "./src/experimental.ts",
+      "default": "./src/experimental.ts"
     }
   },
   "scripts": {

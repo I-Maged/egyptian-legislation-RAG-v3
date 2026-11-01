@@ -3,12 +3,17 @@ import { resolve } from "path";
 
 import { describe, expect, it } from "vitest";
 
+const runPersonalAffairsDiagnostics =
+  process.env.RUN_PERSONAL_AFFAIRS_DIAGNOSTICS === "1";
+
 import type {
   PersonalAffairsParserArticle,
   PersonalAffairsParserOutput,
 } from "./personal-affairs";
 
-describe("Personal Affairs V2.3 reconstruction", () => {
+describe.skipIf(!runPersonalAffairsDiagnostics)(
+  "Personal Affairs V2.3 reconstruction",
+  () => {
   it("detects suspicious article merges", async () => {
     const filePath = resolve(
       process.cwd(),

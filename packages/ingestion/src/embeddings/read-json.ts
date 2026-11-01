@@ -1,11 +1,12 @@
-import { readFile } from "fs/promises";
-
 import type { EmbeddingArtifact } from "@egyptian-law/core";
+
+import { readJsonFile } from "../io/json-file";
+import { validateEmbeddingArtifact } from "@egyptian-law/core";
 
 export async function readEmbeddingArtifactJson(
   inputPath: string,
 ): Promise<EmbeddingArtifact> {
-  const json = await readFile(inputPath, "utf8");
+  const parsed = await readJsonFile(inputPath);
 
-  return JSON.parse(json) as EmbeddingArtifact;
+  return validateEmbeddingArtifact(parsed);
 }

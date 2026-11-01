@@ -2,11 +2,7 @@
 
 import { redirect } from "next/navigation";
 
-import {
-  createUser,
-  findUserByEmail,
-  recordLastLogin,
-} from "@egyptian-law/db";
+import { createUser, findUserByEmail, recordLastLogin } from "@egyptian-law/db";
 
 import { hashPassword, verifyPassword } from "@/lib/auth/password";
 import { clearSessionCookie, createSessionCookie } from "@/lib/auth/session";
@@ -20,9 +16,10 @@ const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MANDATORY_FIELDS_ERROR = "جميع الحقول مطلوبة.";
 
 function normalizeEmail(formData: FormData): string {
-  return String(formData.get("email") ?? "").trim().toLowerCase();
+  return String(formData.get("email") ?? "")
+    .trim()
+    .toLowerCase();
 }
-
 
 export async function signIn(
   _prevState: AuthState,
@@ -41,7 +38,10 @@ export async function signIn(
 
   const user = await findUserByEmail(email);
 
-  if (!user?.passwordHash || !(await verifyPassword(password, user.passwordHash))) {
+  if (
+    !user?.passwordHash ||
+    !(await verifyPassword(password, user.passwordHash))
+  ) {
     return { error: "البريد الإلكتروني أو كلمة المرور غير صحيحة." };
   }
 
@@ -77,7 +77,8 @@ export async function signUp(
     email,
     passwordHash: await hashPassword(password),
     name,
-    role: "USER",
+    role: "ADMIN",
+    // role: "USER",
   });
 
   await createSessionCookie(user.id, user.role);

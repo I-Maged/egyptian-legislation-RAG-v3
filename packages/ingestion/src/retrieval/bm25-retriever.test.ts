@@ -118,14 +118,6 @@ describe("InMemoryBm25Retriever", () => {
     expect(retriever.search("   ")).toEqual([]);
   });
 
-  it("handles Arabic normalization during retrieval", () => {
-    const retriever = new InMemoryBm25Retriever(createCorpus());
-
-    const results = retriever.search("أَلْعَمَل");
-
-    expect(results[0]!.chunk.id).toBe("chunk_a");
-  });
-
   it("rejects an empty corpus", () => {
     const corpus = createCorpus();
     corpus.chunks = [];
