@@ -246,6 +246,26 @@ erDiagram
 
 Provenance chain: `law_documents → law_chunks (+embeddings) → rag_citations → rag_runs → messages → conversations → users`, plus governance `feedbacks / law_suggestions / audit_logs`.
 
+### 3.5 Screenshots
+
+UI snapshots of the chat experience (English + Arabic) and the human-in-the-loop flow.
+
+![English chat UI](screenshots/01%20-%20English.jpeg)
+
+_English-language conversation with source-aware answer and citation cards._
+
+![Arabic chat UI](screenshots/02%20-%20Arabic.jpeg)
+
+_Arabic RTL conversation._
+
+![Arabic answer with citations](screenshots/03%20-%20Arabic%20Citation.jpeg)
+
+_Answer grounded in cited articles ([1], [2], …)._
+
+![Human-in-the-loop review](screenshots/04%20-%20HITL.jpeg)
+
+_Human-in-the-loop review._
+
 ---
 
 ## 4. Why Vector Search over BM25 & Hybrid
