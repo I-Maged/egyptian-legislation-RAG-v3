@@ -77,8 +77,7 @@ export async function signUp(
     email,
     passwordHash: await hashPassword(password),
     name,
-    role: "ADMIN",
-    // role: "USER",
+    role: "USER",
   });
 
   await createSessionCookie(user.id, user.role);

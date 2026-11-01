@@ -15,6 +15,7 @@ import {
 import type { ConversationMessage } from "@/lib/api";
 
 import { formatCitation, formatLawName } from "@/lib/utils/format-citation";
+import { textDirection } from "@/lib/utils/text-direction";
 
 import ConversationsSidebar from "./conversations-sidebar";
 import { FeedbackControls } from "./feedback-controls";
@@ -166,6 +167,8 @@ export default function Chat() {
     }
   }
 
+  const inputDirection = textDirection(input);
+
   return (
     <div
       className={`workspace workspace--${
@@ -307,6 +310,8 @@ export default function Chat() {
             rows={1}
             disabled={loading}
             aria-label="السؤال القانوني"
+            dir={inputDirection}
+            style={{ direction: inputDirection }}
           />
           <button
             type="submit"
@@ -377,7 +382,11 @@ export default function Chat() {
               </div>
             </dl>
             <div className="citation-text-title">النص القانوني</div>
-            <blockquote className="citation-text">
+            <blockquote
+              className="citation-text"
+              dir="rtl"
+              style={{ direction: "rtl" }}
+            >
               {activeCitation.text}
             </blockquote>
           </div>
